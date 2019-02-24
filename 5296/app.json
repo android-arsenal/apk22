@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.codeogenic.myapplication",
+    "label" : "CCheckableButton",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEdklEQVRo3u1Zv28cRRT+3sye94wvsRNsxUI2IAMdQomClAoJav4BRBAtQoKSjoKCDom/gIICOgooqEGiwSloUBQpAgVLcePDduKc79fs7KO429vZ8czu7N1aLvAUtvfWM/N9733vx8wBl+Ny/L8HBb6nC8LH1u8wAm9/8Uv7pRfe+kqz/IAZa7NV2FqNizsxexA45rH1nq1JxvMTSfq7wz9+++zXb98Z2utHDvxic/3O172R/Nhc1AfeJnfGdIHzSt6vAfKTK6/fEQA+BZAWwDoIxJrju6XgL2CMOb4LYOmMtR3/u6QhrsJj2RDrn8dIIVYBxCEEhAu8S/eVkbe4fOwtRUgMePVsRio7grSUTehzzYQXIXRvZjAzKB1jWe0DnDqziYs0Wy+cGYgE+q0tsFiakCCanwA7PmBmkB7ilaNv0E4OLI+xw4uZp9iSh/VszB3IDTy8/hE4WgHZnvB4WQQJmhnMKeLRXi3wdcey7qJ18idYK8MA5UP4QVuzmcFaVfM1wNex/mxOMoTqH4FTvXgMFDPCxAvm2H5xG7ffvA0y9Mo1qkWiEtzbvYf9x/s5IWZwmkANj9FqXweELHVDFJo8XFa+eesm1jfW3eBD0i0zdl7dmRHIMiADIE6hhseI2tdAJOtJyK7CbHnCPace+GwtrXVhXZr9JIBTJMMnpXIS/sWNesDlFXce8KX9LxkPnCIZPfWSECGFrAxYE+CLgU8Wi4zEyZxptGTTRi1fcRzxSTeIAE8t7Y2DRcCzCzYZhYymXmkoCzUKvpKXISVPayFCwLOz12keeW6cPA64BHxwN5ox4HMCXtSPKZ38mUCLxoDrEHwe1jdIVICfrxKfA+hiXOWWJzMTLRID7hMaN2dxZx6qBl/ezLFTQ43EgLNj9dUAKr+aEiEyYc8hp3nLm+mzGnz4iayhGGDvzZfxnuEETx4ZRXWyEFubKaVm3eQ84JMkwWA48NSAavC164ANZPf3XWxtb7kbvKrmj4GxGmPv0Z5HVhb4RjxgoeoedNE96Abp23uOsD8nI//TnFnIXwNovsAMBT/LK+QAv0AlzhY6jTbRS68UW+oKq9cB30tX0BObweD9EmIP16iDB8+9N736GFf08PnfbPc6rts4IdGPdyBbnckZ2Aa/WAwQiARIxpArN6DiVajTo/yWgs4eQJxkaCJDtqxLACAkpFyCiGJAiCDwNWOAQDICSCCKYohWB8ngeEKCzOM4GUdDlwxclp1onkgCQkwlFNbQhXmA8/xMggBISGpBdG5ADY8n96QFYHkvU96Y+bJNeDfqDGKdjJ9ltxLs0CuDwDTRbdS+BszubYpFiEtA1QXPWp2EEkj6//79o++m0f4ui0giitemJHL5OA8j81qeCP2jRz8BUGUpYyar+OrWy298+MOXKxuvvUuy1Qm6Xkk19OgZ0sxlJbIhx6HlbNswNUaa9E4P//r5/vfvfz46efwPgKSKAAAsA3gewCqAFi72a1YF4CmAQwCDEA9kQ06DXFwwgXRqdY3LcTmaH/8Bou96eW4p3BEAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1959,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.codeogenic.myapplication\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a5\" android:label=\"CCheckableButton\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.codeogenic.myapplication.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1581000,
+  "crc32" : 3966955475,
+  "sha256" : "d8326f14e8e8d074fa44a7dd8df4feeb31612e4ed6ae4de1f51157b9728c2655",
+  "buildTime" : 1537107534000
+}

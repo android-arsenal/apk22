@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.readystatesoftware.chuck.sample",
+    "label" : "Chuck Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2720,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.readystatesoftware.chuck.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0900b3\" android:label=\"Chuck Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.readystatesoftware.chuck.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.readystatesoftware.chuck.internal.data.ChuckContentProvider\" android:exported=\"false\" android:authorities=\"com.readystatesoftware.chuck.sample.chuck.provider\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900e5\" android:label=\"Chuck\" android:name=\"com.readystatesoftware.chuck.internal.ui.MainActivity\" android:taskAffinity=\"com.readystatesoftware.chuck.task\" android:launchMode=\"singleTask\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900e5\" android:name=\"com.readystatesoftware.chuck.internal.ui.TransactionActivity\" android:parentActivityName=\"com.readystatesoftware.chuck.internal.ui.MainActivity\" />\n\t\t<service android:name=\"com.readystatesoftware.chuck.internal.support.ClearTransactionsService\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2360136,
+  "crc32" : 621118069,
+  "sha256" : "6cc70e37d64a7d86a27697ac2a55d556c03d6981ff6486357cc1926fbf3f4612",
+  "buildTime" : 1537110065000
+}

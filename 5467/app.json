@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.jflavio1.wificonnectorsample",
+    "label" : "WifiConnectorSample",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_WIFI_STATE", "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.CHANGE_WIFI_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2122,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.jflavio1.wificonnectorsample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0800ac\" android:label=\"WifiConnectorSample\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"com.jflavio1.wificonnectorsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1751901,
+  "crc32" : 1103098241,
+  "sha256" : "814a4479be7ab19e507bd9966562dd2f23866704dba1a82fc1a654c0b4d584fc",
+  "buildTime" : 1537011624000
+}

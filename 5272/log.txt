@@ -1,0 +1,399 @@
+2017-02-07 01:24:34,561 INFO  DownloadService - Downloading "https://github.com/eltos/SimpleDialogFragments/archive/master.zip", attempt 3
+2017-02-07 01:24:45,125 INFO  DownloadService - Downloaded https://github.com/eltos/SimpleDialogFragments/archive/master.zip, attempt 3
+2017-02-07 01:24:45,126 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-02-07 01:24:45,135 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/master.zip: true
+2017-02-07 01:24:45,135 DEBUG ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src'.
+2017-02-07 01:24:45,528 INFO  FullProcessService - Size of directory with sources: 16 MB
+2017-02-07 01:24:45,528 INFO  SysUtils - Execute command: [git, init, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src]
+2017-02-07 01:24:45,575 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/.git/
+
+2017-02-07 01:24:45,582 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew
+2017-02-07 01:24:45,590 INFO  ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/build.gradle
+2017-02-07 01:24:45,600 INFO  ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/bintrayv1.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/installv1.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle
+2017-02-07 01:24:45,602 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle", attempt 3
+2017-02-07 01:24:49,114 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle, attempt 3
+2017-02-07 01:24:49,114 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
+2017-02-07 01:24:49,497 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
+2017-02-07 01:24:49,498 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
+2017-02-07 01:24:49,498 INFO  ProjectFixService - Fixing project...
+2017-02-07 01:24:49,532 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/local.properties
+2017-02-07 01:24:49,533 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2017-02-07 01:24:49,534 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/local.properties
+2017-02-07 01:24:49,535 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2017-02-07 01:24:49,536 INFO  LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/local.properties
+2017-02-07 01:24:49,537 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2017-02-07 01:24:49,538 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2017-02-07 01:24:49,544 INFO  ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2017-02-07 01:24:49,544 INFO  ProjectFixService - Project was maybe fixed
+2017-02-07 01:24:49,544 INFO  ProjectTaskService - Detecting possible tasks...
+2017-02-07 01:24:49,544 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/build.gradle, tasks]
+2017-02-07 01:25:05,802 INFO  ProjectTaskService - Detected possible tasks: 74
+2017-02-07 01:25:05,802 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-02-07 01:25:05,802 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/simpledialogfragment/build.gradle, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-02-07 01:25:34,815 INFO  SysUtils - Incremental java compilation is an incubating feature.
+:simpledialogfragment:preBuild UP-TO-DATE
+:simpledialogfragment:preDebugBuild UP-TO-DATE
+:simpledialogfragment:checkDebugManifest
+:simpledialogfragment:preDebugAndroidTestBuild UP-TO-DATE
+:simpledialogfragment:preDebugUnitTestBuild UP-TO-DATE
+:simpledialogfragment:preReleaseBuild UP-TO-DATE
+:simpledialogfragment:preReleaseUnitTestBuild UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:simpledialogfragment:prepareComAndroidSupportAppcompatV72511Library
+:simpledialogfragment:prepareComAndroidSupportDesign2511Library
+:simpledialogfragment:prepareComAndroidSupportRecyclerviewV72511Library
+:simpledialogfragment:prepareComAndroidSupportSupportCompat2511Library
+:simpledialogfragment:prepareComAndroidSupportSupportCoreUi2511Library
+:simpledialogfragment:prepareComAndroidSupportSupportCoreUtils2511Library
+:simpledialogfragment:prepareComAndroidSupportSupportFragment2511Library
+:simpledialogfragment:prepareComAndroidSupportSupportMediaCompat2511Library
+:simpledialogfragment:prepareComAndroidSupportSupportV42511Library
+:simpledialogfragment:prepareComAndroidSupportSupportVectorDrawable2511Library
+:simpledialogfragment:prepareComAndroidSupportTransition2511Library
+:simpledialogfragment:prepareDebugDependencies
+:simpledialogfragment:compileDebugAidl
+:simpledialogfragment:compileDebugNdk UP-TO-DATE
+:simpledialogfragment:compileLint
+:simpledialogfragment:copyDebugLint UP-TO-DATE
+:simpledialogfragment:compileDebugRenderscript
+:simpledialogfragment:generateDebugBuildConfig
+:simpledialogfragment:generateDebugResValues
+:simpledialogfragment:generateDebugResources
+:simpledialogfragment:mergeDebugResources
+:simpledialogfragment:processDebugManifest
+:simpledialogfragment:processDebugResources
+:simpledialogfragment:generateDebugSources
+:simpledialogfragment:incrementalDebugJavaCompilationSafeguard
+:simpledialogfragment:compileDebugJavaWithJavac
+:simpledialogfragment:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:simpledialogfragment:extractDebugAnnotations
+:simpledialogfragment:mergeDebugShaders
+:simpledialogfragment:compileDebugShaders
+:simpledialogfragment:generateDebugAssets
+:simpledialogfragment:mergeDebugAssets
+:simpledialogfragment:mergeDebugProguardFiles
+:simpledialogfragment:packageDebugRenderscript UP-TO-DATE
+:simpledialogfragment:packageDebugResources
+:simpledialogfragment:processDebugJavaRes UP-TO-DATE
+:simpledialogfragment:transformResourcesWithMergeJavaResForDebug
+:simpledialogfragment:transformClassesAndResourcesWithSyncLibJarsForDebug
+:simpledialogfragment:mergeDebugJniLibFolders
+:simpledialogfragment:transformNative_libsWithMergeJniLibsForDebug
+:simpledialogfragment:transformNative_libsWithSyncJniLibsForDebug
+:simpledialogfragment:bundleDebug
+:simpledialogfragment:compileDebugSources
+:simpledialogfragment:assembleDebug
+:simpledialogfragment:checkReleaseManifest
+:simpledialogfragment:prepareReleaseDependencies
+:simpledialogfragment:compileReleaseAidl
+:simpledialogfragment:compileReleaseNdk UP-TO-DATE
+:simpledialogfragment:copyReleaseLint UP-TO-DATE
+:simpledialogfragment:compileReleaseRenderscript
+:simpledialogfragment:generateReleaseBuildConfig
+:simpledialogfragment:generateReleaseResValues
+:simpledialogfragment:generateReleaseResources
+:simpledialogfragment:mergeReleaseResources
+:simpledialogfragment:processReleaseManifest
+:simpledialogfragment:processReleaseResources
+:simpledialogfragment:generateReleaseSources
+:simpledialogfragment:incrementalReleaseJavaCompilationSafeguard
+:simpledialogfragment:compileReleaseJavaWithJavac
+:simpledialogfragment:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:simpledialogfragment:extractReleaseAnnotations
+:simpledialogfragment:mergeReleaseShaders
+:simpledialogfragment:compileReleaseShaders
+:simpledialogfragment:generateReleaseAssets
+:simpledialogfragment:mergeReleaseAssets
+:simpledialogfragment:mergeReleaseProguardFiles
+:simpledialogfragment:packageReleaseRenderscript UP-TO-DATE
+:simpledialogfragment:packageReleaseResources
+:simpledialogfragment:processReleaseJavaRes UP-TO-DATE
+:simpledialogfragment:transformResourcesWithMergeJavaResForRelease
+:simpledialogfragment:transformClassesAndResourcesWithSyncLibJarsForRelease
+:simpledialogfragment:mergeReleaseJniLibFolders
+:simpledialogfragment:transformNative_libsWithMergeJniLibsForRelease
+:simpledialogfragment:transformNative_libsWithSyncJniLibsForRelease
+:simpledialogfragment:bundleRelease
+:simpledialogfragment:compileReleaseSources
+:simpledialogfragment:assembleRelease
+:simpledialogfragment:assemble
+:simpledialogfragment:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.148 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
+
+2017-02-07 01:25:34,899 INFO  ProjectTaskService - Detecting possible tasks...
+2017-02-07 01:25:34,899 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle, tasks]
+2017-02-07 01:25:49,250 INFO  ProjectTaskService - Detected possible tasks: 73
+2017-02-07 01:25:49,250 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2017-02-07 01:25:49,250 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2017-02-07 01:26:05,090 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:72)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:46)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:33)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:200)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:127)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$23(BuildProcessorServiceImpl.java:110)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-07 01:26:05,090 INFO  SysUtils - Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':testApp'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':testApp'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 14.971 secs
+
+2017-02-07 01:26:05,090 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2017-02-07 01:26:05,090 INFO  SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build.gradle, --stacktrace, build]
+2017-02-07 01:27:38,040 INFO  SysUtils - Incremental java compilation is an incubating feature.
+:simpledialogfragment:preBuild UP-TO-DATE
+:simpledialogfragment:preReleaseBuild UP-TO-DATE
+:simpledialogfragment:checkReleaseManifest
+:simpledialogfragment:preDebugAndroidTestBuild UP-TO-DATE
+:simpledialogfragment:preDebugBuild UP-TO-DATE
+:simpledialogfragment:preDebugUnitTestBuild UP-TO-DATE
+:simpledialogfragment:preReleaseUnitTestBuild UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportAnimatedVectorDrawable2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportAppcompatV72511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportDesign2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportRecyclerviewV72511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportCompat2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportCoreUi2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportCoreUtils2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportFragment2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportMediaCompat2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportV42511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportSupportVectorDrawable2511Library UP-TO-DATE
+:simpledialogfragment:prepareComAndroidSupportTransition2511Library UP-TO-DATE
+:simpledialogfragment:prepareReleaseDependencies
+:simpledialogfragment:compileReleaseAidl UP-TO-DATE
+:simpledialogfragment:compileReleaseNdk UP-TO-DATE
+:simpledialogfragment:compileLint UP-TO-DATE
+:simpledialogfragment:copyReleaseLint UP-TO-DATE
+:simpledialogfragment:compileReleaseRenderscript UP-TO-DATE
+:simpledialogfragment:generateReleaseBuildConfig UP-TO-DATE
+:simpledialogfragment:generateReleaseResValues UP-TO-DATE
+:simpledialogfragment:generateReleaseResources UP-TO-DATE
+:simpledialogfragment:mergeReleaseResources UP-TO-DATE
+:simpledialogfragment:processReleaseManifest UP-TO-DATE
+:simpledialogfragment:processReleaseResources UP-TO-DATE
+:simpledialogfragment:generateReleaseSources UP-TO-DATE
+:simpledialogfragment:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:simpledialogfragment:compileReleaseJavaWithJavac UP-TO-DATE
+:simpledialogfragment:extractReleaseAnnotations UP-TO-DATE
+:simpledialogfragment:mergeReleaseShaders UP-TO-DATE
+:simpledialogfragment:compileReleaseShaders UP-TO-DATE
+:simpledialogfragment:generateReleaseAssets UP-TO-DATE
+:simpledialogfragment:mergeReleaseAssets UP-TO-DATE
+:simpledialogfragment:mergeReleaseProguardFiles UP-TO-DATE
+:simpledialogfragment:packageReleaseRenderscript UP-TO-DATE
+:simpledialogfragment:packageReleaseResources UP-TO-DATE
+:simpledialogfragment:processReleaseJavaRes UP-TO-DATE
+:simpledialogfragment:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:simpledialogfragment:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:simpledialogfragment:mergeReleaseJniLibFolders UP-TO-DATE
+:simpledialogfragment:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:simpledialogfragment:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:simpledialogfragment:bundleRelease UP-TO-DATE
+:testApp:preBuild UP-TO-DATE
+:testApp:preDebugBuild UP-TO-DATE
+:testApp:checkDebugManifest
+:testApp:preReleaseBuild UP-TO-DATE
+:testApp:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:testApp:prepareComAndroidSupportAppcompatV72511Library
+:testApp:prepareComAndroidSupportDesign2511Library
+:testApp:prepareComAndroidSupportRecyclerviewV72511Library
+:testApp:prepareComAndroidSupportSupportCompat2511Library
+:testApp:prepareComAndroidSupportSupportCoreUi2511Library
+:testApp:prepareComAndroidSupportSupportCoreUtils2511Library
+:testApp:prepareComAndroidSupportSupportFragment2511Library
+:testApp:prepareComAndroidSupportSupportMediaCompat2511Library
+:testApp:prepareComAndroidSupportSupportV42511Library
+:testApp:prepareComAndroidSupportSupportVectorDrawable2511Library
+:testApp:prepareComAndroidSupportTransition2511Library
+:testApp:prepareComGithubEltosSimpledialogfragment20Library
+:testApp:prepareDebugDependencies
+:testApp:compileDebugAidl
+:testApp:compileDebugRenderscript
+:testApp:generateDebugBuildConfig
+:testApp:generateDebugResValues
+:testApp:generateDebugResources
+:testApp:mergeDebugResources
+:testApp:processDebugManifest
+:testApp:processDebugResources
+:testApp:generateDebugSources
+:testApp:incrementalDebugJavaCompilationSafeguard
+:testApp:compileDebugJavaWithJavac
+:testApp:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:testApp:compileDebugNdk UP-TO-DATE
+:testApp:compileDebugSources
+:testApp:mergeDebugShaders
+:testApp:compileDebugShaders
+:testApp:generateDebugAssets
+:testApp:mergeDebugAssets
+:testApp:transformClassesWithDexForDebug
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1006 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 1536 MB.
+To do this set org.gradle.jvmargs=-Xmx1536M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+:testApp:mergeDebugJniLibFolders
+:testApp:transformNative_libsWithMergeJniLibsForDebug
+:testApp:transformNative_libsWithStripDebugSymbolForDebug
+:testApp:processDebugJavaRes UP-TO-DATE
+:testApp:transformResourcesWithMergeJavaResForDebug
+:testApp:validateSigningDebug
+:testApp:packageDebug
+:testApp:assembleDebug
+:testApp:checkReleaseManifest
+:testApp:prepareReleaseDependencies
+:testApp:compileReleaseAidl
+:testApp:compileReleaseRenderscript
+:testApp:generateReleaseBuildConfig
+:testApp:generateReleaseResValues
+:testApp:generateReleaseResources
+:testApp:mergeReleaseResources
+:testApp:processReleaseManifest
+:testApp:processReleaseResources
+:testApp:generateReleaseSources
+:testApp:incrementalReleaseJavaCompilationSafeguard
+:testApp:compileReleaseJavaWithJavac
+:testApp:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:testApp:compileReleaseNdk UP-TO-DATE
+:testApp:compileReleaseSources
+:testApp:lintVitalRelease
+:testApp:mergeReleaseShaders
+:testApp:compileReleaseShaders
+:testApp:generateReleaseAssets
+:testApp:mergeReleaseAssets
+:testApp:transformClassesWithDexForRelease
+:testApp:mergeReleaseJniLibFolders
+:testApp:transformNative_libsWithMergeJniLibsForRelease
+:testApp:transformNative_libsWithStripDebugSymbolForRelease
+:testApp:processReleaseJavaRes UP-TO-DATE
+:testApp:transformResourcesWithMergeJavaResForRelease
+:testApp:packageRelease
+:testApp:assembleRelease
+:testApp:assemble
+:testApp:lint
+Ran lint on variant debug: 119 issues found
+Ran lint on variant release: 119 issues found
+Wrote HTML report to file:///private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build/outputs/lint-results-debug.html
+Wrote XML report to file:///private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build/outputs/lint-results-debug.xml
+:testApp:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:testApp:preDebugUnitTestBuild UP-TO-DATE
+:testApp:prepareDebugUnitTestDependencies
+:testApp:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:testApp:processDebugUnitTestJavaRes UP-TO-DATE
+:testApp:compileDebugUnitTestSources UP-TO-DATE
+:testApp:mockableAndroidJar
+:testApp:assembleDebugUnitTest
+:testApp:testDebugUnitTest UP-TO-DATE
+:testApp:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:testApp:preReleaseUnitTestBuild UP-TO-DATE
+:testApp:prepareReleaseUnitTestDependencies
+:testApp:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:testApp:processReleaseUnitTestJavaRes UP-TO-DATE
+:testApp:compileReleaseUnitTestSources UP-TO-DATE
+:testApp:assembleReleaseUnitTest
+:testApp:testReleaseUnitTest UP-TO-DATE
+:testApp:test UP-TO-DATE
+:testApp:check
+:testApp:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 31.97 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
+
+2017-02-07 01:27:38,392 INFO  FullProcessService - Found APK file: /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1486409074555-0/src/SimpleDialogFragments-master/testApp/build/outputs/apk/testApp-debug.apk

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "ng.max.slideview.sample",
+    "label" : "SlideView Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.3",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.VIBRATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1596,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0.3\" package=\"ng.max.slideview.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"SlideView Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"ng.max.slideview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1432738,
+  "crc32" : 3249525365,
+  "sha256" : "64d9f06cae15d8dbc87f9d0b2c7f5fa76ded8e2d6d533efcf81e93278fd68be1",
+  "buildTime" : 1537107212000
+}

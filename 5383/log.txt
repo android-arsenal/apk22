@@ -1,0 +1,981 @@
+2018-03-19 06:00:31,560 INFO  DownloadService - Downloading "https://github.com/wonderkiln/CameraKit-Android/archive/master.zip", attempt 3
+2018-03-19 06:01:32,444 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-03-19 06:01:35,136 INFO  GithubDownloadService - Default branch of this repository: master
+2018-03-19 06:01:35,137 INFO  DownloadService - Downloading "https://github.com/wonderkiln/CameraKit-Android/archive/master.zip", attempt 3
+2018-03-19 06:02:37,304 DEBUG FullProcessService - Repository https://github.com/wonderkiln/CameraKit-Android available: true
+2018-03-19 06:02:37,304 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-03-19 06:02:37,304 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wonderkiln/CameraKit-Android, /tmp/1521439231557-0/src]
+2018-03-19 06:02:40,645 INFO  SysUtils - 
+2018-03-19 06:02:40,655 INFO  GitService - Deleted "/tmp/1521439231557-0/src/.git": true
+2018-03-19 06:02:40,662 INFO  FullProcessService - Size of directory with sources: 21 MB
+2018-03-19 06:02:40,662 INFO  SysUtils - Execute command: [git, init, /tmp/1521439231557-0/src]
+2018-03-19 06:02:40,670 INFO  SysUtils - Initialized empty Git repository in /tmp/1521439231557-0/src/.git/
+
+2018-03-19 06:02:40,675 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1521439231557-0/src/gradlew
+2018-03-19 06:02:40,680 INFO  ProjectBuildService - Build script(s): /tmp/1521439231557-0/src/camerakit-core/build.gradle /tmp/1521439231557-0/src/camerakit-vision/build.gradle /tmp/1521439231557-0/src/camerakit/build.gradle /tmp/1521439231557-0/src/demo/build.gradle /tmp/1521439231557-0/src/build.gradle
+2018-03-19 06:02:40,685 INFO  ProjectBuildService - All script(s): /tmp/1521439231557-0/src/camerakit-core/build.gradle /tmp/1521439231557-0/src/build.gradle /tmp/1521439231557-0/src/camerakit-vision/build.gradle /tmp/1521439231557-0/src/demo/build.gradle /tmp/1521439231557-0/src/settings.gradle /tmp/1521439231557-0/src/camerakit/build.gradle
+2018-03-19 06:02:40,686 INFO  ProjectBuildService - Remote scripts: none
+2018-03-19 06:02:40,686 INFO  ProjectFixService - Fixing project...
+2018-03-19 06:02:40,698 INFO  LocalPropertiesFixService - Created fake /tmp/1521439231557-0/src/camerakit-core/local.properties
+2018-03-19 06:02:40,699 INFO  ProjectFixService - Build info for "/tmp/1521439231557-0/src/camerakit-core/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-03-19 06:02:40,699 INFO  LocalPropertiesFixService - Created fake /tmp/1521439231557-0/src/camerakit-vision/local.properties
+2018-03-19 06:02:40,704 INFO  ProjectFixService - Build info for "/tmp/1521439231557-0/src/camerakit-vision/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-03-19 06:02:40,704 INFO  LocalPropertiesFixService - Created fake /tmp/1521439231557-0/src/camerakit/local.properties
+2018-03-19 06:02:40,706 INFO  ProjectFixService - Build info for "/tmp/1521439231557-0/src/camerakit/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-03-19 06:02:40,706 INFO  LocalPropertiesFixService - Created fake /tmp/1521439231557-0/src/demo/local.properties
+2018-03-19 06:02:40,708 INFO  ProjectFixService - Build info for "/tmp/1521439231557-0/src/demo/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-03-19 06:02:40,709 INFO  LocalPropertiesFixService - Created fake /tmp/1521439231557-0/src/local.properties
+2018-03-19 06:02:40,709 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-03-19 06:02:40,709 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-03-19 06:02:40,710 INFO  ProjectFixService - Build info for "/tmp/1521439231557-0/src/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-03-19 06:02:40,710 INFO  ProjectFixService - Project was maybe fixed
+2018-03-19 06:02:40,710 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-19 06:02:40,710 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-19 06:02:49,439 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-03-19 06:02:49,440 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-03-19 06:02:49,440 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-03-19 06:03:30,776 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':camerakit-core' is deprecated. Use 'implementation' instead.
+:camerakit-core:preBuild UP-TO-DATE
+:camerakit-core:preDebugBuild UP-TO-DATE
+:camerakit-core:compileDebugAidl
+:camerakit-core:compileDebugRenderscript
+:camerakit-core:checkDebugManifest
+:camerakit-core:generateDebugBuildConfig
+:camerakit-core:prepareLintJar
+:camerakit-core:generateDebugResValues
+:camerakit-core:generateDebugResources
+:camerakit-core:packageDebugResources
+:camerakit-core:platformAttrExtractor
+:camerakit-core:processDebugManifest
+:camerakit-core:javaPreCompileDebug
+:camerakit-core:processDebugResources
+:camerakit-core:generateDebugSources
+:camerakit-core:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:camerakit-core:extractDebugAnnotations
+:camerakit-core:mergeDebugShaders
+:camerakit-core:compileDebugShaders
+:camerakit-core:generateDebugAssets
+:camerakit-core:mergeDebugAssets
+:camerakit-core:mergeDebugConsumerProguardFiles
+:camerakit-core:packageDebugRenderscript NO-SOURCE
+:camerakit-core:processDebugJavaRes NO-SOURCE
+:camerakit-core:transformResourcesWithMergeJavaResForDebug
+:camerakit-core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:camerakit-core:generateJsonModelDebug
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/debug/armeabi-v7a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/debug/arm64-v8a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/debug/x86
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/debug/x86_64
+:camerakit-core:externalNativeBuildDebug
+Build yuvOperator x86_64
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/x86_64/libyuvOperator.so
+Build jpegTransformer x86_64
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/x86_64/libjpegTransformer.so
+Build yuvOperator x86
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/x86/libyuvOperator.so
+Build jpegTransformer x86
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/x86/libjpegTransformer.so
+Build yuvOperator arm64-v8a
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/arm64-v8a/libyuvOperator.so
+Build jpegTransformer arm64-v8a
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/arm64-v8a/libjpegTransformer.so
+Build yuvOperator armeabi-v7a
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvOperator.so
+Build jpegTransformer armeabi-v7a
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/debug/obj/armeabi-v7a/libjpegTransformer.so
+:camerakit-core:mergeDebugJniLibFolders
+:camerakit-core:transformNativeLibsWithMergeJniLibsForDebug
+:camerakit-core:transformNativeLibsWithStripDebugSymbolForDebug
+:camerakit-core:transformNativeLibsWithSyncJniLibsForDebug
+:camerakit-core:bundleDebug
+:camerakit-core:compileDebugSources
+:camerakit-core:assembleDebug
+:camerakit-core:preReleaseBuild UP-TO-DATE
+:camerakit-core:compileReleaseAidl
+:camerakit-core:compileReleaseRenderscript
+:camerakit-core:checkReleaseManifest
+:camerakit-core:generateReleaseBuildConfig
+:camerakit-core:generateReleaseResValues
+:camerakit-core:generateReleaseResources
+:camerakit-core:packageReleaseResources
+:camerakit-core:processReleaseManifest
+:camerakit-core:processReleaseResources
+:camerakit-core:generateReleaseSources
+:camerakit-core:javaPreCompileRelease
+:camerakit-core:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:camerakit-core:extractReleaseAnnotations
+:camerakit-core:mergeReleaseShaders
+:camerakit-core:compileReleaseShaders
+:camerakit-core:generateReleaseAssets
+:camerakit-core:mergeReleaseAssets
+:camerakit-core:mergeReleaseConsumerProguardFiles
+:camerakit-core:packageReleaseRenderscript NO-SOURCE
+:camerakit-core:processReleaseJavaRes NO-SOURCE
+:camerakit-core:transformResourcesWithMergeJavaResForRelease
+:camerakit-core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:camerakit-core:generateJsonModelRelease
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/release/armeabi-v7a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/release/arm64-v8a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/release/x86
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/1521439231557-0/src/camerakit-core/.externalNativeBuild/cmake/release/x86_64
+:camerakit-core:externalNativeBuildRelease
+Build yuvOperator x86_64
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/x86_64/libyuvOperator.so
+Build jpegTransformer x86_64
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/x86_64/libjpegTransformer.so
+Build yuvOperator x86
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/x86/libyuvOperator.so
+Build jpegTransformer x86
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/x86/libjpegTransformer.so
+Build yuvOperator arm64-v8a
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/arm64-v8a/libyuvOperator.so
+Build jpegTransformer arm64-v8a
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/arm64-v8a/libjpegTransformer.so
+Build yuvOperator armeabi-v7a
+[1/2] Building CXX object CMakeFiles/yuvOperator.dir/cpp/JniYuvOperator.cpp.o
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/armeabi-v7a/libyuvOperator.so
+Build jpegTransformer armeabi-v7a
+[1/2] Building CXX object CMakeFiles/jpegTransformer.dir/cpp/JniJpegTransformer.cpp.o
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:59:18: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropLeft = 0;
+                 ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:60:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropTop = 0;
+                ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:61:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropWidth = 0;
+                  ^
+/tmp/1521439231557-0/src/camerakit-core/src/main/cpp/JniJpegTransformer.cpp:62:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int cropHeight = 0;
+                   ^
+4 warnings generated.
+[2/2] Linking CXX shared library /tmp/1521439231557-0/src/camerakit-core/build/intermediates/cmake/release/obj/armeabi-v7a/libjpegTransformer.so
+:camerakit-core:mergeReleaseJniLibFolders
+:camerakit-core:transformNativeLibsWithMergeJniLibsForRelease
+:camerakit-core:transformNativeLibsWithStripDebugSymbolForRelease
+:camerakit-core:transformNativeLibsWithSyncJniLibsForRelease
+:camerakit-core:bundleRelease
+:camerakit-core:compileReleaseSources
+:camerakit-core:mergeReleaseResources
+:camerakit-core:verifyReleaseResources
+:camerakit-core:assembleRelease
+:camerakit-core:assemble
+:camerakit-core:build
+
+BUILD SUCCESSFUL in 40s
+52 actionable tasks: 52 executed
+
+2018-03-19 06:03:30,832 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-19 06:03:30,832 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit-vision/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-19 06:03:38,701 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-03-19 06:03:38,701 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-03-19 06:03:38,701 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit-vision/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-03-19 06:03:54,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':camerakit-core' is deprecated. Use 'implementation' instead.
+:camerakit-core:preBuild UP-TO-DATE
+:camerakit-core:preDebugBuild UP-TO-DATE
+:camerakit-core:compileDebugAidl UP-TO-DATE
+:camerakit-vision:preBuild UP-TO-DATE
+:camerakit-vision:preDebugBuild UP-TO-DATE
+:camerakit-vision:compileDebugAidl
+:camerakit-vision:compileDebugNdk NO-SOURCE
+:camerakit-core:compileDebugRenderscript UP-TO-DATE
+:camerakit-core:checkDebugManifest UP-TO-DATE
+:camerakit-core:generateDebugBuildConfig UP-TO-DATE
+:camerakit-core:prepareLintJar UP-TO-DATE
+:camerakit-core:generateDebugResValues UP-TO-DATE
+:camerakit-core:generateDebugResources UP-TO-DATE
+:camerakit-core:packageDebugResources UP-TO-DATE
+:camerakit-core:platformAttrExtractor UP-TO-DATE
+:camerakit-core:processDebugManifest UP-TO-DATE
+:camerakit-core:processDebugResources UP-TO-DATE
+:camerakit-core:generateDebugSources UP-TO-DATE
+:camerakit-core:javaPreCompileDebug UP-TO-DATE
+:camerakit-core:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit-core:processDebugJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:camerakit-core:packageDebugRenderscript NO-SOURCE
+:camerakit-vision:compileDebugRenderscript
+:camerakit-vision:checkDebugManifest
+:camerakit-vision:generateDebugBuildConfig
+:camerakit-vision:prepareLintJar
+:camerakit-vision:generateDebugResValues
+:camerakit-vision:generateDebugResources
+:camerakit-vision:packageDebugResources
+:camerakit-vision:platformAttrExtractor
+:camerakit-vision:processDebugManifest
+:camerakit-vision:javaPreCompileDebug
+:camerakit-vision:mergeDebugShaders
+:camerakit-vision:compileDebugShaders
+:camerakit-vision:generateDebugAssets
+:camerakit-vision:mergeDebugAssets
+:camerakit-vision:mergeDebugConsumerProguardFiles
+:camerakit-vision:packageDebugRenderscript NO-SOURCE
+:camerakit-vision:processDebugJavaRes NO-SOURCE
+:camerakit-vision:mergeDebugJniLibFolders
+:camerakit-vision:transformNativeLibsWithMergeJniLibsForDebug
+:camerakit-vision:transformNativeLibsWithStripDebugSymbolForDebug
+:camerakit-vision:transformNativeLibsWithSyncJniLibsForDebug
+:camerakit-core:preReleaseBuild UP-TO-DATE
+:camerakit-core:compileReleaseAidl UP-TO-DATE
+:camerakit-vision:preReleaseBuild UP-TO-DATE
+:camerakit-vision:compileReleaseAidl
+:camerakit-vision:compileReleaseNdk NO-SOURCE
+:camerakit-core:compileReleaseRenderscript UP-TO-DATE
+:camerakit-core:checkReleaseManifest UP-TO-DATE
+:camerakit-core:generateReleaseBuildConfig UP-TO-DATE
+:camerakit-core:generateReleaseResValues UP-TO-DATE
+:camerakit-core:generateReleaseResources UP-TO-DATE
+:camerakit-core:packageReleaseResources UP-TO-DATE
+:camerakit-core:processReleaseManifest UP-TO-DATE
+:camerakit-core:processReleaseResources UP-TO-DATE
+:camerakit-core:generateReleaseSources UP-TO-DATE
+:camerakit-core:javaPreCompileRelease UP-TO-DATE
+:camerakit-core:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit-core:processReleaseJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:camerakit-core:packageReleaseRenderscript NO-SOURCE
+:camerakit-vision:compileReleaseRenderscript
+:camerakit-vision:checkReleaseManifest
+:camerakit-vision:generateReleaseBuildConfig
+:camerakit-vision:generateReleaseResValues
+:camerakit-vision:generateReleaseResources
+:camerakit-vision:packageReleaseResources
+:camerakit-vision:processReleaseManifest
+:camerakit-vision:javaPreCompileRelease
+:camerakit-vision:mergeReleaseShaders
+:camerakit-vision:compileReleaseShaders
+:camerakit-vision:generateReleaseAssets
+:camerakit-vision:mergeReleaseAssets
+:camerakit-vision:mergeReleaseConsumerProguardFiles
+:camerakit-vision:packageReleaseRenderscript NO-SOURCE
+:camerakit-vision:processReleaseJavaRes NO-SOURCE
+:camerakit-vision:mergeReleaseJniLibFolders
+:camerakit-vision:transformNativeLibsWithMergeJniLibsForRelease
+:camerakit-vision:transformNativeLibsWithStripDebugSymbolForRelease
+:camerakit-vision:transformNativeLibsWithSyncJniLibsForRelease
+:camerakit-vision:mergeReleaseResources
+:camerakit-vision:verifyReleaseResources
+:camerakit-vision:processDebugResources
+:camerakit-vision:generateDebugSources
+:camerakit-vision:compileDebugJavaWithJavac
+:camerakit-vision:extractDebugAnnotations
+:camerakit-vision:transformResourcesWithMergeJavaResForDebug
+:camerakit-vision:transformClassesAndResourcesWithSyncLibJarsForDebug
+:camerakit-vision:bundleDebug
+:camerakit-vision:compileDebugSources
+:camerakit-vision:assembleDebug
+:camerakit-vision:processReleaseResources
+:camerakit-vision:generateReleaseSources
+:camerakit-vision:compileReleaseJavaWithJavac
+:camerakit-vision:extractReleaseAnnotations
+:camerakit-vision:transformResourcesWithMergeJavaResForRelease
+:camerakit-vision:transformClassesAndResourcesWithSyncLibJarsForRelease
+:camerakit-vision:bundleRelease
+:camerakit-vision:compileReleaseSources
+:camerakit-vision:assembleRelease
+:camerakit-vision:assemble
+:camerakit-vision:build
+
+BUILD SUCCESSFUL in 15s
+72 actionable tasks: 50 executed, 22 up-to-date
+
+2018-03-19 06:03:55,079 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-19 06:03:55,079 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-19 06:04:04,656 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-03-19 06:04:04,657 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-03-19 06:04:04,657 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/camerakit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-03-19 06:04:25,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':camerakit' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':camerakit-core' is deprecated. Use 'implementation' instead.
+:camerakit:preBuild UP-TO-DATE
+:camerakit:preDebugBuild UP-TO-DATE
+:camerakit-core:preBuild UP-TO-DATE
+:camerakit-core:preDebugBuild UP-TO-DATE
+:camerakit-core:compileDebugAidl UP-TO-DATE
+:camerakit-vision:preBuild UP-TO-DATE
+:camerakit-vision:preDebugBuild UP-TO-DATE
+:camerakit-vision:compileDebugAidl UP-TO-DATE
+:camerakit:compileDebugAidl
+:camerakit:compileDebugNdk NO-SOURCE
+:camerakit-core:packageDebugRenderscript NO-SOURCE
+:camerakit-vision:packageDebugRenderscript NO-SOURCE
+:camerakit:compileDebugRenderscript
+:camerakit:checkDebugManifest
+:camerakit:generateDebugBuildConfig
+:camerakit:prepareLintJar
+:camerakit:generateDebugResValues
+:camerakit:generateDebugResources
+:camerakit:packageDebugResources
+:camerakit:platformAttrExtractor
+:camerakit:processDebugManifest
+:camerakit-core:compileDebugRenderscript UP-TO-DATE
+:camerakit-core:generateDebugResValues UP-TO-DATE
+:camerakit-core:generateDebugResources UP-TO-DATE
+:camerakit-core:packageDebugResources UP-TO-DATE
+:camerakit-core:platformAttrExtractor UP-TO-DATE
+:camerakit-core:checkDebugManifest UP-TO-DATE
+:camerakit-core:processDebugManifest UP-TO-DATE
+:camerakit-core:processDebugResources UP-TO-DATE
+:camerakit-vision:compileDebugRenderscript UP-TO-DATE
+:camerakit-vision:generateDebugResValues UP-TO-DATE
+:camerakit-vision:generateDebugResources UP-TO-DATE
+:camerakit-vision:packageDebugResources UP-TO-DATE
+:camerakit-vision:platformAttrExtractor UP-TO-DATE
+:camerakit-vision:checkDebugManifest UP-TO-DATE
+:camerakit-vision:processDebugManifest UP-TO-DATE
+:camerakit-vision:processDebugResources UP-TO-DATE
+:camerakit-core:generateDebugBuildConfig UP-TO-DATE
+:camerakit-core:prepareLintJar UP-TO-DATE
+:camerakit-core:generateDebugSources UP-TO-DATE
+:camerakit-core:javaPreCompileDebug UP-TO-DATE
+:camerakit-core:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit-core:processDebugJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:camerakit:processDebugResources
+:camerakit:generateDebugSources
+:camerakit-vision:generateDebugBuildConfig UP-TO-DATE
+:camerakit-vision:prepareLintJar UP-TO-DATE
+:camerakit-vision:generateDebugSources UP-TO-DATE
+:camerakit-vision:javaPreCompileDebug UP-TO-DATE
+:camerakit-vision:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit-vision:processDebugJavaRes NO-SOURCE
+:camerakit-vision:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:camerakit:javaPreCompileDebug
+:camerakit:compileDebugJavaWithJavac
+:camerakit:extractDebugAnnotations
+:camerakit:mergeDebugShaders
+:camerakit:compileDebugShaders
+:camerakit:generateDebugAssets
+:camerakit:mergeDebugAssets
+:camerakit:mergeDebugConsumerProguardFiles
+:camerakit:packageDebugRenderscript NO-SOURCE
+:camerakit:processDebugJavaRes NO-SOURCE
+:camerakit:transformResourcesWithMergeJavaResForDebug
+:camerakit:transformClassesAndResourcesWithSyncLibJarsForDebug
+:camerakit:mergeDebugJniLibFolders
+:camerakit:transformNativeLibsWithMergeJniLibsForDebug
+:camerakit:transformNativeLibsWithStripDebugSymbolForDebug
+:camerakit:transformNativeLibsWithSyncJniLibsForDebug
+:camerakit:bundleDebug
+:camerakit:compileDebugSources
+:camerakit:assembleDebug
+:camerakit:preReleaseBuild UP-TO-DATE
+:camerakit-core:preReleaseBuild UP-TO-DATE
+:camerakit-core:compileReleaseAidl UP-TO-DATE
+:camerakit-vision:preReleaseBuild UP-TO-DATE
+:camerakit-vision:compileReleaseAidl UP-TO-DATE
+:camerakit:compileReleaseAidl
+:camerakit:compileReleaseNdk NO-SOURCE
+:camerakit-core:packageReleaseRenderscript NO-SOURCE
+:camerakit-vision:packageReleaseRenderscript NO-SOURCE
+:camerakit:compileReleaseRenderscript
+:camerakit:checkReleaseManifest
+:camerakit:generateReleaseBuildConfig
+:camerakit:generateReleaseResValues
+:camerakit:generateReleaseResources
+:camerakit:packageReleaseResources
+:camerakit:processReleaseManifest
+:camerakit-core:compileReleaseRenderscript UP-TO-DATE
+:camerakit-core:generateReleaseResValues UP-TO-DATE
+:camerakit-core:generateReleaseResources UP-TO-DATE
+:camerakit-core:packageReleaseResources UP-TO-DATE
+:camerakit-core:checkReleaseManifest UP-TO-DATE
+:camerakit-core:processReleaseManifest UP-TO-DATE
+:camerakit-core:processReleaseResources UP-TO-DATE
+:camerakit-vision:compileReleaseRenderscript UP-TO-DATE
+:camerakit-vision:generateReleaseResValues UP-TO-DATE
+:camerakit-vision:generateReleaseResources UP-TO-DATE
+:camerakit-vision:packageReleaseResources UP-TO-DATE
+:camerakit-vision:checkReleaseManifest UP-TO-DATE
+:camerakit-vision:processReleaseManifest UP-TO-DATE
+:camerakit-vision:processReleaseResources UP-TO-DATE
+:camerakit:processReleaseResources
+:camerakit:generateReleaseSources
+:camerakit-core:generateReleaseBuildConfig UP-TO-DATE
+:camerakit-core:generateReleaseSources UP-TO-DATE
+:camerakit-core:javaPreCompileRelease UP-TO-DATE
+:camerakit-core:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit-core:processReleaseJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:camerakit-vision:generateReleaseBuildConfig UP-TO-DATE
+:camerakit-vision:generateReleaseSources UP-TO-DATE
+:camerakit-vision:javaPreCompileRelease UP-TO-DATE
+:camerakit-vision:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit-vision:processReleaseJavaRes NO-SOURCE
+:camerakit-vision:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:camerakit:javaPreCompileRelease
+:camerakit:compileReleaseJavaWithJavac
+:camerakit:extractReleaseAnnotations
+:camerakit:mergeReleaseShaders
+:camerakit:compileReleaseShaders
+:camerakit:generateReleaseAssets
+:camerakit:mergeReleaseAssets
+:camerakit:mergeReleaseConsumerProguardFiles
+:camerakit:packageReleaseRenderscript NO-SOURCE
+:camerakit:processReleaseJavaRes NO-SOURCE
+:camerakit:transformResourcesWithMergeJavaResForRelease
+:camerakit:transformClassesAndResourcesWithSyncLibJarsForRelease
+:camerakit:mergeReleaseJniLibFolders
+:camerakit:transformNativeLibsWithMergeJniLibsForRelease
+:camerakit:transformNativeLibsWithStripDebugSymbolForRelease
+:camerakit:transformNativeLibsWithSyncJniLibsForRelease
+:camerakit:bundleRelease
+:camerakit:compileReleaseSources
+:camerakit:mergeReleaseResources
+:camerakit:verifyReleaseResources
+:camerakit:assembleRelease
+:camerakit:assemble
+:camerakit:build
+
+BUILD SUCCESSFUL in 18s
+96 actionable tasks: 50 executed, 46 up-to-date
+
+2018-03-19 06:04:25,291 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-19 06:04:25,292 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-19 06:04:35,102 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-03-19 06:04:35,102 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-03-19 06:04:35,102 INFO  SysUtils - Execute command: [/tmp/1521439231557-0/src/gradlew, -b, /tmp/1521439231557-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-03-19 06:05:20,733 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':demo' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':camerakit' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':camerakit-core' is deprecated. Use 'implementation' instead.
+:camerakit:preBuild UP-TO-DATE
+:camerakit:preDebugBuild UP-TO-DATE
+:camerakit-core:preBuild UP-TO-DATE
+:camerakit-core:preDebugBuild UP-TO-DATE
+:camerakit-core:compileDebugAidl UP-TO-DATE
+:camerakit-vision:preBuild UP-TO-DATE
+:camerakit-vision:preDebugBuild UP-TO-DATE
+:camerakit-vision:compileDebugAidl UP-TO-DATE
+:camerakit:compileDebugAidl UP-TO-DATE
+:camerakit-core:packageDebugRenderscript NO-SOURCE
+:camerakit-vision:packageDebugRenderscript NO-SOURCE
+:camerakit:compileDebugRenderscript UP-TO-DATE
+:camerakit:checkDebugManifest UP-TO-DATE
+:camerakit:generateDebugBuildConfig UP-TO-DATE
+:camerakit:prepareLintJar UP-TO-DATE
+:camerakit:generateDebugResValues UP-TO-DATE
+:camerakit:generateDebugResources UP-TO-DATE
+:camerakit:packageDebugResources UP-TO-DATE
+:camerakit:platformAttrExtractor UP-TO-DATE
+:camerakit:processDebugManifest UP-TO-DATE
+:camerakit-core:compileDebugRenderscript UP-TO-DATE
+:camerakit-core:generateDebugResValues UP-TO-DATE
+:camerakit-core:generateDebugResources UP-TO-DATE
+:camerakit-core:packageDebugResources UP-TO-DATE
+:camerakit-core:platformAttrExtractor UP-TO-DATE
+:camerakit-core:checkDebugManifest UP-TO-DATE
+:camerakit-core:processDebugManifest UP-TO-DATE
+:camerakit-core:processDebugResources UP-TO-DATE
+:camerakit-vision:compileDebugRenderscript UP-TO-DATE
+:camerakit-vision:generateDebugResValues UP-TO-DATE
+:camerakit-vision:generateDebugResources UP-TO-DATE
+:camerakit-vision:packageDebugResources UP-TO-DATE
+:camerakit-vision:platformAttrExtractor UP-TO-DATE
+:camerakit-vision:checkDebugManifest UP-TO-DATE
+:camerakit-vision:processDebugManifest UP-TO-DATE
+:camerakit-vision:processDebugResources UP-TO-DATE
+:camerakit:processDebugResources UP-TO-DATE
+:camerakit:generateDebugSources UP-TO-DATE
+:camerakit-core:generateDebugBuildConfig UP-TO-DATE
+:camerakit-core:prepareLintJar UP-TO-DATE
+:camerakit-core:generateDebugSources UP-TO-DATE
+:camerakit-core:javaPreCompileDebug UP-TO-DATE
+:camerakit-core:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit-core:processDebugJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:camerakit-vision:generateDebugBuildConfig UP-TO-DATE
+:camerakit-vision:prepareLintJar UP-TO-DATE
+:camerakit-vision:generateDebugSources UP-TO-DATE
+:camerakit-vision:javaPreCompileDebug UP-TO-DATE
+:camerakit-vision:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit-vision:processDebugJavaRes NO-SOURCE
+:camerakit-vision:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:camerakit:javaPreCompileDebug UP-TO-DATE
+:camerakit:compileDebugJavaWithJavac UP-TO-DATE
+:camerakit:processDebugJavaRes NO-SOURCE
+:camerakit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild
+:demo:compileDebugAidl
+:camerakit:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:camerakit:mergeDebugShaders UP-TO-DATE
+:camerakit:compileDebugShaders UP-TO-DATE
+:camerakit:generateDebugAssets UP-TO-DATE
+:camerakit:mergeDebugAssets UP-TO-DATE
+:camerakit-core:mergeDebugShaders UP-TO-DATE
+:camerakit-core:compileDebugShaders UP-TO-DATE
+:camerakit-core:generateDebugAssets UP-TO-DATE
+:camerakit-core:mergeDebugAssets UP-TO-DATE
+:camerakit-vision:mergeDebugShaders UP-TO-DATE
+:camerakit-vision:compileDebugShaders UP-TO-DATE
+:camerakit-vision:generateDebugAssets UP-TO-DATE
+:camerakit-vision:mergeDebugAssets UP-TO-DATE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:camerakit:compileDebugNdk NO-SOURCE
+:camerakit:mergeDebugJniLibFolders UP-TO-DATE
+:camerakit:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:camerakit:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:camerakit:transformNativeLibsWithIntermediateJniLibsForDebug
+:camerakit-core:generateJsonModelDebug UP-TO-DATE
+:camerakit-core:externalNativeBuildDebug
+Build yuvOperator x86_64
+ninja: no work to do.
+Build jpegTransformer x86_64
+ninja: no work to do.
+Build yuvOperator x86
+ninja: no work to do.
+Build jpegTransformer x86
+ninja: no work to do.
+Build yuvOperator arm64-v8a
+ninja: no work to do.
+Build jpegTransformer arm64-v8a
+ninja: no work to do.
+Build yuvOperator armeabi-v7a
+ninja: no work to do.
+Build jpegTransformer armeabi-v7a
+ninja: no work to do.
+:camerakit-core:mergeDebugJniLibFolders UP-TO-DATE
+:camerakit-core:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:camerakit-core:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:camerakit-core:transformNativeLibsWithIntermediateJniLibsForDebug
+:camerakit-vision:compileDebugNdk NO-SOURCE
+:camerakit-vision:mergeDebugJniLibFolders UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:camerakit:preReleaseBuild UP-TO-DATE
+:camerakit-core:preReleaseBuild UP-TO-DATE
+:camerakit-core:compileReleaseAidl UP-TO-DATE
+:camerakit-vision:preReleaseBuild UP-TO-DATE
+:camerakit-vision:compileReleaseAidl UP-TO-DATE
+:camerakit:compileReleaseAidl UP-TO-DATE
+:camerakit-core:packageReleaseRenderscript NO-SOURCE
+:camerakit-vision:packageReleaseRenderscript NO-SOURCE
+:camerakit:compileReleaseRenderscript UP-TO-DATE
+:camerakit:checkReleaseManifest UP-TO-DATE
+:camerakit:generateReleaseBuildConfig UP-TO-DATE
+:camerakit:generateReleaseResValues UP-TO-DATE
+:camerakit:generateReleaseResources UP-TO-DATE
+:camerakit:packageReleaseResources UP-TO-DATE
+:camerakit:processReleaseManifest UP-TO-DATE
+:camerakit-core:compileReleaseRenderscript UP-TO-DATE
+:camerakit-core:generateReleaseResValues UP-TO-DATE
+:camerakit-core:generateReleaseResources UP-TO-DATE
+:camerakit-core:packageReleaseResources UP-TO-DATE
+:camerakit-core:checkReleaseManifest UP-TO-DATE
+:camerakit-core:processReleaseManifest UP-TO-DATE
+:camerakit-core:processReleaseResources UP-TO-DATE
+:camerakit-vision:compileReleaseRenderscript UP-TO-DATE
+:camerakit-vision:generateReleaseResValues UP-TO-DATE
+:camerakit-vision:generateReleaseResources UP-TO-DATE
+:camerakit-vision:packageReleaseResources UP-TO-DATE
+:camerakit-vision:checkReleaseManifest UP-TO-DATE
+:camerakit-vision:processReleaseManifest UP-TO-DATE
+:camerakit-vision:processReleaseResources UP-TO-DATE
+:camerakit:processReleaseResources UP-TO-DATE
+:camerakit:generateReleaseSources UP-TO-DATE
+:camerakit-core:generateReleaseBuildConfig UP-TO-DATE
+:camerakit-core:generateReleaseSources UP-TO-DATE
+:camerakit-core:javaPreCompileRelease UP-TO-DATE
+:camerakit-core:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit-core:processReleaseJavaRes NO-SOURCE
+:camerakit-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:camerakit-vision:generateReleaseBuildConfig UP-TO-DATE
+:camerakit-vision:generateReleaseSources UP-TO-DATE
+:camerakit-vision:javaPreCompileRelease UP-TO-DATE
+:camerakit-vision:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit-vision:processReleaseJavaRes NO-SOURCE
+:camerakit-vision:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:camerakit:javaPreCompileRelease UP-TO-DATE
+:camerakit:compileReleaseJavaWithJavac UP-TO-DATE
+:camerakit:processReleaseJavaRes NO-SOURCE
+:camerakit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:preReleaseBuild
+:demo:compileReleaseAidl
+:camerakit:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:camerakit:mergeReleaseShaders UP-TO-DATE
+:camerakit:compileReleaseShaders UP-TO-DATE
+:camerakit:generateReleaseAssets UP-TO-DATE
+:camerakit:mergeReleaseAssets UP-TO-DATE
+:camerakit-core:mergeReleaseShaders UP-TO-DATE
+:camerakit-core:compileReleaseShaders UP-TO-DATE
+:camerakit-core:generateReleaseAssets UP-TO-DATE
+:camerakit-core:mergeReleaseAssets UP-TO-DATE
+:camerakit-vision:mergeReleaseShaders UP-TO-DATE
+:camerakit-vision:compileReleaseShaders UP-TO-DATE
+:camerakit-vision:generateReleaseAssets UP-TO-DATE
+:camerakit-vision:mergeReleaseAssets UP-TO-DATE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithPreDexForRelease
+:demo:transformDexWithDexForRelease
+:camerakit:compileReleaseNdk NO-SOURCE
+:camerakit:mergeReleaseJniLibFolders UP-TO-DATE
+:camerakit:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:camerakit:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:camerakit:transformNativeLibsWithIntermediateJniLibsForRelease
+:camerakit-core:generateJsonModelRelease UP-TO-DATE
+:camerakit-core:externalNativeBuildRelease
+Build yuvOperator x86_64
+ninja: no work to do.
+Build jpegTransformer x86_64
+ninja: no work to do.
+Build yuvOperator x86
+ninja: no work to do.
+Build jpegTransformer x86
+ninja: no work to do.
+Build yuvOperator arm64-v8a
+ninja: no work to do.
+Build jpegTransformer arm64-v8a
+ninja: no work to do.
+Build yuvOperator armeabi-v7a
+ninja: no work to do.
+Build jpegTransformer armeabi-v7a
+ninja: no work to do.
+:camerakit-core:mergeReleaseJniLibFolders UP-TO-DATE
+:camerakit-core:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:camerakit-core:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:camerakit-core:transformNativeLibsWithIntermediateJniLibsForRelease
+:camerakit-vision:compileReleaseNdk NO-SOURCE
+:camerakit-vision:mergeReleaseJniLibFolders UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:camerakit-vision:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 45s
+168 actionable tasks: 60 executed, 108 up-to-date
+
+2018-03-19 06:05:20,913 INFO  FullProcessService - Found APK file: /tmp/1521439231557-0/src/demo/build/outputs/apk/debug/demo-debug.apk

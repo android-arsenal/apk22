@@ -1,0 +1,279 @@
+2018-10-20 18:56:13,546 INFO  DownloadService - Downloading "https://github.com/AAkira/ExoPlayerManager/archive/master.zip", attempt 3
+2018-10-20 18:56:14,568 INFO  DownloadService - Downloaded https://github.com/AAkira/ExoPlayerManager/archive/master.zip, attempt 3
+2018-10-20 18:56:14,568 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/master.zip": 484 KB
+2018-10-20 18:56:14,568 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-20 18:56:14,574 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/master.zip: true
+2018-10-20 18:56:14,575 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src'.
+2018-10-20 18:56:14,598 INFO  FullProcessService - Size of directory with sources: 562 KB
+2018-10-20 18:56:14,598 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src]
+2018-10-20 18:56:14,614 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/.git/
+
+2018-10-20 18:56:14,617 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/gradlew
+2018-10-20 18:56:14,620 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/ima/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/build.gradle
+2018-10-20 18:56:14,622 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/ima/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/settings.gradle
+2018-10-20 18:56:14,622 INFO  ProjectBuildService - Remote scripts: none
+2018-10-20 18:56:14,622 INFO  ProjectFixService - Fixing project...
+2018-10-20 18:56:14,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/local.properties
+2018-10-20 18:56:14,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-20 18:56:14,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-20 18:56:14,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/ima/local.properties
+2018-10-20 18:56:14,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/ima/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-20 18:56:14,638 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/ima/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-20 18:56:14,639 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/local.properties
+2018-10-20 18:56:14,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-20 18:56:14,641 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-20 18:56:14,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/local.properties
+2018-10-20 18:56:14,643 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-10-20 18:56:14,643 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-10-20 18:56:14,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-20 18:56:14,645 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-20 18:56:14,646 INFO  ProjectFixService - Project was maybe fixed
+2018-10-20 18:56:14,646 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-20 18:56:14,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-20 18:56:23,916 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-20 18:56:23,916 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-20 18:56:23,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-20 18:57:53,299 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:ima:preBuild UP-TO-DATE
+:ima:preDebugBuild UP-TO-DATE
+:ima:checkDebugManifest
+:ima:processDebugManifest
+:playermanager:preBuild UP-TO-DATE
+:playermanager:preDebugBuild UP-TO-DATE
+:playermanager:checkDebugManifest
+:playermanager:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/google/android/exoplayer/extension-okhttp/2.9.0/extension-okhttp-2.9.0.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer/2.9.0/exoplayer-2.9.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/16.0.0/play-services-ads-16.0.0.pom
+Download https://oss.sonatype.org/content/repositories/snapshots/com/jakewharton/kotterknife/0.1.0-SNAPSHOT/maven-metadata.xml
+Download https://oss.sonatype.org/content/repositories/snapshots/com/jakewharton/kotterknife/0.1.0-SNAPSHOT/kotterknife-0.1.0-20170921.134610-22.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/16.0.0/play-services-ads-base-16.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/16.0.0/play-services-gass-16.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/16.0.0/play-services-ads-lite-16.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/16.0.0/play-services-ads-lite-16.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/16.0.0/play-services-ads-16.0.0.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer/2.9.0/exoplayer-2.9.0.aar
+Download https://oss.sonatype.org/content/repositories/snapshots/com/jakewharton/kotterknife/0.1.0-SNAPSHOT/kotterknife-0.1.0-20170921.134610-22.aar
+Download https://jcenter.bintray.com/com/google/android/exoplayer/extension-okhttp/2.9.0/extension-okhttp-2.9.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/16.0.0/play-services-ads-base-16.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/16.0.0/play-services-gass-16.0.0.aar
+:playermanager:compileDebugAidl
+:ima:compileDebugAidl
+:app:compileDebugAidl
+:ima:packageDebugRenderscript NO-SOURCE
+:playermanager:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:ima:compileDebugRenderscript
+:ima:generateDebugResValues
+:ima:generateDebugResources
+:ima:packageDebugResources
+:playermanager:compileDebugRenderscript
+:playermanager:generateDebugResValues
+:playermanager:generateDebugResources
+:playermanager:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:ima:platformAttrExtractor
+:playermanager:platformAttrExtractor
+:ima:generateDebugBuildConfig
+:playermanager:generateDebugBuildConfig
+:playermanager:prepareLintJar
+:playermanager:processDebugJavaRes NO-SOURCE
+:ima:prepareLintJar
+:ima:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:ima:mergeDebugShaders
+:ima:compileDebugShaders
+:ima:generateDebugAssets
+:ima:packageDebugAssets
+:playermanager:mergeDebugShaders
+:playermanager:compileDebugShaders
+:playermanager:generateDebugAssets
+:playermanager:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:ima:compileDebugNdk NO-SOURCE
+:ima:mergeDebugJniLibFolders
+:ima:transformNativeLibsWithMergeJniLibsForDebug
+:ima:transformNativeLibsWithStripDebugSymbolForDebug
+:ima:transformNativeLibsWithIntermediateJniLibsForDebug
+:playermanager:compileDebugNdk NO-SOURCE
+:playermanager:mergeDebugJniLibFolders
+:playermanager:transformNativeLibsWithMergeJniLibsForDebug
+:playermanager:transformNativeLibsWithStripDebugSymbolForDebug
+:playermanager:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:ima:preReleaseBuild UP-TO-DATE
+:ima:checkReleaseManifest
+:ima:processReleaseManifest
+:playermanager:preReleaseBuild UP-TO-DATE
+:playermanager:checkReleaseManifest
+:playermanager:processReleaseManifest
+:app:preReleaseBuild
+:playermanager:compileReleaseAidl
+:ima:compileReleaseAidl
+:app:compileReleaseAidl
+:ima:packageReleaseRenderscript NO-SOURCE
+:playermanager:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:ima:compileReleaseRenderscript
+:ima:generateReleaseResValues
+:ima:generateReleaseResources
+:ima:packageReleaseResources
+:playermanager:compileReleaseRenderscript
+:playermanager:generateReleaseResValues
+:playermanager:generateReleaseResources
+:playermanager:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:ima:generateReleaseBuildConfig
+:playermanager:generateReleaseBuildConfig
+:playermanager:processReleaseJavaRes NO-SOURCE
+:ima:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:ima:mergeReleaseShaders
+:ima:compileReleaseShaders
+:ima:generateReleaseAssets
+:ima:packageReleaseAssets
+:playermanager:mergeReleaseShaders
+:playermanager:compileReleaseShaders
+:playermanager:generateReleaseAssets
+:playermanager:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:ima:compileReleaseNdk NO-SOURCE
+:ima:mergeReleaseJniLibFolders
+:ima:transformNativeLibsWithMergeJniLibsForRelease
+:ima:transformNativeLibsWithStripDebugSymbolForRelease
+:ima:transformNativeLibsWithIntermediateJniLibsForRelease
+:playermanager:compileReleaseNdk NO-SOURCE
+:playermanager:mergeReleaseJniLibFolders
+:playermanager:transformNativeLibsWithMergeJniLibsForRelease
+:playermanager:transformNativeLibsWithStripDebugSymbolForRelease
+:playermanager:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:playermanager:generateDebugRFile
+:ima:generateDebugRFile
+:app:processDebugResources
+:playermanager:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (138, 69): 'constructor Factory(BandwidthMeter!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (398, 13): Parameter 'listener' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (406, 13): Parameter 'listener' is never used
+:playermanager:generateDebugSources
+:playermanager:javaPreCompileDebug
+:playermanager:compileDebugJavaWithJavac
+:playermanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:ima:compileDebugKotlin
+Download https://jcenter.bintray.com/com/google/ads/interactivemedia/v3/interactivemedia/3.7.2/interactivemedia-3.7.2.jar
+:ima:generateDebugSources
+:ima:javaPreCompileDebug
+:ima:compileDebugJavaWithJavac
+:ima:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 55): Parameter 'eventTime' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 66): Parameter 'width' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 73): Parameter 'height' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 81): Parameter 'unappliedRotationDegrees' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (75, 55): Parameter 'pixelWidthHeightRatio' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 59): Parameter 'eventTime' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 70): Parameter 'loadEventInfo' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 85): Parameter 'mediaLoadData' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (79, 59): Parameter 'error' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (79, 66): Parameter 'wasCanceled' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (82, 51): Parameter 'playWhenReady' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (82, 75): Parameter 'playbackState' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/datasource/PlayerDataSource.kt: (32, 21): Unsafe use of a nullable receiver of type String?
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:playermanager:generateReleaseRFile
+:ima:generateReleaseRFile
+:app:processReleaseResources
+:playermanager:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (138, 69): 'constructor Factory(BandwidthMeter!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (398, 13): Parameter 'listener' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/playermanager/src/main/kotlin/com/github/aakira/playermanager/ExoPlayerManager.kt: (406, 13): Parameter 'listener' is never used
+:playermanager:generateReleaseSources
+:playermanager:javaPreCompileRelease
+:playermanager:compileReleaseJavaWithJavac
+:playermanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:ima:compileReleaseKotlin
+:ima:generateReleaseSources
+:ima:javaPreCompileRelease
+:ima:compileReleaseJavaWithJavac
+:ima:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 55): Parameter 'eventTime' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 66): Parameter 'width' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 73): Parameter 'height' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (74, 81): Parameter 'unappliedRotationDegrees' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (75, 55): Parameter 'pixelWidthHeightRatio' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 59): Parameter 'eventTime' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 70): Parameter 'loadEventInfo' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (78, 85): Parameter 'mediaLoadData' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (79, 59): Parameter 'error' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (79, 66): Parameter 'wasCanceled' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (82, 51): Parameter 'playWhenReady' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/PlayerActivity.kt: (82, 75): Parameter 'playbackState' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/src/main/kotlin/com/github/aakira/playermanager/sample/datasource/PlayerDataSource.kt: (32, 21): Unsafe use of a nullable receiver of type String?
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 28s
+141 actionable tasks: 141 executed
+
+2018-10-20 18:57:53,426 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540036573544-0/src/ExoPlayerManager-master/app/build/outputs/apk/debug/app-debug.apk

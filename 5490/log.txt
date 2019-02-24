@@ -1,0 +1,169 @@
+2018-09-15 17:28:48,628 INFO  DownloadService - Downloading "https://github.com/dbof10/FBReaction/archive/master.zip", attempt 3
+2018-09-15 17:28:49,986 INFO  DownloadService - Downloaded https://github.com/dbof10/FBReaction/archive/master.zip, attempt 3
+2018-09-15 17:28:49,986 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/master.zip": 1 MB
+2018-09-15 17:28:49,987 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 17:28:49,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/master.zip: true
+2018-09-15 17:28:49,993 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src'.
+2018-09-15 17:28:50,063 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-09-15 17:28:50,063 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src]
+2018-09-15 17:28:50,079 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/.git/
+
+2018-09-15 17:28:50,084 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/gradlew
+2018-09-15 17:28:50,089 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/keyframe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/build.gradle
+2018-09-15 17:28:50,093 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/keyframe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/settings.gradle
+2018-09-15 17:28:50,093 INFO  ProjectBuildService - Remote scripts: none
+2018-09-15 17:28:50,093 INFO  ProjectFixService - Fixing project...
+2018-09-15 17:28:50,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/local.properties
+2018-09-15 17:28:50,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-09-15 17:28:50,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/keyframe/local.properties
+2018-09-15 17:28:50,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/keyframe/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-15 17:28:50,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/local.properties
+2018-09-15 17:28:50,109 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-15 17:28:50,109 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-15 17:28:50,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2018-09-15 17:28:50,110 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 17:28:50,110 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 17:28:50,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 17:28:57,130 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-15 17:28:57,130 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-15 17:28:57,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-15 17:29:32,770 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'testCompile' in project ':keyframe' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:keyframe:preBuild UP-TO-DATE
+:keyframe:preDebugBuild UP-TO-DATE
+:keyframe:checkDebugManifest
+:keyframe:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.3/rxjava-1.3.3.pom
+:keyframe:compileDebugAidl
+:app:compileDebugAidl
+:keyframe:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:keyframe:compileDebugRenderscript
+:keyframe:generateDebugResValues
+:keyframe:generateDebugResources
+:keyframe:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:keyframe:platformAttrExtractor
+:keyframe:generateDebugBuildConfig
+:keyframe:prepareLintJar
+:keyframe:javaPreCompileDebug
+:keyframe:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:keyframe:mergeDebugShaders
+:keyframe:compileDebugShaders
+:keyframe:generateDebugAssets
+:keyframe:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:keyframe:compileDebugNdk NO-SOURCE
+:keyframe:mergeDebugJniLibFolders
+:keyframe:transformNativeLibsWithMergeJniLibsForDebug
+:keyframe:transformNativeLibsWithStripDebugSymbolForDebug
+:keyframe:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:keyframe:preReleaseBuild UP-TO-DATE
+:keyframe:checkReleaseManifest
+:keyframe:processReleaseManifest
+:app:preReleaseBuild
+:keyframe:compileReleaseAidl
+:app:compileReleaseAidl
+:keyframe:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:keyframe:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:keyframe:generateDebugSources
+:keyframe:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:keyframe:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.3/rxjava-1.3.3.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:app:generateReleaseResources
+:keyframe:compileReleaseRenderscript
+:keyframe:generateReleaseResValues
+:keyframe:generateReleaseResources
+:keyframe:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:keyframe:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:keyframe:generateReleaseBuildConfig
+:keyframe:generateReleaseSources
+:keyframe:javaPreCompileRelease
+:keyframe:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:keyframe:processReleaseJavaRes NO-SOURCE
+:keyframe:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:keyframe:mergeReleaseShaders
+:keyframe:compileReleaseShaders
+:keyframe:generateReleaseAssets
+:keyframe:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:keyframe:compileReleaseNdk NO-SOURCE
+:keyframe:mergeReleaseJniLibFolders
+:keyframe:transformNativeLibsWithMergeJniLibsForRelease
+:keyframe:transformNativeLibsWithStripDebugSymbolForRelease
+:keyframe:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+88 actionable tasks: 88 executed
+
+2018-09-15 17:29:32,843 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007328620-0/src/FBReaction-master/app/build/outputs/apk/debug/app-debug.apk

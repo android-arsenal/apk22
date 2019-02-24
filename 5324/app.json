@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "de.mateware.snackysample",
+    "label" : "SnackySample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.4",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "4",
+    "platformBuildVersionName" : "1.1.4",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2078,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.1.4\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"de.mateware.snackysample\" platformBuildVersionCode=\"4\" platformBuildVersionName=\"1.1.4\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"SnackySample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:name=\"de.mateware.snackysample.ExampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2239352,
+  "crc32" : 2459760433,
+  "sha256" : "30e503dcd96411b0ebf96214d510767b7dc4361834424dc7124b490f1b3ffaba",
+  "buildTime" : 1539524408000
+}

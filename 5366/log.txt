@@ -1,0 +1,289 @@
+2018-09-16 17:00:21,808 INFO  DownloadService - Downloading "https://github.com/chRyNaN/glimpse/archive/master.zip", attempt 3
+2018-09-16 17:01:22,596 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-16 17:01:23,751 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-16 17:01:23,751 INFO  DownloadService - Downloading "https://github.com/chRyNaN/glimpse/archive/master.zip", attempt 3
+2018-09-16 17:02:25,463 DEBUG FullProcessService - Repository https://github.com/chRyNaN/glimpse available: true
+2018-09-16 17:02:25,463 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-16 17:02:25,463 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chRyNaN/glimpse, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src]
+2018-09-16 17:02:27,228 INFO  SysUtils - 
+2018-09-16 17:02:27,267 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/.git": true
+2018-09-16 17:02:27,270 INFO  FullProcessService - Size of directory with sources: 181 KB
+2018-09-16 17:02:27,270 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src]
+2018-09-16 17:02:27,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/.git/
+
+2018-09-16 17:02:27,289 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew
+2018-09-16 17:02:27,291 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle
+2018-09-16 17:02:27,294 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle
+2018-09-16 17:02:27,294 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 17:02:27,294 INFO  ProjectFixService - Fixing project...
+2018-09-16 17:02:27,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/local.properties
+2018-09-16 17:02:27,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=<null>]
+2018-09-16 17:02:27,302 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=28]
+2018-09-16 17:02:27,303 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/local.properties
+2018-09-16 17:02:27,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 17:02:27,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 17:02:27,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=<null>]
+2018-09-16 17:02:27,304 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=28]
+2018-09-16 17:02:27,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/local.properties
+2018-09-16 17:02:27,306 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=<null>]
+2018-09-16 17:02:27,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=28]
+2018-09-16 17:02:27,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/local.properties
+2018-09-16 17:02:27,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=<null>]
+2018-09-16 17:02:27,307 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=28]
+2018-09-16 17:02:27,307 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 17:02:27,307 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 17:02:27,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 17:02:34,905 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-16 17:02:34,905 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 17:02:34,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 17:02:46,374 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:app:prepareComAndroidSupportAppcompatV72511Library
+:app:prepareComAndroidSupportSupportCompat2511Library
+:app:prepareComAndroidSupportSupportCoreUi2511Library
+:app:prepareComAndroidSupportSupportCoreUtils2511Library
+:app:prepareComAndroidSupportSupportFragment2511Library
+:app:prepareComAndroidSupportSupportMediaCompat2511Library
+:app:prepareComAndroidSupportSupportV42511Library
+:app:prepareComAndroidSupportSupportVectorDrawable2511Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:extractDebugAnnotations
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugProguardFiles
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:transformNative_libsWithSyncJniLibsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:extractReleaseAnnotations
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseProguardFiles
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:transformNative_libsWithSyncJniLibsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.868 secs
+
+2018-09-16 17:02:46,437 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 17:02:46,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 17:02:53,171 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-09-16 17:02:53,173 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 17:02:53,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 17:03:10,382 INFO  SysUtils - Configuration on demand is an incubating feature.
+:annotation:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:annotation:processResources UP-TO-DATE
+:annotation:classes
+:annotation:jar
+:annotation:assemble
+:annotation:build
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2511Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCompat2511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCoreUi2511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportCoreUtils2511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportFragment2511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportMediaCompat2511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42511Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2511Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint UP-TO-DATE
+:app:copyDebugLint UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:extractDebugAnnotations UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugProguardFiles UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:app:bundleDebug UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseProguardFiles UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble UP-TO-DATE
+:app:build
+:compiler:compileJava
+Download https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.pom
+Download https://repo1.maven.org/maven2/com/google/auto/auto-parent/1.0-rc1/auto-parent-1.0-rc1.pom
+Download https://repo1.maven.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+:compiler:processResources UP-TO-DATE
+:compiler:classes
+:compiler:jar
+:compiler:assemble
+:compiler:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.597 secs
+
+2018-09-16 17:03:10,454 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 17:03:10,454 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 17:03:17,154 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-16 17:03:17,154 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-16 17:03:17,154 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-16 17:03:17,154 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-16 17:03:22,908 INFO  SysUtils - Configuration on demand is an incubating feature.
+:annotation:compileJava UP-TO-DATE
+:annotation:processResources UP-TO-DATE
+:annotation:classes UP-TO-DATE
+:annotation:jar UP-TO-DATE
+:annotation:assemble UP-TO-DATE
+:annotation:compileTestJava UP-TO-DATE
+:annotation:processTestResources UP-TO-DATE
+:annotation:testClasses UP-TO-DATE
+:annotation:test UP-TO-DATE
+:annotation:check UP-TO-DATE
+:annotation:build UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 5.293 secs
+
+2018-09-16 17:03:22,973 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 17:03:22,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 17:03:29,721 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-16 17:03:29,721 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-16 17:03:29,721 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-16 17:03:29,721 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537092021805-0/src/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-16 17:03:36,284 INFO  SysUtils - Configuration on demand is an incubating feature.
+:annotation:compileJava UP-TO-DATE
+:annotation:processResources UP-TO-DATE
+:annotation:classes UP-TO-DATE
+:annotation:jar UP-TO-DATE
+:compiler:compileJava UP-TO-DATE
+:compiler:processResources UP-TO-DATE
+:compiler:classes UP-TO-DATE
+:compiler:jar UP-TO-DATE
+:compiler:assemble UP-TO-DATE
+:compiler:compileTestJava UP-TO-DATE
+:compiler:processTestResources UP-TO-DATE
+:compiler:testClasses UP-TO-DATE
+:compiler:test UP-TO-DATE
+:compiler:check UP-TO-DATE
+:compiler:build UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 6.081 secs
+
+2018-09-16 17:03:36,348 ERROR FullProcessService - Project build has not produced APK file
+2018-09-16 17:03:36,403 ERROR FullProcessService - Could not find generated or existed APK file

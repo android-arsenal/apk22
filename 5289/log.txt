@@ -1,0 +1,280 @@
+2018-10-13 16:40:35,590 INFO  DownloadService - Downloading "https://github.com/MFlisar/BundleArgs/archive/master.zip", attempt 3
+2018-10-13 16:40:36,115 INFO  DownloadService - Downloaded https://github.com/MFlisar/BundleArgs/archive/master.zip, attempt 3
+2018-10-13 16:40:36,116 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/master.zip": 96 KB
+2018-10-13 16:40:36,116 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-13 16:40:36,116 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/master.zip: true
+2018-10-13 16:40:36,116 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src'.
+2018-10-13 16:40:36,143 INFO  FullProcessService - Size of directory with sources: 136 KB
+2018-10-13 16:40:36,143 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src]
+2018-10-13 16:40:36,170 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/.git/
+
+2018-10-13 16:40:36,175 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/gradlew
+2018-10-13 16:40:36,181 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-processor/build.gradle
+2018-10-13 16:40:36,186 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/settings.gradle
+2018-10-13 16:40:36,187 INFO  ProjectBuildService - Remote scripts: none
+2018-10-13 16:40:36,187 INFO  ProjectFixService - Fixing project...
+2018-10-13 16:40:36,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/local.properties
+2018-10-13 16:40:36,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/local.properties
+2018-10-13 16:40:36,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/local.properties
+2018-10-13 16:40:36,209 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2018-10-13 16:40:36,210 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2018-10-13 16:40:36,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,213 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-processor/local.properties
+2018-10-13 16:40:36,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-13 16:40:36,218 INFO  ProjectFixService - Project was maybe fixed
+2018-10-13 16:40:36,218 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-13 16:40:36,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-13 16:41:06,530 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-13 16:41:06,531 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-13 16:41:06,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/bundleargs-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-13 16:41:24,052 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/74e9u224fi39squ0r5uf3dp5pi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+> Task :bundleargs-annotation:preBuild UP-TO-DATE
+> Task :bundleargs-annotation:preDebugBuild UP-TO-DATE
+> Task :bundleargs-annotation:compileDebugAidl NO-SOURCE
+> Task :bundleargs-annotation:compileDebugRenderscript
+> Task :bundleargs-annotation:checkDebugManifest
+> Task :bundleargs-annotation:generateDebugBuildConfig
+> Task :bundleargs-annotation:generateDebugResValues
+> Task :bundleargs-annotation:generateDebugResources
+> Task :bundleargs-annotation:packageDebugResources
+> Task :bundleargs-annotation:processDebugManifest
+> Task :bundleargs-annotation:generateDebugRFile
+> Task :bundleargs-annotation:prepareLintJar
+> Task :bundleargs-annotation:generateDebugSources
+> Task :bundleargs-annotation:javaPreCompileDebug
+> Task :bundleargs-annotation:compileDebugJavaWithJavac
+> Task :bundleargs-annotation:extractDebugAnnotations
+> Task :bundleargs-annotation:mergeDebugConsumerProguardFiles
+> Task :bundleargs-annotation:mergeDebugShaders
+> Task :bundleargs-annotation:compileDebugShaders
+> Task :bundleargs-annotation:generateDebugAssets
+> Task :bundleargs-annotation:packageDebugAssets
+> Task :bundleargs-annotation:packageDebugRenderscript NO-SOURCE
+> Task :bundleargs-annotation:processDebugJavaRes NO-SOURCE
+> Task :bundleargs-annotation:transformResourcesWithMergeJavaResForDebug
+> Task :bundleargs-annotation:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :bundleargs-annotation:compileDebugNdk NO-SOURCE
+> Task :bundleargs-annotation:mergeDebugJniLibFolders
+> Task :bundleargs-annotation:transformNativeLibsWithMergeJniLibsForDebug
+> Task :bundleargs-annotation:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bundleargs-annotation:transformNativeLibsWithSyncJniLibsForDebug
+> Task :bundleargs-annotation:bundleDebugAar
+> Task :bundleargs-annotation:compileDebugSources
+> Task :bundleargs-annotation:assembleDebug
+> Task :bundleargs-annotation:preReleaseBuild UP-TO-DATE
+> Task :bundleargs-annotation:compileReleaseAidl NO-SOURCE
+> Task :bundleargs-annotation:compileReleaseRenderscript
+> Task :bundleargs-annotation:checkReleaseManifest
+> Task :bundleargs-annotation:generateReleaseBuildConfig
+> Task :bundleargs-annotation:generateReleaseResValues
+> Task :bundleargs-annotation:generateReleaseResources
+> Task :bundleargs-annotation:packageReleaseResources
+> Task :bundleargs-annotation:processReleaseManifest
+> Task :bundleargs-annotation:generateReleaseRFile
+> Task :bundleargs-annotation:generateReleaseSources
+> Task :bundleargs-annotation:javaPreCompileRelease
+> Task :bundleargs-annotation:compileReleaseJavaWithJavac
+> Task :bundleargs-annotation:extractReleaseAnnotations
+> Task :bundleargs-annotation:mergeReleaseConsumerProguardFiles
+> Task :bundleargs-annotation:mergeReleaseShaders
+> Task :bundleargs-annotation:compileReleaseShaders
+> Task :bundleargs-annotation:generateReleaseAssets
+> Task :bundleargs-annotation:packageReleaseAssets
+> Task :bundleargs-annotation:packageReleaseRenderscript NO-SOURCE
+> Task :bundleargs-annotation:processReleaseJavaRes NO-SOURCE
+> Task :bundleargs-annotation:transformResourcesWithMergeJavaResForRelease
+> Task :bundleargs-annotation:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :bundleargs-annotation:compileReleaseNdk NO-SOURCE
+> Task :bundleargs-annotation:mergeReleaseJniLibFolders
+> Task :bundleargs-annotation:transformNativeLibsWithMergeJniLibsForRelease
+> Task :bundleargs-annotation:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bundleargs-annotation:transformNativeLibsWithSyncJniLibsForRelease
+> Task :bundleargs-annotation:bundleReleaseAar
+> Task :bundleargs-annotation:compileReleaseSources
+> Task :bundleargs-annotation:mergeReleaseResources
+> Task :bundleargs-annotation:verifyReleaseResources
+> Task :bundleargs-annotation:assembleRelease
+> Task :bundleargs-annotation:assemble
+> Task :bundleargs-annotation:build
+
+BUILD SUCCESSFUL in 17s
+45 actionable tasks: 45 executed
+
+2018-10-13 16:41:24,069 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-13 16:41:24,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-13 16:41:35,085 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-10-13 16:41:35,085 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-13 16:41:35,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-13 16:42:25,404 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/74e9u224fi39squ0r5uf3dp5pi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+
+> Configure project :sample
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :bundleargs-annotation:preBuild UP-TO-DATE
+> Task :bundleargs-annotation:preDebugBuild UP-TO-DATE
+> Task :bundleargs-annotation:compileDebugAidl NO-SOURCE
+> Task :bundleargs-annotation:compileDebugRenderscript UP-TO-DATE
+> Task :bundleargs-annotation:checkDebugManifest UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugBuildConfig UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugResValues UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugResources UP-TO-DATE
+> Task :bundleargs-annotation:packageDebugResources UP-TO-DATE
+> Task :bundleargs-annotation:processDebugManifest UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugRFile UP-TO-DATE
+> Task :bundleargs-annotation:prepareLintJar UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugSources UP-TO-DATE
+> Task :bundleargs-annotation:javaPreCompileDebug UP-TO-DATE
+> Task :bundleargs-annotation:compileDebugJavaWithJavac UP-TO-DATE
+> Task :bundleargs-annotation:processDebugJavaRes NO-SOURCE
+> Task :bundleargs-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+Download https://jcenter.bintray.com/org/apache/httpcomponents/project/4.0/project-4.0.pom
+> Task :bundleargs-processor:compileJava
+> Task :bundleargs-processor:processResources
+> Task :bundleargs-processor:classes
+> Task :bundleargs-processor:jar
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :bundleargs-annotation:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+
+> Task :sample:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :bundleargs-annotation:mergeDebugShaders UP-TO-DATE
+> Task :bundleargs-annotation:compileDebugShaders UP-TO-DATE
+> Task :bundleargs-annotation:generateDebugAssets UP-TO-DATE
+> Task :bundleargs-annotation:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :bundleargs-annotation:compileDebugNdk NO-SOURCE
+> Task :bundleargs-annotation:mergeDebugJniLibFolders UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :bundleargs-annotation:preReleaseBuild UP-TO-DATE
+> Task :bundleargs-annotation:compileReleaseAidl NO-SOURCE
+> Task :bundleargs-annotation:compileReleaseRenderscript UP-TO-DATE
+> Task :bundleargs-annotation:checkReleaseManifest UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseBuildConfig UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseResValues UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseResources UP-TO-DATE
+> Task :bundleargs-annotation:packageReleaseResources UP-TO-DATE
+> Task :bundleargs-annotation:processReleaseManifest UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseRFile UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseSources UP-TO-DATE
+> Task :bundleargs-annotation:javaPreCompileRelease UP-TO-DATE
+> Task :bundleargs-annotation:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :bundleargs-annotation:processReleaseJavaRes NO-SOURCE
+> Task :bundleargs-annotation:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :bundleargs-annotation:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+
+> Task :sample:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cf679b22027dce3cc24100622fdd0c2c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :bundleargs-annotation:mergeReleaseShaders UP-TO-DATE
+> Task :bundleargs-annotation:compileReleaseShaders UP-TO-DATE
+> Task :bundleargs-annotation:generateReleaseAssets UP-TO-DATE
+> Task :bundleargs-annotation:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :bundleargs-annotation:compileReleaseNdk NO-SOURCE
+> Task :bundleargs-annotation:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :bundleargs-annotation:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 49s
+93 actionable tasks: 62 executed, 31 up-to-date
+
+2018-10-13 16:42:25,514 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539423635580-0/src/BundleArgs-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

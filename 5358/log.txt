@@ -1,0 +1,180 @@
+2018-09-21 10:55:45,791 INFO  DownloadService - Downloading "https://github.com/MFlisar/RxBus2/archive/master.zip", attempt 3
+2018-09-21 10:55:46,363 INFO  DownloadService - Downloaded https://github.com/MFlisar/RxBus2/archive/master.zip, attempt 3
+2018-09-21 10:55:46,363 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/master.zip": 129 KB
+2018-09-21 10:55:46,363 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-21 10:55:46,364 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/master.zip: true
+2018-09-21 10:55:46,364 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src'.
+2018-09-21 10:55:46,382 INFO  FullProcessService - Size of directory with sources: 174 KB
+2018-09-21 10:55:46,382 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src]
+2018-09-21 10:55:46,399 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/.git/
+
+2018-09-21 10:55:46,402 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/gradlew
+2018-09-21 10:55:46,406 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/build.gradle
+2018-09-21 10:55:46,409 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/settings.gradle
+2018-09-21 10:55:46,409 INFO  ProjectBuildService - Remote scripts: none
+2018-09-21 10:55:46,410 INFO  ProjectFixService - Fixing project...
+2018-09-21 10:55:46,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/local.properties
+2018-09-21 10:55:46,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-21 10:55:46,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib-extension/local.properties
+2018-09-21 10:55:46,420 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib-extension/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-21 10:55:46,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib/local.properties
+2018-09-21 10:55:46,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-21 10:55:46,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/local.properties
+2018-09-21 10:55:46,422 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2018-09-21 10:55:46,422 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2018-09-21 10:55:46,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-21 10:55:46,423 INFO  ProjectFixService - Project was maybe fixed
+2018-09-21 10:55:46,423 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-21 10:55:46,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-21 10:56:02,347 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-21 10:56:02,347 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-21 10:56:02,348 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-21 10:56:58,592 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:demo:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:demo:preDebugBuild
+Download https://jcenter.bintray.com/com/github/akarnokd/rxjava2-extensions/0.18.6/rxjava2-extensions-0.18.6.pom
+:lib:compileDebugAidl
+:demo:compileDebugAidl
+:lib:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:lib:platformAttrExtractor
+:lib:generateDebugBuildConfig
+:lib:prepareLintJar
+:lib:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/akarnokd/rxjava2-extensions/0.18.6/rxjava2-extensions-0.18.6.jar
+:lib:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:extractTryWithResourcesSupportJarDebug
+:demo:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:demo:preReleaseBuild
+:lib:compileReleaseAidl
+:demo:compileReleaseAidl
+:lib:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:lib:generateReleaseBuildConfig
+:lib:javaPreCompileRelease
+:lib:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:lib:generateDebugSources
+:lib:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/src/main/java/com/michaelflisar/rxbus2/demo/DemoActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:demo:compileDebugSources
+:demo:transformClassesWithStackFramesFixerForDebug
+:demo:transformClassesWithDesugarForDebug
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:lib:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:lib:generateReleaseSources
+:lib:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/src/main/java/com/michaelflisar/rxbus2/demo/DemoActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:lib:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:extractTryWithResourcesSupportJarRelease
+:demo:transformClassesWithStackFramesFixerForRelease
+:demo:transformClassesWithDesugarForRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 55s
+97 actionable tasks: 97 executed
+
+2018-09-21 10:56:58,669 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537502145786-0/src/RxBus2-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

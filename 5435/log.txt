@@ -1,0 +1,134 @@
+2018-11-15 15:40:48,438 INFO  DownloadService - Downloading "https://github.com/skedgo/RxProperty/archive/master.zip", attempt 3
+2018-11-15 15:41:49,238 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-15 15:41:50,136 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-15 15:41:50,137 INFO  DownloadService - Downloading "https://github.com/skedgo/RxProperty/archive/master.zip", attempt 3
+2018-11-15 15:42:51,590 DEBUG FullProcessService - Repository https://github.com/skedgo/RxProperty available: true
+2018-11-15 15:42:51,590 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-15 15:42:51,590 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/skedgo/RxProperty, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src]
+2018-11-15 15:42:53,482 INFO  SysUtils - 
+2018-11-15 15:42:53,501 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/.git": true
+2018-11-15 15:42:53,502 INFO  FullProcessService - Size of directory with sources: 72 KB
+2018-11-15 15:42:53,502 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src]
+2018-11-15 15:42:53,522 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/.git/
+
+2018-11-15 15:42:53,524 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/gradlew
+2018-11-15 15:42:53,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle
+2018-11-15 15:42:53,527 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/settings.gradle
+2018-11-15 15:42:53,527 INFO  ProjectBuildService - Remote scripts: none
+2018-11-15 15:42:53,527 INFO  ProjectFixService - Fixing project...
+2018-11-15 15:42:53,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/local.properties
+2018-11-15 15:42:53,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-bin.zip
+2018-11-15 15:42:53,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-15 15:42:53,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-15 15:42:53,533 INFO  ProjectFixService - Project was maybe fixed
+2018-11-15 15:42:53,533 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-15 15:42:53,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-15 15:43:04,779 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-15 15:43:04,780 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-15 15:43:04,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-15 15:43:31,395 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :compileDebugAidl NO-SOURCE
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.5/rxjava-1.3.5.pom
+> Task :compileDebugRenderscript
+> Task :checkDebugManifest
+> Task :generateDebugBuildConfig
+> Task :generateDebugResValues
+> Task :generateDebugResources
+> Task :packageDebugResources
+> Task :processDebugManifest
+> Task :generateDebugRFile
+> Task :prepareLintJar
+> Task :generateDebugSources
+> Task :dataBindingExportBuildInfoDebug
+> Task :dataBindingMergeDependencyArtifactsDebug
+> Task :mergeDebugResources
+> Task :transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :dataBindingGenBaseClassesDebug
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.5/rxjava-1.3.5.jar
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+> Task :kaptGenerateStubsDebugKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+> Task :kaptDebugKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+> Task :compileDebugKotlin
+> Task :javaPreCompileDebug
+> Task :compileDebugJavaWithJavac
+> Task :extractDebugAnnotations
+> Task :mergeDebugConsumerProguardFiles
+> Task :mergeDebugShaders
+> Task :compileDebugShaders
+> Task :generateDebugAssets
+> Task :packageDebugAssets
+> Task :packageDebugRenderscript NO-SOURCE
+> Task :processDebugJavaRes NO-SOURCE
+> Task :transformResourcesWithMergeJavaResForDebug
+> Task :transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :compileDebugNdk NO-SOURCE
+> Task :mergeDebugJniLibFolders
+> Task :transformNativeLibsWithMergeJniLibsForDebug
+> Task :transformNativeLibsWithStripDebugSymbolForDebug
+> Task :transformNativeLibsWithSyncJniLibsForDebug
+> Task :bundleDebugAar
+> Task :compileDebugSources
+> Task :assembleDebug
+> Task :preReleaseBuild UP-TO-DATE
+> Task :compileReleaseAidl NO-SOURCE
+> Task :compileReleaseRenderscript
+> Task :checkReleaseManifest
+> Task :generateReleaseBuildConfig
+> Task :generateReleaseResValues
+> Task :generateReleaseResources
+> Task :packageReleaseResources
+> Task :processReleaseManifest
+> Task :generateReleaseRFile
+> Task :generateReleaseSources
+> Task :dataBindingExportBuildInfoRelease
+> Task :dataBindingMergeDependencyArtifactsRelease
+> Task :mergeReleaseResources
+> Task :transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+> Task :dataBindingGenBaseClassesRelease
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+> Task :kaptGenerateStubsReleaseKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+> Task :kaptReleaseKotlin
+w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542271248435-0/src/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+> Task :compileReleaseKotlin
+> Task :javaPreCompileRelease
+> Task :compileReleaseJavaWithJavac
+> Task :extractReleaseAnnotations
+> Task :mergeReleaseConsumerProguardFiles
+> Task :mergeReleaseShaders
+> Task :compileReleaseShaders
+> Task :generateReleaseAssets
+> Task :packageReleaseAssets
+> Task :packageReleaseRenderscript NO-SOURCE
+> Task :processReleaseJavaRes NO-SOURCE
+> Task :transformResourcesWithMergeJavaResForRelease
+> Task :transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :compileReleaseNdk NO-SOURCE
+> Task :mergeReleaseJniLibFolders
+> Task :transformNativeLibsWithMergeJniLibsForRelease
+> Task :transformNativeLibsWithStripDebugSymbolForRelease
+> Task :transformNativeLibsWithSyncJniLibsForRelease
+> Task :bundleReleaseAar
+> Task :compileReleaseSources
+> Task :verifyReleaseResources
+> Task :assembleRelease
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 25s
+60 actionable tasks: 60 executed
+
+2018-11-15 15:43:31,451 ERROR FullProcessService - Project build has not produced APK file
+2018-11-15 15:43:31,499 ERROR FullProcessService - Could not find generated or existed APK file

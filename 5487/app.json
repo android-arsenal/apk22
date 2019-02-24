@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.franmontiel.fullscreendialog.sample",
+    "label" : "FullScreenDialog Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACBFBMVEUAAAAAAAAAAAC/v7/8/Pz////29vb29vYAAAD9/f39/f0AAAAAAAAAAAD5+fn5+fkAAADW1tYAAAAAAAAcHBzIyMjt7e0AAAAAAAAAAAAAAAAAAAAAAAAAAAD////+/v78+Pn52+X42+X42uT76/D77PH42eT42eP78/b8/Pz01uDqK2zqKmzqKWvviaz7+/vvkbHqJWjqJGfqI2fpImbyu87v0dvqKWrshaj4+PjrjK3ttsn6+vrrztjqhKb29vb9/f339/fqi6vqs8brzdfZa5DVkqjVkqnWk6rZlqzmws7mxdDZlazWkajVkKfUj6bVeJfpImXqssX5+fnfnLPl5eXo6Ojp6ent7e3z8/P09PTs7Ozeucblobjx8fHy8vLmwc3npLrpxNDopLvqxdHpIWXt3eLcdpnadJbcdZjoxNDr2N7bcpXYb5LbcZXqzNb19fXr6+vn5+f66/Dyk7P41uL55+3ykLHxkLH53ebx093tqcDxy9jpIGTpH2TwuMvtztnppbzsxtPss8fno7rqxNHpHmPqscXqy9bnornpw9DqscTmiKjxzNn20N330t730t/65u366O730d7yzNnnorruhanuja7rgaXriarpgKPph6nu5ejao7bWnrHUna/YoLPlyNLmy9TYn7PUm6/Tm67UnK/ZoLPr2+Hv7+/q6uru7u5eJHa7AAAAHnRSTlMAAQIIk++WlQnx8AgPEfLxDaIMBCSo8xwrMDEDBwoZYMsYAAACXUlEQVRIx2NgGD6AkZEJL2BkRFHOzMIqRwCwsjAj1DOxyREB2JngGjg4idHAxQ3XwCNHFOCBa+AlTgMvhgZ5GMDKxdAgr6CopKSkDAQqYCXyqspqQKCurqwhj1WDppa2traOjq6urp4+UIW8voGhoZGRsbGxiammPBYN8vpmUPXmFpYgDZZWEA0mJtY2WDXY2ALVAzWYm9vZOwD5jk5QC0ycLbFrcAGqd3Vz9/D0cgTb4O3j6+cfYGISGIRdQ7AL0PiQ0LDwiEgbsB+iosPDQmPwaQC6PzbO3tFS3wHiKUtH+/gEk0B8GswT7R2Q48HBMgmvBnPzZEd55MiVD04JDEzFocEmLT0jM8sSVYNNdk5uXn4wVg2aBRFhhZH6qBo0owqLCqP05bEmDX1Le0cbB9QEBxbUx540gJ50kJdHT6JIgryUJ29SNSCnfSQnyeNyknxxSUlJKZoO+bLyivJKHPmhytDQsBo9WGtq6+rq9bFHXAMw/TeiR1xTXV1dM/aIC843MjJqQU8arXV1be040lIHML90oiY+ecuuura2blwagNmrp7evf8JESCEwafLkvilT2/BrMAGCwGmQQmA60L9A8/FpACsPDJwBKQRmQtXj1JAPUR6YOgtSCMyGqsflaZs5c+fNB4EFCyGFwKLFS5YCwbLlK7AGq5ym/cpV4UCwKiIK4oeoCAh/dYEm9vygaWMJBsGQiJXXD4byNeXxJD5shTFm4uMjJnXzIzQICBKjQVAIrkFYRFQsngAQExURRtSKHOISklJ4gaSEOAdyvSstwyGLF3DISA/aNgYAUKwauLidNnYAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2190,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.franmontiel.fullscreendialog.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"FullScreenDialog Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.franmontiel.fullscreendialog.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1876388,
+  "crc32" : 4286690924,
+  "sha256" : "c151f60f1c4bd3997409a2f3790ca93a45ed9d217369f319bc81ea44e0a9efc2",
+  "buildTime" : 1537007528000
+}

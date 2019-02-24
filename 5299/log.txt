@@ -1,0 +1,275 @@
+2018-09-16 21:16:22,759 INFO  DownloadService - Downloading "https://github.com/tdscientist/ShelfView/archive/master.zip", attempt 3
+2018-09-16 21:16:27,123 INFO  DownloadService - Downloaded https://github.com/tdscientist/ShelfView/archive/master.zip, attempt 3
+2018-09-16 21:16:27,123 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/master.zip": 1 MB
+2018-09-16 21:16:27,123 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 21:16:27,129 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/master.zip: true
+2018-09-16 21:16:27,130 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src'.
+2018-09-16 21:16:27,167 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-16 21:16:27,167 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src]
+2018-09-16 21:16:27,183 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/.git/
+
+2018-09-16 21:16:27,187 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/gradlew
+2018-09-16 21:16:27,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/shelfview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/build.gradle
+2018-09-16 21:16:27,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/shelfview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/settings.gradle
+2018-09-16 21:16:27,194 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 21:16:27,194 INFO  ProjectFixService - Fixing project...
+2018-09-16 21:16:27,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/local.properties
+2018-09-16 21:16:27,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2018-09-16 21:16:27,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/shelfview/local.properties
+2018-09-16 21:16:27,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/shelfview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 21:16:27,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/local.properties
+2018-09-16 21:16:27,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-09-16 21:16:27,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-09-16 21:16:27,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 21:16:27,205 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 21:16:27,205 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 21:16:27,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 21:16:37,068 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-16 21:16:37,068 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 21:16:37,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 21:17:01,504 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:shelfview:preBuild UP-TO-DATE
+:shelfview:preReleaseBuild UP-TO-DATE
+:shelfview:compileReleaseNdk UP-TO-DATE
+:shelfview:compileLint
+:shelfview:copyReleaseLint UP-TO-DATE
+:shelfview:checkReleaseManifest
+:shelfview:preDebugAndroidTestBuild UP-TO-DATE
+:shelfview:preDebugBuild UP-TO-DATE
+:shelfview:preDebugUnitTestBuild UP-TO-DATE
+:shelfview:preReleaseUnitTestBuild UP-TO-DATE
+:shelfview:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:shelfview:prepareComAndroidSupportAppcompatV72510Library
+:shelfview:prepareComAndroidSupportCardviewV72510Library
+:shelfview:prepareComAndroidSupportSupportCompat2510Library
+:shelfview:prepareComAndroidSupportSupportCoreUi2510Library
+:shelfview:prepareComAndroidSupportSupportCoreUtils2510Library
+:shelfview:prepareComAndroidSupportSupportFragment2510Library
+:shelfview:prepareComAndroidSupportSupportMediaCompat2510Library
+:shelfview:prepareComAndroidSupportSupportV42510Library
+:shelfview:prepareComAndroidSupportSupportVectorDrawable2510Library
+:shelfview:prepareReleaseDependencies
+:shelfview:compileReleaseAidl
+:shelfview:compileReleaseRenderscript
+:shelfview:generateReleaseBuildConfig
+:shelfview:generateReleaseAssets UP-TO-DATE
+:shelfview:mergeReleaseAssets
+:shelfview:generateReleaseResValues
+:shelfview:generateReleaseResources
+:shelfview:mergeReleaseResources
+:shelfview:processReleaseManifest
+:shelfview:processReleaseResources
+:shelfview:generateReleaseSources
+:shelfview:compileReleaseJavaWithJavac
+:shelfview:extractReleaseAnnotations
+:shelfview:mergeReleaseProguardFiles
+:shelfview:packageReleaseRenderscript UP-TO-DATE
+:shelfview:packageReleaseResources
+:shelfview:processReleaseJavaRes UP-TO-DATE
+:shelfview:transformResourcesWithMergeJavaResForRelease
+:shelfview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:shelfview:mergeReleaseJniLibFolders
+:shelfview:transformNative_libsWithMergeJniLibsForRelease
+:shelfview:transformNative_libsWithSyncJniLibsForRelease
+:shelfview:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:app:prepareComAndroidSupportAppcompatV72510Library
+:app:prepareComAndroidSupportCardviewV72510Library
+:app:prepareComAndroidSupportSupportCompat2510Library
+:app:prepareComAndroidSupportSupportCoreUi2510Library
+:app:prepareComAndroidSupportSupportCoreUtils2510Library
+:app:prepareComAndroidSupportSupportFragment2510Library
+:app:prepareComAndroidSupportSupportMediaCompat2510Library
+:app:prepareComAndroidSupportSupportV42510Library
+:app:prepareComAndroidSupportSupportVectorDrawable2510Library
+:app:prepareComGithubTdscientistShelfviewUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:658)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:601)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:402)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:214)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:153)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:134)
+	at com.android.tools.lint.EcjParser$EcjResolvedMethod.getAnnotations(EcjParser.java:1167)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1603)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitMethodInvocation(SupportAnnotationDetector.java:1574)
+	at com.android.tools.lint.client.api.JavaVisitor$DispatchVisitor.visitMethodInvocation(JavaVisitor.java:997)
+	at com.android.tools.lint.client.api.JavaVisitor$DelegatingJavaVisitor.visitMethodInvocation(JavaVisitor.java:1365)
+	at lombok.ast.MethodInvocation.accept(MethodInvocation.java:114)
+	at lombok.ast.ExpressionStatement.accept(ExpressionStatement.java:63)
+	at lombok.ast.Block.accept(Block.java:106)
+	at lombok.ast.MethodDeclaration.accept(MethodDeclaration.java:240)
+	at lombok.ast.NormalTypeBody.accept(NormalTypeBody.java:57)
+	at lombok.ast.ClassDeclaration.accept(ClassDeclaration.java:239)
+	at lombok.ast.CompilationUnit.accept(CompilationUnit.java:83)
+	at com.android.tools.lint.client.api.JavaVisitor.visitFile(JavaVisitor.java:272)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1527)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1061)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:906)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:435)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:376)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:128)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:116)
+	at com.android.build.gradle.internal.LintGradleClient$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.groovy:196)
+	at com.android.build.gradle.tasks.Lint.this$6$runLint(Lint.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.groovy:171)
+	at com.android.build.gradle.tasks.Lint$lintSingleVariant$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:77)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.841 secs
+
+2018-09-16 21:17:01,592 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107382755-0/src/ShelfView-master/app/build/outputs/apk/app-debug.apk

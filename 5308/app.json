@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "ru.adonixis.listtogridanimatedicon",
+    "label" : "List To Grid Animated Icon",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2148,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ru.adonixis.listtogridanimatedicon\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900a8\" android:label=\"List To Grid Animated Icon\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"List To Grid Animated Icon\" android:name=\"ru.adonixis.listtogridanimatedicon.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1898658,
+  "crc32" : 1582723589,
+  "sha256" : "1ffc385e5c3fdcce50b9eca2bfd49cc9b9d7d357839f474c0347618941601fa6",
+  "buildTime" : 1521888126000
+}

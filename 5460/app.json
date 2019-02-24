@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "ir.mirrajabi.pc.sample",
+    "label" : "Persian Calendar",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEYklEQVR42u2Z3ytkURzAjTGMVYMM2dpddtlt7cyKR1HUrjcrJQ/Ij/JCFAoP/gBKeUAmmeRHw8PWbEx5ZIoyNCgU8ky2nTEzK2Ewc/Z8pznTnR9m7rkzd+5sOfXtXJnvj8+593zP95wTF/fSYrghhMRYEgQWMZfA40FiaCDZx8P8IX7OwPIOy1uBBHxnBIotaPC4f4VF5XQ6fzscjqtQMjo6egNqNDI2NnbDxrY7BhXEFBKC/PPp6WkKKyKsyEra29sRLUBXVxdr+yA2m02N9UTPApDJcn19LccAf0AJ93bcO3AfVMrKypy0ABUVFc5Qdt2+7TCYOC7TxsbGa2asvgAJ0B8fH398fHy0ugEcbEYnMzOT+g1kZ2ezGnmIwQ1gW15e/sKMNSDA5ubmJwxgYQtwcXGB4uPjqQFA5/LykgpgaWlJwRaA9RtYW1ujDp6IXq+nAlhYWFBGHGBiYoIzwOTkpPAAHR0dnAE6OzuFBygvL+cMgDORsAAajQYlJiZ6BSUSiVBubi5qbGxEAwMDqLu7G9XV1aGcnBw/ANBdXFwUBgAbQ2Kx2Cvw6upqtLOzg7C+3+8fHh6QwWBAVVVVrt8SPbARDIIXgO3tbZSUlOQJIjU1Fa2srLBeVbVaLZLJZB59qVSKjEZjdADu7++RQqHwOE9LS0P7+/tUZQEIBMyEKCwsRHa7nX+Aqakpr89Gp9NRB898E8zPaWZmhl8A/DdSKpUehzU1NZyDJwJzgtgrLi52+eAN4OjoyGv0d3d3wwaAic3MTKenp/wBqFQqj6O8vLyA2YZWIDsxU6xareYPAGp44qihoSHs4ImALWK3t7eXP4D6+nqPo76+vogB9Pf3e+w2NzdHB2BwcDBiALBaRwWA+Qm1trZGDABKDWK3p6eHPwAof4mj/Px8v5THRSARQO1E7E5PT/MHcHh46JVG9/b2wgaA2om5mJ2cnPC7kDHLiNra2rABoAAk9oqKivhdyHzXAtjXrq6ucg4eCkDm6PuuAbwA3N3doYKCAo/T9PR0dHBwQB08FIBQxRI7UKJAoRiVcnpra8trIwMQNG8CCkCoYok+lOYwF6K6oZmdnfU6ToFnmBMwsQNlJ8g2UDtBAei7oZmfnxdmSzk3N4ckEonflhJSLJQHsFrDgtfS0uKqnZiBky1lsOBjflMPuoKfSnA52CUCRzKCA4yPj//fB1vhHC2ur6/zBsD6cPf8/Dy2Dndxjv9M8wYgZcrlcmqArKws6uN1jUbzNRiA69JAq9W+wds8MyixveAoLS11cshArC84cGzIYrFcDQ8Pf4AY9Xp9QrArJunZ2dlP2KtCA5BQjesVU6hGfMN5EV4Ef2G9ZDZ3ZGI8ogqj0bhiMpksVqv1L6a3Qf+cDA0N3dICjIyM3AazSXyazWaLwWDQlZSUwOcjZntTmYzlfWVl5be2trYfTU1Nggj4/o4bxBJy9H0h8DYvET+mYJEJLCkQC6eLd5gs+NuTCCnPTtiXFiPtHwypTMq9evjDAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1891,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ir.mirrajabi.pc.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900a3\" android:label=\"Persian Calendar\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"ir.mirrajabi.pc.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1729255,
+  "crc32" : 3318549301,
+  "sha256" : "efa897b0d816445a91979d4b8ad054b2aab54e876aba38f64d3fd7c38fb49fc1",
+  "buildTime" : 1537012071000
+}

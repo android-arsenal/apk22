@@ -1,0 +1,48 @@
+2018-09-16 19:21:13,673 INFO  DownloadService - Downloading "https://github.com/LemonNicholas/LCustomFont/archive/master.zip", attempt 3
+2018-09-16 19:21:16,343 INFO  DownloadService - Downloaded https://github.com/LemonNicholas/LCustomFont/archive/master.zip, attempt 3
+2018-09-16 19:21:16,344 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/master.zip": 325 KB
+2018-09-16 19:21:16,344 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 19:21:16,345 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/master.zip: true
+2018-09-16 19:21:16,345 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src'.
+2018-09-16 19:21:16,372 INFO  FullProcessService - Size of directory with sources: 717 KB
+2018-09-16 19:21:16,373 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src]
+2018-09-16 19:21:16,389 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/.git/
+
+2018-09-16 19:21:16,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew
+2018-09-16 19:21:16,396 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/build.gradle
+2018-09-16 19:21:16,399 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/build.gradle
+2018-09-16 19:21:16,400 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-16 19:21:17,341 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-09-16 19:21:17,341 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-09-16 19:21:17,440 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-09-16 19:21:17,440 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-09-16 19:21:17,440 INFO  ProjectFixService - Fixing project...
+2018-09-16 19:21:17,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/local.properties
+2018-09-16 19:21:17,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 19:21:17,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/local.properties
+2018-09-16 19:21:17,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 19:21:17,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/local.properties
+2018-09-16 19:21:17,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 19:21:17,454 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 19:21:17,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 19:21:17,455 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 19:21:17,455 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:21:17,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:21:17,464 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-09-16 19:21:17,464 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-09-16 19:21:17,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/custom-font/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-09-16 19:21:17,471 INFO  SysUtils - 
+2018-09-16 19:21:17,475 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:21:17,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:21:17,482 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-09-16 19:21:17,482 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-09-16 19:21:17,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-09-16 19:21:17,489 INFO  SysUtils - 
+2018-09-16 19:21:17,493 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:21:17,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:21:17,499 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-09-16 19:21:17,499 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-09-16 19:21:17,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537100473665-0/src/LCustomFont-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-09-16 19:21:17,506 INFO  SysUtils - 
+2018-09-16 19:21:17,509 ERROR FullProcessService - Project build has not produced APK file
+2018-09-16 19:21:17,513 ERROR FullProcessService - Could not find generated or existed APK file

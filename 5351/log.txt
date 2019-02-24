@@ -1,0 +1,918 @@
+2018-09-16 19:09:47,246 INFO  DownloadService - Downloading "https://github.com/Fueled/flowr/archive/master.zip", attempt 3
+2018-09-16 19:09:47,806 INFO  DownloadService - Downloaded https://github.com/Fueled/flowr/archive/master.zip, attempt 3
+2018-09-16 19:09:47,806 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/master.zip": 197 KB
+2018-09-16 19:09:47,806 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 19:09:47,812 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/master.zip: true
+2018-09-16 19:09:47,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src'.
+2018-09-16 19:09:47,848 INFO  FullProcessService - Size of directory with sources: 279 KB
+2018-09-16 19:09:47,848 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src]
+2018-09-16 19:09:47,863 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/.git/
+
+2018-09-16 19:09:47,868 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew
+2018-09-16 19:09:47,873 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-mock-classes/build.gradle
+2018-09-16 19:09:47,878 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-mock-classes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/extra/checkstyle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/extra/checkstyle/checkstyle_java_library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/extra/checkstyle/checkstyle_android_library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/extra/gradle/libraries.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/extra/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle
+2018-09-16 19:09:47,880 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 19:09:47,880 INFO  ProjectFixService - Fixing project...
+2018-09-16 19:09:47,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/local.properties
+2018-09-16 19:09:47,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/local.properties
+2018-09-16 19:09:47,900 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,900 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,901 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/local.properties
+2018-09-16 19:09:47,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/local.properties
+2018-09-16 19:09:47,906 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-16 19:09:47,906 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-16 19:09:47,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,910 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-annotations/local.properties
+2018-09-16 19:09:47,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-annotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-compiler/local.properties
+2018-09-16 19:09:47,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,918 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-compiler/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-mock-classes/local.properties
+2018-09-16 19:09:47,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-mock-classes/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,923 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr-mock-classes/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2018-09-16 19:09:47,923 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 19:09:47,923 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:09:47,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:09:55,393 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-16 19:09:55,393 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 19:09:55,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 19:10:08,772 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:flowr:preBuild UP-TO-DATE
+:flowr:preDebugBuild UP-TO-DATE
+:flowr:checkDebugManifest
+:flowr:preDebugAndroidTestBuild UP-TO-DATE
+:flowr:preDebugUnitTestBuild UP-TO-DATE
+:flowr:preReleaseBuild UP-TO-DATE
+:flowr:preReleaseUnitTestBuild UP-TO-DATE
+:flowr:prepareAndroidArchCoreRuntime110Library
+:flowr:prepareAndroidArchLifecycleLivedataCore110Library
+:flowr:prepareAndroidArchLifecycleRuntime110Library
+:flowr:prepareAndroidArchLifecycleViewmodel110Library
+:flowr:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:flowr:prepareComAndroidSupportAppcompatV72711Library
+:flowr:prepareComAndroidSupportSupportCompat2711Library
+:flowr:prepareComAndroidSupportSupportCoreUi2711Library
+:flowr:prepareComAndroidSupportSupportCoreUtils2711Library
+:flowr:prepareComAndroidSupportSupportFragment2711Library
+:flowr:prepareComAndroidSupportSupportVectorDrawable2711Library
+:flowr-annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:flowr-annotations:processResources UP-TO-DATE
+:flowr-annotations:classes
+:flowr-annotations:jar
+:flowr:prepareDebugDependencies
+:flowr:compileDebugAidl
+:flowr:compileDebugNdk UP-TO-DATE
+:flowr:compileLint
+:flowr:copyDebugLint UP-TO-DATE
+:flowr:compileDebugRenderscript
+:flowr:generateDebugBuildConfig
+:flowr:generateDebugResValues
+:flowr:generateDebugResources
+:flowr:mergeDebugResources
+:flowr:processDebugManifest
+:flowr:processDebugResources
+:flowr:generateDebugSources
+:flowr:incrementalDebugJavaCompilationSafeguard
+:flowr:javaPreCompileDebug
+:flowr:compileDebugJavaWithJavac
+:flowr:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:flowr:extractDebugAnnotations
+:flowr:mergeDebugShaders
+:flowr:compileDebugShaders
+:flowr:generateDebugAssets
+:flowr:mergeDebugAssets
+:flowr:mergeDebugProguardFiles
+:flowr:packageDebugRenderscript UP-TO-DATE
+:flowr:packageDebugResources
+:flowr:processDebugJavaRes UP-TO-DATE
+:flowr:transformResourcesWithMergeJavaResForDebug
+:flowr:transformClassesAndResourcesWithSyncLibJarsForDebug
+:flowr:mergeDebugJniLibFolders
+:flowr:transformNativeLibsWithMergeJniLibsForDebug
+:flowr:transformNativeLibsWithStripDebugSymbolForDebug
+:flowr:transformNativeLibsWithSyncJniLibsForDebug
+:flowr:bundleDebug
+:flowr:compileDebugSources
+:flowr:assembleDebug
+:flowr:checkReleaseManifest
+:flowr:prepareReleaseDependencies
+:flowr:compileReleaseAidl
+:flowr:compileReleaseNdk UP-TO-DATE
+:flowr:copyReleaseLint UP-TO-DATE
+:flowr:compileReleaseRenderscript
+:flowr:generateReleaseBuildConfig
+:flowr:generateReleaseResValues
+:flowr:generateReleaseResources
+:flowr:mergeReleaseResources
+:flowr:processReleaseManifest
+:flowr:processReleaseResources
+:flowr:generateReleaseSources
+:flowr:incrementalReleaseJavaCompilationSafeguard
+:flowr:javaPreCompileRelease
+:flowr:compileReleaseJavaWithJavac
+:flowr:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:flowr:extractReleaseAnnotations
+:flowr:mergeReleaseShaders
+:flowr:compileReleaseShaders
+:flowr:generateReleaseAssets
+:flowr:mergeReleaseAssets
+:flowr:mergeReleaseProguardFiles
+:flowr:packageReleaseRenderscript UP-TO-DATE
+:flowr:packageReleaseResources
+:flowr:processReleaseJavaRes UP-TO-DATE
+:flowr:transformResourcesWithMergeJavaResForRelease
+:flowr:transformClassesAndResourcesWithSyncLibJarsForRelease
+:flowr:mergeReleaseJniLibFolders
+:flowr:transformNativeLibsWithMergeJniLibsForRelease
+:flowr:transformNativeLibsWithStripDebugSymbolForRelease
+:flowr:transformNativeLibsWithSyncJniLibsForRelease
+:flowr:bundleRelease
+:flowr:compileReleaseSources
+:flowr:assembleRelease
+:flowr:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:14: error: cannot find symbol
+public abstract class AbstractFlowrFragment extends Fragment implements FlowrFragment {
+                                                    ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/AbstractFlowrDeepLinkHandler.java:9: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/AbstractFlowrDeepLinkHandler.java:26: error: cannot find symbol
+public class AbstractFlowrDeepLinkHandler<T extends Fragment & FlowrFragment>
+                                                    ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/FlowrDeepLinkInfo.java:4: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/FlowrDeepLinkInfo.java:13: error: cannot find symbol
+public class FlowrDeepLinkInfo<T extends Fragment & FlowrFragment> {
+                                         ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/TransactionData.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/TransactionData.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/TransactionData.java:14: error: cannot find symbol
+public final class TransactionData<T extends Fragment & FlowrFragment> {
+                                             ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:11: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:12: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:13: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentTransaction;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:31: error: package FragmentManager does not exist
+public class Flowr implements FragmentManager.OnBackStackChangedListener,
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrScreen.java:5: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrScreen.java:6: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:52: error: cannot find symbol
+    @Nullable private Fragment currentFragment;
+                      ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:258: error: cannot find symbol
+    protected <T extends Fragment & FlowrFragment> int displayFragment(TransactionData<T> data) {
+                         ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:311: error: cannot find symbol
+    private <T extends Fragment & FlowrFragment> void injectDeepLinkInfo(TransactionData<T> data) {
+                       ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:341: error: cannot find symbol
+    private void setCustomAnimations(FragmentTransaction transaction, @AnimRes int enterAnim,
+                                     ^
+  symbol:   class FragmentTransaction
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:352: error: cannot find symbol
+    private Fragment retrieveCurrentFragment() {
+            ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:368: error: cannot find symbol
+    private void updateVisibilityState(Fragment fragment, boolean shown) {
+                                       ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:520: error: cannot find symbol
+    public Fragment getCurrentFragment() {
+           ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:524: error: cannot find symbol
+    private void setCurrentFragment(@Nullable Fragment newFragment) {
+                                              ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:596: error: cannot find symbol
+    public <T extends Fragment & FlowrFragment> Builder open(Class<? extends T> fragmentClass) {
+                      ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:686: error: cannot find symbol
+    public class Builder<T extends Fragment & FlowrFragment> {
+                                   ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:618: error: cannot find symbol
+    public <T extends Fragment & FlowrFragment> Builder open(Intent intent, Class<? extends T> fragmentClass) {
+                      ^
+  symbol:   class Fragment
+  location: class Flowr
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrScreen.java:19: error: cannot find symbol
+    FragmentManager getScreenFragmentManager();
+    ^
+  symbol:   class FragmentManager
+  location: interface FlowrScreen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrScreen.java:32: error: cannot find symbol
+    void onCurrentFragmentChanged(@Nullable Fragment currentFragment);
+                                            ^
+  symbol:   class Fragment
+  location: interface FlowrScreen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:9: error: package android.support.v4.app does not exist
+import android.support.v4.app.Fragment;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:10: error: package android.support.v4.app does not exist
+import android.support.v4.app.FragmentManager;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:11: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:17: error: cannot find symbol
+public abstract class AbstractFlowrActivity<T extends Flowr> extends AppCompatActivity
+                                                                     ^
+  symbol: class AppCompatActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:41: error: cannot find symbol
+    public FragmentManager getScreenFragmentManager() {
+           ^
+  symbol:   class FragmentManager
+  location: class AbstractFlowrActivity<T>
+  where T is a type-variable:
+    T extends Flowr declared in class AbstractFlowrActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrActivity.java:66: error: cannot find symbol
+    public void onCurrentFragmentChanged(@Nullable Fragment currentFragment) {
+                                                   ^
+  symbol:   class Fragment
+  location: class AbstractFlowrActivity<T>
+  where T is a type-variable:
+    T extends Flowr declared in class AbstractFlowrActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/internal/AbstractFlowrDeepLinkHandler.java:103: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:59: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:67: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:75: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:83: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:91: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:99: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:107: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:115: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:123: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:131: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/AbstractFlowrFragment.java:139: error: incorrect use of inline tag
+     * @inheritDoc
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrFragment.java:29: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrFragment.java:30: error: reference not found
+     * Note: when the returned navigation icon type is {@link NavigationIconType.CUSTOM}
+                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrFragment.java:39: error: reference not found
+     * is {@link NavigationIconType.CUSTOM}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/FlowrFragment.java:65: error: reference not found
+     * return {@link android.content.pm.ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED} to use the activity
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:255: error: bad HTML entity
+     * @param <T>   type Fragment & FlowrFragment
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:596: warning: no @param for <T>
+    public <T extends Fragment & FlowrFragment> Builder open(Class<? extends T> fragmentClass) {
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:66: warning: no @param for resultPublisher
+    public Flowr(@IdRes int mainContainerId, @Nullable FlowrScreen screen,
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:715: warning: no @return
+        public Builder setData(Bundle args) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:723: warning: no @param for skipBackStack
+        public Builder skipBackStack(boolean skipBackStack) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:723: warning: no @return
+        public Builder skipBackStack(boolean skipBackStack) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:731: warning: no @param for clearBackStack
+        public Builder clearBackStack(boolean clearBackStack) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:731: warning: no @return
+        public Builder clearBackStack(boolean clearBackStack) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:739: warning: no @param for replaceCurrentFragment
+        public Builder replaceCurrentFragment(boolean replaceCurrentFragment) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:739: warning: no @return
+        public Builder replaceCurrentFragment(boolean replaceCurrentFragment) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:750: warning: no @return
+        public Builder setCustomTransactionAnimation(@AnimRes int enterAnim, @AnimRes int exitAnim) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:764: warning: no @return
+        public Builder setCustomTransactionAnimation(@AnimRes int enterAnim, @AnimRes int exitAnim,
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/flowr/src/main/java/com/fueled/flowr/Flowr.java:777: warning: no @return
+        public Builder noTransactionAnimation() {
+                       ^
+
+17 errors
+46 warnings
+:flowr:javadocJar
+:flowr:sourcesJar
+:flowr:assemble
+:flowr:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.141 secs
+
+2018-09-16 19:10:08,828 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:10:08,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:10:15,443 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-16 19:10:15,443 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 19:10:15,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 19:10:27,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:flowr:preBuild UP-TO-DATE
+:flowr:preReleaseBuild UP-TO-DATE
+:flowr:checkReleaseManifest
+:flowr:preDebugAndroidTestBuild UP-TO-DATE
+:flowr:preDebugBuild UP-TO-DATE
+:flowr:preDebugUnitTestBuild UP-TO-DATE
+:flowr:preReleaseUnitTestBuild UP-TO-DATE
+:flowr:prepareAndroidArchCoreRuntime110Library
+:flowr:prepareAndroidArchLifecycleLivedataCore110Library
+:flowr:prepareAndroidArchLifecycleRuntime110Library
+:flowr:prepareAndroidArchLifecycleViewmodel110Library
+:flowr:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:flowr:prepareComAndroidSupportAppcompatV72711Library
+:flowr:prepareComAndroidSupportSupportCompat2711Library
+:flowr:prepareComAndroidSupportSupportCoreUi2711Library
+:flowr:prepareComAndroidSupportSupportCoreUtils2711Library
+:flowr:prepareComAndroidSupportSupportFragment2711Library
+:flowr:prepareComAndroidSupportSupportVectorDrawable2711Library
+:flowr-annotations:compileJava UP-TO-DATE
+:flowr-annotations:processResources UP-TO-DATE
+:flowr-annotations:classes UP-TO-DATE
+:flowr-annotations:jar UP-TO-DATE
+:flowr:prepareReleaseDependencies
+:flowr:compileReleaseAidl UP-TO-DATE
+:flowr:compileReleaseNdk UP-TO-DATE
+:flowr:compileLint UP-TO-DATE
+:flowr:copyReleaseLint UP-TO-DATE
+:flowr:compileReleaseRenderscript UP-TO-DATE
+:flowr:generateReleaseBuildConfig UP-TO-DATE
+:flowr:generateReleaseResValues UP-TO-DATE
+:flowr:generateReleaseResources UP-TO-DATE
+:flowr:mergeReleaseResources UP-TO-DATE
+:flowr:processReleaseManifest UP-TO-DATE
+:flowr:processReleaseResources UP-TO-DATE
+:flowr:generateReleaseSources UP-TO-DATE
+:flowr:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:flowr:javaPreCompileRelease
+:flowr:compileReleaseJavaWithJavac UP-TO-DATE
+:flowr:extractReleaseAnnotations UP-TO-DATE
+:flowr:mergeReleaseShaders UP-TO-DATE
+:flowr:compileReleaseShaders UP-TO-DATE
+:flowr:generateReleaseAssets UP-TO-DATE
+:flowr:mergeReleaseAssets UP-TO-DATE
+:flowr:mergeReleaseProguardFiles UP-TO-DATE
+:flowr:packageReleaseRenderscript UP-TO-DATE
+:flowr:packageReleaseResources UP-TO-DATE
+:flowr:processReleaseJavaRes UP-TO-DATE
+:flowr:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:flowr:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:flowr:mergeReleaseJniLibFolders UP-TO-DATE
+:flowr:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:flowr:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:flowr:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:flowr:bundleRelease UP-TO-DATE
+:sample-library:preBuild UP-TO-DATE
+:sample-library:preDebugBuild UP-TO-DATE
+:sample-library:checkDebugManifest
+:sample-library:preDebugAndroidTestBuild UP-TO-DATE
+:sample-library:preDebugUnitTestBuild UP-TO-DATE
+:sample-library:preReleaseBuild UP-TO-DATE
+:sample-library:preReleaseUnitTestBuild UP-TO-DATE
+:sample-library:prepareAndroidArchCoreRuntime110Library
+:sample-library:prepareAndroidArchLifecycleLivedataCore110Library
+:sample-library:prepareAndroidArchLifecycleRuntime110Library
+:sample-library:prepareAndroidArchLifecycleViewmodel110Library
+:sample-library:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:sample-library:prepareComAndroidSupportAppcompatV72711Library
+:sample-library:prepareComAndroidSupportSupportCompat2711Library
+:sample-library:prepareComAndroidSupportSupportCoreUi2711Library
+:sample-library:prepareComAndroidSupportSupportCoreUtils2711Library
+:sample-library:prepareComAndroidSupportSupportFragment2711Library
+:sample-library:prepareComAndroidSupportSupportVectorDrawable2711Library
+:sample-library:prepareDebugDependencies
+:sample-library:compileDebugAidl
+:sample-library:compileDebugNdk UP-TO-DATE
+:sample-library:compileLint
+:sample-library:copyDebugLint UP-TO-DATE
+:flowr-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+:flowr-compiler:processResources UP-TO-DATE
+:flowr-compiler:classes
+:flowr-compiler:jar
+:sample-library:compileDebugRenderscript
+:sample-library:generateDebugBuildConfig
+:sample-library:generateDebugResValues
+:sample-library:generateDebugResources
+:sample-library:mergeDebugResources
+:sample-library:processDebugManifest
+:sample-library:processDebugResources
+:sample-library:generateDebugSources
+:sample-library:incrementalDebugJavaCompilationSafeguard
+:sample-library:javaPreCompileDebug
+:sample-library:compileDebugJavaWithJavac
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build/generated/source/apt/debug/com/fueled/flowr/sample/library/LibraryDeepLinkHandlerImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample-library:extractDebugAnnotations
+:sample-library:mergeDebugShaders
+:sample-library:compileDebugShaders
+:sample-library:generateDebugAssets
+:sample-library:mergeDebugAssets
+:sample-library:mergeDebugProguardFiles
+:sample-library:packageDebugRenderscript UP-TO-DATE
+:sample-library:packageDebugResources
+:sample-library:processDebugJavaRes UP-TO-DATE
+:sample-library:transformResourcesWithMergeJavaResForDebug
+:sample-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:sample-library:mergeDebugJniLibFolders
+:sample-library:transformNativeLibsWithMergeJniLibsForDebug
+:sample-library:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-library:transformNativeLibsWithSyncJniLibsForDebug
+:sample-library:bundleDebug
+:sample-library:compileDebugSources
+:sample-library:assembleDebug
+:sample-library:checkReleaseManifest
+:sample-library:prepareReleaseDependencies
+:sample-library:compileReleaseAidl
+:sample-library:compileReleaseNdk UP-TO-DATE
+:sample-library:copyReleaseLint UP-TO-DATE
+:sample-library:compileReleaseRenderscript
+:sample-library:generateReleaseBuildConfig
+:sample-library:generateReleaseResValues
+:sample-library:generateReleaseResources
+:sample-library:mergeReleaseResources
+:sample-library:processReleaseManifest
+:sample-library:processReleaseResources
+:sample-library:generateReleaseSources
+:sample-library:incrementalReleaseJavaCompilationSafeguard
+:sample-library:javaPreCompileRelease
+:sample-library:compileReleaseJavaWithJavac
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample-library/build/generated/source/apt/release/com/fueled/flowr/sample/library/LibraryDeepLinkHandlerImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample-library:extractReleaseAnnotations
+:sample-library:mergeReleaseShaders
+:sample-library:compileReleaseShaders
+:sample-library:generateReleaseAssets
+:sample-library:mergeReleaseAssets
+:sample-library:mergeReleaseProguardFiles
+:sample-library:packageReleaseRenderscript UP-TO-DATE
+:sample-library:packageReleaseResources
+:sample-library:processReleaseJavaRes UP-TO-DATE
+:sample-library:transformResourcesWithMergeJavaResForRelease
+:sample-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sample-library:mergeReleaseJniLibFolders
+:sample-library:transformNativeLibsWithMergeJniLibsForRelease
+:sample-library:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-library:transformNativeLibsWithSyncJniLibsForRelease
+:sample-library:bundleRelease
+:sample-library:compileReleaseSources
+:sample-library:assembleRelease
+:sample-library:assemble
+:sample-library:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.283 secs
+
+2018-09-16 19:10:28,060 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:10:28,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:10:35,162 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-16 19:10:35,162 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 19:10:35,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 19:10:59,212 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:flowr:preBuild UP-TO-DATE
+:flowr:preReleaseBuild UP-TO-DATE
+:flowr:checkReleaseManifest
+:flowr:preDebugAndroidTestBuild UP-TO-DATE
+:flowr:preDebugBuild UP-TO-DATE
+:flowr:preDebugUnitTestBuild UP-TO-DATE
+:flowr:preReleaseUnitTestBuild UP-TO-DATE
+:flowr:prepareAndroidArchCoreRuntime110Library
+:flowr:prepareAndroidArchLifecycleLivedataCore110Library
+:flowr:prepareAndroidArchLifecycleRuntime110Library
+:flowr:prepareAndroidArchLifecycleViewmodel110Library
+:flowr:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:flowr:prepareComAndroidSupportAppcompatV72711Library
+:flowr:prepareComAndroidSupportSupportCompat2711Library
+:flowr:prepareComAndroidSupportSupportCoreUi2711Library
+:flowr:prepareComAndroidSupportSupportCoreUtils2711Library
+:flowr:prepareComAndroidSupportSupportFragment2711Library
+:flowr:prepareComAndroidSupportSupportVectorDrawable2711Library
+:flowr-annotations:compileJava UP-TO-DATE
+:flowr-annotations:processResources UP-TO-DATE
+:flowr-annotations:classes UP-TO-DATE
+:flowr-annotations:jar UP-TO-DATE
+:flowr:prepareReleaseDependencies
+:flowr:compileReleaseAidl UP-TO-DATE
+:flowr:compileReleaseNdk UP-TO-DATE
+:flowr:compileLint UP-TO-DATE
+:flowr:copyReleaseLint UP-TO-DATE
+:flowr:compileReleaseRenderscript UP-TO-DATE
+:flowr:generateReleaseBuildConfig UP-TO-DATE
+:flowr:generateReleaseResValues UP-TO-DATE
+:flowr:generateReleaseResources UP-TO-DATE
+:flowr:mergeReleaseResources UP-TO-DATE
+:flowr:processReleaseManifest UP-TO-DATE
+:flowr:processReleaseResources UP-TO-DATE
+:flowr:generateReleaseSources UP-TO-DATE
+:flowr:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:flowr:javaPreCompileRelease
+:flowr:compileReleaseJavaWithJavac UP-TO-DATE
+:flowr:extractReleaseAnnotations UP-TO-DATE
+:flowr:mergeReleaseShaders UP-TO-DATE
+:flowr:compileReleaseShaders UP-TO-DATE
+:flowr:generateReleaseAssets UP-TO-DATE
+:flowr:mergeReleaseAssets UP-TO-DATE
+:flowr:mergeReleaseProguardFiles UP-TO-DATE
+:flowr:packageReleaseRenderscript UP-TO-DATE
+:flowr:packageReleaseResources UP-TO-DATE
+:flowr:processReleaseJavaRes UP-TO-DATE
+:flowr:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:flowr:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:flowr:mergeReleaseJniLibFolders UP-TO-DATE
+:flowr:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:flowr:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:flowr:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:flowr:bundleRelease UP-TO-DATE
+:flowr-compiler:compileJava UP-TO-DATE
+:flowr-compiler:processResources UP-TO-DATE
+:flowr-compiler:classes UP-TO-DATE
+:flowr-compiler:jar UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareAndroidArchCoreRuntime110Library
+:sample:prepareAndroidArchLifecycleLivedataCore110Library
+:sample:prepareAndroidArchLifecycleRuntime110Library
+:sample:prepareAndroidArchLifecycleViewmodel110Library
+:sample:prepareComAndroidDatabindingAdapters131Library
+:sample:prepareComAndroidDatabindingLibrary131Library
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:sample:prepareComAndroidSupportAppcompatV72711Library
+:sample:prepareComAndroidSupportDesign2711Library
+:sample:prepareComAndroidSupportRecyclerviewV72711Library
+:sample:prepareComAndroidSupportSupportCompat2711Library
+:sample:prepareComAndroidSupportSupportCoreUi2711Library
+:sample:prepareComAndroidSupportSupportCoreUtils2711Library
+:sample:prepareComAndroidSupportSupportFragment2711Library
+:sample:prepareComAndroidSupportSupportMediaCompat2711Library
+:sample:prepareComAndroidSupportSupportV42711Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2711Library
+:sample:prepareComAndroidSupportTransition2711Library
+:sample:prepareIoReactivexRxjava2Rxandroid201Library
+:sample-library:preBuild UP-TO-DATE
+:sample-library:preReleaseBuild UP-TO-DATE
+:sample-library:checkReleaseManifest
+:sample-library:preDebugAndroidTestBuild UP-TO-DATE
+:sample-library:preDebugBuild UP-TO-DATE
+:sample-library:preDebugUnitTestBuild UP-TO-DATE
+:sample-library:preReleaseUnitTestBuild UP-TO-DATE
+:sample-library:prepareAndroidArchCoreRuntime110Library
+:sample-library:prepareAndroidArchLifecycleLivedataCore110Library
+:sample-library:prepareAndroidArchLifecycleRuntime110Library
+:sample-library:prepareAndroidArchLifecycleViewmodel110Library
+:sample-library:prepareComAndroidSupportAnimatedVectorDrawable2711Library
+:sample-library:prepareComAndroidSupportAppcompatV72711Library
+:sample-library:prepareComAndroidSupportSupportCompat2711Library
+:sample-library:prepareComAndroidSupportSupportCoreUi2711Library
+:sample-library:prepareComAndroidSupportSupportCoreUtils2711Library
+:sample-library:prepareComAndroidSupportSupportFragment2711Library
+:sample-library:prepareComAndroidSupportSupportVectorDrawable2711Library
+:sample-library:prepareReleaseDependencies
+:sample-library:compileReleaseAidl UP-TO-DATE
+:sample-library:compileReleaseNdk UP-TO-DATE
+:sample-library:compileLint UP-TO-DATE
+:sample-library:copyReleaseLint UP-TO-DATE
+:sample-library:compileReleaseRenderscript UP-TO-DATE
+:sample-library:generateReleaseBuildConfig UP-TO-DATE
+:sample-library:generateReleaseResValues UP-TO-DATE
+:sample-library:generateReleaseResources UP-TO-DATE
+:sample-library:mergeReleaseResources UP-TO-DATE
+:sample-library:processReleaseManifest UP-TO-DATE
+:sample-library:processReleaseResources UP-TO-DATE
+:sample-library:generateReleaseSources UP-TO-DATE
+:sample-library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:sample-library:javaPreCompileRelease
+:sample-library:compileReleaseJavaWithJavac UP-TO-DATE
+:sample-library:extractReleaseAnnotations UP-TO-DATE
+:sample-library:mergeReleaseShaders UP-TO-DATE
+:sample-library:compileReleaseShaders UP-TO-DATE
+:sample-library:generateReleaseAssets UP-TO-DATE
+:sample-library:mergeReleaseAssets UP-TO-DATE
+:sample-library:mergeReleaseProguardFiles UP-TO-DATE
+:sample-library:packageReleaseRenderscript UP-TO-DATE
+:sample-library:packageReleaseResources UP-TO-DATE
+:sample-library:processReleaseJavaRes UP-TO-DATE
+:sample-library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:sample-library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:sample-library:mergeReleaseJniLibFolders UP-TO-DATE
+:sample-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:sample-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:sample-library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:sample-library:bundleRelease UP-TO-DATE
+:sample:prepareDebugDependencies
+:sample:compileDebugRenderscript
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:dataBindingProcessLayoutsDebug
+:sample:compileDebugAidl
+:sample:generateDebugBuildConfig
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:dataBindingExportBuildInfoDebug
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:sample:compileDebugJavaWithJavac
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build/generated/source/apt/debug/com/fueled/flowr/sample/MainDeepLinkHandlerImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseRenderscript
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:dataBindingProcessLayoutsRelease
+:sample:compileReleaseAidl
+:sample:generateReleaseBuildConfig
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:dataBindingExportBuildInfoRelease
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:sample:compileReleaseJavaWithJavac
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+[FlowR]: generating deep Link Handler...
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build/generated/source/apt/release/com/fueled/flowr/sample/MainDeepLinkHandlerImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:912)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:855)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:603)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:248)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:179)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:160)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:985)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:278)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:2426)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:2412)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:951)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:943)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1585)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitExpression(JavaElementVisitor.java:103)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpression(JavaPsiVisitor.java:722)
+	at com.intellij.psi.JavaElementVisitor.visitAssignmentExpression(JavaElementVisitor.java:39)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitAssignmentExpression(JavaPsiVisitor.java:545)
+	at com.android.tools.lint.psi.EcjPsiAssignmentExpression.accept(EcjPsiAssignmentExpression.java:46)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1168)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:756)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:49)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:623)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:932)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:104)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:589)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:658)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1333)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:137)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.lambda$visitFile$3(JavaPsiVisitor.java:315)
+	at com.android.tools.lint.client.api.LintClient.runReadAction(LintClient.java:1285)
+	at com.android.tools.lint.client.api.LintDriver$LintClientWrapper.runReadAction(LintDriver.java:2112)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:311)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1677)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1654)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1185)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:1039)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:552)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:483)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:143)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:197)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:340)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:307)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.368 secs
+
+2018-09-16 19:10:59,423 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099787243-0/src/flowr-master/sample/build/outputs/apk/sample-debug.apk

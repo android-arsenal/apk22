@@ -1,0 +1,464 @@
+2018-09-15 18:39:35,275 INFO  DownloadService - Downloading "https://github.com/jflavio1/WifiConnector/archive/master.zip", attempt 3
+2018-09-15 18:39:37,830 INFO  DownloadService - Downloaded https://github.com/jflavio1/WifiConnector/archive/master.zip, attempt 3
+2018-09-15 18:39:37,831 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/master.zip": 242 KB
+2018-09-15 18:39:37,831 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 18:39:37,837 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/master.zip: true
+2018-09-15 18:39:37,837 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src'.
+2018-09-15 18:39:37,864 INFO  FullProcessService - Size of directory with sources: 285 KB
+2018-09-15 18:39:37,864 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src]
+2018-09-15 18:39:37,880 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/.git/
+
+2018-09-15 18:39:37,884 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew
+2018-09-15 18:39:37,887 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/build.gradle
+2018-09-15 18:39:37,890 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/settings.gradle
+2018-09-15 18:39:37,891 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-09-15 18:39:37,986 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2018-09-15 18:39:37,986 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2018-09-15 18:39:37,986 INFO  ProjectFixService - Fixing project...
+2018-09-15 18:39:37,998 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/local.properties
+2018-09-15 18:39:37,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-09-15 18:39:37,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/local.properties
+2018-09-15 18:39:38,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-09-15 18:39:38,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/local.properties
+2018-09-15 18:39:38,001 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-15 18:39:38,001 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-15 18:39:38,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-15 18:39:38,002 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 18:39:38,002 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 18:39:38,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 18:39:46,560 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-15 18:39:46,560 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-15 18:39:46,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-15 18:39:55,641 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'androidTestCompile' in project ':wificonnector' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':wificonnector' is deprecated. Use 'testImplementation' instead.
+:wificonnector:preBuild UP-TO-DATE
+:wificonnector:preDebugBuild UP-TO-DATE
+:wificonnector:compileDebugAidl
+:wificonnector:compileDebugNdk NO-SOURCE
+:wificonnector:compileDebugRenderscript
+:wificonnector:checkDebugManifest
+:wificonnector:generateDebugBuildConfig
+:wificonnector:prepareLintJar
+:wificonnector:generateDebugResValues
+:wificonnector:generateDebugResources
+:wificonnector:packageDebugResources
+:wificonnector:platformAttrExtractor
+:wificonnector:processDebugManifest
+:wificonnector:javaPreCompileDebug
+:wificonnector:mergeDebugShaders
+:wificonnector:compileDebugShaders
+:wificonnector:generateDebugAssets
+:wificonnector:mergeDebugAssets
+:wificonnector:mergeDebugConsumerProguardFiles
+:wificonnector:packageDebugRenderscript NO-SOURCE
+:wificonnector:processDebugJavaRes NO-SOURCE
+:wificonnector:mergeDebugJniLibFolders
+:wificonnector:transformNativeLibsWithMergeJniLibsForDebug
+:wificonnector:transformNativeLibsWithStripDebugSymbolForDebug
+:wificonnector:transformNativeLibsWithSyncJniLibsForDebug
+:wificonnector:preReleaseBuild UP-TO-DATE
+:wificonnector:compileReleaseAidl
+:wificonnector:compileReleaseNdk NO-SOURCE
+:wificonnector:compileReleaseRenderscript
+:wificonnector:checkReleaseManifest
+:wificonnector:generateReleaseBuildConfig
+:wificonnector:generateReleaseResValues
+:wificonnector:generateReleaseResources
+:wificonnector:packageReleaseResources
+:wificonnector:processReleaseManifest
+:wificonnector:javaPreCompileRelease
+:wificonnector:mergeReleaseShaders
+:wificonnector:compileReleaseShaders
+:wificonnector:generateReleaseAssets
+:wificonnector:mergeReleaseAssets
+:wificonnector:mergeReleaseConsumerProguardFiles
+:wificonnector:packageReleaseRenderscript NO-SOURCE
+:wificonnector:processReleaseJavaRes NO-SOURCE
+:wificonnector:mergeReleaseJniLibFolders
+:wificonnector:transformNativeLibsWithMergeJniLibsForRelease
+:wificonnector:transformNativeLibsWithStripDebugSymbolForRelease
+:wificonnector:transformNativeLibsWithSyncJniLibsForRelease
+:wificonnector:mergeReleaseResources
+:wificonnector:verifyReleaseResources
+:wificonnector:processDebugResources
+:wificonnector:generateDebugSources
+:wificonnector:compileDebugJavaWithJavac
+:wificonnector:extractDebugAnnotations
+:wificonnector:transformResourcesWithMergeJavaResForDebug
+:wificonnector:transformClassesAndResourcesWithSyncLibJarsForDebug
+:wificonnector:bundleDebug
+:wificonnector:compileDebugSources
+:wificonnector:assembleDebug
+:wificonnector:processReleaseResources
+:wificonnector:generateReleaseSources
+:wificonnector:compileReleaseJavaWithJavac
+:wificonnector:extractReleaseAnnotations
+:wificonnector:transformResourcesWithMergeJavaResForRelease
+:wificonnector:transformClassesAndResourcesWithSyncLibJarsForRelease
+:wificonnector:bundleRelease
+:wificonnector:compileReleaseSources
+:wificonnector:assembleRelease
+:wificonnector:assemble
+:wificonnector:build
+
+BUILD SUCCESSFUL in 8s
+48 actionable tasks: 48 executed
+
+2018-09-15 18:39:55,655 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 18:39:55,655 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 18:40:01,717 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-15 18:40:01,717 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-15 18:40:01,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-15 18:40:07,264 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-15 18:40:07,264 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':wificonnectorsample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':wificonnectorsample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-09-15 18:40:07,264 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-15 18:40:07,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-15 18:40:32,098 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-15 18:40:32,098 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'androidTestCompile' in project ':wificonnector' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':wificonnector' is deprecated. Use 'testImplementation' instead.
+:wificonnector:preBuild UP-TO-DATE
+:wificonnector:preDebugBuild UP-TO-DATE
+:wificonnector:compileDebugAidl UP-TO-DATE
+:wificonnector:compileDebugRenderscript UP-TO-DATE
+:wificonnector:checkDebugManifest UP-TO-DATE
+:wificonnector:generateDebugBuildConfig UP-TO-DATE
+:wificonnector:prepareLintJar UP-TO-DATE
+:wificonnector:generateDebugResValues UP-TO-DATE
+:wificonnector:generateDebugResources UP-TO-DATE
+:wificonnector:packageDebugResources UP-TO-DATE
+:wificonnector:platformAttrExtractor UP-TO-DATE
+:wificonnector:processDebugManifest UP-TO-DATE
+:wificonnector:processDebugResources UP-TO-DATE
+:wificonnector:generateDebugSources UP-TO-DATE
+:wificonnector:javaPreCompileDebug UP-TO-DATE
+:wificonnector:compileDebugJavaWithJavac UP-TO-DATE
+:wificonnector:processDebugJavaRes NO-SOURCE
+:wificonnector:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:wificonnectorsample:preBuild UP-TO-DATE
+:wificonnectorsample:preDebugBuild
+:wificonnectorsample:compileDebugAidl
+:wificonnector:packageDebugRenderscript NO-SOURCE
+:wificonnectorsample:compileDebugRenderscript
+:wificonnectorsample:checkDebugManifest
+:wificonnectorsample:generateDebugBuildConfig
+:wificonnectorsample:prepareLintJar
+:wificonnectorsample:generateDebugResValues
+:wificonnectorsample:generateDebugResources
+:wificonnectorsample:mergeDebugResources
+:wificonnectorsample:createDebugCompatibleScreenManifests
+:wificonnectorsample:processDebugManifest
+:wificonnectorsample:splitsDiscoveryTaskDebug
+:wificonnectorsample:processDebugResources
+:wificonnectorsample:generateDebugSources
+:wificonnectorsample:javaPreCompileDebug
+:wificonnectorsample:compileDebugJavaWithJavac
+:wificonnectorsample:compileDebugNdk NO-SOURCE
+:wificonnectorsample:compileDebugSources
+:wificonnector:mergeDebugShaders UP-TO-DATE
+:wificonnector:compileDebugShaders UP-TO-DATE
+:wificonnector:generateDebugAssets UP-TO-DATE
+:wificonnector:mergeDebugAssets UP-TO-DATE
+:wificonnectorsample:mergeDebugShaders
+:wificonnectorsample:compileDebugShaders
+:wificonnectorsample:generateDebugAssets
+:wificonnectorsample:mergeDebugAssets
+:wificonnectorsample:transformClassesWithDexBuilderForDebug
+:wificonnectorsample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:wificonnectorsample:transformDexArchiveWithDexMergerForDebug
+:wificonnector:compileDebugNdk NO-SOURCE
+:wificonnector:mergeDebugJniLibFolders UP-TO-DATE
+:wificonnector:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:wificonnector:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:wificonnector:transformNativeLibsWithIntermediateJniLibsForDebug
+:wificonnectorsample:mergeDebugJniLibFolders
+:wificonnectorsample:transformNativeLibsWithMergeJniLibsForDebug
+:wificonnectorsample:transformNativeLibsWithStripDebugSymbolForDebug
+:wificonnectorsample:processDebugJavaRes NO-SOURCE
+:wificonnectorsample:transformResourcesWithMergeJavaResForDebug
+:wificonnectorsample:validateSigningDebug
+:wificonnectorsample:packageDebug
+:wificonnectorsample:assembleDebug
+:wificonnector:preReleaseBuild UP-TO-DATE
+:wificonnector:compileReleaseAidl UP-TO-DATE
+:wificonnector:compileReleaseRenderscript UP-TO-DATE
+:wificonnector:checkReleaseManifest UP-TO-DATE
+:wificonnector:generateReleaseBuildConfig UP-TO-DATE
+:wificonnector:generateReleaseResValues UP-TO-DATE
+:wificonnector:generateReleaseResources UP-TO-DATE
+:wificonnector:packageReleaseResources UP-TO-DATE
+:wificonnector:processReleaseManifest UP-TO-DATE
+:wificonnector:processReleaseResources UP-TO-DATE
+:wificonnector:generateReleaseSources UP-TO-DATE
+:wificonnector:javaPreCompileRelease UP-TO-DATE
+:wificonnector:compileReleaseJavaWithJavac UP-TO-DATE
+:wificonnector:processReleaseJavaRes NO-SOURCE
+:wificonnector:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:wificonnectorsample:preReleaseBuild
+:wificonnectorsample:compileReleaseAidl
+:wificonnector:packageReleaseRenderscript NO-SOURCE
+:wificonnectorsample:compileReleaseRenderscript
+:wificonnectorsample:checkReleaseManifest
+:wificonnectorsample:generateReleaseBuildConfig
+:wificonnectorsample:generateReleaseResValues
+:wificonnectorsample:generateReleaseResources
+:wificonnectorsample:mergeReleaseResources
+:wificonnectorsample:createReleaseCompatibleScreenManifests
+:wificonnectorsample:processReleaseManifest
+:wificonnectorsample:splitsDiscoveryTaskRelease
+:wificonnectorsample:processReleaseResources
+:wificonnectorsample:generateReleaseSources
+:wificonnectorsample:javaPreCompileRelease
+:wificonnectorsample:compileReleaseJavaWithJavac
+:wificonnectorsample:compileReleaseNdk NO-SOURCE
+:wificonnectorsample:compileReleaseSources
+:wificonnectorsample:lintVitalRelease SKIPPED
+:wificonnector:mergeReleaseShaders UP-TO-DATE
+:wificonnector:compileReleaseShaders UP-TO-DATE
+:wificonnector:generateReleaseAssets UP-TO-DATE
+:wificonnector:mergeReleaseAssets UP-TO-DATE
+:wificonnectorsample:mergeReleaseShaders
+:wificonnectorsample:compileReleaseShaders
+:wificonnectorsample:generateReleaseAssets
+:wificonnectorsample:mergeReleaseAssets
+:wificonnectorsample:transformClassesWithPreDexForRelease
+:wificonnectorsample:transformDexWithDexForRelease
+:wificonnector:compileReleaseNdk NO-SOURCE
+:wificonnector:mergeReleaseJniLibFolders UP-TO-DATE
+:wificonnector:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:wificonnector:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:wificonnector:transformNativeLibsWithIntermediateJniLibsForRelease
+:wificonnectorsample:mergeReleaseJniLibFolders
+:wificonnectorsample:transformNativeLibsWithMergeJniLibsForRelease
+:wificonnectorsample:transformNativeLibsWithStripDebugSymbolForRelease
+:wificonnectorsample:processReleaseJavaRes NO-SOURCE
+:wificonnectorsample:transformResourcesWithMergeJavaResForRelease
+:wificonnectorsample:packageRelease
+:wificonnectorsample:assembleRelease
+:wificonnectorsample:assemble
+:wificonnectorsample:lint
+Ran lint on variant debug: 11 issues found
+Ran lint on variant release: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build/reports/lint-results.xml
+:wificonnectorsample:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':wificonnectorsample:lint'.
+> Lint found errors in the project; aborting build.
+  
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+  ...
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':wificonnectorsample:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Lint found errors in the project; aborting build.
+
+Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+...
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+...
+	at com.android.build.gradle.tasks.LintBaseTask.abort(LintBaseTask.java:152)
+	at com.android.build.gradle.tasks.LintGlobalTask.lintAllVariants(LintGlobalTask.java:255)
+	at com.android.build.gradle.tasks.LintGlobalTask.lint(LintGlobalTask.java:70)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:731)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:705)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 27 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 24s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-09-15 18:40:32,162 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011575266-0/src/WifiConnector-master/wificonnectorsample/build/outputs/apk/release/wificonnectorsample-release-unsigned.apk

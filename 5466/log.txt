@@ -1,0 +1,543 @@
+2018-10-28 22:27:53,062 INFO  DownloadService - Downloading "https://github.com/Ilhasoft/data-binding-validator/archive/master.zip", attempt 3
+2018-10-28 22:27:54,309 INFO  DownloadService - Downloaded https://github.com/Ilhasoft/data-binding-validator/archive/master.zip, attempt 3
+2018-10-28 22:27:54,309 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/master.zip": 767 KB
+2018-10-28 22:27:54,309 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-28 22:27:54,314 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/master.zip: true
+2018-10-28 22:27:54,315 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src'.
+2018-10-28 22:27:54,351 INFO  FullProcessService - Size of directory with sources: 936 KB
+2018-10-28 22:27:54,351 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src]
+2018-10-28 22:27:54,369 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/.git/
+
+2018-10-28 22:27:54,373 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/gradlew
+2018-10-28 22:27:54,378 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/build.gradle
+2018-10-28 22:27:54,383 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/settings.gradle
+2018-10-28 22:27:54,383 INFO  ProjectBuildService - Remote scripts: none
+2018-10-28 22:27:54,383 INFO  ProjectFixService - Fixing project...
+2018-10-28 22:27:54,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/local.properties
+2018-10-28 22:27:54,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-28 22:27:54,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/local.properties
+2018-10-28 22:27:54,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-28 22:27:54,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/local.properties
+2018-10-28 22:27:54,395 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-28 22:27:54,396 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-28 22:27:54,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-28 22:27:54,397 INFO  ProjectFixService - Project was maybe fixed
+2018-10-28 22:27:54,397 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-28 22:27:54,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-28 22:28:10,034 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-28 22:28:10,035 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-28 22:28:10,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-28 22:28:31,991 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://maven.google.com/androidx/lifecycle/lifecycle-runtime/2.0.0-alpha1/lifecycle-runtime-2.0.0-alpha1.pom
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:generateDebugRFile
+:library:prepareLintJar
+:library:generateDebugSources
+:library:dataBindingExportBuildInfoDebug
+:library:dataBindingMergeDependencyArtifactsDebug
+:library:mergeDebugResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:library:dataBindingGenBaseClassesDebug
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugConsumerProguardFiles
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebugAar
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:dataBindingExportBuildInfoRelease
+:library:dataBindingMergeDependencyArtifactsRelease
+:library:mergeReleaseResources
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:library:dataBindingGenBaseClassesRelease
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleReleaseAar
+:library:compileReleaseSources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:19: error: package androidx.databinding.adapters does not exist
+import androidx.databinding.adapters.ListenerUtil;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:20: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:21: error: package com.google.android.material.textfield does not exist
+import com.google.android.material.textfield.TextInputLayout;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:29: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:51: error: cannot find symbol
+    private static TextInputLayout getTextInputLayout(TextView textView) {
+                   ^
+  symbol:   class TextInputLayout
+  location: class EditTextHandler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/ErrorMessageHelper.java:19: error: cannot find symbol
+import androidx.annotation.StringRes;
+                          ^
+  symbol:   class StringRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/Validator.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.ViewDataBinding;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/Validator.java:39: error: cannot find symbol
+    private ViewDataBinding target;
+            ^
+  symbol:   class ViewDataBinding
+  location: class Validator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/Validator.java:45: error: cannot find symbol
+    public Validator(ViewDataBinding target) {
+                     ^
+  symbol:   class ViewDataBinding
+  location: class Validator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/PasswordBindings.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.BindingAdapter;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/PasswordBindings.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/LengthBindings.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.BindingAdapter;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/LengthBindings.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/DateBindings.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.BindingAdapter;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/DateBindings.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/TypeBindings.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.BindingAdapter;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/TypeBindings.java:20: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/TypeBindings.java:23: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/TypeRule.java:19: error: cannot find symbol
+import androidx.annotation.StringRes;
+                          ^
+  symbol:   class StringRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/TypeRule.java:24: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/RegexBindings.java:19: error: package androidx.databinding does not exist
+import androidx.databinding.BindingAdapter;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/RegexBindings.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/ConfirmPasswordRule.java:21: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/MaxLengthRule.java:21: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/EmailTypeRule.java:24: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/UsernameRule.java:21: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/MinLengthRule.java:21: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/EmptyRule.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/UrlTypeRule.java:22: error: cannot find symbol
+import br.com.ilhasoft.support.validation.R;
+                                         ^
+  symbol:   class R
+  location: package br.com.ilhasoft.support.validation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/EditTextHandler.java:50: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class EditTextHandler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/ErrorMessageHelper.java:28: error: cannot find symbol
+                                            @StringRes int defaultMessage) {
+                                             ^
+  symbol:   class StringRes
+  location: class ErrorMessageHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/ErrorMessageHelper.java:33: error: cannot find symbol
+                                            @StringRes int defaultMessage, int value) {
+                                             ^
+  symbol:   class StringRes
+  location: class ErrorMessageHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/ErrorMessageHelper.java:38: error: cannot find symbol
+                                            @StringRes int defaultMessage) {
+                                             ^
+  symbol:   class StringRes
+  location: class ErrorMessageHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/util/ErrorMessageHelper.java:43: error: cannot find symbol
+                                            @StringRes int defaultMessage, int value) {
+                                             ^
+  symbol:   class StringRes
+  location: class ErrorMessageHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/PasswordBindings.java:33: error: cannot find symbol
+    @BindingAdapter(value = {"validatePassword", "validatePasswordMessage", "validatePasswordAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class PasswordBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/LengthBindings.java:35: error: cannot find symbol
+    @BindingAdapter(value = {"validateMinLength", "validateMinLengthMessage", "validateMinLengthAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class LengthBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/LengthBindings.java:46: error: cannot find symbol
+    @BindingAdapter(value = {"validateMaxLength", "validateMaxLengthMessage", "validateMaxLengthAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class LengthBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/LengthBindings.java:57: error: cannot find symbol
+    @BindingAdapter(value = {"validateEmpty", "validateEmptyMessage", "validateEmptyAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class LengthBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/DateBindings.java:33: error: cannot find symbol
+    @BindingAdapter(value = {"validateDate", "validateDateMessage", "validateDateAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class DateBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/TypeBindings.java:34: error: cannot find symbol
+    @BindingAdapter(value = {"validateType", "validateTypeMessage", "validateTypeAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class TypeBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/TypeBindings.java:47: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class TypeBindings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/TypeRule.java:40: error: cannot find symbol
+        public @StringRes int errorMessageId;
+                ^
+  symbol:   class StringRes
+  location: class FieldType
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/rule/TypeRule.java:42: error: cannot find symbol
+        FieldType(Class<? extends TypeRule> mClass, @StringRes int errorMessageId) {
+                                                     ^
+  symbol:   class StringRes
+  location: class FieldType
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/br/com/ilhasoft/support/validation/binding/RegexBindings.java:33: error: cannot find symbol
+    @BindingAdapter(value = {"validateRegex", "validateRegexMessage", "validateRegexAutoDismiss"}, requireAll = false)
+     ^
+  symbol:   class BindingAdapter
+  location: class RegexBindings
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/library/src/main/java/org/apache/commons/validator/routines/checkdigit/CheckDigit.java:33: error: reference not found
+ * same logic for both. The {@link org.apache.commons.validator.routines.ISBNValidator}
+                                   ^
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class BindingAdapter not found.
+javadoc: warning - Class StringRes not found.
+
+1 error
+95 warnings
+:library:javadocJar
+:library:sourcesJar
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 21s
+57 actionable tasks: 57 executed
+
+2018-10-28 22:28:32,093 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-28 22:28:32,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-28 22:28:38,293 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-28 22:28:38,293 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-28 22:28:38,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-28 22:29:15,759 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://maven.google.com/androidx/collection/collection/1.0.0-alpha1/collection-1.0.0-alpha1.pom
+Download https://maven.google.com/androidx/lifecycle/lifecycle-common/2.0.0-alpha1/lifecycle-common-2.0.0-alpha1.pom
+Download https://maven.google.com/androidx/annotation/annotation/1.0.0-alpha1/annotation-1.0.0-alpha1.pom
+Download https://maven.google.com/androidx/arch/core/core-common/2.0.0-alpha1/core-common-2.0.0-alpha1.pom
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:generateDebugRFile UP-TO-DATE
+:library:prepareLintJar UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:dataBindingExportBuildInfoDebug UP-TO-DATE
+:library:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+:library:mergeDebugResources UP-TO-DATE
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:library:dataBindingGenBaseClassesDebug UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:dataBindingExportBuildInfoDebug
+:sample:dataBindingExportFeaturePackageIdsDebug
+:sample:dataBindingMergeDependencyArtifactsDebug
+:sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:sample:dataBindingGenBaseClassesDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:generateReleaseRFile UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:dataBindingExportBuildInfoRelease UP-TO-DATE
+:library:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+:library:dataBindingGenBaseClassesRelease UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:dataBindingExportBuildInfoRelease
+:sample:dataBindingExportFeaturePackageIdsRelease
+:sample:dataBindingMergeDependencyArtifactsRelease
+:sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:sample:dataBindingGenBaseClassesRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://maven.google.com/androidx/test/rules/1.1.0-beta02/rules-1.1.0-beta02.pom
+Download https://maven.google.com/androidx/test/rules/1.1.0-beta02/rules-1.1.0-beta02.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c9ee890103cbdede8276617132f84479/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 37s
+110 actionable tasks: 69 executed, 41 up-to-date
+
+2018-10-28 22:29:15,938 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540740473058-0/src/data-binding-validator-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

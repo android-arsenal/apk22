@@ -1,0 +1,10 @@
+2018-09-15 22:11:35,054 INFO  DownloadService - Downloading "https://github.com/igalata/Bubble-Picker/archive/master.zip", attempt 3
+2018-09-15 22:11:35,511 INFO  DownloadService - Downloaded https://github.com/igalata/Bubble-Picker/archive/master.zip, attempt 3
+2018-09-15 22:11:35,511 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024295050-0/master.zip": 977 bytes
+2018-09-15 22:11:35,511 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 22:11:35,516 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024295050-0/master.zip: false
+2018-09-15 22:11:35,517 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-09-15 22:11:35,517 ERROR FullProcessService - Could not find directory with sources
+2018-09-15 22:11:35,517 ERROR FullProcessService - Project will not be processed
+2018-09-15 22:11:35,517 ERROR FullProcessService - Project build has not produced APK file
+2018-09-15 22:11:35,518 ERROR FullProcessService - Could not find generated or existed APK file

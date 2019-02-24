@@ -1,0 +1,393 @@
+2018-09-15 18:44:56,127 INFO  DownloadService - Downloading "https://github.com/MarcinMoskala/PreferenceHolder/archive/master.zip", attempt 3
+2018-09-15 18:44:58,299 INFO  DownloadService - Downloaded https://github.com/MarcinMoskala/PreferenceHolder/archive/master.zip, attempt 3
+2018-09-15 18:44:58,299 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/master.zip": 173 KB
+2018-09-15 18:44:58,299 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 18:44:58,305 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/master.zip: true
+2018-09-15 18:44:58,305 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src'.
+2018-09-15 18:44:58,332 INFO  FullProcessService - Size of directory with sources: 206 KB
+2018-09-15 18:44:58,332 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src]
+2018-09-15 18:44:58,349 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/.git/
+
+2018-09-15 18:44:58,352 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew
+2018-09-15 18:44:58,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/build.gradle
+2018-09-15 18:44:58,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/build.gradle
+2018-09-15 18:44:58,359 INFO  ProjectBuildService - Remote scripts: none
+2018-09-15 18:44:58,359 INFO  ProjectFixService - Fixing project...
+2018-09-15 18:44:58,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/local.properties
+2018-09-15 18:44:58,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-15 18:44:58,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/local.properties
+2018-09-15 18:44:58,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-15 18:44:58,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/local.properties
+2018-09-15 18:44:58,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-15 18:44:58,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/local.properties
+2018-09-15 18:44:58,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-15 18:44:58,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-15 18:44:58,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-15 18:44:58,370 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 18:44:58,370 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 18:44:58,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 18:45:49,645 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-15 18:45:49,646 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-15 18:45:49,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder-gson-serializer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-15 18:46:17,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':preferenceholder-gson-serializer' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':preferenceholder-gson-serializer' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':preferenceholder-gson-serializer' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':preferenceholder' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':preferenceholder' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':preferenceholder' is deprecated. Use 'testImplementation' instead.
+:preferenceholder:preBuild UP-TO-DATE
+:preferenceholder:preDebugBuild UP-TO-DATE
+:preferenceholder:compileDebugAidl
+:preferenceholder-gson-serializer:preBuild UP-TO-DATE
+:preferenceholder-gson-serializer:preDebugBuild UP-TO-DATE
+:preferenceholder-gson-serializer:compileDebugAidl
+Download http://dl.bintray.com/kotlin/kotlin-eap-1.2/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.0-rc-84/kotlin-stdlib-jre7-1.2.0-rc-84.pom
+:preferenceholder-gson-serializer:compileDebugNdk NO-SOURCE
+:preferenceholder:compileDebugRenderscript
+:preferenceholder:checkDebugManifest
+:preferenceholder:generateDebugBuildConfig
+:preferenceholder:generateDebugResValues
+:preferenceholder:generateDebugResources
+:preferenceholder:packageDebugResources
+:preferenceholder:platformAttrExtractor
+:preferenceholder:processDebugManifest
+:preferenceholder:prepareLintJar
+:preferenceholder:processDebugJavaRes NO-SOURCE
+:preferenceholder:packageDebugRenderscript NO-SOURCE
+:preferenceholder-gson-serializer:compileDebugRenderscript
+:preferenceholder-gson-serializer:checkDebugManifest
+:preferenceholder-gson-serializer:generateDebugBuildConfig
+:preferenceholder-gson-serializer:generateDebugResValues
+:preferenceholder-gson-serializer:generateDebugResources
+:preferenceholder-gson-serializer:packageDebugResources
+:preferenceholder-gson-serializer:platformAttrExtractor
+:preferenceholder:processDebugResources
+:preferenceholder:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/src/main/java/com/marcinmoskala/kotlinpreferences/PreferenceHolder.kt: (40, 37): Parameter 'property' is never used, could be renamed to _
+:preferenceholder:generateDebugSources
+:preferenceholder:javaPreCompileDebug
+:preferenceholder:compileDebugJavaWithJavac
+:preferenceholder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:preferenceholder-gson-serializer:processDebugManifest
+:preferenceholder-gson-serializer:prepareLintJar
+:preferenceholder-gson-serializer:mergeDebugShaders
+:preferenceholder-gson-serializer:compileDebugShaders
+:preferenceholder-gson-serializer:generateDebugAssets
+:preferenceholder-gson-serializer:mergeDebugAssets
+:preferenceholder-gson-serializer:mergeDebugConsumerProguardFiles
+:preferenceholder-gson-serializer:packageDebugRenderscript NO-SOURCE
+:preferenceholder-gson-serializer:processDebugJavaRes NO-SOURCE
+:preferenceholder-gson-serializer:mergeDebugJniLibFolders
+:preferenceholder-gson-serializer:transformNativeLibsWithMergeJniLibsForDebug
+:preferenceholder-gson-serializer:transformNativeLibsWithStripDebugSymbolForDebug
+:preferenceholder-gson-serializer:transformNativeLibsWithSyncJniLibsForDebug
+:preferenceholder:preReleaseBuild UP-TO-DATE
+:preferenceholder:compileReleaseAidl
+:preferenceholder-gson-serializer:preReleaseBuild UP-TO-DATE
+:preferenceholder-gson-serializer:compileReleaseAidl
+:preferenceholder-gson-serializer:compileReleaseNdk NO-SOURCE
+:preferenceholder:compileReleaseRenderscript
+:preferenceholder:checkReleaseManifest
+:preferenceholder:generateReleaseBuildConfig
+:preferenceholder:generateReleaseResValues
+:preferenceholder:generateReleaseResources
+:preferenceholder:packageReleaseResources
+:preferenceholder:processReleaseManifest
+:preferenceholder:processReleaseResources
+:preferenceholder:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/src/main/java/com/marcinmoskala/kotlinpreferences/PreferenceHolder.kt: (40, 37): Parameter 'property' is never used, could be renamed to _
+:preferenceholder:generateReleaseSources
+:preferenceholder:javaPreCompileRelease
+:preferenceholder:compileReleaseJavaWithJavac
+:preferenceholder:processReleaseJavaRes NO-SOURCE
+:preferenceholder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:preferenceholder:packageReleaseRenderscript NO-SOURCE
+:preferenceholder-gson-serializer:compileReleaseRenderscript
+:preferenceholder-gson-serializer:checkReleaseManifest
+:preferenceholder-gson-serializer:generateReleaseBuildConfig
+:preferenceholder-gson-serializer:generateReleaseResValues
+:preferenceholder-gson-serializer:generateReleaseResources
+:preferenceholder-gson-serializer:packageReleaseResources
+:preferenceholder-gson-serializer:processReleaseManifest
+:preferenceholder-gson-serializer:mergeReleaseShaders
+:preferenceholder-gson-serializer:compileReleaseShaders
+:preferenceholder-gson-serializer:generateReleaseAssets
+:preferenceholder-gson-serializer:mergeReleaseAssets
+:preferenceholder-gson-serializer:mergeReleaseConsumerProguardFiles
+:preferenceholder-gson-serializer:packageReleaseRenderscript NO-SOURCE
+:preferenceholder-gson-serializer:processReleaseJavaRes NO-SOURCE
+:preferenceholder-gson-serializer:mergeReleaseJniLibFolders
+:preferenceholder-gson-serializer:transformNativeLibsWithMergeJniLibsForRelease
+:preferenceholder-gson-serializer:transformNativeLibsWithStripDebugSymbolForRelease
+:preferenceholder-gson-serializer:transformNativeLibsWithSyncJniLibsForRelease
+:preferenceholder-gson-serializer:mergeReleaseResources
+:preferenceholder-gson-serializer:verifyReleaseResources
+:preferenceholder-gson-serializer:sourcesJar
+:preferenceholder-gson-serializer:processDebugResources
+:preferenceholder-gson-serializer:compileDebugKotlin
+Download http://dl.bintray.com/kotlin/kotlin-eap-1.2/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.0-rc-84/kotlin-stdlib-jre7-1.2.0-rc-84.jar
+:preferenceholder-gson-serializer:generateDebugSources
+:preferenceholder-gson-serializer:javaPreCompileDebug
+:preferenceholder-gson-serializer:compileDebugJavaWithJavac
+:preferenceholder-gson-serializer:extractDebugAnnotations
+:preferenceholder-gson-serializer:transformResourcesWithMergeJavaResForDebug
+:preferenceholder-gson-serializer:transformClassesAndResourcesWithSyncLibJarsForDebug
+:preferenceholder-gson-serializer:bundleDebug
+:preferenceholder-gson-serializer:compileDebugSources
+:preferenceholder-gson-serializer:assembleDebug
+:preferenceholder-gson-serializer:processReleaseResources
+:preferenceholder-gson-serializer:compileReleaseKotlin
+:preferenceholder-gson-serializer:generateReleaseSources
+:preferenceholder-gson-serializer:javaPreCompileRelease
+:preferenceholder-gson-serializer:compileReleaseJavaWithJavac
+:preferenceholder-gson-serializer:extractReleaseAnnotations
+:preferenceholder-gson-serializer:transformResourcesWithMergeJavaResForRelease
+:preferenceholder-gson-serializer:transformClassesAndResourcesWithSyncLibJarsForRelease
+:preferenceholder-gson-serializer:bundleRelease
+:preferenceholder-gson-serializer:compileReleaseSources
+:preferenceholder-gson-serializer:assembleRelease
+:preferenceholder-gson-serializer:assemble
+:preferenceholder-gson-serializer:build
+
+BUILD SUCCESSFUL in 27s
+77 actionable tasks: 77 executed
+
+2018-09-15 18:46:17,985 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 18:46:17,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 18:46:24,749 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-15 18:46:24,750 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-15 18:46:24,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/preferenceholder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-15 18:46:33,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':preferenceholder' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':preferenceholder' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':preferenceholder' is deprecated. Use 'testImplementation' instead.
+:preferenceholder:preBuild UP-TO-DATE
+:preferenceholder:preDebugBuild UP-TO-DATE
+:preferenceholder:compileDebugAidl UP-TO-DATE
+:preferenceholder:compileDebugNdk NO-SOURCE
+:preferenceholder:compileDebugRenderscript UP-TO-DATE
+:preferenceholder:checkDebugManifest UP-TO-DATE
+:preferenceholder:generateDebugBuildConfig UP-TO-DATE
+:preferenceholder:generateDebugResValues UP-TO-DATE
+:preferenceholder:generateDebugResources UP-TO-DATE
+:preferenceholder:packageDebugResources UP-TO-DATE
+:preferenceholder:platformAttrExtractor UP-TO-DATE
+:preferenceholder:processDebugManifest UP-TO-DATE
+:preferenceholder:processDebugResources UP-TO-DATE
+:preferenceholder:compileDebugKotlin UP-TO-DATE
+:preferenceholder:prepareLintJar UP-TO-DATE
+:preferenceholder:generateDebugSources UP-TO-DATE
+:preferenceholder:javaPreCompileDebug UP-TO-DATE
+:preferenceholder:compileDebugJavaWithJavac UP-TO-DATE
+:preferenceholder:extractDebugAnnotations
+:preferenceholder:mergeDebugShaders
+:preferenceholder:compileDebugShaders
+:preferenceholder:generateDebugAssets
+:preferenceholder:mergeDebugAssets
+:preferenceholder:mergeDebugConsumerProguardFiles
+:preferenceholder:packageDebugRenderscript NO-SOURCE
+:preferenceholder:processDebugJavaRes NO-SOURCE
+:preferenceholder:transformResourcesWithMergeJavaResForDebug
+:preferenceholder:transformClassesAndResourcesWithSyncLibJarsForDebug
+:preferenceholder:mergeDebugJniLibFolders
+:preferenceholder:transformNativeLibsWithMergeJniLibsForDebug
+:preferenceholder:transformNativeLibsWithStripDebugSymbolForDebug
+:preferenceholder:transformNativeLibsWithSyncJniLibsForDebug
+:preferenceholder:bundleDebug
+:preferenceholder:compileDebugSources UP-TO-DATE
+:preferenceholder:assembleDebug
+:preferenceholder:preReleaseBuild UP-TO-DATE
+:preferenceholder:compileReleaseAidl UP-TO-DATE
+:preferenceholder:compileReleaseNdk NO-SOURCE
+:preferenceholder:compileReleaseRenderscript UP-TO-DATE
+:preferenceholder:checkReleaseManifest UP-TO-DATE
+:preferenceholder:generateReleaseBuildConfig UP-TO-DATE
+:preferenceholder:generateReleaseResValues UP-TO-DATE
+:preferenceholder:generateReleaseResources UP-TO-DATE
+:preferenceholder:packageReleaseResources UP-TO-DATE
+:preferenceholder:processReleaseManifest UP-TO-DATE
+:preferenceholder:processReleaseResources UP-TO-DATE
+:preferenceholder:compileReleaseKotlin UP-TO-DATE
+:preferenceholder:generateReleaseSources UP-TO-DATE
+:preferenceholder:javaPreCompileRelease UP-TO-DATE
+:preferenceholder:compileReleaseJavaWithJavac UP-TO-DATE
+:preferenceholder:extractReleaseAnnotations
+:preferenceholder:mergeReleaseShaders
+:preferenceholder:compileReleaseShaders
+:preferenceholder:generateReleaseAssets
+:preferenceholder:mergeReleaseAssets
+:preferenceholder:mergeReleaseConsumerProguardFiles
+:preferenceholder:packageReleaseRenderscript NO-SOURCE
+:preferenceholder:processReleaseJavaRes NO-SOURCE
+:preferenceholder:transformResourcesWithMergeJavaResForRelease
+:preferenceholder:transformClassesAndResourcesWithSyncLibJarsForRelease
+:preferenceholder:mergeReleaseJniLibFolders
+:preferenceholder:transformNativeLibsWithMergeJniLibsForRelease
+:preferenceholder:transformNativeLibsWithStripDebugSymbolForRelease
+:preferenceholder:transformNativeLibsWithSyncJniLibsForRelease
+:preferenceholder:bundleRelease
+:preferenceholder:compileReleaseSources UP-TO-DATE
+:preferenceholder:mergeReleaseResources
+:preferenceholder:verifyReleaseResources
+:preferenceholder:assembleRelease
+:preferenceholder:sourcesJar
+:preferenceholder:assemble
+:preferenceholder:build
+
+BUILD SUCCESSFUL in 8s
+51 actionable tasks: 27 executed, 24 up-to-date
+
+2018-09-15 18:46:33,182 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 18:46:33,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 18:46:40,065 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-15 18:46:40,066 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-15 18:46:40,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-15 18:47:16,788 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':sample' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':sample' is deprecated. Use 'testImplementation' instead.
+Configuration 'androidTestCompile' in project ':sample' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'compile' in project ':preferenceholder' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':preferenceholder' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':preferenceholder' is deprecated. Use 'testImplementation' instead.
+:preferenceholder:preBuild UP-TO-DATE
+:preferenceholder:preDebugBuild UP-TO-DATE
+:preferenceholder:compileDebugAidl UP-TO-DATE
+:preferenceholder:compileDebugRenderscript UP-TO-DATE
+:preferenceholder:checkDebugManifest UP-TO-DATE
+:preferenceholder:generateDebugBuildConfig UP-TO-DATE
+:preferenceholder:generateDebugResValues UP-TO-DATE
+:preferenceholder:generateDebugResources UP-TO-DATE
+:preferenceholder:packageDebugResources UP-TO-DATE
+:preferenceholder:platformAttrExtractor UP-TO-DATE
+:preferenceholder:processDebugManifest UP-TO-DATE
+:preferenceholder:processDebugResources UP-TO-DATE
+:preferenceholder:compileDebugKotlin UP-TO-DATE
+:preferenceholder:prepareLintJar UP-TO-DATE
+:preferenceholder:generateDebugSources UP-TO-DATE
+:preferenceholder:javaPreCompileDebug UP-TO-DATE
+:preferenceholder:compileDebugJavaWithJavac UP-TO-DATE
+:preferenceholder:processDebugJavaRes NO-SOURCE
+:preferenceholder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:preferenceholder:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 41): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 44): Parameter 'k' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 47): Parameter 'e' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 43): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 46): Parameter 'k' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 49): Parameter 'e' is never used, could be renamed to _
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:preferenceholder:mergeDebugShaders UP-TO-DATE
+:preferenceholder:compileDebugShaders UP-TO-DATE
+:preferenceholder:generateDebugAssets UP-TO-DATE
+:preferenceholder:mergeDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:preferenceholder:compileDebugNdk NO-SOURCE
+:preferenceholder:mergeDebugJniLibFolders UP-TO-DATE
+:preferenceholder:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:preferenceholder:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:preferenceholder:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:preferenceholder:preReleaseBuild UP-TO-DATE
+:preferenceholder:compileReleaseAidl UP-TO-DATE
+:preferenceholder:compileReleaseRenderscript UP-TO-DATE
+:preferenceholder:checkReleaseManifest UP-TO-DATE
+:preferenceholder:generateReleaseBuildConfig UP-TO-DATE
+:preferenceholder:generateReleaseResValues UP-TO-DATE
+:preferenceholder:generateReleaseResources UP-TO-DATE
+:preferenceholder:packageReleaseResources UP-TO-DATE
+:preferenceholder:processReleaseManifest UP-TO-DATE
+:preferenceholder:processReleaseResources UP-TO-DATE
+:preferenceholder:compileReleaseKotlin UP-TO-DATE
+:preferenceholder:generateReleaseSources UP-TO-DATE
+:preferenceholder:javaPreCompileRelease UP-TO-DATE
+:preferenceholder:compileReleaseJavaWithJavac UP-TO-DATE
+:preferenceholder:processReleaseJavaRes NO-SOURCE
+:preferenceholder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:preferenceholder:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 41): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 44): Parameter 'k' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (20, 47): Parameter 'e' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 43): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 46): Parameter 'k' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/src/main/java/com/marcinmoskala/testapp/MainActivity.kt: (21, 49): Parameter 'e' is never used, could be renamed to _
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:preferenceholder:mergeReleaseShaders UP-TO-DATE
+:preferenceholder:compileReleaseShaders UP-TO-DATE
+:preferenceholder:generateReleaseAssets UP-TO-DATE
+:preferenceholder:mergeReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:preferenceholder:compileReleaseNdk NO-SOURCE
+:preferenceholder:mergeReleaseJniLibFolders UP-TO-DATE
+:preferenceholder:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:preferenceholder:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:preferenceholder:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:lintVitalRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 35s
+92 actionable tasks: 54 executed, 38 up-to-date
+
+2018-09-15 18:47:16,864 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537011896119-0/src/PreferenceHolder-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

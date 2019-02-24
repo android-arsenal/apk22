@@ -1,0 +1,433 @@
+2018-09-16 21:24:23,511 INFO  DownloadService - Downloading "https://github.com/yuebinyun/debug-badge/archive/master.zip", attempt 3
+2018-09-16 21:24:25,852 INFO  DownloadService - Downloaded https://github.com/yuebinyun/debug-badge/archive/master.zip, attempt 3
+2018-09-16 21:24:25,852 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/master.zip": 435 KB
+2018-09-16 21:24:25,852 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 21:24:25,854 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/master.zip: true
+2018-09-16 21:24:25,854 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src'.
+2018-09-16 21:24:25,881 INFO  FullProcessService - Size of directory with sources: 443 KB
+2018-09-16 21:24:25,881 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src]
+2018-09-16 21:24:25,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/.git/
+
+2018-09-16 21:24:25,907 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/gradlew
+2018-09-16 21:24:25,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/badge/build.gradle
+2018-09-16 21:24:25,914 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/badge/build.gradle
+2018-09-16 21:24:25,914 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 21:24:25,915 INFO  ProjectFixService - Fixing project...
+2018-09-16 21:24:25,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/local.properties
+2018-09-16 21:24:25,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-16 21:24:25,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/example/local.properties
+2018-09-16 21:24:25,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-16 21:24:25,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/local.properties
+2018-09-16 21:24:25,926 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 21:24:25,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 21:24:25,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-16 21:24:25,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/badge/local.properties
+2018-09-16 21:24:25,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/badge/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-16 21:24:25,929 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 21:24:25,929 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 21:24:25,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 21:24:39,835 INFO  ProjectTaskService - Detected possible tasks: 132
+2018-09-16 21:24:39,835 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-09-16 21:24:39,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-09-16 21:25:09,007 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDemoAbCdEDebugBuild UP-TO-DATE
+:app:checkDemoAbCdEDebugManifest
+:app:preDemoAbCdEReleaseBuild UP-TO-DATE
+:app:preFlavor1DebugBuild UP-TO-DATE
+:app:preFlavor1ReleaseBuild UP-TO-DATE
+:app:preFlavor2DebugBuild UP-TO-DATE
+:app:preFlavor2ReleaseBuild UP-TO-DATE
+:app:preFullDebugBuild UP-TO-DATE
+:app:preFullReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:app:prepareComAndroidSupportAppcompatV72511Library
+:app:prepareComAndroidSupportSupportCompat2511Library
+:app:prepareComAndroidSupportSupportCoreUi2511Library
+:app:prepareComAndroidSupportSupportCoreUtils2511Library
+:app:prepareComAndroidSupportSupportFragment2511Library
+:app:prepareComAndroidSupportSupportMediaCompat2511Library
+:app:prepareComAndroidSupportSupportV42511Library
+:app:prepareComAndroidSupportSupportVectorDrawable2511Library
+:app:prepareDemoAbCdEDebugDependencies
+:app:compileDemoAbCdEDebugAidl
+:app:compileDemoAbCdEDebugRenderscript
+:app:generateDemoAbCdEDebugBuildConfig
+:app:generateDemoAbCdEDebugResValues
+:app:generateDemoAbCdEDebugResources
+:app:mergeDemoAbCdEDebugResources
+:app:processDemoAbCdEDebugManifest
+:app:processDemoAbCdEDebugResources
+:app:generateDemoAbCdEDebugSources
+:app:incrementalDemoAbCdEDebugJavaCompilationSafeguard
+:app:compileDemoAbCdEDebugJavaWithJavac
+:app:compileDemoAbCdEDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDemoAbCdEDebugNdk UP-TO-DATE
+:app:compileDemoAbCdEDebugSources
+:app:mergeDemoAbCdEDebugShaders
+:app:compileDemoAbCdEDebugShaders
+:app:generateDemoAbCdEDebugAssets
+:app:mergeDemoAbCdEDebugAssets
+:app:transformClassesWithDexForDemoAbCdEDebug
+:app:mergeDemoAbCdEDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDemoAbCdEDebug
+:app:transformNative_libsWithStripDebugSymbolForDemoAbCdEDebug
+:app:processDemoAbCdEDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDemoAbCdEDebug
+:app:validateSigningDemoAbCdEDebug
+:app:packageDemoAbCdEDebug
+:app:assembleDemoAbCdEDebug
+:app:checkFlavor1DebugManifest
+:app:prepareFlavor1DebugDependencies
+:app:compileFlavor1DebugAidl
+:app:compileFlavor1DebugRenderscript
+:app:generateFlavor1DebugBuildConfig
+:app:generateFlavor1DebugResValues
+:app:generateFlavor1DebugResources
+:app:mergeFlavor1DebugResources
+:app:processFlavor1DebugManifest
+:app:processFlavor1DebugResources
+:app:generateFlavor1DebugSources
+:app:incrementalFlavor1DebugJavaCompilationSafeguard
+:app:compileFlavor1DebugJavaWithJavac
+:app:compileFlavor1DebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFlavor1DebugNdk UP-TO-DATE
+:app:compileFlavor1DebugSources
+:app:mergeFlavor1DebugShaders
+:app:compileFlavor1DebugShaders
+:app:generateFlavor1DebugAssets
+:app:mergeFlavor1DebugAssets
+:app:transformClassesWithDexForFlavor1Debug
+:app:mergeFlavor1DebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFlavor1Debug
+:app:transformNative_libsWithStripDebugSymbolForFlavor1Debug
+:app:processFlavor1DebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFlavor1Debug
+:app:validateSigningFlavor1Debug
+:app:packageFlavor1Debug
+:app:assembleFlavor1Debug
+:app:checkFlavor2DebugManifest
+:app:prepareFlavor2DebugDependencies
+:app:compileFlavor2DebugAidl
+:app:compileFlavor2DebugRenderscript
+:app:generateFlavor2DebugBuildConfig
+:app:generateFlavor2DebugResValues
+:app:generateFlavor2DebugResources
+:app:mergeFlavor2DebugResources
+:app:processFlavor2DebugManifest
+:app:processFlavor2DebugResources
+:app:generateFlavor2DebugSources
+:app:incrementalFlavor2DebugJavaCompilationSafeguard
+:app:compileFlavor2DebugJavaWithJavac
+:app:compileFlavor2DebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFlavor2DebugNdk UP-TO-DATE
+:app:compileFlavor2DebugSources
+:app:mergeFlavor2DebugShaders
+:app:compileFlavor2DebugShaders
+:app:generateFlavor2DebugAssets
+:app:mergeFlavor2DebugAssets
+:app:transformClassesWithDexForFlavor2Debug
+:app:mergeFlavor2DebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFlavor2Debug
+:app:transformNative_libsWithStripDebugSymbolForFlavor2Debug
+:app:processFlavor2DebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFlavor2Debug
+:app:validateSigningFlavor2Debug
+:app:packageFlavor2Debug
+:app:assembleFlavor2Debug
+:app:checkFullDebugManifest
+:app:prepareFullDebugDependencies
+:app:compileFullDebugAidl
+:app:compileFullDebugRenderscript
+:app:generateFullDebugBuildConfig
+:app:generateFullDebugResValues
+:app:generateFullDebugResources
+:app:mergeFullDebugResources
+:app:processFullDebugManifest
+:app:processFullDebugResources
+:app:generateFullDebugSources
+:app:incrementalFullDebugJavaCompilationSafeguard
+:app:compileFullDebugJavaWithJavac
+:app:compileFullDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFullDebugNdk UP-TO-DATE
+:app:compileFullDebugSources
+:app:mergeFullDebugShaders
+:app:compileFullDebugShaders
+:app:generateFullDebugAssets
+:app:mergeFullDebugAssets
+:app:transformClassesWithDexForFullDebug
+:app:mergeFullDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFullDebug
+:app:transformNative_libsWithStripDebugSymbolForFullDebug
+:app:processFullDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFullDebug
+:app:validateSigningFullDebug
+:app:packageFullDebug
+:app:assembleFullDebug
+:app:assembleDebug
+:app:checkDemoAbCdEReleaseManifest
+:app:prepareDemoAbCdEReleaseDependencies
+:app:compileDemoAbCdEReleaseAidl
+:app:compileDemoAbCdEReleaseRenderscript
+:app:generateDemoAbCdEReleaseBuildConfig
+:app:generateDemoAbCdEReleaseResValues
+:app:generateDemoAbCdEReleaseResources
+:app:mergeDemoAbCdEReleaseResources
+:app:processDemoAbCdEReleaseManifest
+:app:processDemoAbCdEReleaseResources
+:app:generateDemoAbCdEReleaseSources
+:app:incrementalDemoAbCdEReleaseJavaCompilationSafeguard
+:app:compileDemoAbCdEReleaseJavaWithJavac
+:app:compileDemoAbCdEReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDemoAbCdEReleaseNdk UP-TO-DATE
+:app:compileDemoAbCdEReleaseSources
+:app:lintVitalDemoAbCdERelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1246)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:834)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:50)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:701)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1010)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:105)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:224)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:app:mergeDemoAbCdEReleaseShaders
+:app:compileDemoAbCdEReleaseShaders
+:app:generateDemoAbCdEReleaseAssets
+:app:mergeDemoAbCdEReleaseAssets
+:app:transformClassesWithDexForDemoAbCdERelease
+:app:mergeDemoAbCdEReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDemoAbCdERelease
+:app:transformNative_libsWithStripDebugSymbolForDemoAbCdERelease
+:app:processDemoAbCdEReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDemoAbCdERelease
+:app:packageDemoAbCdERelease
+:app:assembleDemoAbCdERelease
+:app:checkFlavor1ReleaseManifest
+:app:prepareFlavor1ReleaseDependencies
+:app:compileFlavor1ReleaseAidl
+:app:compileFlavor1ReleaseRenderscript
+:app:generateFlavor1ReleaseBuildConfig
+:app:generateFlavor1ReleaseResValues
+:app:generateFlavor1ReleaseResources
+:app:mergeFlavor1ReleaseResources
+:app:processFlavor1ReleaseManifest
+:app:processFlavor1ReleaseResources
+:app:generateFlavor1ReleaseSources
+:app:incrementalFlavor1ReleaseJavaCompilationSafeguard
+:app:compileFlavor1ReleaseJavaWithJavac
+:app:compileFlavor1ReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFlavor1ReleaseNdk UP-TO-DATE
+:app:compileFlavor1ReleaseSources
+:app:lintVitalFlavor1Release
+:app:mergeFlavor1ReleaseShaders
+:app:compileFlavor1ReleaseShaders
+:app:generateFlavor1ReleaseAssets
+:app:mergeFlavor1ReleaseAssets
+:app:transformClassesWithDexForFlavor1Release
+:app:mergeFlavor1ReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFlavor1Release
+:app:transformNative_libsWithStripDebugSymbolForFlavor1Release
+:app:processFlavor1ReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFlavor1Release
+:app:packageFlavor1Release
+:app:assembleFlavor1Release
+:app:checkFlavor2ReleaseManifest
+:app:prepareFlavor2ReleaseDependencies
+:app:compileFlavor2ReleaseAidl
+:app:compileFlavor2ReleaseRenderscript
+:app:generateFlavor2ReleaseBuildConfig
+:app:generateFlavor2ReleaseResValues
+:app:generateFlavor2ReleaseResources
+:app:mergeFlavor2ReleaseResources
+:app:processFlavor2ReleaseManifest
+:app:processFlavor2ReleaseResources
+:app:generateFlavor2ReleaseSources
+:app:incrementalFlavor2ReleaseJavaCompilationSafeguard
+:app:compileFlavor2ReleaseJavaWithJavac
+:app:compileFlavor2ReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFlavor2ReleaseNdk UP-TO-DATE
+:app:compileFlavor2ReleaseSources
+:app:lintVitalFlavor2Release
+:app:mergeFlavor2ReleaseShaders
+:app:compileFlavor2ReleaseShaders
+:app:generateFlavor2ReleaseAssets
+:app:mergeFlavor2ReleaseAssets
+:app:transformClassesWithDexForFlavor2Release
+:app:mergeFlavor2ReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFlavor2Release
+:app:transformNative_libsWithStripDebugSymbolForFlavor2Release
+:app:processFlavor2ReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFlavor2Release
+:app:packageFlavor2Release
+:app:assembleFlavor2Release
+:app:checkFullReleaseManifest
+:app:prepareFullReleaseDependencies
+:app:compileFullReleaseAidl
+:app:compileFullReleaseRenderscript
+:app:generateFullReleaseBuildConfig
+:app:generateFullReleaseResValues
+:app:generateFullReleaseResources
+:app:mergeFullReleaseResources
+:app:processFullReleaseManifest
+:app:processFullReleaseResources
+:app:generateFullReleaseSources
+:app:incrementalFullReleaseJavaCompilationSafeguard
+:app:compileFullReleaseJavaWithJavac
+:app:compileFullReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileFullReleaseNdk UP-TO-DATE
+:app:compileFullReleaseSources
+:app:lintVitalFullRelease
+:app:mergeFullReleaseShaders
+:app:compileFullReleaseShaders
+:app:generateFullReleaseAssets
+:app:mergeFullReleaseAssets
+:app:transformClassesWithDexForFullRelease
+:app:mergeFullReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForFullRelease
+:app:transformNative_libsWithStripDebugSymbolForFullRelease
+:app:processFullReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForFullRelease
+:app:packageFullRelease
+:app:assembleFullRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.492 secs
+
+2018-09-16 21:25:09,215 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107863502-0/src/debug-badge-master/app/build/outputs/apk/app-demoAbCdE-debug.apk

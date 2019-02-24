@@ -1,0 +1,196 @@
+2018-09-15 17:30:02,065 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
+2018-09-15 17:30:04,750 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/fonty/archive/master.zip, attempt 3
+2018-09-15 17:30:04,751 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/master.zip": 477 KB
+2018-09-15 17:30:04,751 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 17:30:04,756 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/master.zip: true
+2018-09-15 17:30:04,757 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src'.
+2018-09-15 17:30:04,786 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-15 17:30:04,786 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src]
+2018-09-15 17:30:04,802 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/.git/
+
+2018-09-15 17:30:04,804 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/gradlew
+2018-09-15 17:30:04,807 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/build.gradle
+2018-09-15 17:30:04,810 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/settings.gradle
+2018-09-15 17:30:04,810 INFO  ProjectBuildService - Remote scripts: none
+2018-09-15 17:30:04,810 INFO  ProjectFixService - Fixing project...
+2018-09-15 17:30:04,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/local.properties
+2018-09-15 17:30:04,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-15 17:30:04,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/lib/local.properties
+2018-09-15 17:30:04,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/lib/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-15 17:30:04,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/local.properties
+2018-09-15 17:30:04,821 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-09-15 17:30:04,821 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-09-15 17:30:04,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-15 17:30:04,821 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 17:30:04,821 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 17:30:04,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 17:30:24,078 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-15 17:30:24,079 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-15 17:30:24,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-15 17:31:10,812 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-rc01/adapters-3.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0-rc01/library-3.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0-rc01/library-3.2.0-rc01.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-rc01/adapters-3.2.0-rc01.aar
+:app:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:app:preDebugBuild
+:lib:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-rc01-4818971/aapt2-3.2.0-rc01-4818971.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-rc01-4818971/aapt2-3.2.0-rc01-4818971-osx.jar
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:dataBindingExportFeaturePackageIdsDebug
+:app:dataBindingMergeDependencyArtifactsDebug
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:app:dataBindingGenBaseClassesDebug
+:lib:generateDebugBuildConfig
+:lib:prepareLintJar
+:lib:generateDebugSources
+:lib:javaPreCompileDebug
+:lib:compileDebugJavaWithJavac
+:lib:processDebugJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0-rc01/databinding-compiler-3.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0-rc01/databinding-compiler-3.2.0-rc01.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:app:preReleaseBuild
+:lib:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:dataBindingExportFeaturePackageIdsRelease
+:app:dataBindingMergeDependencyArtifactsRelease
+:app:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:app:dataBindingGenBaseClassesRelease
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseSources
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac
+:lib:processReleaseJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-rc01/lint-gradle-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-rc01/intellij-core-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-rc01/uast-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-rc01/lint-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-rc01/lint-kotlin-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-rc01/kotlin-compiler-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-rc01/lint-checks-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-rc01/lint-api-26.2.0-rc01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-rc01/lint-gradle-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-rc01/lint-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-rc01/kotlin-compiler-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-rc01/lint-kotlin-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-rc01/uast-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-rc01/intellij-core-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-rc01/lint-checks-26.2.0-rc01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-rc01/lint-api-26.2.0-rc01.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/df39bfe734f98f317ab5724737223bbe/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 46s
+100 actionable tasks: 100 executed
+
+2018-09-15 17:31:10,915 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537007402062-0/src/Fonty-master/app/build/outputs/apk/debug/app-debug.apk

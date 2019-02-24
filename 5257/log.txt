@@ -1,0 +1,349 @@
+2018-09-16 22:22:11,131 INFO  DownloadService - Downloading "https://github.com/hani-momanii/SuperNova-Weather/archive/master.zip", attempt 3
+2018-09-16 22:22:15,394 INFO  DownloadService - Downloaded https://github.com/hani-momanii/SuperNova-Weather/archive/master.zip, attempt 3
+2018-09-16 22:22:15,395 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/master.zip": 1 MB
+2018-09-16 22:22:15,395 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 22:22:15,401 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/master.zip: true
+2018-09-16 22:22:15,401 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src'.
+2018-09-16 22:22:15,467 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-09-16 22:22:15,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src]
+2018-09-16 22:22:15,483 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/.git/
+
+2018-09-16 22:22:15,488 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/gradlew
+2018-09-16 22:22:15,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/build.gradle
+2018-09-16 22:22:15,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/settings.gradle
+2018-09-16 22:22:15,498 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 22:22:15,498 INFO  ProjectFixService - Fixing project...
+2018-09-16 22:22:15,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/local.properties
+2018-09-16 22:22:15,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-09-16 22:22:15,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/local.properties
+2018-09-16 22:22:15,509 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-09-16 22:22:15,510 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-09-16 22:22:15,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-09-16 22:22:15,511 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 22:22:15,511 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 22:22:15,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 22:22:48,234 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-16 22:22:48,234 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 22:22:48,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 22:23:22,352 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2420Library
+:app:prepareComAndroidSupportAppcompatV72420Library
+:app:prepareComAndroidSupportDesign2420Library
+:app:prepareComAndroidSupportRecyclerviewV72420Library
+:app:prepareComAndroidSupportSupportCompat2420Library
+:app:prepareComAndroidSupportSupportCoreUi2420Library
+:app:prepareComAndroidSupportSupportCoreUtils2420Library
+:app:prepareComAndroidSupportSupportFragment2420Library
+:app:prepareComAndroidSupportSupportMediaCompat2420Library
+:app:prepareComAndroidSupportSupportV42420Library
+:app:prepareComAndroidSupportSupportVectorDrawable2420Library
+:app:prepareComGetkeepsafeRelinkerRelinker121Library
+:app:prepareIoRealmRealmAndroidLibrary120Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavacNote: Version 5.5.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class Weather
+Note: Processing class City
+Note: Processing class CityResponse
+Note: Processing class SearchApiResponse
+Note: Processing class WeatherUrlResponse
+Note: Processing class CountryResponse
+Note: Processing class ResultResponse
+Note: Processing class TimezoneResponse
+Note: Processing class RegionResponse
+Note: Processing class AreaNameResponse
+Note: Processing class DataResponse
+Note: Processing class CurrentConditionResponse
+Note: Processing class RequestResponse
+Note: Processing class WeatherResponse
+Note: Processing class WeatherDescResponse
+Note: Processing class WeatherIconUrlResponse
+Note: Processing class WeatherApiResponse
+Note: Processing class HourlyResponse
+Note: Creating DefaultRealmModule
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/src/main/java/hani/weather/fragments/WeatherFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithRealmTransformerForDebug
+:app:transformClassesWithDexForDebug
+Result compacted from 5423.5KiB to 4068.5KiB to save 1355.0KiB
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (357 defs/579.7KiB)
+Merged dex #3 (186 defs/280.4KiB)
+Merged dex #4 (148 defs/325.1KiB)
+Merged dex #5 (449 defs/471.7KiB)
+Merged dex #6 (135 defs/248.9KiB)
+Merged dex #7 (53 defs/75.9KiB)
+Merged dex #8 (57 defs/148.3KiB)
+Merged dex #9 (144 defs/179.1KiB)
+Merged dex #10 (1 defs/0.7KiB)
+Merged dex #11 (17 defs/48.5KiB)
+Merged dex #12 (26 defs/20.8KiB)
+Merged dex #13 (3 defs/4.5KiB)
+Merged dex #14 (391 defs/393.2KiB)
+Merged dex #15 (173 defs/181.8KiB)
+Merged dex #16 (73 defs/58.2KiB)
+Merged dex #17 (249 defs/186.4KiB)
+Merged dex #18 (8 defs/8.3KiB)
+Merged dex #19 (17 defs/28.5KiB)
+Merged dex #20 (10 defs/15.2KiB)
+Merged dex #21 (157 defs/273.2KiB)
+Merged dex #22 (192 defs/315.1KiB)
+Merged dex #23 (37 defs/73.8KiB)
+Merged dex #24 (6 defs/1.6KiB)
+Merged dex #25 (159 defs/434.8KiB)
+Merged dex #26 (82 defs/74.8KiB)
+Merged dex #27 (46 defs/7.4KiB)
+Result is 3181 defs/4068.5KiB. Took 0.6s
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavacNote: Version 5.5.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class Weather
+Note: Processing class City
+Note: Processing class CityResponse
+Note: Processing class SearchApiResponse
+Note: Processing class WeatherUrlResponse
+Note: Processing class CountryResponse
+Note: Processing class ResultResponse
+Note: Processing class TimezoneResponse
+Note: Processing class RegionResponse
+Note: Processing class AreaNameResponse
+Note: Processing class DataResponse
+Note: Processing class CurrentConditionResponse
+Note: Processing class RequestResponse
+Note: Processing class WeatherResponse
+Note: Processing class WeatherDescResponse
+Note: Processing class WeatherIconUrlResponse
+Note: Processing class WeatherApiResponse
+Note: Processing class HourlyResponse
+Note: Creating DefaultRealmModule
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/src/main/java/hani/weather/fragments/WeatherFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:658)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:601)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:402)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:214)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:153)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:134)
+	at com.android.tools.lint.EcjParser$EcjResolvedMethod.getAnnotations(EcjParser.java:1374)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1688)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitConstructorInvocation(SupportAnnotationDetector.java:1670)
+	at com.android.tools.lint.client.api.JavaVisitor$DispatchVisitor.visitConstructorInvocation(JavaVisitor.java:813)
+	at com.android.tools.lint.client.api.JavaVisitor$DelegatingJavaVisitor.visitConstructorInvocation(JavaVisitor.java:1475)
+	at lombok.ast.ConstructorInvocation.accept(ConstructorInvocation.java:147)
+	at lombok.ast.VariableDefinitionEntry.accept(VariableDefinitionEntry.java:105)
+	at lombok.ast.VariableDefinition.accept(VariableDefinition.java:155)
+	at lombok.ast.VariableDeclaration.accept(VariableDeclaration.java:103)
+	at lombok.ast.Block.accept(Block.java:106)
+	at lombok.ast.MethodDeclaration.accept(MethodDeclaration.java:240)
+	at lombok.ast.NormalTypeBody.accept(NormalTypeBody.java:57)
+	at lombok.ast.ClassDeclaration.accept(ClassDeclaration.java:239)
+	at lombok.ast.CompilationUnit.accept(CompilationUnit.java:83)
+	at com.android.tools.lint.client.api.JavaVisitor.visitFile(JavaVisitor.java:274)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1529)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1063)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:908)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:436)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:377)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:133)
+	at com.android.build.gradle.internal.LintGradleClient$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.groovy:223)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.groovy:198)
+	at com.android.build.gradle.tasks.Lint$lintSingleVariant$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:app:prePackageMarkerForRelease
+:app:transformClassesWithRealmTransformerForRelease
+:app:transformClassesWithDexForRelease
+Result compacted from 5423.3KiB to 4068.4KiB to save 1354.9KiB
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (357 defs/579.7KiB)
+Merged dex #3 (186 defs/280.4KiB)
+Merged dex #4 (148 defs/325.1KiB)
+Merged dex #5 (449 defs/471.7KiB)
+Merged dex #6 (135 defs/248.9KiB)
+Merged dex #7 (53 defs/75.9KiB)
+Merged dex #8 (57 defs/148.3KiB)
+Merged dex #9 (144 defs/179.1KiB)
+Merged dex #10 (1 defs/0.7KiB)
+Merged dex #11 (17 defs/48.5KiB)
+Merged dex #12 (26 defs/20.8KiB)
+Merged dex #13 (3 defs/4.5KiB)
+Merged dex #14 (391 defs/393.2KiB)
+Merged dex #15 (173 defs/181.8KiB)
+Merged dex #16 (73 defs/58.2KiB)
+Merged dex #17 (249 defs/186.4KiB)
+Merged dex #18 (8 defs/8.3KiB)
+Merged dex #19 (17 defs/28.5KiB)
+Merged dex #20 (10 defs/15.2KiB)
+Merged dex #21 (157 defs/273.2KiB)
+Merged dex #22 (192 defs/315.1KiB)
+Merged dex #23 (37 defs/73.8KiB)
+Merged dex #24 (6 defs/1.6KiB)
+Merged dex #25 (159 defs/434.7KiB)
+Merged dex #26 (82 defs/74.8KiB)
+Merged dex #27 (46 defs/7.4KiB)
+Result is 3181 defs/4068.4KiB. Took 0.4s
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 33.493 secs
+
+2018-09-16 22:23:22,434 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111331123-0/src/SuperNova-Weather-master/app/build/outputs/apk/app-debug.apk

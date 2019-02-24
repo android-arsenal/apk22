@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.yarolegovich.discretescrollview.sample",
+    "label" : "DiscreteScrollView Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACQFBMVEUAAAAAAAAAAABgn5+V0s6T09CM0c2N0M2PzsqHzMgAAACO0M2GzckAAAAAAAAAAACDysaBycUAAABwrapuraoAAAAAAAAOFRVnop98wLx7v7wAAAAAAAAAAAAAAAAAAAAAAAAAAACT1NCS1NCS09CR09CR08+Q08+P0s+P0s6O0s6N0c6N0c2M0c2N0s6M0c6L0c2K0M2K0MyJ0MyI0MyHz8uGz8uFz8uFzsqJz8yJz8uIz8uEzsqV09CY1NCY09CX09CX08+W08+W09CS0s+GzcqGzsqHzcni8vH///+Ey8iFycXg8O/h8O+Cx8SFzcmKz8ue19S14N61392z3tyDxcHg7+5/w8Cu3Nqy3tyy3tuy39yb1dKEzcmIzcnA4uD5+/t/wL3f7u7g7u58v7v0+PjB4+GCy8eGy8e+4N58vLjf7u3g7u15u7e/4d+ByMSGycW93t17ubZ4uLW+392Ax8ODzMi93tx6ubV3t7S9392AxsO83tx3t7P0+PeCzMh5ubV/xsJ2t7OEyMWEyMS83dx4uLSDyMTe7u12t7SDysaay8i20tC00M610c+z0dB5urZ3ubWwz86zz86yzs2yz82z0c+Yysd/x8OBxcF9vrt7u7h6u7h7vLl8v7x8vrt6vbl6vrp4u7d3ubZ5vLl9w7+BysaDzcmCycWCyMSCx8N/wr/f7+59wb6Bx8OCvLmAtbJ+s7B9s7B9s69+tLGAu7iDy8eAxsJ7v7t8wL1+xcGEzMiCysaBycV+w8B9w8DaYOyHAAAAInRSTlMAAQIIk+/vk5aVCfHwCA8R8vENoqIMBCSo8/McKzAxAwcKi11qOwAAAmFJREFUSMfd1vdfEmEAx3HB5lXaVEtNKwRjBiV34KVidRmWVJRldU2LyoY2tE3X0obtQXtYgJUNK5vUv9bzPFx399wye/VDrz6/8APf9x0vjgMyMv6fDAajbgYDNs8cNHjqNJPJVFJiNpstFktp6XSU1Wq12e12B2jI0ExxbxxmdTqdNpvL5XDMALndHs9M0CxQGcgLIsnhRgEQI/i9Lhg5SgBZaC+cQANQWQLIFvY6J6CobBHYpPvfAy7lXg+4JHsw9vn85aAyPh7QOOD3Hv/siorKyqqqQCBQXT1n7jxGOIEUwCvDH39+zQJJNUFNALYwf+1CKVhUF2IoENxjABx78ZKl4XB42fJ6KahfsbKhYdXqNawMwNeydh1crN+wUQo2NW6GD1sirBJs3YbA9iYp2LETgV27WVoBmlsQ2IODvQjs298qA263r7kNgQM4OIjAocMy4AagdkAAvp9H1MDRY2kQxYFHBMdVAScD4JNWrg5OaIOTOqDtr4BTpxE4g4EmLQDulAEBeGu1/ynowMBZBFrUwLnzFzo7L166jIMrV69dv3HzVkx2pcGNywRv37l77/6Dh/i79Ojxk66up8/iCSUIBZPddd3PX7zEbqAeLsZxsXhUCQBhGCrEvnr95m1v77t07z9wkWgCRNNK4EVRfR97GmGfYJ+/xNNbOfCKhb72fYMlk6lUKh5p7Q+QJAmfY0EJ4bVoAxIGv1ZotWSAFNbqcwyMJvuf02NEMHbcr7HmGjR+ggBycvMmfkf90GxSXm6O+KtI5BcUTtatsCCfkP7uFhUTU3Qjiov+2f8YPwF7+bv1Kw3MrgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2768,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yarolegovich.discretescrollview.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900ab\" android:label=\"DiscreteScrollView Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.yarolegovich.discretescrollview.sample.App\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.yarolegovich.discretescrollview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0900ea\" android:name=\"com.yarolegovich.discretescrollview.sample.shop.ShopActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f090141\" android:name=\"com.yarolegovich.discretescrollview.sample.weather.WeatherActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 9986948,
+  "crc32" : 2641224353,
+  "sha256" : "13734c020949fdb1adcb8d73be9cb1892d399cc2c4b4dd4f322ec48803315a14",
+  "buildTime" : 1539069918000
+}

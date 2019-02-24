@@ -1,0 +1,163 @@
+2018-09-16 21:12:56,047 INFO  DownloadService - Downloading "https://github.com/MAXDeliveryNG/slideview/archive/master.zip", attempt 3
+2018-09-16 21:13:03,450 INFO  DownloadService - Downloaded https://github.com/MAXDeliveryNG/slideview/archive/master.zip, attempt 3
+2018-09-16 21:13:03,451 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/master.zip": 1 MB
+2018-09-16 21:13:03,451 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 21:13:03,457 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/master.zip: true
+2018-09-16 21:13:03,457 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src'.
+2018-09-16 21:13:03,501 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-16 21:13:03,501 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src]
+2018-09-16 21:13:03,517 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/.git/
+
+2018-09-16 21:13:03,520 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/gradlew
+2018-09-16 21:13:03,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/build.gradle
+2018-09-16 21:13:03,527 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/settings.gradle
+2018-09-16 21:13:03,527 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 21:13:03,527 INFO  ProjectFixService - Fixing project...
+2018-09-16 21:13:03,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/local.properties
+2018-09-16 21:13:03,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-16 21:13:03,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/local.properties
+2018-09-16 21:13:03,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-16 21:13:03,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/local.properties
+2018-09-16 21:13:03,540 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-16 21:13:03,540 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-16 21:13:03,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-16 21:13:03,541 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 21:13:03,541 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 21:13:03,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 21:13:09,922 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-16 21:13:09,922 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 21:13:09,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 21:13:32,917 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:slideview:preBuild UP-TO-DATE
+:slideview:preDebugBuild UP-TO-DATE
+:slideview:checkDebugManifest
+:slideview:processDebugManifest
+:sample:preDebugBuild
+:slideview:compileDebugAidl
+:sample:compileDebugAidl
+:slideview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:slideview:compileDebugRenderscript
+:slideview:generateDebugResValues
+:slideview:generateDebugResources
+:slideview:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:slideview:platformAttrExtractor
+:slideview:generateDebugBuildConfig
+:slideview:prepareLintJar
+:slideview:javaPreCompileDebug
+:slideview:processDebugJavaRes NO-SOURCE
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:slideview:mergeDebugShaders
+:slideview:compileDebugShaders
+:slideview:generateDebugAssets
+:slideview:mergeDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:slideview:compileDebugNdk NO-SOURCE
+:slideview:mergeDebugJniLibFolders
+:slideview:transformNativeLibsWithMergeJniLibsForDebug
+:slideview:transformNativeLibsWithStripDebugSymbolForDebug
+:slideview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:slideview:preReleaseBuild UP-TO-DATE
+:slideview:checkReleaseManifest
+:slideview:processReleaseManifest
+:sample:preReleaseBuild
+:slideview:compileReleaseAidl
+:sample:compileReleaseAidl
+:slideview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:slideview:compileReleaseRenderscript
+:slideview:generateReleaseResValues
+:slideview:generateReleaseResources
+:slideview:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:slideview:generateReleaseBuildConfig
+:slideview:javaPreCompileRelease
+:slideview:processReleaseJavaRes NO-SOURCE
+:sample:compileReleaseNdk NO-SOURCE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:slideview:mergeReleaseShaders
+:slideview:compileReleaseShaders
+:slideview:generateReleaseAssets
+:slideview:mergeReleaseAssets
+:sample:mergeReleaseAssets
+:sample:mergeReleaseJniLibFolders
+:slideview:compileReleaseNdk NO-SOURCE
+:slideview:mergeReleaseJniLibFolders
+:slideview:transformNativeLibsWithMergeJniLibsForRelease
+:slideview:transformNativeLibsWithStripDebugSymbolForRelease
+:slideview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:slideview:processDebugResources
+:sample:processDebugResources
+:sample:generateDebugSources
+:slideview:generateDebugSources
+:slideview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/src/main/java/ng/max/slideview/SlideView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slideview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/src/main/java/ng/max/slideview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:slideview:processReleaseResources
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:slideview:generateReleaseSources
+:slideview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/slideview/src/main/java/ng/max/slideview/SlideView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slideview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/src/main/java/ng/max/slideview/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 22s
+88 actionable tasks: 88 executed
+
+2018-09-16 21:13:32,983 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107176044-0/src/slideview-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

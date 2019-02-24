@@ -1,0 +1,131 @@
+2018-09-15 22:08:33,125 INFO  DownloadService - Downloading "https://github.com/geniusforapp/fancyDialog/archive/master.zip", attempt 3
+2018-09-15 22:08:34,607 INFO  DownloadService - Downloaded https://github.com/geniusforapp/fancyDialog/archive/master.zip, attempt 3
+2018-09-15 22:08:34,608 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip": 2 MB
+2018-09-15 22:08:34,608 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 22:08:34,614 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip: true
+2018-09-15 22:08:34,614 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src'.
+2018-09-15 22:08:34,661 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-09-15 22:08:34,661 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src]
+2018-09-15 22:08:34,677 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/.git/
+
+2018-09-15 22:08:34,680 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew
+2018-09-15 22:08:34,683 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle
+2018-09-15 22:08:34,686 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/settings.gradle
+2018-09-15 22:08:34,687 INFO  ProjectBuildService - Remote scripts: none
+2018-09-15 22:08:34,687 INFO  ProjectFixService - Fixing project...
+2018-09-15 22:08:34,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/local.properties
+2018-09-15 22:08:34,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-15 22:08:34,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-15 22:08:34,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-15 22:08:34,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/local.properties
+2018-09-15 22:08:34,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-15 22:08:34,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/local.properties
+2018-09-15 22:08:34,698 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-15 22:08:34,698 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-15 22:08:34,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-15 22:08:34,699 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 22:08:34,699 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 22:08:34,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 22:08:41,912 INFO  ProjectTaskService - Detected possible tasks: 77
+2018-09-15 22:08:41,912 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-15 22:08:41,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-15 22:08:54,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:fancydialog:preBuild UP-TO-DATE
+:fancydialog:preDebugBuild UP-TO-DATE
+:fancydialog:checkDebugManifest
+:fancydialog:preDebugAndroidTestBuild UP-TO-DATE
+:fancydialog:preDebugUnitTestBuild UP-TO-DATE
+:fancydialog:preReleaseBuild UP-TO-DATE
+:fancydialog:preReleaseUnitTestBuild UP-TO-DATE
+:fancydialog:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:fancydialog:prepareComAndroidSupportAppcompatV72531Library
+:fancydialog:prepareComAndroidSupportCardviewV72531Library
+:fancydialog:prepareComAndroidSupportDesign2531Library
+:fancydialog:prepareComAndroidSupportRecyclerviewV72531Library
+:fancydialog:prepareComAndroidSupportSupportCompat2531Library
+:fancydialog:prepareComAndroidSupportSupportCoreUi2531Library
+:fancydialog:prepareComAndroidSupportSupportCoreUtils2531Library
+:fancydialog:prepareComAndroidSupportSupportFragment2531Library
+:fancydialog:prepareComAndroidSupportSupportMediaCompat2531Library
+:fancydialog:prepareComAndroidSupportSupportV42531Library
+:fancydialog:prepareComAndroidSupportSupportVectorDrawable2531Library
+:fancydialog:prepareComAndroidSupportTransition2531Library
+:fancydialog:prepareDebugDependencies
+:fancydialog:compileDebugAidl
+:fancydialog:compileDebugNdk UP-TO-DATE
+:fancydialog:compileLint
+:fancydialog:copyDebugLint UP-TO-DATE
+:fancydialog:compileDebugRenderscript
+:fancydialog:generateDebugBuildConfig
+:fancydialog:generateDebugResValues
+:fancydialog:generateDebugResources
+:fancydialog:mergeDebugResources
+:fancydialog:processDebugManifest
+:fancydialog:processDebugResources
+:fancydialog:generateDebugSources
+:fancydialog:incrementalDebugJavaCompilationSafeguard
+:fancydialog:javaPreCompileDebug
+:fancydialog:compileDebugJavaWithJavac
+:fancydialog:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:fancydialog:extractDebugAnnotations
+:fancydialog:mergeDebugShaders
+:fancydialog:compileDebugShaders
+:fancydialog:generateDebugAssets
+:fancydialog:mergeDebugAssets
+:fancydialog:mergeDebugProguardFiles
+:fancydialog:packageDebugRenderscript UP-TO-DATE
+:fancydialog:packageDebugResources
+:fancydialog:processDebugJavaRes UP-TO-DATE
+:fancydialog:transformResourcesWithMergeJavaResForDebug
+:fancydialog:transformClassesAndResourcesWithSyncLibJarsForDebug
+:fancydialog:mergeDebugJniLibFolders
+:fancydialog:transformNativeLibsWithMergeJniLibsForDebug
+:fancydialog:transformNativeLibsWithStripDebugSymbolForDebug
+:fancydialog:transformNativeLibsWithSyncJniLibsForDebug
+:fancydialog:bundleDebug
+:fancydialog:compileDebugSources
+:fancydialog:assembleDebug
+:fancydialog:checkReleaseManifest
+:fancydialog:prepareReleaseDependencies
+:fancydialog:compileReleaseAidl
+:fancydialog:compileReleaseNdk UP-TO-DATE
+:fancydialog:copyReleaseLint UP-TO-DATE
+:fancydialog:compileReleaseRenderscript
+:fancydialog:generateReleaseBuildConfig
+:fancydialog:generateReleaseResValues
+:fancydialog:generateReleaseResources
+:fancydialog:mergeReleaseResources
+:fancydialog:processReleaseManifest
+:fancydialog:processReleaseResources
+:fancydialog:generateReleaseSources
+:fancydialog:incrementalReleaseJavaCompilationSafeguard
+:fancydialog:javaPreCompileRelease
+:fancydialog:compileReleaseJavaWithJavac
+:fancydialog:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:fancydialog:extractReleaseAnnotations
+:fancydialog:mergeReleaseShaders
+:fancydialog:compileReleaseShaders
+:fancydialog:generateReleaseAssets
+:fancydialog:mergeReleaseAssets
+:fancydialog:mergeReleaseProguardFiles
+:fancydialog:packageReleaseRenderscript UP-TO-DATE
+:fancydialog:packageReleaseResources
+:fancydialog:processReleaseJavaRes UP-TO-DATE
+:fancydialog:transformResourcesWithMergeJavaResForRelease
+:fancydialog:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fancydialog:mergeReleaseJniLibFolders
+:fancydialog:transformNativeLibsWithMergeJniLibsForRelease
+:fancydialog:transformNativeLibsWithStripDebugSymbolForRelease
+:fancydialog:transformNativeLibsWithSyncJniLibsForRelease
+:fancydialog:bundleRelease
+:fancydialog:compileReleaseSources
+:fancydialog:assembleRelease
+:fancydialog:assemble
+:fancydialog:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.878 secs
+
+2018-09-15 22:08:54,105 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/app-release.apk

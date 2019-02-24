@@ -1,0 +1,178 @@
+2018-12-14 12:49:18,611 INFO  DownloadService - Downloading "https://github.com/Muddz/StyleableToast/archive/master.zip", attempt 3
+2018-12-14 12:49:21,319 INFO  DownloadService - Downloaded https://github.com/Muddz/StyleableToast/archive/master.zip, attempt 3
+2018-12-14 12:49:21,319 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip": 2 MB
+2018-12-14 12:49:21,319 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-14 12:49:21,325 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip: true
+2018-12-14 12:49:21,325 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src'.
+2018-12-14 12:49:21,354 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-12-14 12:49:21,354 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src]
+2018-12-14 12:49:21,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/.git/
+
+2018-12-14 12:49:21,373 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew
+2018-12-14 12:49:21,376 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle
+2018-12-14 12:49:21,378 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/settings.gradle
+2018-12-14 12:49:21,378 INFO  ProjectBuildService - Remote scripts: none
+2018-12-14 12:49:21,378 INFO  ProjectFixService - Fixing project...
+2018-12-14 12:49:21,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/local.properties
+2018-12-14 12:49:21,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/local.properties
+2018-12-14 12:49:21,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/local.properties
+2018-12-14 12:49:21,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-14 12:49:21,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-14 12:49:21,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-14 12:49:21,390 INFO  ProjectFixService - Project was maybe fixed
+2018-12-14 12:49:21,390 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-14 12:49:21,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-14 12:49:28,789 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-14 12:49:28,789 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-14 12:49:28,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-14 12:50:08,471 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.1.0-alpha02/material-1.1.0-alpha02.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc2/butterknife-9.0.0-rc2.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc2/butterknife-runtime-9.0.0-rc2.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc2/butterknife-annotations-9.0.0-rc2.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/9.0.0-rc2/butterknife-compiler-9.0.0-rc2.pom
+:demo:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.1.0-alpha02/material-1.1.0-alpha02.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc2/butterknife-9.0.0-rc2.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc2/butterknife-runtime-9.0.0-rc2.aar
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0-alpha01/core-1.1.0-alpha01.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc2/butterknife-annotations-9.0.0-rc2.jar
+:demo:preBuild UP-TO-DATE
+:styleabletoast:preBuild UP-TO-DATE
+:styleabletoast:preDebugBuild UP-TO-DATE
+:styleabletoast:checkDebugManifest
+:styleabletoast:processDebugManifest
+:demo:preDebugBuild
+:styleabletoast:compileDebugAidl NO-SOURCE
+:demo:compileDebugAidl NO-SOURCE
+:styleabletoast:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:styleabletoast:compileDebugRenderscript
+:styleabletoast:generateDebugResValues
+:styleabletoast:generateDebugResources
+:styleabletoast:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:styleabletoast:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:styleabletoast:generateDebugBuildConfig
+:styleabletoast:prepareLintJar
+:styleabletoast:generateDebugSources
+:styleabletoast:javaPreCompileDebug
+:styleabletoast:compileDebugJavaWithJavac
+:styleabletoast:processDebugJavaRes NO-SOURCE
+:styleabletoast:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${junit.version}'
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/9.0.0-rc2/butterknife-compiler-9.0.0-rc2.jar
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:styleabletoast:mergeDebugShaders
+:styleabletoast:compileDebugShaders
+:styleabletoast:generateDebugAssets
+:styleabletoast:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:mergeDebugJniLibFolders
+:styleabletoast:compileDebugNdk NO-SOURCE
+:styleabletoast:mergeDebugJniLibFolders
+:styleabletoast:transformNativeLibsWithMergeJniLibsForDebug
+:styleabletoast:transformNativeLibsWithStripDebugSymbolForDebug
+:styleabletoast:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:checkDebugLibraries
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseClasspath
+:styleabletoast:preReleaseBuild UP-TO-DATE
+:styleabletoast:checkReleaseManifest
+:styleabletoast:processReleaseManifest
+:demo:preReleaseBuild
+:styleabletoast:compileReleaseAidl NO-SOURCE
+:demo:compileReleaseAidl NO-SOURCE
+:styleabletoast:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:styleabletoast:compileReleaseRenderscript
+:styleabletoast:generateReleaseResValues
+:styleabletoast:generateReleaseResources
+:styleabletoast:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:styleabletoast:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:styleabletoast:generateReleaseBuildConfig
+:styleabletoast:generateReleaseSources
+:styleabletoast:javaPreCompileRelease
+:styleabletoast:compileReleaseJavaWithJavac
+:styleabletoast:processReleaseJavaRes NO-SOURCE
+:styleabletoast:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e5fa80827357510712b928a080229917/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:styleabletoast:mergeReleaseShaders
+:styleabletoast:compileReleaseShaders
+:styleabletoast:generateReleaseAssets
+:styleabletoast:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:mergeReleaseJniLibFolders
+:styleabletoast:compileReleaseNdk NO-SOURCE
+:styleabletoast:mergeReleaseJniLibFolders
+:styleabletoast:transformNativeLibsWithMergeJniLibsForRelease
+:styleabletoast:transformNativeLibsWithStripDebugSymbolForRelease
+:styleabletoast:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:checkReleaseLibraries
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 38s
+90 actionable tasks: 90 executed
+
+2018-12-14 12:50:08,567 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

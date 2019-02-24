@@ -1,0 +1,880 @@
+2018-09-16 19:12:11,649 INFO  DownloadService - Downloading "https://github.com/Goddchen/RxFireDroid/archive/master.zip", attempt 3
+2018-09-16 19:12:12,321 INFO  DownloadService - Downloaded https://github.com/Goddchen/RxFireDroid/archive/master.zip, attempt 3
+2018-09-16 19:12:12,322 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/master.zip": 275 KB
+2018-09-16 19:12:12,322 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 19:12:12,327 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/master.zip: true
+2018-09-16 19:12:12,328 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src'.
+2018-09-16 19:12:12,357 INFO  FullProcessService - Size of directory with sources: 309 KB
+2018-09-16 19:12:12,357 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src]
+2018-09-16 19:12:12,373 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/.git/
+
+2018-09-16 19:12:12,377 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/gradlew
+2018-09-16 19:12:12,381 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/build.gradle
+2018-09-16 19:12:12,385 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/settings.gradle
+2018-09-16 19:12:12,385 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 19:12:12,385 INFO  ProjectFixService - Fixing project...
+2018-09-16 19:12:12,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/local.properties
+2018-09-16 19:12:12,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-16 19:12:12,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/local.properties
+2018-09-16 19:12:12,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-16 19:12:12,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/app/local.properties
+2018-09-16 19:12:12,398 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-16 19:12:12,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/local.properties
+2018-09-16 19:12:12,399 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 19:12:12,399 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 19:12:12,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-16 19:12:12,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/local.properties
+2018-09-16 19:12:12,400 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 19:12:12,401 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 19:12:12,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-16 19:12:12,402 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 19:12:12,402 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:12:12,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:12:20,777 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-09-16 19:12:20,777 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 19:12:20,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 19:12:33,537 INFO  SysUtils - Configuration on demand is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:app:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:3: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.ChildEventListener;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:4: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DataSnapshot;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:5: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseError;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:6: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.DatabaseReference;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:7: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.FirebaseDatabase;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:8: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.Query;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:9: error: package com.google.firebase.database does not exist
+import com.google.firebase.database.ValueEventListener;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:14: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:15: error: package io.reactivex does not exist
+import io.reactivex.Maybe;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:16: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:17: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:18: error: package io.reactivex.android.schedulers does not exist
+import io.reactivex.android.schedulers.AndroidSchedulers;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:19: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposables;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:20: error: package io.reactivex.schedulers does not exist
+import io.reactivex.schedulers.Schedulers;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:28: error: cannot find symbol
+    public static Single<DatabaseReference> getRootRef() {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:28: error: cannot find symbol
+    public static Single<DatabaseReference> getRootRef() {
+                         ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:32: error: cannot find symbol
+    public static Single<DatabaseReference> getRef(String path) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:32: error: cannot find symbol
+    public static Single<DatabaseReference> getRef(String path) {
+                         ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:39: error: cannot find symbol
+    public static Single<DatabaseReference> getRef(String pathFormat, String... args) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:39: error: cannot find symbol
+    public static Single<DatabaseReference> getRef(String pathFormat, String... args) {
+                         ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:46: error: cannot find symbol
+    public static Maybe<String> escapeKey(String key) {
+                  ^
+  symbol:   class Maybe
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:56: error: cannot find symbol
+    public static Maybe<String> toLowerCase(String key) {
+                  ^
+  symbol:   class Maybe
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:64: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(DatabaseReference ref) {
+                                                 ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:64: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(DatabaseReference ref) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:64: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(DatabaseReference ref) {
+                         ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:68: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(String pathFormat, String... args) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:68: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(String pathFormat, String... args) {
+                         ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:72: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(String ref) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:72: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(String ref) {
+                         ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:77: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(Query query) {
+                                                 ^
+  symbol:   class Query
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:77: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(Query query) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:77: error: cannot find symbol
+    public static Single<DataSnapshot> getValues(Query query) {
+                         ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:96: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(DatabaseReference ref, boolean receiveInitialValues) {
+                                                         ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:96: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(DatabaseReference ref, boolean receiveInitialValues) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:96: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(DatabaseReference ref, boolean receiveInitialValues) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:100: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query, boolean receiveInitialValues) {
+                                                         ^
+  symbol:   class Query
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:100: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query, boolean receiveInitialValues) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:100: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query, boolean receiveInitialValues) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:129: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query) {
+                                                         ^
+  symbol:   class Query
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:129: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:129: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(Query query) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:133: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String pathFormat, String... args) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:133: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String pathFormat, String... args) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:137: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String path) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:137: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String path) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:141: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String pathFormat, boolean receiveInitialValues, String... args) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:141: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String pathFormat, boolean receiveInitialValues, String... args) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:145: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String path, boolean receiveInitialValues) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:145: error: cannot find symbol
+    public static Observable<DataSnapshot> observeValues(String path, boolean receiveInitialValues) {
+                             ^
+  symbol:   class DataSnapshot
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:151: error: cannot find symbol
+    public static Completable setValues(Map<String, Object> values) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:159: error: cannot find symbol
+    public static Completable deleteValues(String... paths) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:165: error: cannot find symbol
+    public static Completable setValue(String pathFormat, Object value, String... args) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:169: error: cannot find symbol
+    public static Completable setValue(String ref, Object value) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:175: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(String pathFormat, String... args) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:179: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(String path) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:184: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(DatabaseReference databaseReference) {
+                                                         ^
+  symbol:   class DatabaseReference
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:184: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(DatabaseReference databaseReference) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:188: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(Query query) {
+                                                         ^
+  symbol:   class Query
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:188: error: cannot find symbol
+    public static Observable<ChildEvent> observeChildren(Query query) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidDatabase
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:226: error: cannot find symbol
+        public DataSnapshot dataSnapshot;
+               ^
+  symbol:   class DataSnapshot
+  location: class ChildEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/database/RxFireDroidDatabase.java:229: error: cannot find symbol
+        public ChildEvent(TYPE type, DataSnapshot dataSnapshot, String previousChildKey) {
+                                     ^
+  symbol:   class DataSnapshot
+  location: class ChildEvent
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.XmlRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:6: error: package com.google.firebase.remoteconfig does not exist
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:7: error: package com.google.firebase.remoteconfig does not exist
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigInfo;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:8: error: package com.google.firebase.remoteconfig does not exist
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:9: error: package com.google.firebase.remoteconfig does not exist
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigValue;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:13: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:14: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:15: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:16: error: package io.reactivex.android.schedulers does not exist
+import io.reactivex.android.schedulers.AndroidSchedulers;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:17: error: package io.reactivex.schedulers does not exist
+import io.reactivex.schedulers.Schedulers;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:26: error: cannot find symbol
+    public static Completable setDefaults(@XmlRes int xmlRes) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:32: error: cannot find symbol
+    public static Completable setDefaults(@XmlRes int xmlRes, @NonNull String namespace) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:39: error: cannot find symbol
+    public static Completable setDefault(@NonNull Map<String, Object> values) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:45: error: cannot find symbol
+    public static Completable setDefault(@NonNull Map<String, Object> values, @NonNull String namespace) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:52: error: cannot find symbol
+    public static Single<Boolean> getBoolean(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:58: error: cannot find symbol
+    public static Single<Boolean> getBoolean(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:65: error: cannot find symbol
+    public static Single<byte[]> getByteArray(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:71: error: cannot find symbol
+    public static Single<byte[]> getByteArray(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:78: error: cannot find symbol
+    public static Single<Double> getDouble(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:84: error: cannot find symbol
+    public static Single<Double> getDouble(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:91: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigInfo> getRemoteConfigInfo() {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:91: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigInfo> getRemoteConfigInfo() {
+                         ^
+  symbol:   class FirebaseRemoteConfigInfo
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:97: error: cannot find symbol
+    public static Observable<String> getKeysByPrefix(@NonNull String prefix) {
+                  ^
+  symbol:   class Observable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:104: error: cannot find symbol
+    public static Single<Long> getLong(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:110: error: cannot find symbol
+    public static Single<Long> getLong(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:117: error: cannot find symbol
+    public static Single<String> getString(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:123: error: cannot find symbol
+    public static Single<String> getString(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:130: error: cannot find symbol
+    public static Completable setConfigSettings(@NonNull FirebaseRemoteConfigSettings settings) {
+                                                         ^
+  symbol:   class FirebaseRemoteConfigSettings
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:130: error: cannot find symbol
+    public static Completable setConfigSettings(@NonNull FirebaseRemoteConfigSettings settings) {
+                  ^
+  symbol:   class Completable
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:137: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigValue> getValue(@NonNull String key) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:137: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigValue> getValue(@NonNull String key) {
+                         ^
+  symbol:   class FirebaseRemoteConfigValue
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:143: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigValue> getValue(@NonNull String key, @NonNull String namespace) {
+                  ^
+  symbol:   class Single
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/config/RxFireDroidRemoteConfig.java:143: error: cannot find symbol
+    public static Single<FirebaseRemoteConfigValue> getValue(@NonNull String key, @NonNull String namespace) {
+                         ^
+  symbol:   class FirebaseRemoteConfigValue
+  location: class RxFireDroidRemoteConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/auth/RxFireDroidAuth.java:3: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.AuthCredential;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/auth/RxFireDroidAuth.java:4: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseAuth;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/auth/RxFireDroidAuth.java:5: error: package com.google.firebase.auth does not exist
+import com.google.firebase.auth.FirebaseUser;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/auth/RxFireDroidAuth.java:7: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/app/src/main/java/de/goddchen/android/rxfiredroid/auth/RxFireDroidAuth.java:8: error: package io.reactivex does not exist
+import io.reactivex.Maybe;
+                   ^
+
+100 warnings
+:app:androidJavadocsJar
+:app:androidSourcesJar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase1001Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement1001Library
+:app:prepareComGoogleAndroidGmsPlayServicesTasks1001Library
+:app:prepareComGoogleFirebaseFirebaseAuth1001Library
+:app:prepareComGoogleFirebaseFirebaseCommon1001Library
+:app:prepareComGoogleFirebaseFirebaseConfig1001Library
+:app:prepareComGoogleFirebaseFirebaseDatabase1001Library
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection1001Library
+:app:prepareComGoogleFirebaseFirebaseIid1001Library
+:app:prepareComGoogleFirebaseFirebaseStorage1001Library
+:app:prepareComGoogleFirebaseFirebaseStorageCommon1001Library
+:app:prepareIoReactivexRxjava2Rxandroid201Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:extractDebugAnnotations
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugProguardFiles
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources
+:app:transformClassesWithRetrolambdaForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformNativeLibsWithSyncJniLibsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:extractReleaseAnnotations
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseProguardFiles
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources
+:app:transformClassesWithRetrolambdaForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformNativeLibsWithSyncJniLibsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.168 secs
+
+2018-09-16 19:12:33,582 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 19:12:33,583 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 19:12:41,335 INFO  ProjectTaskService - Detected possible tasks: 74
+2018-09-16 19:12:41,335 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 19:12:41,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 19:13:00,175 INFO  SysUtils - Configuration on demand is an incubating feature.
+google-services plugin could not detect any version for com.google.android.gms or com.google.firebase, default version: 9.0.0 will be used.
+please apply google-services plugin at the bottom of the build file.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:app:preBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase1001Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement1001Library
+:app:prepareComGoogleAndroidGmsPlayServicesTasks1001Library
+:app:prepareComGoogleFirebaseFirebaseAuth1001Library
+:app:prepareComGoogleFirebaseFirebaseCommon1001Library
+:app:prepareComGoogleFirebaseFirebaseConfig1001Library
+:app:prepareComGoogleFirebaseFirebaseDatabase1001Library
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection1001Library
+:app:prepareComGoogleFirebaseFirebaseIid1001Library
+:app:prepareComGoogleFirebaseFirebaseStorage1001Library
+:app:prepareComGoogleFirebaseFirebaseStorageCommon1001Library
+:app:prepareIoReactivexRxjava2Rxandroid201Library
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileLint UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:mergeReleaseProguardFiles UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:transformClassesWithRetrolambdaForRelease UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:tests:preBuild UP-TO-DATE
+:tests:preDebugBuild UP-TO-DATE
+:tests:checkDebugManifest
+:tests:preReleaseBuild UP-TO-DATE
+:tests:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:tests:prepareComAndroidSupportAppcompatV72501Library
+:tests:prepareComAndroidSupportSupportCompat2501Library
+:tests:prepareComAndroidSupportSupportCoreUi2501Library
+:tests:prepareComAndroidSupportSupportCoreUtils2501Library
+:tests:prepareComAndroidSupportSupportFragment2501Library
+:tests:prepareComAndroidSupportSupportMediaCompat2501Library
+:tests:prepareComAndroidSupportSupportV42501Library
+:tests:prepareComAndroidSupportSupportVectorDrawable2501Library
+:tests:prepareComGoogleAndroidGmsPlayServicesBase1001Library
+:tests:prepareComGoogleAndroidGmsPlayServicesBasement1001Library
+:tests:prepareComGoogleAndroidGmsPlayServicesTasks1001Library
+:tests:prepareComGoogleFirebaseFirebaseAnalytics900Library
+:tests:prepareComGoogleFirebaseFirebaseAnalyticsImpl900Library
+:tests:prepareComGoogleFirebaseFirebaseAuth1001Library
+:tests:prepareComGoogleFirebaseFirebaseCommon1001Library
+:tests:prepareComGoogleFirebaseFirebaseConfig1001Library
+:tests:prepareComGoogleFirebaseFirebaseCore900Library
+:tests:prepareComGoogleFirebaseFirebaseDatabase1001Library
+:tests:prepareComGoogleFirebaseFirebaseDatabaseConnection1001Library
+:tests:prepareComGoogleFirebaseFirebaseIid1001Library
+:tests:prepareComGoogleFirebaseFirebaseStorage1001Library
+:tests:prepareComGoogleFirebaseFirebaseStorageCommon1001Library
+:tests:prepareIoReactivexRxjava2Rxandroid201Library
+:tests:prepareDebugDependencies
+:tests:compileDebugAidl
+:tests:compileDebugRenderscript
+:tests:generateDebugBuildConfig
+:tests:generateDebugResValues
+:tests:processDebugGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/google-services.json
+:tests:generateDebugResources
+:tests:mergeDebugResources
+:tests:processDebugManifest
+:tests:processDebugResources
+:tests:generateDebugSources
+:tests:incrementalDebugJavaCompilationSafeguard
+:tests:javaPreCompileDebug
+:tests:compileDebugJavaWithJavac
+:tests:compileDebugNdk UP-TO-DATE
+:tests:compileDebugSources
+:tests:mergeDebugShaders
+:tests:compileDebugShaders
+:tests:generateDebugAssets
+:tests:mergeDebugAssets
+:tests:transformClassesWithDexForDebug
+:tests:mergeDebugJniLibFolders
+:tests:transformNativeLibsWithMergeJniLibsForDebug
+:tests:transformNativeLibsWithStripDebugSymbolForDebug
+:tests:processDebugJavaRes UP-TO-DATE
+:tests:transformResourcesWithMergeJavaResForDebug
+:tests:validateSigningDebug
+:tests:packageDebug
+:tests:assembleDebug
+:tests:checkReleaseManifest
+:tests:prepareReleaseDependencies
+:tests:compileReleaseAidl
+:tests:compileReleaseRenderscript
+:tests:generateReleaseBuildConfig
+:tests:generateReleaseResValues
+:tests:processReleaseGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/google-services.json
+:tests:generateReleaseResources
+:tests:mergeReleaseResources
+:tests:processReleaseManifest
+:tests:processReleaseResources
+:tests:generateReleaseSources
+:tests:incrementalReleaseJavaCompilationSafeguard
+:tests:javaPreCompileRelease
+:tests:compileReleaseJavaWithJavac
+:tests:compileReleaseNdk UP-TO-DATE
+:tests:compileReleaseSources
+:tests:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:904)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:847)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:595)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:240)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:179)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:160)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:958)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:281)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:2384)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:2370)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1025)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1017)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1659)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1242)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:830)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:49)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:697)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1006)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:104)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:663)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:658)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:84)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1407)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:137)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.lambda$visitFile$3(JavaPsiVisitor.java:326)
+	at com.android.tools.lint.client.api.LintClient.runReadAction(LintClient.java:1283)
+	at com.android.tools.lint.client.api.LintDriver$LintClientWrapper.runReadAction(LintDriver.java:2031)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:322)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1596)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1573)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1104)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:958)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:471)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:402)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:143)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:153)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:334)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:303)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:tests:mergeReleaseShaders
+:tests:compileReleaseShaders
+:tests:generateReleaseAssets
+:tests:mergeReleaseAssets
+:tests:transformClassesWithDexForRelease
+:tests:mergeReleaseJniLibFolders
+:tests:transformNativeLibsWithMergeJniLibsForRelease
+:tests:transformNativeLibsWithStripDebugSymbolForRelease
+:tests:processReleaseJavaRes UP-TO-DATE
+:tests:transformResourcesWithMergeJavaResForRelease
+:tests:packageRelease
+:tests:assembleRelease
+:tests:assemble
+:tests:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.201 secs
+
+2018-09-16 19:13:00,274 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537099931645-0/src/RxFireDroid-master/library/tests/build/outputs/apk/tests-debug.apk

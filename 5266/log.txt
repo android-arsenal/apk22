@@ -1,0 +1,144 @@
+2018-09-16 22:02:49,491 INFO  DownloadService - Downloading "https://github.com/Popalay/SuperMultipartFactory/archive/master.zip", attempt 3
+2018-09-16 22:02:49,966 INFO  DownloadService - Downloaded https://github.com/Popalay/SuperMultipartFactory/archive/master.zip, attempt 3
+2018-09-16 22:02:49,967 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/master.zip": 142 KB
+2018-09-16 22:02:49,967 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 22:02:49,972 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/master.zip: true
+2018-09-16 22:02:49,972 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src'.
+2018-09-16 22:02:49,988 INFO  FullProcessService - Size of directory with sources: 152 KB
+2018-09-16 22:02:49,988 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src]
+2018-09-16 22:02:50,004 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/.git/
+
+2018-09-16 22:02:50,006 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/gradlew
+2018-09-16 22:02:50,009 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/build.gradle
+2018-09-16 22:02:50,011 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/settings.gradle
+2018-09-16 22:02:50,011 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 22:02:50,011 INFO  ProjectFixService - Fixing project...
+2018-09-16 22:02:50,017 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/local.properties
+2018-09-16 22:02:50,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 22:02:50,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/local.properties
+2018-09-16 22:02:50,018 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 22:02:50,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/local.properties
+2018-09-16 22:02:50,019 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-09-16 22:02:50,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-09-16 22:02:50,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-16 22:02:50,020 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 22:02:50,020 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 22:02:50,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 22:03:36,918 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-16 22:03:36,918 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 22:03:36,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 22:04:00,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:supermultipartfactory:preBuild UP-TO-DATE
+:supermultipartfactory:resolveReleaseDependencies
+:supermultipartfactory:preReleaseBuild
+:supermultipartfactory:checkReleaseManifest
+:supermultipartfactory:prepareReleaseDependencies
+:supermultipartfactory:compileReleaseAidl
+:supermultipartfactory:compileReleaseNdk NO-SOURCE
+:supermultipartfactory:compileLint
+:supermultipartfactory:copyReleaseLint NO-SOURCE
+:supermultipartfactory:compileReleaseRenderscript
+:supermultipartfactory:generateReleaseBuildConfig
+:supermultipartfactory:generateReleaseResValues
+:supermultipartfactory:generateReleaseResources
+:supermultipartfactory:mergeReleaseResources
+:supermultipartfactory:processReleaseManifest
+:supermultipartfactory:processReleaseResources
+:supermultipartfactory:generateReleaseSources
+:supermultipartfactory:incrementalReleaseJavaCompilationSafeguard
+:supermultipartfactory:javaPreCompileRelease
+:supermultipartfactory:compileReleaseJavaWithJavac
+:supermultipartfactory:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:supermultipartfactory:extractReleaseAnnotations
+:supermultipartfactory:mergeReleaseShaders
+:supermultipartfactory:compileReleaseShaders
+:supermultipartfactory:generateReleaseAssets
+:supermultipartfactory:mergeReleaseAssets
+:supermultipartfactory:mergeReleaseProguardFiles
+:supermultipartfactory:packageReleaseRenderscript NO-SOURCE
+:supermultipartfactory:packageReleaseResources
+:supermultipartfactory:processReleaseJavaRes NO-SOURCE
+:supermultipartfactory:transformResourcesWithMergeJavaResForRelease
+:supermultipartfactory:transformClassesAndResourcesWithSyncLibJarsForReleaseError: Could not read /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/build/intermediates/typedefs.txt: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/supermultipartfactory/build/intermediates/typedefs.txt (No such file or directory)
+
+:supermultipartfactory:mergeReleaseJniLibFolders
+:supermultipartfactory:transformNativeLibsWithMergeJniLibsForRelease
+:supermultipartfactory:transformNativeLibsWithStripDebugSymbolForRelease
+:supermultipartfactory:transformNativeLibsWithSyncJniLibsForRelease
+:supermultipartfactory:bundleRelease
+:sample:resolveDebugDependencies
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:handleDebugMicroApk
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:resolveReleaseDependencies
+:sample:preReleaseBuild
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.654 secs
+
+2018-09-16 22:04:00,177 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537110169488-0/src/SuperMultipartFactory-master/sample/build/outputs/apk/sample-debug.apk

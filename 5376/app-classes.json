@@ -1,0 +1,4 @@
+{
+  "net.bohush.geometricprogressview" : [ "BuildConfig", "Figure", "GeometricProgressView", "GeometricProgressView$1", "GeometricProgressView$2", "R", "R$attr", "R$id", "R$styleable", "TYPE" ],
+  "net.bohush.geometricprogressview.sample" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string", "R$style", "R$styleable" ]
+}

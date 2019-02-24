@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.willowtreeapps.spurceexampleapp",
+    "label" : "Spruce",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB7FBMVEUAAABVVapAQL8AgIBDUa48VbM+T7n////6+Pz4+Pr59/r49vr39fjr6+0AAAD29vf39vj49/n49/nu7u8sN4U3RZj19Pbt7O4kN3kwPpH19PYkMXk0QZAkNXcuN3b09PXp6eoeJloAAFUAAADW1djIx8oAAAA3NzfGxcjl5ebr6uzq6evm5ufCwcQ0NDQAAAAAAAAPEy4XHkYUG0QUG0MAMzMAAAAAAAAAAID5+Pr49/nx9PWm2szZ7Oix3tPq8vHt8/Nav6Tt8/K84tk5tJRiwqjK5uB9y7Z8y7bM5+E7tZQ+tZVVvaG84dj39/j5+Pnw9PRdwKU/tZWY1cXT6uVgwadlwqlzyLGP0sC34NbC5NyO0sCGz7y64deHz7yO0cDn8O5KuZs8tZVRvJ+X1cXo8fCIz73m8O53ybM9tZW84ddAtpa84tj29veAzLir28+J0L17yrVAtZV2yLOm2s319vfg7eq03tOw3dKk2czL5+B6ybR6yrTD5NxwxrBbv6RMupxLuZtWvaJrxa2y3tOd1sfU6uVIuZppxKzE5Nyb1sc/tZa03tRfwKZfwaZdv6Wu3dF5yrRvxq+f18me18hJuZtkwqmq28/W6+eK0L5TvKBBt5dUvaG74dfB5NvM5+DR6eT6+fv19Pb08/WpWNzVAAAAOXRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4qJysc7OwiAwiprQMqsO3w7+2xLAkgQk1LTAULDgSfRIASAAACGUlEQVRIx2NgoBdgZCIAGFGUMzMTNhJZDZDJwsqGF7CygJXB1LNzcHIRAJzc7HAdzAw8llaEAS8fVAMjAwu/lYCgEF4gKGApLMIA8TkTg6iYlRAh84UsxSWASiEaJKWI0iCN0CA2FDRYW5OowcaGBA22dvYOjo5O9na2RGpwdnF1c/dwc3VxJlKDp5e3j6+vj7eXJxEa/Kz8rQICvYOCg4O8AwOAHD/8GkJCw8IjIqOiY2Jj4+KjIiPCw0JD8GpISPT29k5KTklNS0tNSU4CchLT8TspwxsEMl2zslwzwcwMAn5wzgYrS87JSQYzsp0JaMjNA6vLLyjIBzPycgkFq3WhS2ZRcUlmZklxUaZLoTXBeCgtK6+orKrOzKypqqwoLyvFr6E2vq6+obGpuaClvLyloLmpsaG+Lr4Wj4aIIG8IyGxtzYQygyLwaGhrh6rq6OzsgDLb2/D5oQtibndPb195N8SuLryetnYHq+qfkJk5oR/MdLfGH0r2E0GqJk0OCpo8CcSaaE8oWAOmTPX2njbd23v6NG/vqVMCiMgPM2bOmh07Z87c2bNmziAyTzvNm79gwfx5TkOqICO1MJYhzgZZqAZGBjl5S8IVykIFRQYlaJWlrLJooeVCvMBy4WJVZXgdp6auoamlrYUHaGvp6OqpIapRfQNDI2NjYxMcAChlZGigj1xRm5qZEwBmpqiVv5IFAaBEt1YMAJN4fxdOXponAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1923,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.willowtreeapps.spurceexampleapp\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Spruce\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.willowtreeapps.spurceexampleapp.SplashActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.willowtreeapps.spurceexampleapp.SpruceActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.willowtreeapps.spurceexampleapp.RecyclerActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.willowtreeapps.spurceexampleapp.ListViewActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1842209,
+  "crc32" : 4090349885,
+  "sha256" : "90d7faaeb8e8581bc204557de65fad5895651af98830957921830f8ec19d59a0",
+  "buildTime" : 1537011369000
+}

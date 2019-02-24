@@ -1,0 +1,636 @@
+2019-01-13 00:52:44,112 INFO  DownloadService - Downloading "https://github.com/timusus/Shuttle/archive/master.zip", attempt 3
+2019-01-13 00:52:48,540 INFO  DownloadService - Downloaded https://github.com/timusus/Shuttle/archive/master.zip, attempt 3
+2019-01-13 00:52:48,540 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/master.zip": 3 MB
+2019-01-13 00:52:48,540 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 00:52:48,549 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/master.zip: true
+2019-01-13 00:52:48,549 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src'.
+2019-01-13 00:52:49,043 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-01-13 00:52:49,043 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src]
+2019-01-13 00:52:49,061 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/.git/
+
+2019-01-13 00:52:49,092 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/gradlew
+2019-01-13 00:52:49,123 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle
+2019-01-13 00:52:49,155 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/settings.gradle
+2019-01-13 00:52:49,155 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 00:52:49,155 INFO  ProjectFixService - Fixing project...
+2019-01-13 00:52:49,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/local.properties
+2019-01-13 00:52:49,225 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
+2019-01-13 00:52:49,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,231 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/local.properties
+2019-01-13 00:52:49,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/aesthetic/local.properties
+2019-01-13 00:52:49,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/aesthetic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,248 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/aesthetic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/local.properties
+2019-01-13 00:52:49,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/multisheetview/local.properties
+2019-01-13 00:52:49,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/multisheetview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/multisheetview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/local.properties
+2019-01-13 00:52:49,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/recycler-adapter/local.properties
+2019-01-13 00:52:49,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,274 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/local.properties
+2019-01-13 00:52:49,275 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-13 00:52:49,276 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-13 00:52:49,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:52:49,282 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:52:49,283 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 00:52:49,283 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:52:49,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:52:54,148 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 00:52:54,148 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 00:52:54,148 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 00:52:54,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/ccl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 00:52:57,284 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 00:52:57,284 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating root project 'Shuttle-master'.
+> Could not find method google() for arguments [] on repository container.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'Shuttle-master'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:54)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:127)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:59)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:83)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:129)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: org.gradle.api.internal.MissingMethodException: Could not find method google() for arguments [] on repository container.
+	at org.gradle.api.internal.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:68)
+	at org.gradle.api.internal.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:56)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:172)
+	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
+	at build_ba9s3pt2954zq2lfw5gyctj6s$_run_closure1_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle:8)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:63)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:55)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.repositories(DefaultScriptHandler.java:70)
+	at build_ba9s3pt2954zq2lfw5gyctj6s$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle:6)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:63)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:851)
+	at org.gradle.api.Project$buildscript.call(Unknown Source)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.groovy:42)
+	at org.gradle.api.Script$buildscript$0.callCurrent(Unknown Source)
+	at build_ba9s3pt2954zq2lfw5gyctj6s.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/build.gradle:5)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
+	... 35 more
+
+
+BUILD FAILED
+
+Total time: 2.673 secs
+
+2019-01-13 00:52:57,319 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:52:57,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:53:18,570 INFO  ProjectTaskService - Detected possible tasks: 149
+2019-01-13 00:53:18,571 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
+2019-01-13 00:53:18,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
+2019-01-13 00:54:27,102 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 00:54:27,102 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileKotlin UP-TO-DATE
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestKotlin NO-SOURCE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Play store track: alpha
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Version code: 5000
+Could not find google-services.json while looking in [src/paid/release, src/release/paid, src/paid, src/release, src/paidRelease]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/free/release, src/amazonFree/release, src/release/amazonFree, src/amazon/release, src/amazon/free, src/amazon/freeRelease, src/amazonFree, src/release, src/amazonFreeRelease, src/amazon, src/amazonRelease]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/free/release, src/release/free, src/free, src/release, src/freeRelease]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/paid/release, src/amazonPaid/release, src/release/amazonPaid, src/amazon/release, src/amazon/paid, src/amazon/paidRelease, src/amazonPaid, src/release, src/amazonPaidRelease, src/amazon, src/amazonRelease]
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.jakewharton:butterknife-compiler:8.8.1', 'com.google.dagger:dagger-compiler:2.14.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:app:checkDevDebugClasspath
+Download https://jitpack.io/com/github/timusus/RxImagePicker/permission-check-fix-SNAPSHOT/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/io/fabric/sdk/android/fabric/1.4.2/fabric-1.4.2.aar
+Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/answers/1.4.1/answers-1.4.1.aar
+Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/beta/1.2.7/beta-1.2.7.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxrelay2/rxrelay/2.0.0/rxrelay-2.0.0.jar
+:app:preBuild UP-TO-DATE
+:libraries:aesthetic:preBuild UP-TO-DATE
+:libraries:aesthetic:preDebugBuild UP-TO-DATE
+:libraries:aesthetic:checkDebugManifest
+:libraries:aesthetic:processDebugManifest
+:libraries:ccl:preBuild UP-TO-DATE
+:libraries:ccl:preDebugBuild UP-TO-DATE
+:libraries:ccl:checkDebugManifest
+:libraries:ccl:processDebugManifest
+:libraries:glidepalette:preBuild UP-TO-DATE
+:libraries:glidepalette:preDebugBuild UP-TO-DATE
+:libraries:glidepalette:checkDebugManifest
+:libraries:glidepalette:processDebugManifest
+:libraries:multisheetview:preBuild UP-TO-DATE
+:libraries:multisheetview:preDebugBuild UP-TO-DATE
+:libraries:multisheetview:checkDebugManifest
+:libraries:multisheetview:processDebugManifest
+:libraries:navigation:preBuild UP-TO-DATE
+:libraries:navigation:preDebugBuild UP-TO-DATE
+:libraries:navigation:checkDebugManifest
+:libraries:navigation:processDebugManifest
+:libraries:recycler-adapter:preBuild UP-TO-DATE
+:libraries:recycler-adapter:preDebugBuild UP-TO-DATE
+:libraries:recycler-adapter:checkDebugManifest
+:libraries:recycler-adapter:processDebugManifest
+:app:preDevDebugBuild
+:libraries:aesthetic:compileDebugAidl NO-SOURCE
+:libraries:ccl:compileDebugAidl NO-SOURCE
+:libraries:glidepalette:compileDebugAidl NO-SOURCE
+:libraries:multisheetview:compileDebugAidl NO-SOURCE
+:libraries:navigation:compileDebugAidl NO-SOURCE
+:libraries:recycler-adapter:compileDebugAidl NO-SOURCE
+:app:compileDevDebugAidl NO-SOURCE
+:libraries:aesthetic:packageDebugRenderscript NO-SOURCE
+:libraries:ccl:packageDebugRenderscript NO-SOURCE
+:libraries:glidepalette:packageDebugRenderscript NO-SOURCE
+:libraries:multisheetview:packageDebugRenderscript NO-SOURCE
+:libraries:navigation:packageDebugRenderscript NO-SOURCE
+:libraries:recycler-adapter:packageDebugRenderscript NO-SOURCE
+:app:compileDevDebugRenderscript
+:app:checkDevDebugManifest
+:app:generateDevDebugBuildConfig
+:app:mainApkListPersistenceDevDebug
+:app:generateDevDebugResValues
+:app:generateDevDebugResources
+:app:processDevDebugGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/debug/google-services.json
+:libraries:aesthetic:compileDebugRenderscript
+:libraries:aesthetic:generateDebugResValues
+:libraries:aesthetic:generateDebugResources
+:libraries:aesthetic:packageDebugResources
+:libraries:ccl:compileDebugRenderscript
+:libraries:ccl:generateDebugResValues
+:libraries:ccl:generateDebugResources
+:libraries:ccl:packageDebugResources
+:libraries:glidepalette:compileDebugRenderscript
+:libraries:glidepalette:generateDebugResValues
+:libraries:glidepalette:generateDebugResources
+:libraries:glidepalette:packageDebugResources
+:libraries:multisheetview:compileDebugRenderscript
+:libraries:multisheetview:generateDebugResValues
+:libraries:multisheetview:generateDebugResources
+:libraries:multisheetview:packageDebugResources
+:libraries:navigation:compileDebugRenderscript
+:libraries:navigation:generateDebugResValues
+:libraries:navigation:generateDebugResources
+:libraries:navigation:packageDebugResources
+:libraries:recycler-adapter:compileDebugRenderscript
+:libraries:recycler-adapter:generateDebugResValues
+:libraries:recycler-adapter:generateDebugResources
+:libraries:recycler-adapter:packageDebugResources
+:app:mergeDevDebugResources
+:app:createDevDebugCompatibleScreenManifests
+:app:processDevDebugManifest
+:app:splitsDiscoveryTaskDevDebug
+:libraries:aesthetic:generateDebugRFile
+:libraries:ccl:generateDebugRFile
+:libraries:glidepalette:generateDebugRFile
+:libraries:multisheetview:generateDebugRFile
+:libraries:navigation:generateDebugRFile
+:libraries:recycler-adapter:generateDebugRFile
+:app:processDevDebugResources
+:libraries:aesthetic:generateDebugBuildConfig
+:libraries:aesthetic:prepareLintJar
+:libraries:aesthetic:generateDebugSources
+:libraries:aesthetic:javaPreCompileDebug
+:libraries:aesthetic:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:libraries:aesthetic:processDebugJavaRes NO-SOURCE
+:libraries:aesthetic:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libraries:ccl:generateDebugBuildConfig
+:libraries:ccl:prepareLintJar
+:libraries:ccl:generateDebugSources
+:libraries:ccl:javaPreCompileDebug
+:libraries:ccl:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:libraries:ccl:processDebugJavaRes NO-SOURCE
+:libraries:ccl:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libraries:glidepalette:generateDebugBuildConfig
+:libraries:glidepalette:prepareLintJar
+:libraries:glidepalette:generateDebugSources
+:libraries:glidepalette:javaPreCompileDebug
+:libraries:glidepalette:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/glidepalette/src/main/java/com/github/florent37/glidepalette/BitmapPalette.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:libraries:glidepalette:processDebugJavaRes NO-SOURCE
+:libraries:glidepalette:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libraries:multisheetview:generateDebugBuildConfig
+:libraries:multisheetview:prepareLintJar
+:libraries:multisheetview:generateDebugSources
+:libraries:multisheetview:javaPreCompileDebug
+:libraries:multisheetview:compileDebugJavaWithJavac
+:libraries:multisheetview:processDebugJavaRes NO-SOURCE
+:libraries:multisheetview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libraries:navigation:generateDebugBuildConfig
+:libraries:navigation:prepareLintJar
+:libraries:navigation:generateDebugSources
+:libraries:navigation:javaPreCompileDebug
+:libraries:navigation:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/libraries/navigation/src/main/java/test/com/androidnavigation/fragment/BaseController.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:libraries:navigation:processDebugJavaRes NO-SOURCE
+:libraries:navigation:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libraries:recycler-adapter:generateDebugBuildConfig
+:libraries:recycler-adapter:prepareLintJar
+:libraries:recycler-adapter:generateDebugSources
+:libraries:recycler-adapter:javaPreCompileDebug
+:libraries:recycler-adapter:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:libraries:recycler-adapter:processDebugJavaRes NO-SOURCE
+:libraries:recycler-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDevDebugKotlin
+:app:prepareLintJar
+:app:generateDevDebugSources
+:app:javaPreCompileDevDebug
+:app:compileDevDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDevDebugNdk NO-SOURCE
+:app:compileDevDebugSources
+:app:mergeDevDebugShaders
+:app:compileDevDebugShaders
+:app:generateDevDebugAssets
+:libraries:aesthetic:mergeDebugShaders
+:libraries:aesthetic:compileDebugShaders
+:libraries:aesthetic:generateDebugAssets
+:libraries:aesthetic:packageDebugAssets
+:libraries:ccl:mergeDebugShaders
+:libraries:ccl:compileDebugShaders
+:libraries:ccl:generateDebugAssets
+:libraries:ccl:packageDebugAssets
+:libraries:glidepalette:mergeDebugShaders
+:libraries:glidepalette:compileDebugShaders
+:libraries:glidepalette:generateDebugAssets
+:libraries:glidepalette:packageDebugAssets
+:libraries:multisheetview:mergeDebugShaders
+:libraries:multisheetview:compileDebugShaders
+:libraries:multisheetview:generateDebugAssets
+:libraries:multisheetview:packageDebugAssets
+:libraries:navigation:mergeDebugShaders
+:libraries:navigation:compileDebugShaders
+:libraries:navigation:generateDebugAssets
+:libraries:navigation:packageDebugAssets
+:libraries:recycler-adapter:mergeDebugShaders
+:libraries:recycler-adapter:compileDebugShaders
+:libraries:recycler-adapter:generateDebugAssets
+:libraries:recycler-adapter:packageDebugAssets
+:app:mergeDevDebugAssets
+:app:transformClassesWithDexBuilderForDevDebug
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/libs/jaudiotagger-2.0.4-SNAPSHOT.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `java.awt.image.BufferedImage org.jaudiotagger.tag.asf.AbstractAsfTagImageField.getImage()`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/libs/jaudiotagger-2.0.4-SNAPSHOT.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `java.awt.image.BufferedImage org.jaudiotagger.tag.datatype.Artwork.getImage()`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/libs/jaudiotagger-2.0.4-SNAPSHOT.jar: D8: Type `javax.imageio.ImageIO` was not found, it is required for default or static interface methods desugaring of `org.jaudiotagger.tag.TagField org.jaudiotagger.tag.flac.FlacTag.createArtworkField(java.awt.image.BufferedImage, int, java.lang.String, java.lang.String, int, int)`
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+JarCode: JSR encountered; reparse using JSRInlinerAdapter
+:app:transformDexArchiveWithExternalLibsDexMergerForDevDebug
+:app:transformDexArchiveWithDexMergerForDevDebug
+:app:mergeDevDebugJniLibFolders
+:libraries:aesthetic:compileDebugNdk NO-SOURCE
+:libraries:aesthetic:mergeDebugJniLibFolders
+:libraries:aesthetic:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:aesthetic:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:aesthetic:transformNativeLibsWithIntermediateJniLibsForDebug
+:libraries:ccl:compileDebugNdk NO-SOURCE
+:libraries:ccl:mergeDebugJniLibFolders
+:libraries:ccl:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:ccl:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:ccl:transformNativeLibsWithIntermediateJniLibsForDebug
+:libraries:glidepalette:compileDebugNdk NO-SOURCE
+:libraries:glidepalette:mergeDebugJniLibFolders
+:libraries:glidepalette:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:glidepalette:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:glidepalette:transformNativeLibsWithIntermediateJniLibsForDebug
+:libraries:multisheetview:compileDebugNdk NO-SOURCE
+:libraries:multisheetview:mergeDebugJniLibFolders
+:libraries:multisheetview:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:multisheetview:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:multisheetview:transformNativeLibsWithIntermediateJniLibsForDebug
+:libraries:navigation:compileDebugNdk NO-SOURCE
+:libraries:navigation:mergeDebugJniLibFolders
+:libraries:navigation:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:navigation:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:navigation:transformNativeLibsWithIntermediateJniLibsForDebug
+:libraries:recycler-adapter:compileDebugNdk NO-SOURCE
+:libraries:recycler-adapter:mergeDebugJniLibFolders
+:libraries:recycler-adapter:transformNativeLibsWithMergeJniLibsForDebug
+:libraries:recycler-adapter:transformNativeLibsWithStripDebugSymbolForDebug
+:libraries:recycler-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDevDebug
+:app:transformNativeLibsWithStripDebugSymbolForDevDebug
+:app:checkDevDebugLibraries
+:app:processDevDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDevDebug
+:app:validateSigningDevDebug
+:app:packageDevDebug
+:app:countDevDebugDexMethods
+Dexcount name:    dexcount-gradle-plugin
+Dexcount version: 0.8.2
+Dexcount input:   /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build/outputs/apk/dev/debug/app-dev-debug.apk
+Total methods in app-dev-debug.apk: 82154 (125.36% used)
+Total fields in app-dev-debug.apk:  69458 (105.99% used)
+Total classes in app-dev-debug.apk:  10050 (15.34% used)
+Methods remaining in app-dev-debug.apk: 0
+Fields remaining in app-dev-debug.apk:  0
+Classes remaining in app-dev-debug.apk:  55485
+:app:assembleDevDebug
+:app:assembleDebug
+:app:checkAmazonFreeReleaseClasspath
+:app:extractProguardFiles
+:libraries:aesthetic:preReleaseBuild UP-TO-DATE
+:libraries:aesthetic:checkReleaseManifest
+:libraries:aesthetic:processReleaseManifest
+:libraries:ccl:preReleaseBuild UP-TO-DATE
+:libraries:ccl:checkReleaseManifest
+:libraries:ccl:processReleaseManifest
+:libraries:glidepalette:preReleaseBuild UP-TO-DATE
+:libraries:glidepalette:checkReleaseManifest
+:libraries:glidepalette:processReleaseManifest
+:libraries:multisheetview:preReleaseBuild UP-TO-DATE
+:libraries:multisheetview:checkReleaseManifest
+:libraries:multisheetview:processReleaseManifest
+:libraries:navigation:preReleaseBuild UP-TO-DATE
+:libraries:navigation:checkReleaseManifest
+:libraries:navigation:processReleaseManifest
+:libraries:recycler-adapter:preReleaseBuild UP-TO-DATE
+:libraries:recycler-adapter:checkReleaseManifest
+:libraries:recycler-adapter:processReleaseManifest
+:app:preAmazonFreeReleaseBuild
+:libraries:aesthetic:compileReleaseAidl NO-SOURCE
+:libraries:ccl:compileReleaseAidl NO-SOURCE
+:libraries:glidepalette:compileReleaseAidl NO-SOURCE
+:libraries:multisheetview:compileReleaseAidl NO-SOURCE
+:libraries:navigation:compileReleaseAidl NO-SOURCE
+:libraries:recycler-adapter:compileReleaseAidl NO-SOURCE
+:app:compileAmazonFreeReleaseAidl NO-SOURCE
+:libraries:aesthetic:packageReleaseRenderscript NO-SOURCE
+:libraries:ccl:packageReleaseRenderscript NO-SOURCE
+:libraries:glidepalette:packageReleaseRenderscript NO-SOURCE
+:libraries:multisheetview:packageReleaseRenderscript NO-SOURCE
+:libraries:navigation:packageReleaseRenderscript NO-SOURCE
+:libraries:recycler-adapter:packageReleaseRenderscript NO-SOURCE
+:app:compileAmazonFreeReleaseRenderscript
+:app:checkAmazonFreeReleaseManifest
+:app:generateAmazonFreeReleaseBuildConfig
+:app:mainApkListPersistenceAmazonFreeRelease
+:app:mergeAmazonFreeReleaseShaders
+:app:compileAmazonFreeReleaseShaders
+:app:generateAmazonFreeReleaseAssets
+:libraries:aesthetic:mergeReleaseShaders
+:libraries:aesthetic:compileReleaseShaders
+:libraries:aesthetic:generateReleaseAssets
+:libraries:aesthetic:packageReleaseAssets
+:libraries:ccl:mergeReleaseShaders
+:libraries:ccl:compileReleaseShaders
+:libraries:ccl:generateReleaseAssets
+:libraries:ccl:packageReleaseAssets
+:libraries:glidepalette:mergeReleaseShaders
+:libraries:glidepalette:compileReleaseShaders
+:libraries:glidepalette:generateReleaseAssets
+:libraries:glidepalette:packageReleaseAssets
+:libraries:multisheetview:mergeReleaseShaders
+:libraries:multisheetview:compileReleaseShaders
+:libraries:multisheetview:generateReleaseAssets
+:libraries:multisheetview:packageReleaseAssets
+:libraries:navigation:mergeReleaseShaders
+:libraries:navigation:compileReleaseShaders
+:libraries:navigation:generateReleaseAssets
+:libraries:navigation:packageReleaseAssets
+:libraries:recycler-adapter:mergeReleaseShaders
+:libraries:recycler-adapter:compileReleaseShaders
+:libraries:recycler-adapter:generateReleaseAssets
+:libraries:recycler-adapter:packageReleaseAssets
+:app:mergeAmazonFreeReleaseAssets
+:app:processAmazonFreeReleaseGoogleServices FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processAmazonFreeReleaseGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/google-services.json
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processAmazonFreeReleaseGoogleServices'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
+ Searched Location: 
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazon/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/google-services.json
+	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:86)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 8s
+180 actionable tasks: 180 executed
+
+2019-01-13 00:54:27,332 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547315564104-0/src/Shuttle-master/app/build/outputs/apk/dev/debug/app-dev-debug.apk

@@ -1,0 +1,40 @@
+{
+  "meta" : {
+    "packageName" : "bob.sun.prodigal.debug",
+    "label" : "Prodigal",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.VIBRATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "sun.bob.bender.allow_broadcast",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAFYklEQVR4nO2W74sdVxnHP885Z+beuLutxLpVothFKSYrVUHSl919YYxI21f3pqHBlCBKDG3e9K3MXvwDWjWhbJFgS8T0DkptUUkt7AaktampFMzSIiWxMSjZVVJyY+6dmXMeX8y9N3v3R3KzWzUvfN7McObM9/nMM8/5ngO3Wcim3lYVZhAm01LnbE2ZQRHRDwNuuEgSQzLnUF3/Y1SFZM6RJOZW5YevkKqQpoZ63ffHZl+6C5dvo/AfBcDZyxTRRb7z0FJ/TrNpqdXCsFUbDqjZtH2QZ5sTiNmDhm8Qwg5gK9aV83wB8E+MWUDMr7gWXuCJ+rlVGpsC6gn96LmPUfnI94ADxPEYRQ6qIAZMVyYoaAARcBFk2RXgGJ1/fZ/H9/9jGKgbAyWJo9EoOHp8mrh6jErlHlpXII7BWmi3r6L8BbT7i+QuhM9QrY7gPWQZjI5Bp3OerH2AQ/vm+pq3DNSvzE8fYUv1OMFbvFcqVaHI51GOUfh5Dj3yV+j1hwpHT3wKZ6cQDuCiKTptxVrBWM+19j4ef/TEjSq1NlCtaUnrniPP72bLyG/I8wLnHKp/R8Nhvr2nuaKS5WpqNMLA+LMv1BHzA0Q+QVEURJGl0/463330ZD/HTYGSxDAzo/zw+Daq1bdB78RaS/B/wvsHObj3PIkaJlPprh4A7eupQpoaztaUhgSe+dk9WPsyxn4B7z3IB7TbX+SJfReZmZGVH7HaJxYmBRHF2aepxFsBCP4Crc4uDu49z+xsREMC9brvLuXly7k0xXrd05DA7GzEwb3naXV2EfwFACrxVpx9GhFlYXJVQQYHev/2meZOIvMGWeaJY8PVq9Mc3n+KuTnH9PS6Dblm9N45+twDVEbmyLJAHFvycD8H66dX9tPaTir+ENZBdYsl65zg8P5TJBuAAZieLkjmHIf2nyLrnKC6xWJdmWONuA6kKtTrniPNUVR3k2dQFIrap1AVJhc3vj9NLiqqgtqnKAolz0B1N0eao9Trfvk2dB0oTcv7yN+Hi8YxBor8XS7tOYMIw7jsulH2G8ybtyjydzEGXDSO+PsGcg8Anf14SRnYjotK40PO0JBAktgNw/QiSbrLXM5gbenksH0g9wDQVPeq3I1Q2r/h/cGHm4mpXsb3ESmXk3D3Svk1mlqj/m3QzofN09dcmWt9oP9t/B/oZrEukKh2j6KJ2bG4aNjc+Vt2LC4aksSgKqLrW5pbNRICiEHjCHzIaDTCAmSbgAHQhXq91PjxzzOtVCHPy1w3BapWibKMbad/5+/828VvVb728FQUxS7POj85/cpLz9dqNZum6VAm2Zu7c9dD34ziymN5nhWdX//icx98cpu/+KWdNq9WbwA0X17iVovtf3yDsff+rGFkZEKtnbDOkWWd3wNcunRp6F/Xm6vweevcdAiekastxt5+q7ijdYV3vnx/Wfr56+/0e+iB+RkA7n1tnrGlRTqjoxQQfOE7RV54I3JtWJCVYUSuFXnhfeE7BYTO6Ch3LC1y72vzA7kHgHoxenkJFUFUETAIVgSrqhtekapqRLAIVsCIKirC6OWlVXNXJQn/RSdYK9ft70MiEgAtD8f/mehqazfX2kDj4+MKEJBXVYOImEhVvagGVQ0Mnp1vNVRVQ1fLl9pBAvLq8twDQGmaepLEvHnyxdd9nj0pxrSsc1asja2LDCrxxnEkti4ypZazYkzL59mTb5588XWSxCz3tbU8RQD9yq6HP20j91mKAhPHxrfb507/9uVzvedDogigO7/64IStVidClgWcw+fFe3945ZcXhtaq1WqbPyFuMMeNXNfUarX+8zRNN9NHUqvVlreHAqs3stsx/g08unFx71TXLQAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 3200,
+  "locales" : [ "", "zh" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.1.0\" package=\"bob.sun.prodigal.debug\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<permission android:name=\"sun.bob.bender.allow_broadcast\" android:protectionLevel=\"0x2\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0f0005\" android:label=\"Prodigal\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:name=\"bob.sun.bender.App\" android:persistent=\"true\" android:debuggable=\"true\" android:allowBackup=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Prodigal\" android:name=\"bob.sun.bender.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f0005\" android:name=\"bob.sun.bender.intro.BDIntroActivity\" />\n\t\t<service android:name=\"bob.sun.bender.service.PlayerService\" android:process=\".PrdPlayer\" />\n\t\t<meta-data android:name=\"io.fabric.ApiKey\" android:value=\"8e19b2f9462d4928f267906b4f96d4ac60741643\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 5516924,
+  "crc32" : 2338707706,
+  "sha256" : "65d9fc5cd4f99051ffb48961fde467f4ff3be55fe3aa32d97a45e7e54e32f7a3",
+  "buildTime" : 1521887739000
+}

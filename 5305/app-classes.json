@@ -1,0 +1,7 @@
+{
+  "android.support.annotation" : [ "AnimRes", "AnimatorRes", "AnyRes", "AnyThread", "ArrayRes", "AttrRes", "BinderThread", "BoolRes", "CallSuper", "CheckResult", "ColorInt", "ColorLong", "ColorRes", "DimenRes", "Dimension", "DrawableRes", "FloatRange", "FontRes", "FractionRes", "GuardedBy", "HalfFloat", "IdRes", "IntDef", "IntRange", "IntegerRes", "InterpolatorRes", "Keep", "LayoutRes", "MainThread", "MenuRes", "NonNull", "Nullable", "PluralsRes", "Px", "RawRes", "RequiresApi", "RequiresPermission", "RequiresPermission$Read", "RequiresPermission$Write", "RestrictTo", "RestrictTo$Scope", "Size", "StringDef", "StringRes", "StyleRes", "StyleableRes", "TransitionRes", "UiThread", "VisibleForTesting", "WorkerThread", "XmlRes" ],
+  "com.example.shortbread" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$mipmap", "R$string", "SampleApplication" ],
+  "com.example.shortbread.books" : [ "BooksActivity" ],
+  "com.example.shortbread.movies" : [ "MoviesActivity" ],
+  "shortbread" : [ "BuildConfig", "R", "Shortbread", "Shortbread$1", "ShortbreadGenerated", "Shortcut", "ShortcutUtils", "SimpleActivityLifecycleCallbacks" ]
+}

@@ -1,0 +1,1834 @@
+2018-09-16 00:11:11,889 INFO  DownloadService - Downloading "https://github.com/roadhouse-dev/RxDbflow/archive/master.zip", attempt 3
+2018-09-16 00:11:12,633 INFO  DownloadService - Downloaded https://github.com/roadhouse-dev/RxDbflow/archive/master.zip, attempt 3
+2018-09-16 00:11:12,633 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/master.zip": 256 KB
+2018-09-16 00:11:12,633 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-16 00:11:12,639 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/master.zip: true
+2018-09-16 00:11:12,639 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src'.
+2018-09-16 00:11:12,702 INFO  FullProcessService - Size of directory with sources: 475 KB
+2018-09-16 00:11:12,702 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src]
+2018-09-16 00:11:12,725 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/.git/
+
+2018-09-16 00:11:12,732 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew
+2018-09-16 00:11:12,740 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/build.gradle
+2018-09-16 00:11:12,747 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/build.gradle
+2018-09-16 00:11:12,748 INFO  ProjectBuildService - Remote scripts: none
+2018-09-16 00:11:12,748 INFO  ProjectFixService - Fixing project...
+2018-09-16 00:11:12,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/local.properties
+2018-09-16 00:11:12,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-16 00:11:12,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/local.properties
+2018-09-16 00:11:12,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-16 00:11:12,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/local.properties
+2018-09-16 00:11:12,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-16 00:11:12,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx2/local.properties
+2018-09-16 00:11:12,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx2/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-16 00:11:12,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/local.properties
+2018-09-16 00:11:12,766 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-16 00:11:12,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-16 00:11:12,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-16 00:11:12,767 INFO  ProjectFixService - Project was maybe fixed
+2018-09-16 00:11:12,767 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 00:11:12,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 00:11:48,764 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-09-16 00:11:48,764 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 00:11:48,764 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 00:12:05,396 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:RxDbFlow-Rx1:preBuild UP-TO-DATE
+:RxDbFlow-Rx1:preDebugBuild UP-TO-DATE
+:RxDbFlow-Rx1:checkDebugManifest
+:RxDbFlow-Rx1:preDebugAndroidTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:preDebugUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:preReleaseBuild UP-TO-DATE
+:RxDbFlow-Rx1:preReleaseUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:prepareComGithubRaizlabsDBFlowDbflow400Beta7Library
+:RxDbFlow-Rx1:prepareDebugDependencies
+:RxDbFlow-Rx1:compileDebugAidl
+:RxDbFlow-Rx1:compileDebugNdk UP-TO-DATE
+:RxDbFlow-Rx1:compileLint
+:RxDbFlow-Rx1:copyDebugLint UP-TO-DATE
+:RxDbFlow-Rx1:compileDebugRenderscript
+:RxDbFlow-Rx1:generateDebugBuildConfig
+:RxDbFlow-Rx1:generateDebugResValues
+:RxDbFlow-Rx1:generateDebugResources
+:RxDbFlow-Rx1:mergeDebugResources
+:RxDbFlow-Rx1:processDebugManifest
+:RxDbFlow-Rx1:processDebugResources
+:RxDbFlow-Rx1:generateDebugSources
+:RxDbFlow-Rx1:incrementalDebugJavaCompilationSafeguard
+:RxDbFlow-Rx1:compileDebugJavaWithJavac
+:RxDbFlow-Rx1:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/observables/DBFlowExecuteObservable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:RxDbFlow-Rx1:extractDebugAnnotations
+:RxDbFlow-Rx1:mergeDebugShaders
+:RxDbFlow-Rx1:compileDebugShaders
+:RxDbFlow-Rx1:generateDebugAssets
+:RxDbFlow-Rx1:mergeDebugAssets
+:RxDbFlow-Rx1:mergeDebugProguardFiles
+:RxDbFlow-Rx1:packageDebugRenderscript UP-TO-DATE
+:RxDbFlow-Rx1:packageDebugResources
+:RxDbFlow-Rx1:processDebugJavaRes UP-TO-DATE
+:RxDbFlow-Rx1:transformResourcesWithMergeJavaResForDebug
+:RxDbFlow-Rx1:transformClassesAndResourcesWithSyncLibJarsForDebug
+:RxDbFlow-Rx1:mergeDebugJniLibFolders
+:RxDbFlow-Rx1:transformNative_libsWithMergeJniLibsForDebug
+:RxDbFlow-Rx1:transformNative_libsWithSyncJniLibsForDebug
+:RxDbFlow-Rx1:bundleDebug
+:RxDbFlow-Rx1:compileDebugSources
+:RxDbFlow-Rx1:assembleDebug
+:RxDbFlow-Rx1:checkReleaseManifest
+:RxDbFlow-Rx1:prepareReleaseDependencies
+:RxDbFlow-Rx1:compileReleaseAidl
+:RxDbFlow-Rx1:compileReleaseNdk UP-TO-DATE
+:RxDbFlow-Rx1:copyReleaseLint UP-TO-DATE
+:RxDbFlow-Rx1:compileReleaseRenderscript
+:RxDbFlow-Rx1:generateReleaseBuildConfig
+:RxDbFlow-Rx1:generateReleaseResValues
+:RxDbFlow-Rx1:generateReleaseResources
+:RxDbFlow-Rx1:mergeReleaseResources
+:RxDbFlow-Rx1:processReleaseManifest
+:RxDbFlow-Rx1:processReleaseResources
+:RxDbFlow-Rx1:generateReleaseSources
+:RxDbFlow-Rx1:incrementalReleaseJavaCompilationSafeguard
+:RxDbFlow-Rx1:compileReleaseJavaWithJavac
+:RxDbFlow-Rx1:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/observables/DBFlowExecuteObservable.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:RxDbFlow-Rx1:extractReleaseAnnotations
+:RxDbFlow-Rx1:mergeReleaseShaders
+:RxDbFlow-Rx1:compileReleaseShaders
+:RxDbFlow-Rx1:generateReleaseAssets
+:RxDbFlow-Rx1:mergeReleaseAssets
+:RxDbFlow-Rx1:mergeReleaseProguardFiles
+:RxDbFlow-Rx1:packageReleaseRenderscript UP-TO-DATE
+:RxDbFlow-Rx1:packageReleaseResources
+:RxDbFlow-Rx1:processReleaseJavaRes UP-TO-DATE
+:RxDbFlow-Rx1:transformResourcesWithMergeJavaResForRelease
+:RxDbFlow-Rx1:transformClassesAndResourcesWithSyncLibJarsForRelease
+:RxDbFlow-Rx1:mergeReleaseJniLibFolders
+:RxDbFlow-Rx1:transformNative_libsWithMergeJniLibsForRelease
+:RxDbFlow-Rx1:transformNative_libsWithSyncJniLibsForRelease
+:RxDbFlow-Rx1:bundleRelease
+:RxDbFlow-Rx1:compileReleaseSources
+:RxDbFlow-Rx1:assembleRelease
+:RxDbFlow-Rx1:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/RxDbFlow.java:3: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.IntRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:6: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.InternalAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:8: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.ModelAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:9: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseStatement;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:10: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:15: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:16: error: package rx.functions does not exist
+import rx.functions.Func0;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:18: error: cannot find symbol
+public class RxModelAdapter<TModel> implements InternalAdapter<TModel> {
+                                               ^
+  symbol: class InternalAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:20: error: cannot find symbol
+    private ModelAdapter<TModel> mModelAdapter;
+            ^
+  symbol:   class ModelAdapter
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:27: error: cannot find symbol
+    public RxModelAdapter(ModelAdapter<TModel> modelAdapter) {
+                          ^
+  symbol:   class ModelAdapter
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:62: error: cannot find symbol
+    public boolean save(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                       ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:78: error: cannot find symbol
+    public void saveAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:94: error: cannot find symbol
+    public long insert(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:110: error: cannot find symbol
+    public void insertAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:126: error: cannot find symbol
+    public boolean update(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:142: error: cannot find symbol
+    public void updateAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:158: error: cannot find symbol
+    public boolean delete(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:174: error: cannot find symbol
+    public void deleteAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:182: error: cannot find symbol
+    public void bindToStatement(DatabaseStatement sqLiteStatement, TModel tModel) {
+                                ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:190: error: cannot find symbol
+    public void bindToInsertStatement(DatabaseStatement sqLiteStatement, TModel tModel, @IntRange(from = 0L, to = 1L) int start) {
+                                      ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:198: error: cannot find symbol
+    public void bindToInsertStatement(DatabaseStatement sqLiteStatement, TModel tModel) {
+                                      ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:247: error: cannot find symbol
+    public void load(TModel model, DatabaseWrapper databaseWrapper) {
+                                   ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:263: error: cannot find symbol
+    public Observable<TModel> saveAsObservable(final TModel model) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:282: error: cannot find symbol
+    public Observable<TModel> saveAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:282: error: cannot find symbol
+    public Observable<TModel> saveAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:301: error: cannot find symbol
+    public Observable<TModel> insertAsObservable(final TModel model) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:320: error: cannot find symbol
+    public Observable<TModel> insertAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                           ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:320: error: cannot find symbol
+    public Observable<TModel> insertAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:339: error: cannot find symbol
+    public Observable<TModel> deleteAsObservable(final TModel model) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:358: error: cannot find symbol
+    public Observable<TModel> deleteAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                           ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:358: error: cannot find symbol
+    public Observable<TModel> deleteAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:377: error: cannot find symbol
+    public Observable<TModel> updateAsObservable(final TModel model) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:396: error: cannot find symbol
+    public Observable<TModel> updateAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                           ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:396: error: cannot find symbol
+    public Observable<TModel> updateAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:415: error: cannot find symbol
+    public Observable<TModel> loadAsObservable(final TModel model) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:434: error: cannot find symbol
+    public Observable<TModel> loadAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModelAdapter.java:434: error: cannot find symbol
+    public Observable<TModel> loadAsObservable(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Observable
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/DBFlowSchedulers.java:8: error: package rx does not exist
+import rx.Scheduler;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/DBFlowSchedulers.java:9: error: package rx.schedulers does not exist
+import rx.schedulers.Schedulers;
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/DBFlowSchedulers.java:13: error: cannot find symbol
+    private static Scheduler sScheduler;
+                   ^
+  symbol:   class Scheduler
+  location: class DBFlowSchedulers
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/DBFlowSchedulers.java:21: error: cannot find symbol
+    public static Scheduler background() {
+                  ^
+  symbol:   class Scheduler
+  location: class DBFlowSchedulers
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:5: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:7: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:5: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.BaseModel;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:6: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.InvalidDBConfiguration;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:7: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:10: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:17: error: cannot find symbol
+public class RxBaseModel<M extends RxBaseModel> extends BaseModel implements RxModifications<M> {
+                                                        ^
+  symbol: class BaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:15: error: cannot find symbol
+    Observable<TModel> saveAsObservable();
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:17: error: cannot find symbol
+    Observable<TModel> saveAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+                                                  ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:17: error: cannot find symbol
+    Observable<TModel> saveAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:19: error: cannot find symbol
+    Observable<TModel> insertAsObservable();
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:21: error: cannot find symbol
+    Observable<TModel> insertAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:21: error: cannot find symbol
+    Observable<TModel> insertAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:23: error: cannot find symbol
+    Observable<TModel> deleteAsObservable();
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:25: error: cannot find symbol
+    Observable<TModel> deleteAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:25: error: cannot find symbol
+    Observable<TModel> deleteAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:27: error: cannot find symbol
+    Observable<TModel> updateAsObservable();
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:29: error: cannot find symbol
+    Observable<TModel> updateAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxModifications.java:29: error: cannot find symbol
+    Observable<TModel> updateAsObservable(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Observable
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:25: error: cannot find symbol
+    public Observable<M> saveAsObservable(){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:35: error: cannot find symbol
+    public Observable<M> saveAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+                                                          ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:35: error: cannot find symbol
+    public Observable<M> saveAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:43: error: cannot find symbol
+    public Observable<M> insertAsObservable(){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:52: error: cannot find symbol
+    public Observable<M> insertAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+                                                            ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:52: error: cannot find symbol
+    public Observable<M> insertAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:60: error: cannot find symbol
+    public Observable<M> deleteAsObservable(){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:69: error: cannot find symbol
+    public Observable<M> deleteAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+                                                            ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:69: error: cannot find symbol
+    public Observable<M> deleteAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:77: error: cannot find symbol
+    public Observable<M> updateAsObservable(){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:86: error: cannot find symbol
+    public Observable<M> updateAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+                                                            ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:86: error: cannot find symbol
+    public Observable<M> updateAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:94: error: cannot find symbol
+    public Observable<M> loadAsObservable(){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:103: error: cannot find symbol
+    public Observable<M> loadAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+                                                          ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:103: error: cannot find symbol
+    public Observable<M> loadAsObservable(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Observable
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:5: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:6: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.Model;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.ModelAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:8: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:16: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:17: error: package rx does not exist
+import rx.Subscriber;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:28: error: cannot find symbol
+public class RxModelOperationTransaction extends Observable<Void> {
+                                                 ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:148: error: cannot find symbol
+        private final DatabaseWrapper mDatabaseWrapper;
+                      ^
+  symbol:   class DatabaseWrapper
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:162: error: cannot find symbol
+        public Builder(DatabaseWrapper databaseWrapper) {
+                       ^
+  symbol:   class DatabaseWrapper
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:175: error: cannot find symbol
+        public Builder(Class<? extends Model> clazz) {
+                                       ^
+  symbol:   class Model
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:30: error: cannot find symbol
+    @IntDef({MODEL_OPERATION_UNSET, MODEL_OPERATION_SAVE, MODEL_OPERATION_UPDATE, MODEL_OPERATION_DELETE, MODEL_OPERATION_INSERT})
+     ^
+  symbol:   class IntDef
+  location: class RxModelOperationTransaction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:46: error: cannot find symbol
+    private static class OnTransactionSubscribe implements OnSubscribe<Void> {
+                                                           ^
+  symbol:   class OnSubscribe
+  location: class RxModelOperationTransaction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:50: error: cannot find symbol
+        private final DatabaseWrapper mDatabaseWrapper;
+                      ^
+  symbol:   class DatabaseWrapper
+  location: class OnTransactionSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:54: error: cannot find symbol
+        private OnTransactionSubscribe(List<Object> modelList, List<Integer> operationList, DatabaseWrapper databaseWrapper, boolean canBatchTransaction, boolean mustUseAdapter) {
+                                                                                            ^
+  symbol:   class DatabaseWrapper
+  location: class OnTransactionSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:63: error: cannot find symbol
+        public void call(Subscriber<? super Void> subscriber) {
+                         ^
+  symbol:   class Subscriber
+  location: class OnTransactionSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxGenericTransactionBlock.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxGenericTransactionBlock.java:6: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxGenericTransactionBlock.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.Model;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxGenericTransactionBlock.java:8: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxGenericTransactionBlock.java:13: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:24: error: unknown tag: ahref
+ * <ahref>https://github.com/Raizlabs/DBFlow/blob/master/usage2/StoringData.md#faststoremodeltransaction</ahref> for
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/transaction/RxModelOperationTransaction.java:24: error: unknown tag: ahref
+ * <ahref>https://github.com/Raizlabs/DBFlow/blob/master/usage2/StoringData.md#faststoremodeltransaction</ahref> for
+                                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/observables/DBFlowCountObservable.java:25: error: reference not found
+ * {@link RxSQLite#selectCountOf(IProperty[])}
+          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/observables/DBFlowCountObservable.java:36: error: no tag name after @
+     * as part of a query statement. {@see au.com.roadhouse.rxdbflow.rx2.sql.language.RxSQLite}
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/structure/RxBaseModel.java:109: error: reference not found
+     * may throw a {@link InvalidDBConfiguration} for this call if this class
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/QueriableObservable.java:14: error: reference not found
+     * Creates an observable that emits a long value. This should be paired with {@link RxSQLite#selectCountOf(IProperty[])}
+                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/QueriableObservable.java:22: error: reference not found
+     * Creates an observable that emits a long value. This should be paired with {@link RxSQLite#selectCountOf(IProperty[])}
+                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:63: error: reference not found
+     * Adds a {@link Join.JoinType#CROSS} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:74: error: reference not found
+     * Adds a {@link Join.JoinType#CROSS} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:85: error: reference not found
+     * Adds a {@link Join.JoinType#INNER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:96: error: reference not found
+     * Adds a {@link Join.JoinType#INNER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:107: error: reference not found
+     * Adds a {@link Join.JoinType#LEFT_OUTER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:118: error: reference not found
+     * Adds a {@link Join.JoinType#LEFT_OUTER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:129: error: reference not found
+     * @return an empty {@link Where} statement
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:137: error: reference not found
+     * @return A {@link Where} statement with the specified array of {@link com.raizlabs.android.dbflow.sql.language.Condition}.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:137: error: reference not found
+     * @return A {@link Where} statement with the specified array of {@link com.raizlabs.android.dbflow.sql.language.Condition}.
+                                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:164: error: reference not found
+     * @return The base asQueryObservable, usually a {@link com.raizlabs.android.dbflow.sql.language.Delete}, {@link
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:165: error: reference not found
+     * com.raizlabs.android.dbflow.sql.language.Select}, or {@link com.raizlabs.android.dbflow.sql.language.Update}
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxFrom.java:165: error: reference not found
+     * com.raizlabs.android.dbflow.sql.language.Select}, or {@link com.raizlabs.android.dbflow.sql.language.Update}
+                                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxInsert.java:87: error: reference not found
+     * Uses the {@link Condition} pairs to fill this insert query.
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxInsert.java:97: error: reference not found
+     * Uses the {@link OperatorGroup} pairs to fill this insert query.
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxInsert.java:112: error: reference not found
+     * Appends the specified {@link From}, which comes from a {@link Select} statement.
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxInsert.java:112: error: reference not found
+     * Appends the specified {@link From}, which comes from a {@link Select} statement.
+                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxInsert.java:114: error: reference not found
+     * @param selectFrom The from that is continuation of {@link Select}.
+                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:42: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:51: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:69: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:70: error: reference not found
+     * @return A {@link From} with specified DELETE on table.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:81: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:102: error: reference not found
+     * @return A new {@link CaseCondition}.
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:111: error: reference not found
+     * case statement will evaluate all of its {@link SQLOperator}.
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxSQLite.java:123: error: reference not found
+     * case statement will evaluate all of its {@link SQLOperator}.
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxUpdate.java:38: error: reference not found
+     * @see ConflictAction#ROLLBACK
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxUpdate.java:47: error: reference not found
+     * @see ConflictAction#ABORT
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxUpdate.java:56: error: reference not found
+     * @see ConflictAction#REPLACE
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxUpdate.java:65: error: reference not found
+     * @see ConflictAction#FAIL
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxUpdate.java:74: error: reference not found
+     * @see ConflictAction#IGNORE
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxWhere.java:24: error: reference not found
+     * Adds a param to the WHERE clause with the custom {@link SQLOperator}
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx1/src/main/java/au/com/roadhouse/rxdbflow/rx1/sql/language/RxWhere.java:26: error: reference not found
+     * @param condition The {@link SQLOperator} to use
+                                   ^
+
+39 errors
+100 warnings
+:RxDbFlow-Rx1:javadocJar
+:RxDbFlow-Rx1:sourcesJar
+:RxDbFlow-Rx1:assemble
+:RxDbFlow-Rx1:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.018 secs
+
+2018-09-16 00:12:05,441 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 00:12:05,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 00:12:16,093 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-16 00:12:16,093 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-16 00:12:16,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-16 00:12:35,353 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:RxDbFlow-Rx2:preBuild UP-TO-DATE
+:RxDbFlow-Rx2:preDebugBuild UP-TO-DATE
+:RxDbFlow-Rx2:checkDebugManifest
+:RxDbFlow-Rx2:preDebugAndroidTestBuild UP-TO-DATE
+:RxDbFlow-Rx2:preDebugUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx2:preReleaseBuild UP-TO-DATE
+:RxDbFlow-Rx2:preReleaseUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx2:prepareComGithubRaizlabsDBFlowDbflow400Beta7Library
+:RxDbFlow-Rx2:prepareDebugDependencies
+:RxDbFlow-Rx2:compileDebugAidl
+:RxDbFlow-Rx2:compileDebugNdk UP-TO-DATE
+:RxDbFlow-Rx2:compileLint
+:RxDbFlow-Rx2:copyDebugLint UP-TO-DATE
+:RxDbFlow-Rx2:compileDebugRenderscript
+:RxDbFlow-Rx2:generateDebugBuildConfig
+:RxDbFlow-Rx2:generateDebugResValues
+:RxDbFlow-Rx2:generateDebugResources
+:RxDbFlow-Rx2:mergeDebugResources
+:RxDbFlow-Rx2:processDebugManifest
+:RxDbFlow-Rx2:processDebugResources
+:RxDbFlow-Rx2:generateDebugSources
+:RxDbFlow-Rx2:incrementalDebugJavaCompilationSafeguard
+:RxDbFlow-Rx2:compileDebugJavaWithJavac
+:RxDbFlow-Rx2:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/observables/operators/NotifyOfUpdate.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:RxDbFlow-Rx2:extractDebugAnnotations
+:RxDbFlow-Rx2:mergeDebugShaders
+:RxDbFlow-Rx2:compileDebugShaders
+:RxDbFlow-Rx2:generateDebugAssets
+:RxDbFlow-Rx2:mergeDebugAssets
+:RxDbFlow-Rx2:mergeDebugProguardFiles
+:RxDbFlow-Rx2:packageDebugRenderscript UP-TO-DATE
+:RxDbFlow-Rx2:packageDebugResources
+:RxDbFlow-Rx2:processDebugJavaRes UP-TO-DATE
+:RxDbFlow-Rx2:transformResourcesWithMergeJavaResForDebug
+:RxDbFlow-Rx2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:RxDbFlow-Rx2:mergeDebugJniLibFolders
+:RxDbFlow-Rx2:transformNative_libsWithMergeJniLibsForDebug
+:RxDbFlow-Rx2:transformNative_libsWithSyncJniLibsForDebug
+:RxDbFlow-Rx2:bundleDebug
+:RxDbFlow-Rx2:compileDebugSources
+:RxDbFlow-Rx2:assembleDebug
+:RxDbFlow-Rx2:checkReleaseManifest
+:RxDbFlow-Rx2:prepareReleaseDependencies
+:RxDbFlow-Rx2:compileReleaseAidl
+:RxDbFlow-Rx2:compileReleaseNdk UP-TO-DATE
+:RxDbFlow-Rx2:copyReleaseLint UP-TO-DATE
+:RxDbFlow-Rx2:compileReleaseRenderscript
+:RxDbFlow-Rx2:generateReleaseBuildConfig
+:RxDbFlow-Rx2:generateReleaseResValues
+:RxDbFlow-Rx2:generateReleaseResources
+:RxDbFlow-Rx2:mergeReleaseResources
+:RxDbFlow-Rx2:processReleaseManifest
+:RxDbFlow-Rx2:processReleaseResources
+:RxDbFlow-Rx2:generateReleaseSources
+:RxDbFlow-Rx2:incrementalReleaseJavaCompilationSafeguard
+:RxDbFlow-Rx2:compileReleaseJavaWithJavac
+:RxDbFlow-Rx2:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/observables/operators/NotifyOfUpdate.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:RxDbFlow-Rx2:extractReleaseAnnotations
+:RxDbFlow-Rx2:mergeReleaseShaders
+:RxDbFlow-Rx2:compileReleaseShaders
+:RxDbFlow-Rx2:generateReleaseAssets
+:RxDbFlow-Rx2:mergeReleaseAssets
+:RxDbFlow-Rx2:mergeReleaseProguardFiles
+:RxDbFlow-Rx2:packageReleaseRenderscript UP-TO-DATE
+:RxDbFlow-Rx2:packageReleaseResources
+:RxDbFlow-Rx2:processReleaseJavaRes UP-TO-DATE
+:RxDbFlow-Rx2:transformResourcesWithMergeJavaResForRelease
+:RxDbFlow-Rx2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:RxDbFlow-Rx2:mergeReleaseJniLibFolders
+:RxDbFlow-Rx2:transformNative_libsWithMergeJniLibsForRelease
+:RxDbFlow-Rx2:transformNative_libsWithSyncJniLibsForRelease
+:RxDbFlow-Rx2:bundleRelease
+:RxDbFlow-Rx2:compileReleaseSources
+:RxDbFlow-Rx2:assembleRelease
+:RxDbFlow-Rx2:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/RxDbFlow.java:3: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.IntRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:6: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.InternalAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:8: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.ModelAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:9: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseStatement;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:10: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:15: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:18: error: cannot find symbol
+public class RxModelAdapter<TModel> implements InternalAdapter<TModel> {
+                                               ^
+  symbol: class InternalAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:20: error: cannot find symbol
+    private ModelAdapter<TModel> mModelAdapter;
+            ^
+  symbol:   class ModelAdapter
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:27: error: cannot find symbol
+    public RxModelAdapter(ModelAdapter<TModel> modelAdapter) {
+                          ^
+  symbol:   class ModelAdapter
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:62: error: cannot find symbol
+    public boolean save(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                       ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:78: error: cannot find symbol
+    public void saveAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:94: error: cannot find symbol
+    public long insert(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:110: error: cannot find symbol
+    public void insertAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:126: error: cannot find symbol
+    public boolean update(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:142: error: cannot find symbol
+    public void updateAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:158: error: cannot find symbol
+    public boolean delete(TModel tModel, DatabaseWrapper databaseWrapper) {
+                                         ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:174: error: cannot find symbol
+    public void deleteAll(Collection<TModel> tModels, DatabaseWrapper databaseWrapper) {
+                                                      ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:182: error: cannot find symbol
+    public void bindToStatement(DatabaseStatement sqLiteStatement, TModel tModel) {
+                                ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:190: error: cannot find symbol
+    public void bindToInsertStatement(DatabaseStatement sqLiteStatement, TModel tModel, @IntRange(from = 0L, to = 1L) int start) {
+                                      ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:198: error: cannot find symbol
+    public void bindToInsertStatement(DatabaseStatement sqLiteStatement, TModel tModel) {
+                                      ^
+  symbol:   class DatabaseStatement
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:247: error: cannot find symbol
+    public void load(TModel model, DatabaseWrapper databaseWrapper) {
+                                   ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:263: error: cannot find symbol
+    public Single<TModel> saveAsSingle(final TModel model) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:282: error: cannot find symbol
+    public Single<TModel> saveAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                 ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:282: error: cannot find symbol
+    public Single<TModel> saveAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:301: error: cannot find symbol
+    public Single<TModel> insertAsSingle(final TModel model) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:320: error: cannot find symbol
+    public Single<TModel> insertAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                   ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:320: error: cannot find symbol
+    public Single<TModel> insertAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:339: error: cannot find symbol
+    public Single<TModel> deleteAsSingle(final TModel model) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:358: error: cannot find symbol
+    public Single<TModel> deleteAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                   ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:358: error: cannot find symbol
+    public Single<TModel> deleteAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:377: error: cannot find symbol
+    public Single<TModel> updateAsSingle(final TModel model) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:396: error: cannot find symbol
+    public Single<TModel> updateAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                   ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:396: error: cannot find symbol
+    public Single<TModel> updateAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:415: error: cannot find symbol
+    public Single<TModel> loadAsSingle(final TModel model) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:434: error: cannot find symbol
+    public Single<TModel> loadAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+                                                                 ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModelAdapter.java:434: error: cannot find symbol
+    public Single<TModel> loadAsSingle(final TModel model, final DatabaseWrapper databaseWrapper) {
+           ^
+  symbol:   class Single
+  location: class RxModelAdapter<TModel>
+  where TModel is a type-variable:
+    TModel extends Object declared in class RxModelAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/DBFlowSchedulers.java:8: error: package io.reactivex does not exist
+import io.reactivex.Scheduler;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/DBFlowSchedulers.java:9: error: package io.reactivex.schedulers does not exist
+import io.reactivex.schedulers.Schedulers;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/DBFlowSchedulers.java:14: error: cannot find symbol
+    private static Scheduler sScheduler;
+                   ^
+  symbol:   class Scheduler
+  location: class DBFlowSchedulers
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/DBFlowSchedulers.java:22: error: cannot find symbol
+    public static Scheduler background() {
+                  ^
+  symbol:   class Scheduler
+  location: class DBFlowSchedulers
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:5: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:7: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:5: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.BaseModel;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:6: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.InvalidDBConfiguration;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:7: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:10: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:17: error: cannot find symbol
+public class RxBaseModel<M extends RxBaseModel> extends BaseModel implements RxModifications<M> {
+                                                        ^
+  symbol: class BaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:16: error: cannot find symbol
+    Single<TModel> saveAsSingle();
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:18: error: cannot find symbol
+    Single<TModel> saveAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+                                          ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:18: error: cannot find symbol
+    Single<TModel> saveAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:20: error: cannot find symbol
+    Single<TModel> insertAsSingle();
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:22: error: cannot find symbol
+    Single<TModel> insertAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+                                            ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:22: error: cannot find symbol
+    Single<TModel> insertAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:24: error: cannot find symbol
+    Single<TModel> deleteAsSingle();
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:26: error: cannot find symbol
+    Single<TModel> deleteAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+                                            ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:26: error: cannot find symbol
+    Single<TModel> deleteAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:28: error: cannot find symbol
+    Single<TModel> updateAsSingle();
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:30: error: cannot find symbol
+    Single<TModel> updateAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+                                            ^
+  symbol:   class DatabaseWrapper
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxModifications.java:30: error: cannot find symbol
+    Single<TModel> updateAsSingle(@Nullable DatabaseWrapper databaseWrapper);
+    ^
+  symbol:   class Single
+  location: interface RxModifications<TModel>
+  where TModel is a type-variable:
+    TModel extends RxBaseModel declared in interface RxModifications
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:25: error: cannot find symbol
+    public Single<M> saveAsSingle(){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:35: error: cannot find symbol
+    public Single<M> saveAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+                                                  ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:35: error: cannot find symbol
+    public Single<M> saveAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:43: error: cannot find symbol
+    public Single<M> insertAsSingle(){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:52: error: cannot find symbol
+    public Single<M> insertAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:52: error: cannot find symbol
+    public Single<M> insertAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:60: error: cannot find symbol
+    public Single<M> deleteAsSingle(){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:69: error: cannot find symbol
+    public Single<M> deleteAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:69: error: cannot find symbol
+    public Single<M> deleteAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:77: error: cannot find symbol
+    public Single<M> updateAsSingle(){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:86: error: cannot find symbol
+    public Single<M> updateAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+                                                    ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:86: error: cannot find symbol
+    public Single<M> updateAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:94: error: cannot find symbol
+    public Single<M> loadAsSingle(){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:103: error: cannot find symbol
+    public Single<M> loadAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+                                                  ^
+  symbol:   class DatabaseWrapper
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:103: error: cannot find symbol
+    public Single<M> loadAsSingle(@Nullable final DatabaseWrapper databaseWrapper){
+           ^
+  symbol:   class Single
+  location: class RxBaseModel<M>
+  where M is a type-variable:
+    M extends RxBaseModel declared in class RxBaseModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/DbTransaction.java:5: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:6: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.Model;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:8: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.ModelAdapter;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:9: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:18: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:19: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:30: error: cannot find symbol
+public class RxModelOperationTransaction extends Observable<NullValue> {
+                                                 ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:34: error: cannot find symbol
+    private final DatabaseWrapper mDatabaseWrapper;
+                  ^
+  symbol:   class DatabaseWrapper
+  location: class RxModelOperationTransaction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:39: error: cannot find symbol
+    protected void subscribeActual(Observer<? super NullValue> observer) {
+                                   ^
+  symbol:   class Observer
+  location: class RxModelOperationTransaction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:142: error: cannot find symbol
+        private final DatabaseWrapper mDatabaseWrapper;
+                      ^
+  symbol:   class DatabaseWrapper
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:156: error: cannot find symbol
+        public Builder(DatabaseWrapper databaseWrapper) {
+                       ^
+  symbol:   class DatabaseWrapper
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:169: error: cannot find symbol
+        public Builder(Class<? extends Model> clazz) {
+                                       ^
+  symbol:   class Model
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:70: error: cannot find symbol
+    @IntDef({MODEL_OPERATION_UNSET, MODEL_OPERATION_SAVE, MODEL_OPERATION_UPDATE, MODEL_OPERATION_DELETE, MODEL_OPERATION_INSERT})
+     ^
+  symbol:   class IntDef
+  location: class RxModelOperationTransaction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:6: error: package com.raizlabs.android.dbflow.config does not exist
+import com.raizlabs.android.dbflow.config.FlowManager;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:7: error: package com.raizlabs.android.dbflow.structure does not exist
+import com.raizlabs.android.dbflow.structure.Model;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:8: error: package com.raizlabs.android.dbflow.structure.database does not exist
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:14: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:15: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxGenericTransactionBlock.java:23: error: cannot find symbol
+public class RxGenericTransactionBlock extends Observable<NullValue> {
+                                               ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/observables/DBFlowCountSingle.java:13: error: reference not found
+ * {@link au.com.roadhouse.rxdbflow.rx2.sql.language.RxSQLite#selectCountOf(IProperty[])}
+          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/observables/DBFlowCountSingle.java:22: error: no tag name after @
+     * as part of a query statement. {@see au.com.roadhouse.rxdbflow.rx2.sql.language.RxSQLite}
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/QueriableObservable.java:14: error: reference not found
+     * Creates an Single that emits a long value. This should be paired with {@link RxSQLite#selectCountOf(IProperty[])}
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/QueriableObservable.java:22: error: reference not found
+     * Creates an Single that emits a long value. This should be paired with {@link RxSQLite#selectCountOf(IProperty[])}
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:63: error: reference not found
+     * Adds a {@link Join.JoinType#CROSS} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:74: error: reference not found
+     * Adds a {@link Join.JoinType#CROSS} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:85: error: reference not found
+     * Adds a {@link Join.JoinType#INNER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:96: error: reference not found
+     * Adds a {@link Join.JoinType#INNER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:107: error: reference not found
+     * Adds a {@link Join.JoinType#LEFT_OUTER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:118: error: reference not found
+     * Adds a {@link Join.JoinType#LEFT_OUTER} join on a specific table for this asQueryObservable.
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:129: error: reference not found
+     * @return an empty {@link Where} statement
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:137: error: reference not found
+     * @return A {@link Where} statement with the specified array of {@link com.raizlabs.android.dbflow.sql.language.SQLOperator}.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:137: error: reference not found
+     * @return A {@link Where} statement with the specified array of {@link com.raizlabs.android.dbflow.sql.language.SQLOperator}.
+                                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:164: error: reference not found
+     * @return The base asQueryObservable, usually a {@link com.raizlabs.android.dbflow.sql.language.Delete}, {@link
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:165: error: reference not found
+     * com.raizlabs.android.dbflow.sql.language.Select}, or {@link com.raizlabs.android.dbflow.sql.language.Update}
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxFrom.java:165: error: reference not found
+     * com.raizlabs.android.dbflow.sql.language.Select}, or {@link com.raizlabs.android.dbflow.sql.language.Update}
+                                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxInsert.java:87: error: reference not found
+     * Uses the {@link SQLOperator} pairs to fill this insert query.
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxInsert.java:97: error: reference not found
+     * Uses the {@link Condition} pairs to fill this insert query.
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxInsert.java:112: error: reference not found
+     * Appends the specified {@link From}, which comes from a {@link Select} statement.
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxInsert.java:112: error: reference not found
+     * Appends the specified {@link From}, which comes from a {@link Select} statement.
+                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxInsert.java:114: error: reference not found
+     * @param selectFrom The from that is continuation of {@link Select}.
+                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:42: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:51: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:69: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:70: error: reference not found
+     * @return A {@link From} with specified DELETE on table.
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:81: error: reference not found
+     * @param <TModel> The class that implements {@link Model}.
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:102: error: reference not found
+     * @return A new {@link CaseCondition}.
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:111: error: reference not found
+     * case statement will evaluate all of its {@link SQLOperator}.
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxSQLite.java:123: error: reference not found
+     * case statement will evaluate all of its {@link SQLOperator}.
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxUpdate.java:38: error: reference not found
+     * @see ConflictAction#ROLLBACK
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxUpdate.java:47: error: reference not found
+     * @see ConflictAction#ABORT
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxUpdate.java:56: error: reference not found
+     * @see ConflictAction#REPLACE
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxUpdate.java:65: error: reference not found
+     * @see ConflictAction#FAIL
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxUpdate.java:74: error: reference not found
+     * @see ConflictAction#IGNORE
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxWhere.java:24: error: reference not found
+     * Adds a param to the WHERE clause with the custom {@link SQLOperator}
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxWhere.java:26: error: reference not found
+     * @param condition The {@link SQLOperator} to use
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxWhere.java:36: error: reference not found
+     * Adds a param to the WHERE clause with the custom {@link SQLOperator}
+                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/language/RxWhere.java:38: error: reference not found
+     * @param condition The {@link SQLOperator} to use
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:26: error: unknown tag: ahref
+ * <ahref>https://github.com/Raizlabs/DBFlow/blob/master/usage2/StoringData.md#faststoremodeltransaction</ahref> for
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/sql/transaction/RxModelOperationTransaction.java:26: error: unknown tag: ahref
+ * <ahref>https://github.com/Raizlabs/DBFlow/blob/master/usage2/StoringData.md#faststoremodeltransaction</ahref> for
+                                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/RxDbFlow-Rx2/src/main/java/au/com/roadhouse/rxdbflow/rx2/structure/RxBaseModel.java:109: error: reference not found
+     * may throw a {@link InvalidDBConfiguration} for this call if this class
+                          ^
+
+41 errors
+100 warnings
+:RxDbFlow-Rx2:javadocJar
+:RxDbFlow-Rx2:sourcesJar
+:RxDbFlow-Rx2:assemble
+:RxDbFlow-Rx2:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.558 secs
+
+2018-09-16 00:12:35,443 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-16 00:12:35,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-16 00:12:44,662 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-09-16 00:12:44,662 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-16 00:12:44,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-16 00:13:11,370 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:RxDbFlow-Rx1:preBuild UP-TO-DATE
+:RxDbFlow-Rx1:preReleaseBuild UP-TO-DATE
+:RxDbFlow-Rx1:checkReleaseManifest
+:RxDbFlow-Rx1:preDebugAndroidTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:preDebugBuild UP-TO-DATE
+:RxDbFlow-Rx1:preDebugUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:preReleaseUnitTestBuild UP-TO-DATE
+:RxDbFlow-Rx1:prepareComGithubRaizlabsDBFlowDbflow400Beta7Library UP-TO-DATE
+:RxDbFlow-Rx1:prepareReleaseDependencies
+:RxDbFlow-Rx1:compileReleaseAidl UP-TO-DATE
+:RxDbFlow-Rx1:compileReleaseNdk UP-TO-DATE
+:RxDbFlow-Rx1:compileLint UP-TO-DATE
+:RxDbFlow-Rx1:copyReleaseLint UP-TO-DATE
+:RxDbFlow-Rx1:compileReleaseRenderscript UP-TO-DATE
+:RxDbFlow-Rx1:generateReleaseBuildConfig UP-TO-DATE
+:RxDbFlow-Rx1:generateReleaseResValues UP-TO-DATE
+:RxDbFlow-Rx1:generateReleaseResources UP-TO-DATE
+:RxDbFlow-Rx1:mergeReleaseResources UP-TO-DATE
+:RxDbFlow-Rx1:processReleaseManifest UP-TO-DATE
+:RxDbFlow-Rx1:processReleaseResources UP-TO-DATE
+:RxDbFlow-Rx1:generateReleaseSources UP-TO-DATE
+:RxDbFlow-Rx1:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:RxDbFlow-Rx1:compileReleaseJavaWithJavac UP-TO-DATE
+:RxDbFlow-Rx1:extractReleaseAnnotations UP-TO-DATE
+:RxDbFlow-Rx1:mergeReleaseShaders UP-TO-DATE
+:RxDbFlow-Rx1:compileReleaseShaders UP-TO-DATE
+:RxDbFlow-Rx1:generateReleaseAssets UP-TO-DATE
+:RxDbFlow-Rx1:mergeReleaseAssets UP-TO-DATE
+:RxDbFlow-Rx1:mergeReleaseProguardFiles UP-TO-DATE
+:RxDbFlow-Rx1:packageReleaseRenderscript UP-TO-DATE
+:RxDbFlow-Rx1:packageReleaseResources UP-TO-DATE
+:RxDbFlow-Rx1:processReleaseJavaRes UP-TO-DATE
+:RxDbFlow-Rx1:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:RxDbFlow-Rx1:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:RxDbFlow-Rx1:mergeReleaseJniLibFolders UP-TO-DATE
+:RxDbFlow-Rx1:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:RxDbFlow-Rx1:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:RxDbFlow-Rx1:bundleRelease UP-TO-DATE
+:exampleRx1:preBuild UP-TO-DATE
+:exampleRx1:preDebugBuild UP-TO-DATE
+:exampleRx1:checkDebugManifest
+:exampleRx1:preReleaseBuild UP-TO-DATE
+:exampleRx1:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:exampleRx1:prepareComAndroidSupportAppcompatV72531Library
+:exampleRx1:prepareComAndroidSupportDesign2531Library
+:exampleRx1:prepareComAndroidSupportRecyclerviewV72531Library
+:exampleRx1:prepareComAndroidSupportSupportCompat2531Library
+:exampleRx1:prepareComAndroidSupportSupportCoreUi2531Library
+:exampleRx1:prepareComAndroidSupportSupportCoreUtils2531Library
+:exampleRx1:prepareComAndroidSupportSupportFragment2531Library
+:exampleRx1:prepareComAndroidSupportSupportMediaCompat2531Library
+:exampleRx1:prepareComAndroidSupportSupportV42531Library
+:exampleRx1:prepareComAndroidSupportSupportVectorDrawable2531Library
+:exampleRx1:prepareComAndroidSupportTransition2531Library
+:exampleRx1:prepareComGithubRaizlabsDBFlowDbflow400Beta7Library
+:exampleRx1:prepareComGithubRoadhouseDevRxDbFlowRx1UnspecifiedLibrary
+:exampleRx1:prepareIoReactivexRxandroid121Library
+:exampleRx1:prepareDebugDependencies
+:exampleRx1:compileDebugAidl
+:exampleRx1:compileDebugRenderscript
+:exampleRx1:generateDebugBuildConfig
+:exampleRx1:generateDebugResValues
+:exampleRx1:generateDebugResources
+:exampleRx1:mergeDebugResources
+:exampleRx1:processDebugManifest
+:exampleRx1:processDebugResources
+:exampleRx1:generateDebugSources
+:exampleRx1:incrementalDebugJavaCompilationSafeguard
+:exampleRx1:compileDebugJavaWithJavacwarning: File for type 'com.raizlabs.android.dbflow.config.ExampleDatabaseexample_Database' created in the last round will not be subject to annotation processing.
+warning: File for type 'com.raizlabs.android.dbflow.config.GeneratedDatabaseHolder' created in the last round will not be subject to annotation processing.
+2 warnings
+
+:exampleRx1:compileDebugNdk UP-TO-DATE
+:exampleRx1:compileDebugSources
+:exampleRx1:mergeDebugShaders
+:exampleRx1:compileDebugShaders
+:exampleRx1:generateDebugAssets
+:exampleRx1:mergeDebugAssets
+:exampleRx1:transformClassesWithDexForDebug
+:exampleRx1:mergeDebugJniLibFolders
+:exampleRx1:transformNative_libsWithMergeJniLibsForDebug
+:exampleRx1:transformNative_libsWithStripDebugSymbolForDebug
+:exampleRx1:processDebugJavaRes UP-TO-DATE
+:exampleRx1:transformResourcesWithMergeJavaResForDebug
+:exampleRx1:validateSigningDebug
+:exampleRx1:packageDebug
+:exampleRx1:assembleDebug
+:exampleRx1:checkReleaseManifest
+:exampleRx1:prepareReleaseDependencies
+:exampleRx1:compileReleaseAidl
+:exampleRx1:compileReleaseRenderscript
+:exampleRx1:generateReleaseBuildConfig
+:exampleRx1:generateReleaseResValues
+:exampleRx1:generateReleaseResources
+:exampleRx1:mergeReleaseResources
+:exampleRx1:processReleaseManifest
+:exampleRx1:processReleaseResources
+:exampleRx1:generateReleaseSources
+:exampleRx1:incrementalReleaseJavaCompilationSafeguard
+:exampleRx1:compileReleaseJavaWithJavacwarning: File for type 'com.raizlabs.android.dbflow.config.ExampleDatabaseexample_Database' created in the last round will not be subject to annotation processing.
+warning: File for type 'com.raizlabs.android.dbflow.config.GeneratedDatabaseHolder' created in the last round will not be subject to annotation processing.
+2 warnings
+
+:exampleRx1:compileReleaseNdk UP-TO-DATE
+:exampleRx1:compileReleaseSources
+:exampleRx1:lintVitalRelease[Fatal Error] :3:214: The value of attribute "name" associated with an element type "item" must not contain the '<' character.
+Could not read /Users/vbauer/Library/Android/sdk/platform-tools/api/annotations.zip
+java.io.IOException: Could not parse XML from android/accounts/annotations.xml
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializePackage(ExternalAnnotationRepository.java:906)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.initializeFromJar(ExternalAnnotationRepository.java:849)
+	at com.android.tools.lint.ExternalAnnotationRepository$AnnotationsDatabase.<init>(ExternalAnnotationRepository.java:597)
+	at com.android.tools.lint.ExternalAnnotationRepository.getDatabase(ExternalAnnotationRepository.java:242)
+	at com.android.tools.lint.ExternalAnnotationRepository.create(ExternalAnnotationRepository.java:181)
+	at com.android.tools.lint.ExternalAnnotationRepository.get(ExternalAnnotationRepository.java:162)
+	at com.android.tools.lint.psi.EcjPsiManager.getAnnotationRepository(EcjPsiManager.java:883)
+	at com.android.tools.lint.psi.EcjPsiJavaEvaluator.getAllAnnotations(EcjPsiJavaEvaluator.java:263)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.checkCall(SupportAnnotationDetector.java:1981)
+	at com.android.tools.lint.checks.SupportAnnotationDetector$CallVisitor.visitCallExpression(SupportAnnotationDetector.java:1966)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCallExpression(JavaPsiVisitor.java:1029)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:183)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1021)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DelegatingPsiVisitor.visitMethodCallExpression(JavaPsiVisitor.java:1667)
+	at com.android.tools.lint.psi.EcjPsiMethodCallExpression.accept(EcjPsiMethodCallExpression.java:40)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitStatement(JavaElementVisitor.java:272)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitStatement(JavaPsiVisitor.java:1246)
+	at com.intellij.psi.JavaElementVisitor.visitExpressionStatement(JavaElementVisitor.java:115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitExpressionStatement(JavaPsiVisitor.java:834)
+	at com.android.tools.lint.psi.EcjPsiExpressionStatement.accept(EcjPsiExpressionStatement.java:50)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitCodeBlock(JavaElementVisitor.java:67)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitCodeBlock(JavaPsiVisitor.java:701)
+	at com.android.tools.lint.psi.EcjPsiCodeBlock.accept(EcjPsiCodeBlock.java:39)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitMethod(JavaElementVisitor.java:179)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitMethod(JavaPsiVisitor.java:1010)
+	at com.android.tools.lint.psi.EcjPsiMethod.accept(EcjPsiMethod.java:105)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.JavaElementVisitor.visitClass(JavaElementVisitor.java:55)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitClass(JavaPsiVisitor.java:667)
+	at com.android.tools.lint.psi.EcjPsiClass.accept(EcjPsiClass.java:642)
+	at com.android.tools.lint.psi.EcjPsiSourceElement.acceptChildren(EcjPsiSourceElement.java:85)
+	at com.intellij.psi.JavaRecursiveElementVisitor.visitElement(JavaRecursiveElementVisitor.java:62)
+	at com.intellij.psi.PsiElementVisitor.visitFile(PsiElementVisitor.java:34)
+	at com.intellij.psi.JavaElementVisitor.visitJavaFile(JavaElementVisitor.java:336)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$DispatchPsiVisitor.visitJavaFile(JavaPsiVisitor.java:1411)
+	at com.android.tools.lint.psi.EcjPsiJavaFile.accept(EcjPsiJavaFile.java:111)
+	at com.android.tools.lint.client.api.JavaPsiVisitor$4.run(JavaPsiVisitor.java:327)
+	at com.android.tools.lint.EcjParser.runReadAction(EcjParser.java:1115)
+	at com.android.tools.lint.client.api.JavaPsiVisitor.visitFile(JavaPsiVisitor.java:321)
+	at com.android.tools.lint.client.api.LintDriver.visitJavaFiles(LintDriver.java:1571)
+	at com.android.tools.lint.client.api.LintDriver.checkJava(LintDriver.java:1551)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:1090)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:935)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:454)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:395)
+	at com.android.tools.lint.LintCliClient.run(LintCliClient.java:131)
+	at com.android.build.gradle.internal.LintGradleClient.run(LintGradleClient.java:146)
+	at com.android.build.gradle.tasks.Lint.runLint(Lint.java:255)
+	at com.android.build.gradle.tasks.Lint.lintSingleVariant(Lint.java:224)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+:exampleRx1:mergeReleaseShaders
+:exampleRx1:compileReleaseShaders
+:exampleRx1:generateReleaseAssets
+:exampleRx1:mergeReleaseAssets
+:exampleRx1:transformClassesWithDexForRelease
+:exampleRx1:mergeReleaseJniLibFolders
+:exampleRx1:transformNative_libsWithMergeJniLibsForRelease
+:exampleRx1:transformNative_libsWithStripDebugSymbolForRelease
+:exampleRx1:processReleaseJavaRes UP-TO-DATE
+:exampleRx1:transformResourcesWithMergeJavaResForRelease
+:exampleRx1:packageRelease
+:exampleRx1:assembleRelease
+:exampleRx1:assemble
+:exampleRx1:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.98 secs
+
+2018-09-16 00:13:11,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537031471885-0/src/RxDbflow-master/exampleRx1/build/outputs/apk/exampleRx1-debug.apk

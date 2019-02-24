@@ -1,0 +1,45 @@
+{
+  "meta" : {
+    "packageName" : "com.ahmadrosid.drawroutemaps",
+    "label" : "DrawRouteMaps",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WAKE_LOCK", "com.google.android.c2dm.permission.RECEIVE", "com.ahmadrosid.drawroutemaps.permission.C2D_MESSAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "com.ahmadrosid.drawroutemaps.permission.C2D_MESSAGE",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2931,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ahmadrosid.drawroutemaps\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<permission android:name=\"com.ahmadrosid.drawroutemaps.permission.C2D_MESSAGE\" android:protectionLevel=\"0x2\" />\n\t<uses-permission android:name=\"com.ahmadrosid.drawroutemaps.permission.C2D_MESSAGE\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"DrawRouteMaps\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyC4E53k6embk76ivZwoZp8h37H35cI5gdU\" />\n\t\t<activity android:theme=\"resourceId:0x7f0c0005\" android:label=\"Map\" android:name=\"com.ahmadrosid.drawroutemaps.MapsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementReceiver\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver\" android:permission=\"android.permission.INSTALL_PACKAGES\" android:enabled=\"true\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.android.vending.INSTALL_REFERRER\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.google.android.gms.measurement.AppMeasurementService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.android.gms.measurement.AppMeasurementJobService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t\t<category android:name=\"com.ahmadrosid.drawroutemaps\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.google.firebase.iid.FirebaseInstanceIdService\" android:exported=\"true\">\n\t\t\t<intent-filter android:priority=\"-500\">\n\t\t\t\t<action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"com.ahmadrosid.drawroutemaps.firebaseinitprovider\" android:initOrder=\"100\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11910000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2215902,
+  "crc32" : 3592559443,
+  "sha256" : "b381f185cecfc582dc1c1ab77c40bb8329160cc4cbae6ad926a25c5fa497c146",
+  "buildTime" : 1537011875000
+}

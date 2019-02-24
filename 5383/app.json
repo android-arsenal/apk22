@@ -1,0 +1,45 @@
+{
+  "meta" : {
+    "packageName" : "com.wonderkiln.camerakit.demo",
+    "label" : "CameraKit",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.13.2",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.CAMERA", "android.permission.RECORD_AUDIO" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.camera",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.autofocus",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.front",
+      "required" : false
+    }, {
+      "name" : "android.hardware.microphone",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2598,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.13.2\" package=\"com.wonderkiln.camerakit.demo\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.front\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.microphone\" android:required=\"false\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"CameraKit\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:logo=\"res/drawable-anydpi-v21/logomark.xml\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher.png\">\n\t\t<activity android:theme=\"resourceId:0x7f0d010d\" android:name=\"com.wonderkiln.camerakit.demo.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.wonderkiln.camerakit.demo.PreviewActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11720000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3611186,
+  "crc32" : 3498625952,
+  "sha256" : "1fe17c6335460592749fffe29108a3f6785d76cb670a7e05faa557511db315c1",
+  "buildTime" : 1521439501000
+}

@@ -1,0 +1,11 @@
+2018-09-15 22:25:51,325 INFO  DownloadService - Downloading "https://github.com/kumar-aakash86/ak-universal-android-helper/archive/master.zip", attempt 3
+2018-09-15 22:25:56,336 INFO  DownloadService - Downloaded https://github.com/kumar-aakash86/ak-universal-android-helper/archive/master.zip, attempt 3
+2018-09-15 22:25:56,337 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537025151317-0/master.zip": 8 MB
+2018-09-15 22:25:56,337 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 22:25:56,338 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537025151317-0/master.zip: true
+2018-09-15 22:25:56,338 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537025151317-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537025151317-0/src'.
+2018-09-15 22:25:56,705 INFO  FullProcessService - Size of directory with sources: 52 MB
+2018-09-15 22:25:56,705 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-09-15 22:25:56,705 ERROR FullProcessService - Project will not be processed
+2018-09-15 22:25:56,705 ERROR FullProcessService - Project build has not produced APK file
+2018-09-15 22:25:56,714 ERROR FullProcessService - Could not find generated or existed APK file

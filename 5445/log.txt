@@ -1,0 +1,439 @@
+2018-09-15 21:39:58,127 INFO  DownloadService - Downloading "https://github.com/Ufkoku/CipherSharedPrefs/archive/master.zip", attempt 3
+2018-09-15 21:39:58,821 INFO  DownloadService - Downloaded https://github.com/Ufkoku/CipherSharedPrefs/archive/master.zip, attempt 3
+2018-09-15 21:39:58,821 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/master.zip": 188 KB
+2018-09-15 21:39:58,821 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-15 21:39:58,822 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/master.zip: true
+2018-09-15 21:39:58,822 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src'.
+2018-09-15 21:39:58,879 INFO  FullProcessService - Size of directory with sources: 241 KB
+2018-09-15 21:39:58,879 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src]
+2018-09-15 21:39:58,923 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/.git/
+
+2018-09-15 21:39:58,930 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/gradlew
+2018-09-15 21:39:58,939 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/caches/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/ciphers/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/sharedprefs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/build.gradle
+2018-09-15 21:39:58,946 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/sharedprefs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/ciphers/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/caches/build.gradle
+2018-09-15 21:39:58,948 INFO  ProjectBuildService - Remote scripts: none
+2018-09-15 21:39:58,948 INFO  ProjectFixService - Fixing project...
+2018-09-15 21:39:59,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/local.properties
+2018-09-15 21:39:59,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,033 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/local.properties
+2018-09-15 21:39:59,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/caches/local.properties
+2018-09-15 21:39:59,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/caches/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/caches/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/ciphers/local.properties
+2018-09-15 21:39:59,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/ciphers/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/ciphers/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/sharedprefs/local.properties
+2018-09-15 21:39:59,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/sharedprefs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/sharedprefs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/local.properties
+2018-09-15 21:39:59,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-15 21:39:59,170 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-15 21:39:59,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-15 21:39:59,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-15 21:39:59,185 INFO  ProjectFixService - Project was maybe fixed
+2018-09-15 21:39:59,186 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 21:39:59,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 21:40:29,819 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-15 21:40:29,819 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-15 21:40:29,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/api/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-15 21:41:40,573 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api:preBuild UP-TO-DATE
+:api:preDebugBuild UP-TO-DATE
+:api:compileDebugAidl
+:api:compileDebugRenderscript
+:api:checkDebugManifest
+:api:generateDebugBuildConfig
+:api:generateDebugResValues
+:api:generateDebugResources
+:api:packageDebugResources
+:api:platformAttrExtractor
+:api:processDebugManifest
+:api:prepareLintJar
+:api:mergeDebugConsumerProguardFiles
+:api:mergeDebugShaders
+:api:compileDebugShaders
+:api:generateDebugAssets
+:api:packageDebugAssets
+:api:packageDebugRenderscript NO-SOURCE
+:api:processDebugJavaRes NO-SOURCE
+:api:compileDebugNdk NO-SOURCE
+:api:mergeDebugJniLibFolders
+:api:transformNativeLibsWithMergeJniLibsForDebug
+:api:transformNativeLibsWithStripDebugSymbolForDebug
+:api:transformNativeLibsWithSyncJniLibsForDebug
+:api:preReleaseBuild UP-TO-DATE
+:api:compileReleaseAidl
+:api:compileReleaseRenderscript
+:api:checkReleaseManifest
+:api:generateReleaseBuildConfig
+:api:generateReleaseResValues
+:api:generateReleaseResources
+:api:packageReleaseResources
+:api:processReleaseManifest
+:api:mergeReleaseConsumerProguardFiles
+:api:mergeReleaseShaders
+:api:compileReleaseShaders
+:api:generateReleaseAssets
+:api:packageReleaseAssets
+:api:packageReleaseRenderscript NO-SOURCE
+:api:processReleaseJavaRes NO-SOURCE
+:api:compileReleaseNdk NO-SOURCE
+:api:mergeReleaseJniLibFolders
+:api:transformNativeLibsWithMergeJniLibsForRelease
+:api:transformNativeLibsWithStripDebugSymbolForRelease
+:api:transformNativeLibsWithSyncJniLibsForRelease
+:api:mergeReleaseResources
+:api:verifyReleaseResources
+:api:generateDebugRFile
+:api:compileDebugKotlin
+:api:generateDebugSources
+:api:javaPreCompileDebug
+:api:compileDebugJavaWithJavac
+:api:extractDebugAnnotations
+:api:transformResourcesWithMergeJavaResForDebug
+:api:transformClassesAndResourcesWithSyncLibJarsForDebug
+:api:bundleDebug
+:api:compileDebugSources
+:api:assembleDebug
+:api:generateReleaseRFile
+:api:compileReleaseKotlin
+:api:generateReleaseSources
+:api:javaPreCompileRelease
+:api:compileReleaseJavaWithJavac
+:api:extractReleaseAnnotations
+:api:transformResourcesWithMergeJavaResForRelease
+:api:transformClassesAndResourcesWithSyncLibJarsForRelease
+:api:bundleRelease
+:api:compileReleaseSources
+:api:assembleRelease
+:api:assemble
+:api:build
+
+BUILD SUCCESSFUL in 1m 9s
+50 actionable tasks: 50 executed
+
+2018-09-15 21:41:40,606 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-15 21:41:40,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-15 21:42:49,055 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-15 21:42:49,060 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-15 21:42:49,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-15 21:45:32,180 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api:preBuild UP-TO-DATE
+:api:preDebugBuild UP-TO-DATE
+:api:compileDebugAidl UP-TO-DATE
+:api:compileDebugRenderscript UP-TO-DATE
+:api:checkDebugManifest UP-TO-DATE
+:api:generateDebugBuildConfig UP-TO-DATE
+:api:generateDebugResValues UP-TO-DATE
+:api:generateDebugResources UP-TO-DATE
+:api:packageDebugResources UP-TO-DATE
+:api:platformAttrExtractor UP-TO-DATE
+:api:processDebugManifest UP-TO-DATE
+:api:generateDebugRFile UP-TO-DATE
+:api:compileDebugKotlin UP-TO-DATE
+:api:prepareLintJar UP-TO-DATE
+:api:generateDebugSources UP-TO-DATE
+:api:javaPreCompileDebug UP-TO-DATE
+:api:compileDebugJavaWithJavac UP-TO-DATE
+:api:processDebugJavaRes NO-SOURCE
+:api:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:caches:preBuild UP-TO-DATE
+:caches:preDebugBuild UP-TO-DATE
+:caches:checkDebugManifest
+:caches:processDebugManifest
+:ciphers:preBuild UP-TO-DATE
+:ciphers:preDebugBuild UP-TO-DATE
+:ciphers:checkDebugManifest
+:ciphers:processDebugManifest
+:sharedprefs:preBuild UP-TO-DATE
+:sharedprefs:preDebugBuild UP-TO-DATE
+:sharedprefs:checkDebugManifest
+:sharedprefs:processDebugManifest
+:app:preDebugBuild
+:caches:compileDebugAidl
+:ciphers:compileDebugAidl
+:sharedprefs:compileDebugAidl
+:app:compileDebugAidl
+:api:packageDebugRenderscript NO-SOURCE
+:caches:packageDebugRenderscript NO-SOURCE
+:ciphers:packageDebugRenderscript NO-SOURCE
+:sharedprefs:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:caches:compileDebugRenderscript
+:caches:generateDebugResValues
+:caches:generateDebugResources
+:caches:packageDebugResources
+:ciphers:compileDebugRenderscript
+:ciphers:generateDebugResValues
+:ciphers:generateDebugResources
+:ciphers:packageDebugResources
+:sharedprefs:compileDebugRenderscript
+:sharedprefs:generateDebugResValues
+:sharedprefs:generateDebugResources
+:sharedprefs:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:caches:platformAttrExtractor
+:ciphers:platformAttrExtractor
+:sharedprefs:platformAttrExtractor
+:caches:generateDebugBuildConfig
+:caches:prepareLintJar
+:caches:processDebugJavaRes NO-SOURCE
+:ciphers:generateDebugBuildConfig
+:ciphers:prepareLintJar
+:ciphers:processDebugJavaRes NO-SOURCE
+:sharedprefs:generateDebugBuildConfig
+:sharedprefs:prepareLintJar
+:sharedprefs:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:api:mergeDebugShaders UP-TO-DATE
+:api:compileDebugShaders UP-TO-DATE
+:api:generateDebugAssets UP-TO-DATE
+:api:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:sharedprefs:generateDebugRFile
+:sharedprefs:compileDebugKotlin
+:sharedprefs:generateDebugSources
+:sharedprefs:javaPreCompileDebug
+:sharedprefs:compileDebugJavaWithJavac
+:sharedprefs:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:caches:mergeDebugShaders
+:caches:compileDebugShaders
+:caches:generateDebugAssets
+:caches:packageDebugAssets
+:ciphers:mergeDebugShaders
+:ciphers:compileDebugShaders
+:ciphers:generateDebugAssets
+:ciphers:packageDebugAssets
+:sharedprefs:mergeDebugShaders
+:sharedprefs:compileDebugShaders
+:sharedprefs:generateDebugAssets
+:sharedprefs:packageDebugAssets
+:app:mergeDebugAssets
+:api:compileDebugNdk NO-SOURCE
+:api:mergeDebugJniLibFolders UP-TO-DATE
+:api:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:api:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:api:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:caches:compileDebugNdk NO-SOURCE
+:caches:mergeDebugJniLibFolders
+:caches:transformNativeLibsWithMergeJniLibsForDebug
+:caches:transformNativeLibsWithStripDebugSymbolForDebug
+:caches:transformNativeLibsWithIntermediateJniLibsForDebug
+:ciphers:compileDebugNdk NO-SOURCE
+:caches:generateDebugRFile
+:caches:compileDebugKotlin
+:caches:generateDebugSources
+:caches:javaPreCompileDebug
+:caches:compileDebugJavaWithJavac
+:caches:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:ciphers:mergeDebugJniLibFolders
+:ciphers:transformNativeLibsWithMergeJniLibsForDebug
+:ciphers:transformNativeLibsWithStripDebugSymbolForDebug
+:ciphers:transformNativeLibsWithIntermediateJniLibsForDebug
+:sharedprefs:compileDebugNdk NO-SOURCE
+:sharedprefs:mergeDebugJniLibFolders
+:ciphers:generateDebugRFile
+:app:processDebugResources
+:ciphers:compileDebugKotlin
+:ciphers:generateDebugSources
+:ciphers:javaPreCompileDebug
+:ciphers:compileDebugJavaWithJavac
+:ciphers:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+Download https://dl.bintray.com/ufkoku/maven/com/ufkoku/mvp/mvp_autosavable_annotation/4.0.7/mvp_autosavable_annotation-4.0.7.jar
+Download https://dl.bintray.com/ufkoku/maven/com/ufkoku/mvp/mvp_autosavable/4.0.7/mvp_autosavable-4.0.7.pom
+Download https://dl.bintray.com/ufkoku/maven/com/ufkoku/mvp/mvp_autosavable/4.0.7/mvp_autosavable-4.0.7.jar
+:app:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.base.ProcessorWrapper' less than -source '1.8'
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/Adapter.kt: (48, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (65, 62): Parameter 'fab' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (144, 84): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (180, 84): Parameter 'v' is never used, could be renamed to _
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:sharedprefs:transformNativeLibsWithMergeJniLibsForDebug
+:sharedprefs:transformNativeLibsWithStripDebugSymbolForDebug
+:sharedprefs:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:api:preReleaseBuild UP-TO-DATE
+:api:compileReleaseAidl UP-TO-DATE
+:api:compileReleaseRenderscript UP-TO-DATE
+:api:checkReleaseManifest UP-TO-DATE
+:api:generateReleaseBuildConfig UP-TO-DATE
+:api:generateReleaseResValues UP-TO-DATE
+:api:generateReleaseResources UP-TO-DATE
+:api:packageReleaseResources UP-TO-DATE
+:api:processReleaseManifest UP-TO-DATE
+:api:generateReleaseRFile UP-TO-DATE
+:api:compileReleaseKotlin UP-TO-DATE
+:api:generateReleaseSources UP-TO-DATE
+:api:javaPreCompileRelease UP-TO-DATE
+:api:compileReleaseJavaWithJavac UP-TO-DATE
+:api:processReleaseJavaRes NO-SOURCE
+:api:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:caches:preReleaseBuild UP-TO-DATE
+:caches:checkReleaseManifest
+:caches:processReleaseManifest
+:ciphers:preReleaseBuild UP-TO-DATE
+:ciphers:checkReleaseManifest
+:ciphers:processReleaseManifest
+:sharedprefs:preReleaseBuild UP-TO-DATE
+:sharedprefs:checkReleaseManifest
+:sharedprefs:processReleaseManifest
+:app:preReleaseBuild
+:caches:compileReleaseAidl
+:ciphers:compileReleaseAidl
+:sharedprefs:compileReleaseAidl
+:app:compileReleaseAidl
+:api:packageReleaseRenderscript NO-SOURCE
+:caches:packageReleaseRenderscript NO-SOURCE
+:ciphers:packageReleaseRenderscript NO-SOURCE
+:sharedprefs:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:caches:compileReleaseRenderscript
+:caches:generateReleaseResValues
+:caches:generateReleaseResources
+:caches:packageReleaseResources
+:ciphers:compileReleaseRenderscript
+:ciphers:generateReleaseResValues
+:ciphers:generateReleaseResources
+:ciphers:packageReleaseResources
+:sharedprefs:compileReleaseRenderscript
+:sharedprefs:generateReleaseResValues
+:sharedprefs:generateReleaseResources
+:sharedprefs:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:caches:generateReleaseRFile
+:ciphers:generateReleaseRFile
+:sharedprefs:generateReleaseRFile
+:app:processReleaseResources
+:caches:generateReleaseBuildConfig
+:caches:compileReleaseKotlin
+:caches:generateReleaseSources
+:caches:javaPreCompileRelease
+:caches:compileReleaseJavaWithJavac
+:caches:processReleaseJavaRes NO-SOURCE
+:caches:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:ciphers:generateReleaseBuildConfig
+:ciphers:compileReleaseKotlin
+:ciphers:generateReleaseSources
+:ciphers:javaPreCompileRelease
+:ciphers:compileReleaseJavaWithJavac
+:ciphers:processReleaseJavaRes NO-SOURCE
+:ciphers:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sharedprefs:generateReleaseBuildConfig
+:sharedprefs:compileReleaseKotlin
+:sharedprefs:generateReleaseSources
+:sharedprefs:javaPreCompileRelease
+:sharedprefs:compileReleaseJavaWithJavac
+:sharedprefs:processReleaseJavaRes NO-SOURCE
+:sharedprefs:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.base.ProcessorWrapper' less than -source '1.8'
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/Adapter.kt: (48, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (65, 62): Parameter 'fab' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (144, 84): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/src/main/kotlin/com/ufkoku/ciphersharedpreferences/demo/ui/main/MainActivity.kt: (180, 84): Parameter 'v' is never used, could be renamed to _
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:api:mergeReleaseShaders UP-TO-DATE
+:api:compileReleaseShaders UP-TO-DATE
+:api:generateReleaseAssets UP-TO-DATE
+:api:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:caches:mergeReleaseShaders
+:caches:compileReleaseShaders
+:caches:generateReleaseAssets
+:caches:packageReleaseAssets
+:ciphers:mergeReleaseShaders
+:ciphers:compileReleaseShaders
+:ciphers:generateReleaseAssets
+:ciphers:packageReleaseAssets
+:sharedprefs:mergeReleaseShaders
+:sharedprefs:compileReleaseShaders
+:sharedprefs:generateReleaseAssets
+:sharedprefs:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:api:compileReleaseNdk NO-SOURCE
+:api:mergeReleaseJniLibFolders UP-TO-DATE
+:api:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:api:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:api:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:caches:compileReleaseNdk NO-SOURCE
+:caches:mergeReleaseJniLibFolders
+:caches:transformNativeLibsWithMergeJniLibsForRelease
+:caches:transformNativeLibsWithStripDebugSymbolForRelease
+:caches:transformNativeLibsWithIntermediateJniLibsForRelease
+:ciphers:compileReleaseNdk NO-SOURCE
+:ciphers:mergeReleaseJniLibFolders
+:ciphers:transformNativeLibsWithMergeJniLibsForRelease
+:ciphers:transformNativeLibsWithStripDebugSymbolForRelease
+:ciphers:transformNativeLibsWithIntermediateJniLibsForRelease
+:sharedprefs:compileReleaseNdk NO-SOURCE
+:sharedprefs:mergeReleaseJniLibFolders
+:sharedprefs:transformNativeLibsWithMergeJniLibsForRelease
+:sharedprefs:transformNativeLibsWithStripDebugSymbolForRelease
+:sharedprefs:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 2m 42s
+219 actionable tasks: 183 executed, 36 up-to-date
+
+2018-09-15 21:45:32,385 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537022398123-0/src/CipherSharedPrefs-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.vansuita.materialabout.sample",
+    "label" : "Material About",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADqklEQVR42u2ZS0vrQBiGBUHPjxBXrmwx2nq/K6K4OODKjW4UDiJeUXFR9GhRkQO1XhZeNrpQOChYQdzqSkEFEQUXgv4OPYh8J+/QKWk6SUadxC76wUtLmpk8zzSZSUhWVqYypb5qa2u1mpqakJ7faZIQmKTgKysrA3qDVz2UZnkFmxN/dllZWbi6uprSMWADo51ATjAYjGDnqqqqtAqYwAZGO4HcQCAQTVcBsIExI4B0dHRQT0+PY3p7e22DfdCXpwIbGxv0/PysNOvr694IdHV1KYfn6ezsdF9gbGzMNYGBgQFAuiswPj4uDfTw8MDyEYGioiKhhKcCl5eX7FTz+Xws3d3ddHV15dhucHCQCSD6nP89Ao+Pj9TW1kaFhYWJQKK9vZ39JiOgaRqLUcIzgf39/RR4noODA0cBDo8UFxdTaWmptwKbm5tCeL/fT1tbW7Zth4aGkuB5IOGZwOnpaRI4h0fOzs6kBIzwJSUlLBUVFd5dxJOTkynw2ObUDgIieMxK5eXl3gk8PT3R9vY29fX1sezs7LBtsgIcnMN7LvDZQEAE76nA7e0t7e3t0dzcHI2OjrLgO7bhN7u2w8PDQnhMp9LXgP7YttTY2EhWCYfD9PLykpLz83Pq7+9nM4YIAMEoYrW9uLgQ9hEKhdg+gOXReVj0Z2J8LskIRJqamsgqGM339/dE3t7eaH5+PgkUgQiP/iiYCACRxcVF1tbY1/T0NIM1r8BIfX09fotICTQ3N5NVFhYWyFjHx8cfAjeO8MnJSVJfMzMzKeAIHuobGhrcEYhEIp+CR6LRqFDACM7jmsDd3R0dHh5SLBYT5ujoyDL39/cpAiJ4nP+uCais2dlZIbxSAVywbgqI4JUKTExMuCYwMjIihK+rq2NTuBKBlpYWtiCprpubGwYqglcqgLS2ttLU1BQtLy8nsrKywoInL6u6vr6m1dVVWltbSwrmf5wiVvDKBRAsalh0zNMkDoaV1lzYBkjRHG8+bYzgWMAQ5QJcAkDmOd4sIYK3ulhF8K4JGCXM9y44KMA5vNOo28GjffwfVy/AJQDG4fn9DA6sAt51AbOE6GbsK/CeCPAATjU8zn/07YkAAgARGL7bwYuePzDyvF8pAX20/nxVwEnOCM9HW6Yt2JwEcgoKCn7q1v/clvgoPJjA5vSKCS/Q8vPy8n5pmrar569b8fv9LJL774IJbE4v+VA/4jvivSxeawa/OYE4S36cTaqy439VbpokR2bkM5WpT9R/DOekKAqR4hkAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2192,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "uk_UA", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.2\" package=\"com.vansuita.materialabout.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0d0007\" android:label=\"Material About\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\">\n\t\t<activity android:label=\"Material About\" android:name=\"com.vansuita.materialabout.sample.act.ActivitySample\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2398154,
+  "crc32" : 1128380401,
+  "sha256" : "ac18dbe052c28933abe699b839b67ad6c8d4a472d382dcb6ede591f63ce19615",
+  "buildTime" : 1537109808000
+}
