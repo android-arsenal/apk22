@@ -1,131 +1,161 @@
-2018-09-15 22:08:33,125 INFO  DownloadService - Downloading "https://github.com/geniusforapp/fancyDialog/archive/master.zip", attempt 3
-2018-09-15 22:08:34,607 INFO  DownloadService - Downloaded https://github.com/geniusforapp/fancyDialog/archive/master.zip, attempt 3
-2018-09-15 22:08:34,608 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip": 2 MB
-2018-09-15 22:08:34,608 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-15 22:08:34,614 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip: true
-2018-09-15 22:08:34,614 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src'.
-2018-09-15 22:08:34,661 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-09-15 22:08:34,661 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src]
-2018-09-15 22:08:34,677 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/.git/
+2019-03-24 20:54:09,182 INFO  DownloadService - Downloading "https://github.com/geniusforapp/fancyDialog/archive/master.zip", attempt 3
+2019-03-24 20:54:19,222 INFO  DownloadService - Downloaded https://github.com/geniusforapp/fancyDialog/archive/master.zip, attempt 3
+2019-03-24 20:54:19,223 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/master.zip": 2 MB
+2019-03-24 20:54:19,223 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-24 20:54:19,229 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/master.zip: true
+2019-03-24 20:54:19,229 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src'.
+2019-03-24 20:54:19,267 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-24 20:54:19,267 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src]
+2019-03-24 20:54:19,296 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/.git/
 
-2018-09-15 22:08:34,680 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew
-2018-09-15 22:08:34,683 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle
-2018-09-15 22:08:34,686 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/settings.gradle
-2018-09-15 22:08:34,687 INFO  ProjectBuildService - Remote scripts: none
-2018-09-15 22:08:34,687 INFO  ProjectFixService - Fixing project...
-2018-09-15 22:08:34,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/local.properties
-2018-09-15 22:08:34,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-09-15 22:08:34,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-09-15 22:08:34,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:08:34,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/local.properties
-2018-09-15 22:08:34,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:08:34,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/local.properties
-2018-09-15 22:08:34,698 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-09-15 22:08:34,698 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-09-15 22:08:34,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:08:34,699 INFO  ProjectFixService - Project was maybe fixed
-2018-09-15 22:08:34,699 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-15 22:08:34,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-15 22:08:41,912 INFO  ProjectTaskService - Detected possible tasks: 77
-2018-09-15 22:08:41,912 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-15 22:08:41,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-15 22:08:54,048 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:fancydialog:preBuild UP-TO-DATE
-:fancydialog:preDebugBuild UP-TO-DATE
-:fancydialog:checkDebugManifest
-:fancydialog:preDebugAndroidTestBuild UP-TO-DATE
-:fancydialog:preDebugUnitTestBuild UP-TO-DATE
-:fancydialog:preReleaseBuild UP-TO-DATE
-:fancydialog:preReleaseUnitTestBuild UP-TO-DATE
-:fancydialog:prepareComAndroidSupportAnimatedVectorDrawable2531Library
-:fancydialog:prepareComAndroidSupportAppcompatV72531Library
-:fancydialog:prepareComAndroidSupportCardviewV72531Library
-:fancydialog:prepareComAndroidSupportDesign2531Library
-:fancydialog:prepareComAndroidSupportRecyclerviewV72531Library
-:fancydialog:prepareComAndroidSupportSupportCompat2531Library
-:fancydialog:prepareComAndroidSupportSupportCoreUi2531Library
-:fancydialog:prepareComAndroidSupportSupportCoreUtils2531Library
-:fancydialog:prepareComAndroidSupportSupportFragment2531Library
-:fancydialog:prepareComAndroidSupportSupportMediaCompat2531Library
-:fancydialog:prepareComAndroidSupportSupportV42531Library
-:fancydialog:prepareComAndroidSupportSupportVectorDrawable2531Library
-:fancydialog:prepareComAndroidSupportTransition2531Library
-:fancydialog:prepareDebugDependencies
-:fancydialog:compileDebugAidl
-:fancydialog:compileDebugNdk UP-TO-DATE
-:fancydialog:compileLint
-:fancydialog:copyDebugLint UP-TO-DATE
-:fancydialog:compileDebugRenderscript
-:fancydialog:generateDebugBuildConfig
-:fancydialog:generateDebugResValues
-:fancydialog:generateDebugResources
-:fancydialog:mergeDebugResources
-:fancydialog:processDebugManifest
-:fancydialog:processDebugResources
-:fancydialog:generateDebugSources
-:fancydialog:incrementalDebugJavaCompilationSafeguard
-:fancydialog:javaPreCompileDebug
-:fancydialog:compileDebugJavaWithJavac
-:fancydialog:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:fancydialog:extractDebugAnnotations
-:fancydialog:mergeDebugShaders
-:fancydialog:compileDebugShaders
-:fancydialog:generateDebugAssets
-:fancydialog:mergeDebugAssets
-:fancydialog:mergeDebugProguardFiles
-:fancydialog:packageDebugRenderscript UP-TO-DATE
-:fancydialog:packageDebugResources
-:fancydialog:processDebugJavaRes UP-TO-DATE
-:fancydialog:transformResourcesWithMergeJavaResForDebug
-:fancydialog:transformClassesAndResourcesWithSyncLibJarsForDebug
-:fancydialog:mergeDebugJniLibFolders
-:fancydialog:transformNativeLibsWithMergeJniLibsForDebug
-:fancydialog:transformNativeLibsWithStripDebugSymbolForDebug
-:fancydialog:transformNativeLibsWithSyncJniLibsForDebug
-:fancydialog:bundleDebug
-:fancydialog:compileDebugSources
-:fancydialog:assembleDebug
-:fancydialog:checkReleaseManifest
-:fancydialog:prepareReleaseDependencies
-:fancydialog:compileReleaseAidl
-:fancydialog:compileReleaseNdk UP-TO-DATE
-:fancydialog:copyReleaseLint UP-TO-DATE
-:fancydialog:compileReleaseRenderscript
-:fancydialog:generateReleaseBuildConfig
-:fancydialog:generateReleaseResValues
-:fancydialog:generateReleaseResources
-:fancydialog:mergeReleaseResources
-:fancydialog:processReleaseManifest
-:fancydialog:processReleaseResources
-:fancydialog:generateReleaseSources
-:fancydialog:incrementalReleaseJavaCompilationSafeguard
-:fancydialog:javaPreCompileRelease
-:fancydialog:compileReleaseJavaWithJavac
-:fancydialog:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:fancydialog:extractReleaseAnnotations
-:fancydialog:mergeReleaseShaders
-:fancydialog:compileReleaseShaders
-:fancydialog:generateReleaseAssets
-:fancydialog:mergeReleaseAssets
-:fancydialog:mergeReleaseProguardFiles
-:fancydialog:packageReleaseRenderscript UP-TO-DATE
-:fancydialog:packageReleaseResources
-:fancydialog:processReleaseJavaRes UP-TO-DATE
-:fancydialog:transformResourcesWithMergeJavaResForRelease
-:fancydialog:transformClassesAndResourcesWithSyncLibJarsForRelease
-:fancydialog:mergeReleaseJniLibFolders
-:fancydialog:transformNativeLibsWithMergeJniLibsForRelease
-:fancydialog:transformNativeLibsWithStripDebugSymbolForRelease
-:fancydialog:transformNativeLibsWithSyncJniLibsForRelease
-:fancydialog:bundleRelease
-:fancydialog:compileReleaseSources
-:fancydialog:assembleRelease
-:fancydialog:assemble
-:fancydialog:build
+2019-03-24 20:54:19,299 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/gradlew
+2019-03-24 20:54:19,303 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle
+2019-03-24 20:54:19,306 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/settings.gradle
+2019-03-24 20:54:19,306 INFO  ProjectBuildService - Remote scripts: none
+2019-03-24 20:54:19,306 INFO  ProjectFixService - Fixing project...
+2019-03-24 20:54:19,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/local.properties
+2019-03-24 20:54:19,315 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-03-24 20:54:19,316 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-03-24 20:54:19,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,317 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/local.properties
+2019-03-24 20:54:19,319 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,319 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,320 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/local.properties
+2019-03-24 20:54:19,320 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-24 20:54:19,321 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-24 20:54:19,322 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,322 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-24 20:54:19,323 INFO  ProjectFixService - Project was maybe fixed
+2019-03-24 20:54:19,323 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 20:54:19,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 20:54:22,460 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-24 20:54:22,461 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-24 20:54:22,461 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-24 20:54:22,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/fancydialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-24 20:54:24,842 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-24 20:54:24,842 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL
+FAILURE: Build failed with an exception.
 
-Total time: 11.878 secs
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle' line: 5
 
-2018-09-15 22:08:54,105 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537024113122-0/src/fancyDialog-master/app/app-release.apk
+* What went wrong:
+A problem occurred evaluating root project 'fancyDialog-master'.
+> Could not find method google() for arguments [] on repository container.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'fancyDialog-master'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:152)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:161)
+	at org.gradle.initialization.DefaultGradleLauncher$1.execute(DefaultGradleLauncher.java:158)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:158)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method google() for arguments [] on repository container.
+	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:182)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:89)
+	at build_3ul8ls4rzwj5ngaimwrawu150$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle:5)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:104)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.repositories(DefaultScriptHandler.java:91)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
+	at build_3ul8ls4rzwj5ngaimwrawu150$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle:3)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1010)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
+	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
+	at build_3ul8ls4rzwj5ngaimwrawu150.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 51 more
+
+
+BUILD FAILED
+
+Total time: 2.211 secs
+
+2019-03-24 20:54:24,846 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435649174-0/src/fancyDialog-master/app/app-release.apk
