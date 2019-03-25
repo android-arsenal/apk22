@@ -1,18 +1,18 @@
 {
   "meta" : {
-    "packageName" : "com.tapadoo.alerter_demo",
+    "packageName" : "com.tapadoo.alerter.demo",
     "label" : "Alerter",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "1.1",
-    "versionCode" : 8,
+    "versionName" : "1.2",
+    "versionCode" : 9,
     "installLocation" : null,
     "minSdkVersion" : "14",
     "targetSdkVersion" : "28",
     "maxSdkVersion" : null,
     "compileSdkVersion" : "28",
     "compileSdkVersionCodename" : "9",
-    "platformBuildVersionCode" : "8",
-    "platformBuildVersionName" : "{4:1066192077}",
+    "platformBuildVersionCode" : "28",
+    "platformBuildVersionName" : "9",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -28,11 +28,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2ZzWsTQRiHq4liLXipF0EFBUWs/gEhR5uKQtFLDh6iSE6eilD/Ag9B0VYtlEqDQhrSVohEiwp6iCaYKAn0lkNOgmyM2exHkkKy2d28vrMmEEKbj5LtbGEGHmY32cn8ntmZDeyMjLBi4QIANsROGdtugh8kWGgg+8/TfiEejyOnkVOUIH2Pb5eta3isjyKLjUYjr+u6QJNmhkWSqadE60tN05awIWBDyyDL8jJGO7CjQGuxlMvl4yhQII2wVrDWsaZCs2+FDCbm4mOx2In2rJ0CdlJnMplzqqpKTQGd9siTDE0BORKJXGzPuq1APB4/jwKiFQVCodBEvwKWvAOBQOASE8BlBWpFgLrwe/iIHGj1qrkC6pYEf1/dBe7J5PCZuwrln+vmCpCRMiV8E2HjIeiaar5A7tl1KIRmIDd/zTiXPs/j7a+Bpqq9UaogfnxEUWBuCiqbG0bg8o814J5OGdNK/uaHUux1T+Svy5D336YogIHLqTB2pEHpe8A4/7NwE/i1+8Cvzw5M3n+HwhRauAGFlXuQezH9fwp9eQ5atQJabWswqltQ/bW59wKd5F/eAvGDD8RPjweGX52hL7B/nkKlAnCrD5BZUxDiK8baMk+gXgeO40xDEAST/8iYABNgAkyACTABJsAEmIBpiKJorgB+Rn7MGKlhQ8LXajX2Zm5/v9xNJBIXrHoHgsHg5W4CxqZBOBw+iQu1SBpZZYMDs5H1Ifh8vrMkYzQatXfbYjqSzWbfkKcNKUSEVmn1rSgKpNPpt5httJ89MpvT6ZxIpVLveJ4XJUkqob1M6r2k1WexWBSTyeR7h8NBpo+t353KUeSMy+W64vV6pz0eDxVI35NYSJaeo98p4Xa7D+PhGHKMMmMky6423sliwbl3iCY7LlhWLFL+AXUT9BM7ok8TAAAAAElFTkSuQmCC",
     "file" : true
   },
-  "dexClasses" : 2857,
+  "dexClasses" : 2871,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"8\" android:versionName=\"1.1\" android:targetSandboxVersion=\"2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.tapadoo.alerter_demo\" platformBuildVersionCode=\"8\" platformBuildVersionName=\"{4:1066192077}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<meta-data android:name=\"asset_statements\" android:resource=\"[{\n &quot;relation&quot;: [&quot;delegate_permission/common.handle_all_urls&quot;],\n &quot;target&quot;: {\n &quot;namespace&quot;: &quot;web&quot;,\n &quot;site&quot;: &quot;https://apps.tapadoo.com&quot;,\n }\n}]\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter Demo\" android:name=\"com.tapadoo.alerter_demo.base.KotlinDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"default-url\" android:value=\"https://apps.tapadoo.com/alerter-demo\" />\n\t\t\t<intent-filter android:order=\"1\" android:autoVerify=\"true\">\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"apps.tapadoo.com\" android:pathPrefix=\"/alerter-demo\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"apps.tapadoo.com\" android:pathPrefix=\"/alerter-demo\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.tapadoo.alerter_demo.base.JavaDemoActivity\">\n\t\t\t<intent-filter android:order=\"1\">\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"tapadoo.com\" android:pathPattern=\"\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2508844,
-  "crc32" : 1241792578,
-  "sha256" : "f9e608eb1c0bff013c4e1d047a3ba92e6be1f7421a801bcd459e30b3e284484f",
-  "buildTime" : 1544363980000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" xmlns:dist=\"http://schemas.android.com/apk/distribution\" android:versionCode=\"9\" android:versionName=\"1.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.tapadoo.alerter.demo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<dist:module dist:instant=\"true\" dist:onDemand=\"false\" dist:title=\"Instant App\">\n\t\t<dist:fusing dist:include=\"true\" />\n\t</dist:module>\n\t<application android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter Demo\" android:name=\"com.tapadoo.alerter.demo.KotlinDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2516745,
+  "crc32" : 1975197200,
+  "sha256" : "31f4003779de4817b120863ee525c61a6e80dd16b9718e7058e8955c46c604b8",
+  "buildTime" : 1553486775000
 }

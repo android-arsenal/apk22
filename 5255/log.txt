@@ -1,36 +1,36 @@
-2018-09-16 22:26:14,144 INFO  DownloadService - Downloading "https://github.com/in-and-win/IWAHalfModalPresenter/archive/master.zip", attempt 3
-2018-09-16 22:26:16,941 INFO  DownloadService - Downloaded https://github.com/in-and-win/IWAHalfModalPresenter/archive/master.zip, attempt 3
-2018-09-16 22:26:16,941 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/master.zip": 476 KB
-2018-09-16 22:26:16,941 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-16 22:26:16,942 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/master.zip: true
-2018-09-16 22:26:16,942 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src'.
-2018-09-16 22:26:16,991 INFO  FullProcessService - Size of directory with sources: 522 KB
-2018-09-16 22:26:16,992 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src]
-2018-09-16 22:26:17,073 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/.git/
+2019-03-25 11:14:59,780 INFO  DownloadService - Downloading "https://github.com/in-and-win/IWAHalfModalPresenter/archive/master.zip", attempt 3
+2019-03-25 11:15:02,555 INFO  DownloadService - Downloaded https://github.com/in-and-win/IWAHalfModalPresenter/archive/master.zip, attempt 3
+2019-03-25 11:15:02,555 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/master.zip": 476 KB
+2019-03-25 11:15:02,555 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 11:15:02,557 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/master.zip: true
+2019-03-25 11:15:02,557 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src'.
+2019-03-25 11:15:02,581 INFO  FullProcessService - Size of directory with sources: 522 KB
+2019-03-25 11:15:02,581 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src]
+2019-03-25 11:15:02,604 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/.git/
 
-2018-09-16 22:26:17,079 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew
-2018-09-16 22:26:17,084 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/build.gradle
-2018-09-16 22:26:17,092 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/settings.gradle
-2018-09-16 22:26:17,105 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-09-16 22:26:18,001 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-09-16 22:26:18,001 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-09-16 22:26:18,215 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-09-16 22:26:18,215 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-09-16 22:26:18,215 INFO  ProjectFixService - Fixing project...
-2018-09-16 22:26:18,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/local.properties
-2018-09-16 22:26:18,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
-2018-09-16 22:26:18,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/local.properties
-2018-09-16 22:26:18,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-09-16 22:26:18,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/local.properties
-2018-09-16 22:26:18,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
-2018-09-16 22:26:18,235 INFO  ProjectFixService - Project was maybe fixed
-2018-09-16 22:26:18,235 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 22:26:18,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 22:26:18,919 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-16 22:26:18,920 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-09-16 22:26:18,921 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-09-16 22:26:18,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-09-16 22:26:19,571 ERROR SysUtils - Could not process external command
+2019-03-25 11:15:02,607 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew
+2019-03-25 11:15:02,610 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/build.gradle
+2019-03-25 11:15:02,613 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/settings.gradle
+2019-03-25 11:15:02,613 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-25 11:15:02,833 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-25 11:15:02,834 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-25 11:15:03,063 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-25 11:15:03,063 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-25 11:15:03,063 INFO  ProjectFixService - Fixing project...
+2019-03-25 11:15:03,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/local.properties
+2019-03-25 11:15:03,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2019-03-25 11:15:03,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/local.properties
+2019-03-25 11:15:03,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-03-25 11:15:03,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/local.properties
+2019-03-25 11:15:03,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2019-03-25 11:15:03,077 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 11:15:03,077 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:15:03,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:15:03,203 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-25 11:15:03,203 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-25 11:15:03,203 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-25 11:15:03,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-25 11:15:03,321 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,15 +57,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-16 22:26:19,572 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-25 11:15:03,321 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-09-16 22:26:19,577 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 22:26:19,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 22:26:20,145 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-16 22:26:20,145 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-09-16 22:26:20,145 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-09-16 22:26:20,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-09-16 22:26:20,759 ERROR SysUtils - Could not process external command
+2019-03-25 11:15:03,325 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:15:03,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:15:03,444 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-25 11:15:03,444 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-25 11:15:03,444 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-25 11:15:03,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/halfmodalpresenter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-25 11:15:03,562 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -79,8 +78,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -94,15 +92,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-16 22:26:20,759 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-25 11:15:03,562 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-09-16 22:26:20,765 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 22:26:20,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 22:26:21,294 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-16 22:26:21,294 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-09-16 22:26:21,295 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-09-16 22:26:21,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537111574105-0/src/IWAHalfModalPresenter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-09-16 22:26:21,931 ERROR SysUtils - Could not process external command
+2019-03-25 11:15:03,565 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:15:03,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:15:03,696 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-25 11:15:03,696 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-25 11:15:03,696 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-25 11:15:03,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487299772-0/src/IWAHalfModalPresenter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-25 11:15:03,820 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -115,8 +113,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -130,7 +127,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-16 22:26:21,931 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-25 11:15:03,821 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-09-16 22:26:21,937 ERROR FullProcessService - Project build has not produced APK file
-2018-09-16 22:26:21,943 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-25 11:15:03,824 ERROR FullProcessService - Project build has not produced APK file
+2019-03-25 11:15:03,826 ERROR FullProcessService - Could not find generated or existed APK file

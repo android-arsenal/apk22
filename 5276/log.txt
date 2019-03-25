@@ -1,47 +1,40 @@
-2018-12-14 12:49:18,611 INFO  DownloadService - Downloading "https://github.com/Muddz/StyleableToast/archive/master.zip", attempt 3
-2018-12-14 12:49:21,319 INFO  DownloadService - Downloaded https://github.com/Muddz/StyleableToast/archive/master.zip, attempt 3
-2018-12-14 12:49:21,319 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip": 2 MB
-2018-12-14 12:49:21,319 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-14 12:49:21,325 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip: true
-2018-12-14 12:49:21,325 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src'.
-2018-12-14 12:49:21,354 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-12-14 12:49:21,354 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src]
-2018-12-14 12:49:21,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/.git/
+2019-03-25 11:10:03,383 INFO  DownloadService - Downloading "https://github.com/Muddz/StyleableToast/archive/master.zip", attempt 3
+2019-03-25 11:10:06,623 INFO  DownloadService - Downloaded https://github.com/Muddz/StyleableToast/archive/master.zip, attempt 3
+2019-03-25 11:10:06,623 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/master.zip": 2 MB
+2019-03-25 11:10:06,623 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 11:10:06,624 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/master.zip: true
+2019-03-25 11:10:06,624 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src'.
+2019-03-25 11:10:06,653 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-25 11:10:06,653 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src]
+2019-03-25 11:10:06,670 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/.git/
 
-2018-12-14 12:49:21,373 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew
-2018-12-14 12:49:21,376 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle
-2018-12-14 12:49:21,378 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/settings.gradle
-2018-12-14 12:49:21,378 INFO  ProjectBuildService - Remote scripts: none
-2018-12-14 12:49:21,378 INFO  ProjectFixService - Fixing project...
-2018-12-14 12:49:21,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/local.properties
-2018-12-14 12:49:21,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/local.properties
-2018-12-14 12:49:21,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,387 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/local.properties
-2018-12-14 12:49:21,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-14 12:49:21,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-14 12:49:21,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-14 12:49:21,390 INFO  ProjectFixService - Project was maybe fixed
-2018-12-14 12:49:21,390 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:49:21,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:49:28,789 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-14 12:49:28,789 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-14 12:49:28,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-14 12:50:08,471 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.1.0-alpha02/material-1.1.0-alpha02.pom
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc2/butterknife-9.0.0-rc2.pom
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc2/butterknife-runtime-9.0.0-rc2.pom
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc2/butterknife-annotations-9.0.0-rc2.pom
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/9.0.0-rc2/butterknife-compiler-9.0.0-rc2.pom
+2019-03-25 11:10:06,672 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/gradlew
+2019-03-25 11:10:06,675 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/build.gradle
+2019-03-25 11:10:06,677 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/styleabletoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/settings.gradle
+2019-03-25 11:10:06,678 INFO  ProjectBuildService - Remote scripts: none
+2019-03-25 11:10:06,678 INFO  ProjectFixService - Fixing project...
+2019-03-25 11:10:06,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/local.properties
+2019-03-25 11:10:06,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,685 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/styleabletoast/local.properties
+2019-03-25 11:10:06,686 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,686 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/styleabletoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/local.properties
+2019-03-25 11:10:06,688 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-25 11:10:06,688 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-25 11:10:06,690 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,690 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:10:06,691 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 11:10:06,691 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:10:06,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:10:13,943 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-25 11:10:13,944 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-25 11:10:13,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-25 11:10:51,545 INFO  SysUtils - Configuration on demand is an incubating feature.
 :demo:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.1.0-alpha02/material-1.1.0-alpha02.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc2/butterknife-9.0.0-rc2.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc2/butterknife-runtime-9.0.0-rc2.aar
-Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0-alpha01/core-1.1.0-alpha01.aar
 Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc2/butterknife-annotations-9.0.0-rc2.jar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc2/butterknife-runtime-9.0.0-rc2.aar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc2/butterknife-9.0.0-rc2.aar
 :demo:preBuild UP-TO-DATE
 :styleabletoast:preBuild UP-TO-DATE
 :styleabletoast:preDebugBuild UP-TO-DATE
@@ -172,7 +165,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :demo:assemble
 :demo:build
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 90 executed
 
-2018-12-14 12:50:08,567 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766558608-0/src/StyleableToast-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-03-25 11:10:51,650 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487003380-0/src/StyleableToast-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

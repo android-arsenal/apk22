@@ -1,39 +1,39 @@
-2019-01-22 15:53:23,839 INFO  DownloadService - Downloading "https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip", attempt 3
-2019-01-22 15:53:27,953 INFO  DownloadService - Downloaded https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip, attempt 3
-2019-01-22 15:53:27,953 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/master.zip": 2 MB
-2019-01-22 15:53:27,953 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 15:53:27,954 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/master.zip: true
-2019-01-22 15:53:27,955 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src'.
-2019-01-22 15:53:28,064 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-01-22 15:53:28,064 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src]
-2019-01-22 15:53:28,082 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/.git/
+2019-03-25 11:02:05,457 INFO  DownloadService - Downloading "https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip", attempt 3
+2019-03-25 11:02:07,508 INFO  DownloadService - Downloaded https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip, attempt 3
+2019-03-25 11:02:07,509 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/master.zip": 2 MB
+2019-03-25 11:02:07,509 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 11:02:07,516 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/master.zip: true
+2019-03-25 11:02:07,516 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src'.
+2019-03-25 11:02:07,626 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-03-25 11:02:07,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src]
+2019-03-25 11:02:07,643 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/.git/
 
-2019-01-22 15:53:28,092 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/gradlew
-2019-01-22 15:53:28,102 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/build.gradle
-2019-01-22 15:53:28,111 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/settings.gradle
-2019-01-22 15:53:28,111 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 15:53:28,111 INFO  ProjectFixService - Fixing project...
-2019-01-22 15:53:28,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/local.properties
-2019-01-22 15:53:28,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/encoder/local.properties
-2019-01-22 15:53:28,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtmp/local.properties
-2019-01-22 15:53:28,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/local.properties
-2019-01-22 15:53:28,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtsp/local.properties
-2019-01-22 15:53:28,139 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/local.properties
-2019-01-22 15:53:28,139 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-01-22 15:53:28,140 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-01-22 15:53:28,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-22 15:53:28,140 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 15:53:28,141 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 15:53:28,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 15:53:35,508 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-22 15:53:35,508 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 15:53:35,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 15:54:17,492 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-25 11:02:07,652 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/gradlew
+2019-03-25 11:02:07,662 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/build.gradle
+2019-03-25 11:02:07,671 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/settings.gradle
+2019-03-25 11:02:07,672 INFO  ProjectBuildService - Remote scripts: none
+2019-03-25 11:02:07,672 INFO  ProjectFixService - Fixing project...
+2019-03-25 11:02:07,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/local.properties
+2019-03-25 11:02:07,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/encoder/local.properties
+2019-03-25 11:02:07,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtmp/local.properties
+2019-03-25 11:02:07,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/local.properties
+2019-03-25 11:02:07,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,700 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtsp/local.properties
+2019-03-25 11:02:07,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/local.properties
+2019-03-25 11:02:07,701 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-25 11:02:07,701 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-25 11:02:07,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-25 11:02:07,702 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 11:02:07,702 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:02:07,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:02:15,454 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-25 11:02:15,455 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-25 11:02:15,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-25 11:02:47,879 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :encoder:preBuild UP-TO-DATE
 > Task :encoder:preDebugBuild UP-TO-DATE
@@ -274,10 +274,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :rtplibrary:javaPreCompileRelease
 
 > Task :rtplibrary:compileReleaseJavaWithJavac
-
-> Task :rtplibrary:processReleaseJavaResNote: Some input files use or override a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
- NO-SOURCE
+
+> Task :rtplibrary:processReleaseJavaRes NO-SOURCE
 > Task :rtplibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
@@ -294,10 +294,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5e159d73bad4eedafc36319879f98dc2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :rtsp:createFullJarRelease
 > Transform full.jar (project :rtsp) with IdentityTransform
 > Task :rtmp:createFullJarRelease
@@ -364,7 +361,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 32s
 199 actionable tasks: 199 executed
 
-2019-01-22 15:54:17,643 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548147203835-0/src/rtmp-rtsp-stream-client-java-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-25 11:02:48,001 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553486525453-0/src/rtmp-rtsp-stream-client-java-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,40 +1,39 @@
-2019-01-22 16:18:58,889 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
-2019-01-22 16:18:59,953 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Barista/archive/master.zip, attempt 3
-2019-01-22 16:18:59,953 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/master.zip": 456 KB
-2019-01-22 16:18:59,953 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 16:18:59,960 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/master.zip: true
-2019-01-22 16:18:59,960 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src'.
-2019-01-22 16:19:00,039 INFO  FullProcessService - Size of directory with sources: 713 KB
-2019-01-22 16:19:00,039 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src]
-2019-01-22 16:19:00,057 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/.git/
+2019-03-25 11:13:11,347 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
+2019-03-25 11:13:13,812 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Barista/archive/master.zip, attempt 3
+2019-03-25 11:13:13,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/master.zip": 458 KB
+2019-03-25 11:13:13,812 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-25 11:13:13,818 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/master.zip: true
+2019-03-25 11:13:13,818 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src'.
+2019-03-25 11:13:13,898 INFO  FullProcessService - Size of directory with sources: 714 KB
+2019-03-25 11:13:13,898 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src]
+2019-03-25 11:13:13,918 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/.git/
 
-2019-01-22 16:19:00,065 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/gradlew
-2019-01-22 16:19:00,073 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/build.gradle
-2019-01-22 16:19:00,081 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/settings.gradle
-2019-01-22 16:19:00,082 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 16:19:00,082 INFO  ProjectFixService - Fixing project...
-2019-01-22 16:19:00,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/local.properties
-2019-01-22 16:19:00,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:19:00,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:19:00,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/local.properties
-2019-01-22 16:19:00,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:19:00,105 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:19:00,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/local.properties
-2019-01-22 16:19:00,106 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-22 16:19:00,107 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-22 16:19:00,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:19:00,109 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:19:00,110 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 16:19:00,110 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:19:00,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:19:08,757 INFO  ProjectTaskService - Detected possible tasks: 82
-2019-01-22 16:19:08,757 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-22 16:19:08,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-22 16:19:39,345 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-25 11:13:13,927 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/gradlew
+2019-03-25 11:13:13,935 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/build.gradle
+2019-03-25 11:13:13,943 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/settings.gradle
+2019-03-25 11:13:13,944 INFO  ProjectBuildService - Remote scripts: none
+2019-03-25 11:13:13,944 INFO  ProjectFixService - Fixing project...
+2019-03-25 11:13:13,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/local.properties
+2019-03-25 11:13:13,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-25 11:13:13,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-25 11:13:13,965 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/local.properties
+2019-03-25 11:13:13,967 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-25 11:13:13,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-25 11:13:13,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/local.properties
+2019-03-25 11:13:13,969 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-25 11:13:13,969 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-25 11:13:13,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-25 11:13:13,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-25 11:13:13,972 INFO  ProjectFixService - Project was maybe fixed
+2019-03-25 11:13:13,972 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:13:13,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:13:21,452 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-03-25 11:13:21,453 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-25 11:13:21,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-25 11:13:52,099 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/uiautomator/uiautomator-v18/2.1.3/uiautomator-v18-2.1.3.aar
 :library:compileDebugRenderscript
 :library:checkDebugManifest
 :library:generateDebugBuildConfig
@@ -81,10 +80,10 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/test/uiauto
 :library:verifyReleaseResources
 :library:generateDebugRFile
 :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 102): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (61, 98): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (44, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (51, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
 :library:generateDebugSources
 :library:javaPreCompileDebug
 :library:compileDebugJavaWithJavac
@@ -96,10 +95,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/
 :library:assembleDebug
 :library:generateReleaseRFile
 :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 102): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (61, 98): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (44, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (51, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Expected type does not accept nulls in Java, but the value may be null in Kotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
 :library:generateReleaseSources
 :library:javaPreCompileRelease
 :library:compileReleaseJavaWithJavac
@@ -115,12 +114,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/
 BUILD SUCCESSFUL in 29s
 50 actionable tasks: 50 executed
 
-2019-01-22 16:19:39,412 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:19:39,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:19:45,633 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-01-22 16:19:45,633 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 16:19:45,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 16:20:34,616 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-25 11:13:52,165 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-25 11:13:52,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-25 11:13:58,587 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-03-25 11:13:58,587 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-25 11:13:58,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-25 11:14:47,885 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl
@@ -139,7 +138,7 @@ BUILD SUCCESSFUL in 29s
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -182,7 +181,7 @@ D8: Stripped invalid locals information from 1 method.
 :sample:compileReleaseKotlin
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -191,10 +190,8 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:compileReleaseSources
 :sample:lintVitalRelease
 Download https://jcenter.bintray.com/org/mockito/mockito-android/2.16.0/mockito-android-2.16.0.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.0.7/kotlin-reflect-1.0.7.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.16.0/mockito-core-2.16.0.jar
 Download https://jcenter.bintray.com/org/assertj/assertj-core/2.9.1/assertj-core-2.9.1.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.16.0/mockito-core-2.16.0.jar
 :sample:mergeReleaseShaders
 :sample:compileReleaseShaders
 :sample:generateReleaseAssets
@@ -218,4 +215,4 @@ Download https://jcenter.bintray.com/org/assertj/assertj-core/2.9.1/assertj-core
 BUILD SUCCESSFUL in 48s
 61 actionable tasks: 61 executed
 
-2019-01-22 16:20:34,768 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548148738887-0/src/Barista-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-25 11:14:48,029 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553487191344-0/src/Barista-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
