@@ -1,33 +1,33 @@
-2019-03-24 01:30:03,364 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
-2019-03-24 01:30:04,273 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/fonty/archive/master.zip, attempt 3
-2019-03-24 01:30:04,273 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/master.zip": 451 KB
-2019-03-24 01:30:04,273 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-24 01:30:04,279 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/master.zip: true
-2019-03-24 01:30:04,279 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src'.
-2019-03-24 01:30:04,306 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-24 01:30:04,306 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src]
-2019-03-24 01:30:04,323 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/.git/
+2019-03-27 15:37:05,491 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
+2019-03-27 15:37:08,055 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/fonty/archive/master.zip, attempt 3
+2019-03-27 15:37:08,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip": 451 KB
+2019-03-27 15:37:08,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 15:37:08,061 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip: true
+2019-03-27 15:37:08,061 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src'.
+2019-03-27 15:37:08,086 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-27 15:37:08,086 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src]
+2019-03-27 15:37:08,106 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/.git/
 
-2019-03-24 01:30:04,326 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/gradlew
-2019-03-24 01:30:04,329 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/build.gradle
-2019-03-24 01:30:04,332 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/settings.gradle
-2019-03-24 01:30:04,332 INFO  ProjectBuildService - Remote scripts: none
-2019-03-24 01:30:04,332 INFO  ProjectFixService - Fixing project...
-2019-03-24 01:30:04,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/local.properties
-2019-03-24 01:30:04,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:30:04,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/local.properties
-2019-03-24 01:30:04,341 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:30:04,341 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/local.properties
-2019-03-24 01:30:04,342 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-24 01:30:04,342 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-24 01:30:04,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-24 01:30:04,343 INFO  ProjectFixService - Project was maybe fixed
-2019-03-24 01:30:04,343 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 01:30:04,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 01:30:11,808 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-24 01:30:11,808 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-24 01:30:11,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-24 01:31:04,242 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:37:08,109 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew
+2019-03-27 15:37:08,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle
+2019-03-27 15:37:08,114 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/settings.gradle
+2019-03-27 15:37:08,115 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 15:37:08,115 INFO  ProjectFixService - Fixing project...
+2019-03-27 15:37:08,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/local.properties
+2019-03-27 15:37:08,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:37:08,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/local.properties
+2019-03-27 15:37:08,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:37:08,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/local.properties
+2019-03-27 15:37:08,124 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-27 15:37:08,125 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-27 15:37:08,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:37:08,125 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 15:37:08,125 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:37:08,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:37:14,440 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-27 15:37:14,440 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-27 15:37:14,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-27 15:37:58,980 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
@@ -55,14 +55,14 @@
 > Task :lib:generateDebugBuildConfig
 
 > Task :lib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
 
 > Task :lib:prepareLintJar
 > Task :lib:generateDebugSources
@@ -72,8 +72,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/
 > Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -135,14 +135,14 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :lib:generateReleaseBuildConfig
 
 > Task :lib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
 
 > Task :lib:generateReleaseSources
 > Task :lib:javaPreCompileRelease
@@ -151,8 +151,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/
 > Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -163,10 +163,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e6d0bfdf806870eb932c5e6902e05e52/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -194,7 +191,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 43s
 90 actionable tasks: 90 executed
 
-2019-03-24 01:31:04,333 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365803361-0/src/Fonty-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-27 15:37:59,080 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build/outputs/apk/debug/app-debug.apk
