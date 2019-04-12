@@ -1,32 +1,32 @@
-2019-03-30 21:47:41,678 INFO  DownloadService - Downloading "https://github.com/k0shk0sh/FastHub/archive/master.zip", attempt 3
-2019-03-30 21:47:46,292 INFO  DownloadService - Downloaded https://github.com/k0shk0sh/FastHub/archive/master.zip, attempt 3
-2019-03-30 21:47:46,293 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/master.zip": 4 MB
-2019-03-30 21:47:46,293 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-30 21:47:46,295 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/master.zip: true
-2019-03-30 21:47:46,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src'.
-2019-03-30 21:47:46,669 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-03-30 21:47:46,669 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src]
-2019-03-30 21:47:46,696 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/.git/
+2019-04-12 12:26:22,569 INFO  DownloadService - Downloading "https://github.com/k0shk0sh/FastHub/archive/master.zip", attempt 3
+2019-04-12 12:26:27,643 INFO  DownloadService - Downloaded https://github.com/k0shk0sh/FastHub/archive/master.zip, attempt 3
+2019-04-12 12:26:27,643 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/master.zip": 4 MB
+2019-04-12 12:26:27,644 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-12 12:26:27,647 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/master.zip: true
+2019-04-12 12:26:27,647 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src'.
+2019-04-12 12:26:28,095 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-04-12 12:26:28,095 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src]
+2019-04-12 12:26:28,120 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/.git/
 
-2019-03-30 21:47:46,727 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/gradlew
-2019-03-30 21:47:46,758 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/build.gradle
-2019-03-30 21:47:46,789 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/settings.gradle
-2019-03-30 21:47:46,789 INFO  ProjectBuildService - Remote scripts: none
-2019-03-30 21:47:46,789 INFO  ProjectFixService - Fixing project...
-2019-03-30 21:47:46,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/local.properties
-2019-03-30 21:47:46,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-03-30 21:47:46,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/local.properties
-2019-03-30 21:47:46,853 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-all.zip
-2019-03-30 21:47:46,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip)
-2019-03-30 21:47:46,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-03-30 21:47:46,855 INFO  ProjectFixService - Project was maybe fixed
-2019-03-30 21:47:46,855 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 21:47:46,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 21:47:49,709 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-30 21:47:49,709 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-30 21:47:49,709 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-30 21:47:49,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-30 21:47:50,729 ERROR SysUtils - Could not process external command
+2019-04-12 12:26:28,155 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/gradlew
+2019-04-12 12:26:28,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/build.gradle
+2019-04-12 12:26:28,224 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/settings.gradle
+2019-04-12 12:26:28,224 INFO  ProjectBuildService - Remote scripts: none
+2019-04-12 12:26:28,224 INFO  ProjectFixService - Fixing project...
+2019-04-12 12:26:28,295 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/local.properties
+2019-04-12 12:26:28,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-04-12 12:26:28,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/local.properties
+2019-04-12 12:26:28,297 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-all.zip
+2019-04-12 12:26:28,297 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip)
+2019-04-12 12:26:28,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-04-12 12:26:28,299 INFO  ProjectFixService - Project was maybe fixed
+2019-04-12 12:26:28,299 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:26:28,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:26:30,169 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-12 12:26:30,169 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-12 12:26:30,169 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-12 12:26:30,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-12 12:26:31,406 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-30 21:47:50,729 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+2019-04-12 12:26:31,407 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 
 Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
@@ -69,13 +69,13 @@ Exception in thread "main" java.io.FileNotFoundException: https://downloads.grad
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-2019-03-30 21:47:50,767 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-30 21:47:50,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-30 21:47:51,795 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-30 21:47:51,795 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-30 21:47:51,795 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-30 21:47:51,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553957261674-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-30 21:47:52,826 ERROR SysUtils - Could not process external command
+2019-04-12 12:26:31,448 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-12 12:26:31,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-12 12:26:32,623 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-12 12:26:32,623 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-12 12:26:32,624 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-12 12:26:32,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555046782565-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-12 12:26:33,786 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -103,7 +103,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-30 21:47:52,827 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+2019-04-12 12:26:33,787 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 
 Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
@@ -118,5 +118,5 @@ Exception in thread "main" java.io.FileNotFoundException: https://downloads.grad
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-2019-03-30 21:47:52,865 ERROR FullProcessService - Project build has not produced APK file
-2019-03-30 21:47:52,895 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-12 12:26:33,831 ERROR FullProcessService - Project build has not produced APK file
+2019-04-12 12:26:33,876 ERROR FullProcessService - Could not find generated or existed APK file
