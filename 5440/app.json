@@ -31,8 +31,8 @@
   "dexClasses" : 2852,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.1.5\" package=\"me.toptas.fancyshowcasesample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"FancyShowCase\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e00a8\" android:name=\"me.toptas.fancyshowcasesample.SecondActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00a6\" android:name=\"me.toptas.fancyshowcasesample.QueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.RecyclerViewActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.CustomQueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.AnimatedActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2525051,
-  "crc32" : 2171710091,
-  "sha256" : "208800881248ff6530779916d666ebe33050d0395738aa42a3222c81463d33b8",
-  "buildTime" : 1553435599000
+  "fileSize" : 2524923,
+  "crc32" : 758642419,
+  "sha256" : "296f6c1e1b429497ce8299f4cdb47ebd23a49485ebef8d4510d2fadc97de2b0b",
+  "buildTime" : 1558269368000
 }

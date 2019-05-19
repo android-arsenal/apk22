@@ -1,31 +1,34 @@
-2018-09-16 21:21:11,080 INFO  DownloadService - Downloading "https://github.com/MarcinMoskala/KotlinPreferences/archive/master.zip", attempt 3
-2018-09-16 21:21:11,858 INFO  DownloadService - Downloaded https://github.com/MarcinMoskala/KotlinPreferences/archive/master.zip, attempt 3
-2018-09-16 21:21:11,858 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/master.zip": 75 KB
-2018-09-16 21:21:11,858 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-16 21:21:11,864 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/master.zip: true
-2018-09-16 21:21:11,864 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src'.
-2018-09-16 21:21:11,877 INFO  FullProcessService - Size of directory with sources: 95 KB
-2018-09-16 21:21:11,877 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src]
-2018-09-16 21:21:11,896 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/.git/
+2019-05-19 20:35:06,494 INFO  DownloadService - Downloading "https://github.com/MarcinMoskala/KotlinPreferences/archive/master.zip", attempt 3
+2019-05-19 20:36:07,201 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 20:36:08,275 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 20:36:08,275 INFO  DownloadService - Downloading "https://github.com/MarcinMoskala/KotlinPreferences/archive/master.zip", attempt 3
+2019-05-19 20:37:10,267 DEBUG FullProcessService - Repository https://github.com/MarcinMoskala/KotlinPreferences available: true
+2019-05-19 20:37:10,268 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 20:37:10,268 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarcinMoskala/KotlinPreferences, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src]
+2019-05-19 20:37:12,180 INFO  SysUtils - 
+2019-05-19 20:37:12,201 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/.git": true
+2019-05-19 20:37:12,202 INFO  FullProcessService - Size of directory with sources: 95 KB
+2019-05-19 20:37:12,202 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src]
+2019-05-19 20:37:12,219 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/.git/
 
-2018-09-16 21:21:11,898 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/gradlew
-2018-09-16 21:21:11,901 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/build.gradle
-2018-09-16 21:21:11,902 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/settings.gradle
-2018-09-16 21:21:11,903 INFO  ProjectBuildService - Remote scripts: none
-2018-09-16 21:21:11,903 INFO  ProjectFixService - Fixing project...
-2018-09-16 21:21:11,908 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/local.properties
-2018-09-16 21:21:11,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-09-16 21:21:11,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/local.properties
-2018-09-16 21:21:11,909 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-09-16 21:21:11,909 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-09-16 21:21:11,910 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2018-09-16 21:21:11,910 INFO  ProjectFixService - Project was maybe fixed
-2018-09-16 21:21:11,910 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 21:21:11,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 21:21:29,358 INFO  ProjectTaskService - Detected possible tasks: 76
-2018-09-16 21:21:29,358 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-16 21:21:29,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-16 21:21:47,957 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 20:37:12,221 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/gradlew
+2019-05-19 20:37:12,223 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/build.gradle
+2019-05-19 20:37:12,225 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/settings.gradle
+2019-05-19 20:37:12,225 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 20:37:12,225 INFO  ProjectFixService - Fixing project...
+2019-05-19 20:37:12,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/local.properties
+2019-05-19 20:37:12,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-05-19 20:37:12,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/local.properties
+2019-05-19 20:37:12,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-05-19 20:37:12,231 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-05-19 20:37:12,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-05-19 20:37:12,232 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 20:37:12,232 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 20:37:12,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 20:37:39,662 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-05-19 20:37:39,662 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-19 20:37:39,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-19 20:37:59,786 INFO  SysUtils - Configuration on demand is an incubating feature.
 Defining custom 'clean' task when using the standard Gradle lifecycle plugins has been deprecated and is scheduled to be removed in Gradle 3.0
 Incremental java compilation is an incubating feature.
 :kotlinpreferences-lib:preBuild UP-TO-DATE
@@ -60,7 +63,7 @@ Incremental java compilation is an incubating feature.
 :kotlinpreferences-lib:incrementalDebugJavaCompilationSafeguard
 :kotlinpreferences-lib:compileDebugKotlin
 w: The '-d' option with a directory destination is ignored because '-module' is specified
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/src/main/java/com/marcinmoskala/kotlinpreferences/bindings/PutValueExt.kt: (19, 99): Unchecked cast: Any! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/src/main/java/com/marcinmoskala/kotlinpreferences/bindings/PutValueExt.kt: (19, 99): Unchecked cast: Any! to T
 :kotlinpreferences-lib:compileDebugJavaWithJavac
 :kotlinpreferences-lib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :kotlinpreferences-lib:copyDebugKotlinClasses
@@ -97,7 +100,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/
 :kotlinpreferences-lib:incrementalReleaseJavaCompilationSafeguard
 :kotlinpreferences-lib:compileReleaseKotlin
 w: The '-d' option with a directory destination is ignored because '-module' is specified
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/kotlinpreferences-lib/src/main/java/com/marcinmoskala/kotlinpreferences/bindings/PutValueExt.kt: (19, 99): Unchecked cast: Any! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/kotlinpreferences-lib/src/main/java/com/marcinmoskala/kotlinpreferences/bindings/PutValueExt.kt: (19, 99): Unchecked cast: Any! to T
 :kotlinpreferences-lib:compileReleaseJavaWithJavac
 :kotlinpreferences-lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :kotlinpreferences-lib:copyReleaseKotlinClasses
@@ -123,14 +126,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/
 
 BUILD SUCCESSFUL
 
-Total time: 17.965 secs
+Total time: 19.457 secs
 
-2018-09-16 21:21:48,061 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 21:21:48,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 21:21:54,772 INFO  ProjectTaskService - Detected possible tasks: 86
-2018-09-16 21:21:54,772 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-16 21:21:54,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537107671072-0/src/KotlinPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-16 21:22:48,622 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 20:37:59,870 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 20:37:59,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 20:38:11,165 INFO  ProjectTaskService - Detected possible tasks: 86
+2019-05-19 20:38:11,165 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-19 20:38:11,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558272906489-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-19 20:38:21,039 INFO  SysUtils - Configuration on demand is an incubating feature.
 Defining custom 'clean' task when using the standard Gradle lifecycle plugins has been deprecated and is scheduled to be removed in Gradle 3.0
 Incremental java compilation is an incubating feature.
 :compileKotlin UP-TO-DATE
@@ -230,7 +233,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 53.267 secs
+Total time: 9.234 secs
 
-2018-09-16 21:22:48,735 ERROR FullProcessService - Project build has not produced APK file
-2018-09-16 21:22:48,833 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-19 20:38:21,121 ERROR FullProcessService - Project build has not produced APK file
+2019-05-19 20:38:21,199 ERROR FullProcessService - Could not find generated or existed APK file

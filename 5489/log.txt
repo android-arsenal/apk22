@@ -1,33 +1,36 @@
-2019-03-27 15:37:05,491 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
-2019-03-27 15:37:08,055 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/fonty/archive/master.zip, attempt 3
-2019-03-27 15:37:08,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip": 451 KB
-2019-03-27 15:37:08,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-27 15:37:08,061 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip: true
-2019-03-27 15:37:08,061 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src'.
-2019-03-27 15:37:08,086 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-27 15:37:08,086 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src]
-2019-03-27 15:37:08,106 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/.git/
+2019-05-19 19:26:23,682 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
+2019-05-19 19:27:24,210 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 19:27:25,307 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 19:27:25,307 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/fonty/archive/master.zip", attempt 3
+2019-05-19 19:28:26,880 DEBUG FullProcessService - Repository https://github.com/MarcinOrlowski/fonty available: true
+2019-05-19 19:28:26,881 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 19:28:26,881 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarcinOrlowski/fonty, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src]
+2019-05-19 19:28:29,059 INFO  SysUtils - 
+2019-05-19 19:28:29,093 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/.git": true
+2019-05-19 19:28:29,096 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-19 19:28:29,096 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src]
+2019-05-19 19:28:29,115 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/.git/
 
-2019-03-27 15:37:08,109 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew
-2019-03-27 15:37:08,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle
-2019-03-27 15:37:08,114 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/settings.gradle
-2019-03-27 15:37:08,115 INFO  ProjectBuildService - Remote scripts: none
-2019-03-27 15:37:08,115 INFO  ProjectFixService - Fixing project...
-2019-03-27 15:37:08,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/local.properties
-2019-03-27 15:37:08,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-27 15:37:08,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/local.properties
-2019-03-27 15:37:08,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-27 15:37:08,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/local.properties
-2019-03-27 15:37:08,124 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-27 15:37:08,125 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-27 15:37:08,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-27 15:37:08,125 INFO  ProjectFixService - Project was maybe fixed
-2019-03-27 15:37:08,125 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-27 15:37:08,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-27 15:37:14,440 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-27 15:37:14,440 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-27 15:37:14,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-27 15:37:58,980 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 19:28:29,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/gradlew
+2019-05-19 19:28:29,120 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/build.gradle
+2019-05-19 19:28:29,123 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/settings.gradle
+2019-05-19 19:28:29,123 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 19:28:29,123 INFO  ProjectFixService - Fixing project...
+2019-05-19 19:28:29,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/local.properties
+2019-05-19 19:28:29,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 19:28:29,132 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/lib/local.properties
+2019-05-19 19:28:29,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 19:28:29,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/local.properties
+2019-05-19 19:28:29,134 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-19 19:28:29,134 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-19 19:28:29,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 19:28:29,134 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 19:28:29,134 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 19:28:29,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 19:28:38,840 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-19 19:28:38,840 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-19 19:28:38,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-19 19:29:34,888 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
@@ -37,13 +40,13 @@
 > Task :lib:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :lib:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :lib:compileDebugRenderscript
+> Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugResValues
 > Task :lib:generateDebugResources
 > Task :lib:packageDebugResources
@@ -53,28 +56,13 @@
 > Task :lib:generateDebugRFile
 > Task :app:processDebugResources
 > Task :lib:generateDebugBuildConfig
-
 > Task :lib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-
 > Task :lib:prepareLintJar
 > Task :lib:generateDebugSources
 > Task :lib:javaPreCompileDebug
 > Task :lib:compileDebugJavaWithJavac
-> Task :lib:processDebugJavaRes NO-SOURCE
-> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-
+> Task :lib:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
@@ -83,7 +71,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/
 Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.0.0.jar (com.jakewharton:butterknife-compiler:10.0.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -95,11 +82,15 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :lib:bundleLibRuntimeDebug
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :lib:compileDebugNdk NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:bundleLibResDebug
 > Task :lib:mergeDebugJniLibFolders
 > Task :lib:transformNativeLibsWithMergeJniLibsForDebug
 > Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
@@ -117,13 +108,13 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :lib:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :lib:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :lib:compileReleaseRenderscript
+> Task :lib:compileReleaseRenderscript NO-SOURCE
 > Task :lib:generateReleaseResValues
 > Task :lib:generateReleaseResources
 > Task :lib:packageReleaseResources
@@ -133,27 +124,12 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :lib:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :lib:generateReleaseBuildConfig
-
 > Task :lib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (73, 13): Name shadowed: fontDir
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (142, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (157, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (177, 41): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (192, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (234, 13): Name shadowed: fontFileName
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (315, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/lib/src/main/java/com/marcinorlowski/fonty/Fonty.kt: (320, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Context
-
 > Task :lib:generateReleaseSources
 > Task :lib:javaPreCompileRelease
 > Task :lib:compileReleaseJavaWithJavac
-> Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-
+> Task :lib:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (65, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/src/main/java/com/marcinorlowski/fonty/demo/MainActivity.kt: (70, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 
@@ -161,9 +137,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/
 Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.0.0.jar (com.jakewharton:butterknife-compiler:10.0.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Task :lib:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/33c5fa7e10d4f314ec291ab4b9fcfb65/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -173,11 +152,15 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :lib:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :lib:bundleLibRuntimeRelease
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :app:transformDexArchiveWithDexMergerForRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :lib:compileReleaseNdk NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:bundleLibResRelease
 > Task :lib:mergeReleaseJniLibFolders
 > Task :lib:transformNativeLibsWithMergeJniLibsForRelease
 > Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
@@ -191,7 +174,11 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 43s
-90 actionable tasks: 90 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-03-27 15:37:59,080 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675825487-0/src/Fonty-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 55s
+93 actionable tasks: 93 executed
+
+2019-05-19 19:29:35,001 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268783679-0/src/app/build/outputs/apk/debug/app-debug.apk

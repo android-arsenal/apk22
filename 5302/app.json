@@ -31,8 +31,8 @@
   "dexClasses" : 2871,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" xmlns:dist=\"http://schemas.android.com/apk/distribution\" android:versionCode=\"9\" android:versionName=\"1.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.tapadoo.alerter.demo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<dist:module dist:instant=\"true\" dist:onDemand=\"false\" dist:title=\"Instant App\">\n\t\t<dist:fusing dist:include=\"true\" />\n\t</dist:module>\n\t<application android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"res/xml/backup_descriptor.xml\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0e000c\" android:label=\"Alerter Demo\" android:name=\"com.tapadoo.alerter.demo.KotlinDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2516745,
-  "crc32" : 1975197200,
-  "sha256" : "31f4003779de4817b120863ee525c61a6e80dd16b9718e7058e8955c46c604b8",
-  "buildTime" : 1556611060000
+  "fileSize" : 2517033,
+  "crc32" : 3605260558,
+  "sha256" : "3bdc7e4e257cc7323bdcc809bb6f5426e8f3a7ed80085e8a4a13b26f8099fc00",
+  "buildTime" : 1558271877000
 }

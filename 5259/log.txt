@@ -1,217 +1,260 @@
-2019-04-13 19:33:08,361 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
-2019-04-13 19:33:10,947 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Barista/archive/master.zip, attempt 3
-2019-04-13 19:33:10,947 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/master.zip": 460 KB
-2019-04-13 19:33:10,947 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-13 19:33:10,953 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/master.zip: true
-2019-04-13 19:33:10,954 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src'.
-2019-04-13 19:33:11,030 INFO  FullProcessService - Size of directory with sources: 718 KB
-2019-04-13 19:33:11,030 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src]
-2019-04-13 19:33:11,057 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/.git/
+2019-05-19 20:41:42,799 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
+2019-05-19 20:42:43,362 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 20:42:44,516 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 20:42:44,516 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
+2019-05-19 20:43:46,005 DEBUG FullProcessService - Repository https://github.com/SchibstedSpain/Barista available: true
+2019-05-19 20:43:46,005 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 20:43:46,005 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SchibstedSpain/Barista, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src]
+2019-05-19 20:43:48,537 INFO  SysUtils - 
+2019-05-19 20:43:48,582 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/.git": true
+2019-05-19 20:43:48,595 INFO  FullProcessService - Size of directory with sources: 694 KB
+2019-05-19 20:43:48,595 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src]
+2019-05-19 20:43:48,616 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/.git/
 
-2019-04-13 19:33:11,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/gradlew
-2019-04-13 19:33:11,074 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/build.gradle
-2019-04-13 19:33:11,082 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/settings.gradle
-2019-04-13 19:33:11,083 INFO  ProjectBuildService - Remote scripts: none
-2019-04-13 19:33:11,083 INFO  ProjectFixService - Fixing project...
-2019-04-13 19:33:11,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/local.properties
-2019-04-13 19:33:11,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-13 19:33:11,104 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-13 19:33:11,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/local.properties
-2019-04-13 19:33:11,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-13 19:33:11,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-13 19:33:11,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/local.properties
-2019-04-13 19:33:11,109 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-04-13 19:33:11,110 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-04-13 19:33:11,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-13 19:33:11,113 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-13 19:33:11,114 INFO  ProjectFixService - Project was maybe fixed
-2019-04-13 19:33:11,114 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 19:33:11,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 19:33:19,596 INFO  ProjectTaskService - Detected possible tasks: 82
-2019-04-13 19:33:19,596 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-13 19:33:19,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-13 19:33:49,957 INFO  SysUtils - Configuration on demand is an incubating feature.
-:library:preBuild UP-TO-DATE
-:library:preDebugBuild UP-TO-DATE
-:library:compileDebugAidl
-:library:compileDebugRenderscript
-:library:checkDebugManifest
-:library:generateDebugBuildConfig
-:library:generateDebugResValues
-:library:generateDebugResources
-:library:packageDebugResources
-:library:platformAttrExtractor
-:library:processDebugManifest
-:library:prepareLintJar
-:library:mergeDebugConsumerProguardFiles
-:library:mergeDebugShaders
-:library:compileDebugShaders
-:library:generateDebugAssets
-:library:packageDebugAssets
-:library:packageDebugRenderscript NO-SOURCE
-:library:processDebugJavaRes NO-SOURCE
-:library:compileDebugNdk NO-SOURCE
-:library:mergeDebugJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForDebug
-:library:transformNativeLibsWithStripDebugSymbolForDebug
-:library:transformNativeLibsWithSyncJniLibsForDebug
-:library:preReleaseBuild UP-TO-DATE
-:library:compileReleaseAidl
-:library:compileReleaseRenderscript
-:library:checkReleaseManifest
-:library:generateReleaseBuildConfig
-:library:generateReleaseResValues
-:library:generateReleaseResources
-:library:packageReleaseResources
-:library:processReleaseManifest
-:library:mergeReleaseConsumerProguardFiles
-:library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:library:packageReleaseRenderscript NO-SOURCE
-:library:processReleaseJavaRes NO-SOURCE
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithSyncJniLibsForRelease
-:library:mergeReleaseResources
-:library:verifyReleaseResources
-:library:generateDebugRFile
-:library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-:library:generateDebugSources
-:library:javaPreCompileDebug
-:library:compileDebugJavaWithJavac
-:library:extractDebugAnnotations
-:library:transformResourcesWithMergeJavaResForDebug
-:library:transformClassesAndResourcesWithSyncLibJarsForDebug
-:library:bundleDebug
-:library:compileDebugSources
-:library:assembleDebug
-:library:generateReleaseRFile
-:library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Expected type does not accept nulls in Java, but the value may be null in Kotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-:library:generateReleaseSources
-:library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavac
-:library:extractReleaseAnnotations
-:library:transformResourcesWithMergeJavaResForRelease
-:library:transformClassesAndResourcesWithSyncLibJarsForRelease
-:library:bundleRelease
-:library:compileReleaseSources
-:library:assembleRelease
-:library:assemble
-:library:build
+2019-05-19 20:43:48,626 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/gradlew
+2019-05-19 20:43:48,637 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/build.gradle
+2019-05-19 20:43:48,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/settings.gradle
+2019-05-19 20:43:48,648 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 20:43:48,648 INFO  ProjectFixService - Fixing project...
+2019-05-19 20:43:48,670 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/local.properties
+2019-05-19 20:43:48,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-19 20:43:48,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-19 20:43:48,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/local.properties
+2019-05-19 20:43:48,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-19 20:43:48,677 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-19 20:43:48,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/local.properties
+2019-05-19 20:43:48,678 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-05-19 20:43:48,701 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-05-19 20:43:48,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-19 20:43:48,704 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-19 20:43:48,705 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 20:43:48,705 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 20:43:48,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 20:44:06,010 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-05-19 20:44:06,010 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-19 20:44:06,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-19 20:44:43,364 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 29s
-50 actionable tasks: 50 executed
+> Configure project :library
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-04-13 19:33:50,034 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 19:33:50,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 19:33:56,125 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-04-13 19:33:56,125 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-13 19:33:56,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-13 19:34:45,091 INFO  SysUtils - Configuration on demand is an incubating feature.
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:compileDebugKotlin
-:sample:prepareLintJar
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:checkDebugManifest
+> Task :library:generateDebugBuildConfig
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:processDebugManifest
+> Task :library:generateDebugRFile
+
+> Task :library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForDebug
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:bundleDebugAar
+> Task :library:compileDebugSources
+> Task :library:assembleDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:processReleaseManifest
+> Task :library:generateReleaseRFile
+
+> Task :library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForRelease
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :library:bundleReleaseAar
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseResources
+> Task :library:verifyReleaseResources
+> Task :library:assembleRelease
+> Task :library:assemble
+> Task :library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 36s
+46 actionable tasks: 46 executed
+
+2019-05-19 20:44:43,454 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 20:44:43,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 20:44:52,689 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-05-19 20:44:52,689 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-19 20:44:52,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-19 20:45:53,880 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+
+> Task :sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:extractTryWithResourcesSupportJarDebug
-:sample:transformClassesWithStackFramesFixerForDebug
-:sample:transformClassesWithDesugarForDebug
-:sample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:compileReleaseKotlin
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+
+> Task :sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.5.0/mockito-kotlin-1.5.0.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.jar
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:extractTryWithResourcesSupportJarRelease
-:sample:transformClassesWithStackFramesFixerForRelease
-:sample:transformClassesWithDesugarForRelease
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+> Task :sample:compileReleaseSources
 
-BUILD SUCCESSFUL in 48s
-61 actionable tasks: 61 executed
+> Configure project :library
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-2019-04-13 19:34:45,249 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555158788352-0/src/Barista-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a00f34c77f735a0af98cc4d5ef10295/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+53 actionable tasks: 53 executed
+
+2019-05-19 20:45:54,038 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273302797-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
