@@ -1,51 +1,53 @@
-2019-05-19 19:53:03,927 INFO  DownloadService - Downloading "https://github.com/timusus/Shuttle/archive/master.zip", attempt 3
-2019-05-19 19:54:04,571 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 19:54:05,662 INFO  GithubDownloadService - Default branch of this repository: dev
-2019-05-19 19:54:05,662 INFO  DownloadService - Downloading "https://github.com/timusus/Shuttle/archive/dev.zip", attempt 3
-2019-05-19 19:55:07,654 DEBUG FullProcessService - Repository https://github.com/timusus/Shuttle available: true
-2019-05-19 19:55:07,654 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 19:55:07,654 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/timusus/Shuttle, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src]
-2019-05-19 19:55:11,208 INFO  SysUtils - 
-2019-05-19 19:55:11,232 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/.git": true
-2019-05-19 19:55:11,269 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-05-19 19:55:11,269 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src]
-2019-05-19 19:55:11,288 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/.git/
+2019-05-30 19:47:18,044 INFO  DownloadService - Downloading "https://github.com/timusus/Shuttle/archive/master.zip", attempt 3
+2019-05-30 19:47:22,883 INFO  DownloadService - Downloaded https://github.com/timusus/Shuttle/archive/master.zip, attempt 3
+2019-05-30 19:47:22,883 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/master.zip": 3 MB
+2019-05-30 19:47:22,883 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 19:47:22,893 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/master.zip: true
+2019-05-30 19:47:22,893 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src'.
+2019-05-30 19:47:23,207 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-05-30 19:47:23,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src]
+2019-05-30 19:47:23,223 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/.git/
 
-2019-05-19 19:55:11,312 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew
-2019-05-19 19:55:11,337 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle
-2019-05-19 19:55:11,362 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/settings.gradle
-2019-05-19 19:55:11,363 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 19:55:11,363 INFO  ProjectFixService - Fixing project...
-2019-05-19 19:55:11,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/local.properties
-2019-05-19 19:55:11,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,420 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/local.properties
-2019-05-19 19:55:11,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/local.properties
-2019-05-19 19:55:11,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/local.properties
-2019-05-19 19:55:11,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/local.properties
-2019-05-19 19:55:11,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/local.properties
-2019-05-19 19:55:11,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,450 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/local.properties
-2019-05-19 19:55:11,451 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-05-19 19:55:11,452 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-05-19 19:55:11,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:55:11,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:55:11,457 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 19:55:11,457 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:55:11,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:55:57,294 INFO  ProjectTaskService - Detected possible tasks: 154
-2019-05-19 19:55:57,295 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
-2019-05-19 19:55:57,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
-2019-05-19 19:56:27,678 ERROR SysUtils - Could not process external command
+2019-05-30 19:47:23,245 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew
+2019-05-30 19:47:23,266 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle
+2019-05-30 19:47:23,287 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/settings.gradle
+2019-05-30 19:47:23,288 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 19:47:23,288 INFO  ProjectFixService - Fixing project...
+2019-05-30 19:47:23,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/local.properties
+2019-05-30 19:47:23,334 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
+2019-05-30 19:47:23,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/local.properties
+2019-05-30 19:47:23,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/local.properties
+2019-05-30 19:47:23,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/local.properties
+2019-05-30 19:47:23,357 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,358 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/local.properties
+2019-05-30 19:47:23,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,363 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/local.properties
+2019-05-30 19:47:23,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/local.properties
+2019-05-30 19:47:23,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/local.properties
+2019-05-30 19:47:23,375 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-05-30 19:47:23,375 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-05-30 19:47:23,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 19:47:23,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 19:47:23,381 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 19:47:23,381 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:47:23,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:47:27,978 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 19:47:27,978 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 19:47:27,979 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 19:47:27,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/ccl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 19:47:30,622 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +60,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -72,7 +75,137 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-19 19:56:27,679 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:47:30,623 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle' line: 8
+
+* What went wrong:
+A problem occurred evaluating root project 'Shuttle-master'.
+> Could not find method google() for arguments [] on repository container.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'Shuttle-master'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:54)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:127)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:59)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:83)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:129)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:56)
+Caused by: org.gradle.api.internal.MissingMethodException: Could not find method google() for arguments [] on repository container.
+	at org.gradle.api.internal.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:68)
+	at org.gradle.api.internal.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:56)
+	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:172)
+	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
+	at build_ah9kaa5n73c49mx7y25eti5gd$_run_closure1_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle:8)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:63)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
+	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:55)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.repositories(DefaultScriptHandler.java:70)
+	at build_ah9kaa5n73c49mx7y25eti5gd$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle:6)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:63)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
+	at org.gradle.api.internal.project.AbstractProject.buildscript(AbstractProject.java:851)
+	at org.gradle.api.Project$buildscript.call(Unknown Source)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.groovy:42)
+	at org.gradle.api.Script$buildscript$0.callCurrent(Unknown Source)
+	at build_ah9kaa5n73c49mx7y25eti5gd.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle:5)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
+	... 35 more
+
+
+BUILD FAILED
+
+Total time: 2.126 secs
+
+2019-05-30 19:47:30,649 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:47:30,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:47:49,671 INFO  ProjectTaskService - Detected possible tasks: 158
+2019-05-30 19:47:49,671 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck test check uninstallAll connectedAndroidTest
+2019-05-30 19:47:49,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, uninstallAll, -x, connectedAndroidTest, build]
+2019-05-30 19:48:05,792 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 19:48:05,793 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -96,11 +229,19 @@ Configuration on demand is an incubating feature.
 
 > Configure project :app
 Play store track: alpha
+WARNING: API 'variantOutput.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Version code: 5000
+Could not find google-services.json while looking in [src/paid/release, src/release/paid, src/paid, src/release, src/paidRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/free/release, src/amazonFree/release, src/release/amazonFree, src/amazon/release, src/amazon/free, src/amazon/freeRelease, src/amazonFree, src/release, src/amazonFreeRelease, src/amazon, src/amazonRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/free/release, src/release/free, src/free, src/release, src/freeRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/paid/release, src/amazonPaid/release, src/release/amazonPaid, src/amazon/release, src/amazon/paid, src/amazon/paidRelease, src/amazonPaid, src/release, src/amazonPaidRelease, src/amazon, src/amazonRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 
 > Task :app:preBuild UP-TO-DATE
@@ -109,6 +250,10 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:aesthetic:preReleaseBuild UP-TO-DATE
 > Task :libraries:aesthetic:checkReleaseManifest
 > Task :libraries:aesthetic:processReleaseManifest
+> Task :libraries:ccl:preBuild UP-TO-DATE
+> Task :libraries:ccl:preReleaseBuild UP-TO-DATE
+> Task :libraries:ccl:checkReleaseManifest
+> Task :libraries:ccl:processReleaseManifest
 > Task :libraries:glidepalette:preBuild UP-TO-DATE
 > Task :libraries:glidepalette:preReleaseBuild UP-TO-DATE
 > Task :libraries:glidepalette:checkReleaseManifest
@@ -127,12 +272,14 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:recycler-adapter:processReleaseManifest
 > Task :app:preAmazonFreeReleaseBuild
 > Task :libraries:aesthetic:compileReleaseAidl NO-SOURCE
+> Task :libraries:ccl:compileReleaseAidl NO-SOURCE
 > Task :libraries:glidepalette:compileReleaseAidl NO-SOURCE
 > Task :libraries:multisheetview:compileReleaseAidl NO-SOURCE
 > Task :libraries:navigation:compileReleaseAidl NO-SOURCE
 > Task :libraries:recycler-adapter:compileReleaseAidl NO-SOURCE
 > Task :app:compileAmazonFreeReleaseAidl NO-SOURCE
 > Task :libraries:aesthetic:packageReleaseRenderscript NO-SOURCE
+> Task :libraries:ccl:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:glidepalette:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:multisheetview:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:navigation:packageReleaseRenderscript NO-SOURCE
@@ -149,6 +296,10 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:aesthetic:compileReleaseShaders
 > Task :libraries:aesthetic:generateReleaseAssets
 > Task :libraries:aesthetic:packageReleaseAssets
+> Task :libraries:ccl:mergeReleaseShaders
+> Task :libraries:ccl:compileReleaseShaders
+> Task :libraries:ccl:generateReleaseAssets
+> Task :libraries:ccl:packageReleaseAssets
 > Task :libraries:glidepalette:mergeReleaseShaders
 > Task :libraries:glidepalette:compileReleaseShaders
 > Task :libraries:glidepalette:generateReleaseAssets
@@ -166,7 +317,6 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:recycler-adapter:generateReleaseAssets
 > Task :libraries:recycler-adapter:packageReleaseAssets
 > Task :app:mergeAmazonFreeReleaseAssets
-> Task :app:writeAmazonFreeReleaseApplicationId
 > Task :app:processAmazonFreeReleaseGoogleServices FAILED
 
 FAILURE: Build failed with an exception.
@@ -175,18 +325,18 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processAmazonFreeReleaseGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/amazonFree/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/freeRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFreeRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -236,19 +386,19 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/amazonFree/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/freeRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFreeRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/google-services.json
-	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:80)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/google-services.json
+	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:77)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
@@ -295,17 +445,17 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 30s
-36 actionable tasks: 36 executed
+BUILD FAILED in 15s
+40 actionable tasks: 40 executed
 
-2019-05-19 19:56:27,723 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:56:27,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:56:35,906 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:56:35,906 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:56:35,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/aesthetic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:56:57,516 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:48:05,831 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:48:05,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:48:12,979 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 19:48:12,979 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 19:48:12,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/aesthetic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 19:48:31,192 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -405,17 +555,17 @@ Note: Recompile with -Xlint:deprecation for details.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 18s
 45 actionable tasks: 40 executed, 5 up-to-date
 
-2019-05-19 19:56:57,603 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:56:57,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:57:06,275 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:57:06,275 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:57:06,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:57:21,381 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:48:31,259 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:48:31,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:48:38,517 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 19:48:38,517 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 19:48:38,518 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 19:48:50,488 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -452,7 +602,7 @@ Configuration on demand is an incubating feature.
 > Task :libraries:glidepalette:javaPreCompileDebug
 
 > Task :libraries:glidepalette:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/src/main/java/com/github/florent37/glidepalette/BitmapPalette.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/src/main/java/com/github/florent37/glidepalette/BitmapPalette.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :libraries:glidepalette:extractDebugAnnotations
@@ -487,7 +637,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :libraries:glidepalette:javaPreCompileRelease
 
 > Task :libraries:glidepalette:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/glidepalette/src/main/java/com/github/florent37/glidepalette/BitmapPalette.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/glidepalette/src/main/java/com/github/florent37/glidepalette/BitmapPalette.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :libraries:glidepalette:extractReleaseAnnotations
@@ -515,17 +665,17 @@ Note: Recompile with -Xlint:deprecation for details.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 11s
 45 actionable tasks: 40 executed, 5 up-to-date
 
-2019-05-19 19:57:21,490 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:57:21,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:57:29,872 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:57:29,873 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:57:29,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/multisheetview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:57:42,353 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:48:50,574 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:48:50,575 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:48:57,800 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 19:48:57,800 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 19:48:57,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/multisheetview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 19:49:08,097 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -617,17 +767,17 @@ Configuration on demand is an incubating feature.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 10s
 45 actionable tasks: 40 executed, 5 up-to-date
 
-2019-05-19 19:57:42,507 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:57:42,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:57:51,230 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:57:51,230 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:57:51,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:58:03,093 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:49:08,203 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:49:08,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:49:15,265 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 19:49:15,265 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 19:49:15,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 19:49:25,118 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -664,7 +814,7 @@ Configuration on demand is an incubating feature.
 > Task :libraries:navigation:javaPreCompileDebug
 
 > Task :libraries:navigation:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/src/main/java/test/com/androidnavigation/fragment/BaseController.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/src/main/java/test/com/androidnavigation/fragment/BaseController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :libraries:navigation:extractDebugAnnotations
@@ -699,7 +849,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :libraries:navigation:javaPreCompileRelease
 
 > Task :libraries:navigation:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/navigation/src/main/java/test/com/androidnavigation/fragment/BaseController.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/navigation/src/main/java/test/com/androidnavigation/fragment/BaseController.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :libraries:navigation:extractReleaseAnnotations
@@ -727,17 +877,17 @@ Note: Recompile with -Xlint:unchecked for details.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 45 actionable tasks: 40 executed, 5 up-to-date
 
-2019-05-19 19:58:03,268 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:58:03,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:58:13,486 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:58:13,486 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:58:13,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/libraries/recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:58:27,024 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:49:25,245 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:49:25,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:49:32,661 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 19:49:32,661 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 19:49:32,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/libraries/recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 19:49:42,776 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -837,17 +987,17 @@ Note: Recompile with -Xlint:unchecked for details.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 9s
 45 actionable tasks: 40 executed, 5 up-to-date
 
-2019-05-19 19:58:27,252 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:58:27,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:58:39,331 INFO  ProjectTaskService - Detected possible tasks: 167
-2019-05-19 19:58:39,331 INFO  ProjectTaskService - Excluded tasks (15): deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest test check testDebugUnitTest lintRelease lintDebug testReleaseUnitTest uninstallAll connectedAndroidTest
-2019-05-19 19:58:39,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, test, -x, check, -x, testDebugUnitTest, -x, lintRelease, -x, lintDebug, -x, testReleaseUnitTest, -x, uninstallAll, -x, connectedAndroidTest, build]
-2019-05-19 19:58:50,725 ERROR SysUtils - Could not process external command
+2019-05-30 19:49:42,927 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:49:42,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:49:53,135 INFO  ProjectTaskService - Detected possible tasks: 171
+2019-05-30 19:49:53,136 INFO  ProjectTaskService - Excluded tasks (15): deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest test check testDebugUnitTest lintRelease lintDebug testReleaseUnitTest uninstallAll connectedAndroidTest
+2019-05-30 19:49:53,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, test, -x, check, -x, testDebugUnitTest, -x, lintRelease, -x, lintDebug, -x, testReleaseUnitTest, -x, uninstallAll, -x, connectedAndroidTest, build]
+2019-05-30 19:50:08,465 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -860,7 +1010,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -874,7 +1025,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-19 19:58:50,725 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+2019-05-30 19:50:08,465 INFO  SysUtils - > Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
@@ -898,11 +1049,19 @@ Configuration on demand is an incubating feature.
 
 > Configure project :app
 Play store track: alpha
+WARNING: API 'variantOutput.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 Version code: 5000
+Could not find google-services.json while looking in [src/paid/release, src/release/paid, src/paid, src/release, src/paidRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/free/release, src/amazonFree/release, src/release/amazonFree, src/amazon/release, src/amazon/free, src/amazon/freeRelease, src/amazonFree, src/release, src/amazonFreeRelease, src/amazon, src/amazonRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/free/release, src/release/free, src/free, src/release, src/freeRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+Could not find google-services.json while looking in [src/amazon/paid/release, src/amazonPaid/release, src/release/amazonPaid, src/amazon/release, src/amazon/paid, src/amazon/paidRelease, src/amazonPaid, src/release, src/amazonPaidRelease, src/amazon, src/amazonRelease]
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
 
 > Task :app:preBuild UP-TO-DATE
@@ -911,6 +1070,10 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:aesthetic:preReleaseBuild UP-TO-DATE
 > Task :libraries:aesthetic:checkReleaseManifest UP-TO-DATE
 > Task :libraries:aesthetic:processReleaseManifest UP-TO-DATE
+> Task :libraries:ccl:preBuild UP-TO-DATE
+> Task :libraries:ccl:preReleaseBuild UP-TO-DATE
+> Task :libraries:ccl:checkReleaseManifest UP-TO-DATE
+> Task :libraries:ccl:processReleaseManifest UP-TO-DATE
 > Task :libraries:glidepalette:preBuild UP-TO-DATE
 > Task :libraries:glidepalette:preReleaseBuild UP-TO-DATE
 > Task :libraries:glidepalette:checkReleaseManifest UP-TO-DATE
@@ -929,12 +1092,14 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:recycler-adapter:processReleaseManifest UP-TO-DATE
 > Task :app:preAmazonFreeReleaseBuild UP-TO-DATE
 > Task :libraries:aesthetic:compileReleaseAidl NO-SOURCE
+> Task :libraries:ccl:compileReleaseAidl NO-SOURCE
 > Task :libraries:glidepalette:compileReleaseAidl NO-SOURCE
 > Task :libraries:multisheetview:compileReleaseAidl NO-SOURCE
 > Task :libraries:navigation:compileReleaseAidl NO-SOURCE
 > Task :libraries:recycler-adapter:compileReleaseAidl NO-SOURCE
 > Task :app:compileAmazonFreeReleaseAidl NO-SOURCE
 > Task :libraries:aesthetic:packageReleaseRenderscript NO-SOURCE
+> Task :libraries:ccl:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:glidepalette:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:multisheetview:packageReleaseRenderscript NO-SOURCE
 > Task :libraries:navigation:packageReleaseRenderscript NO-SOURCE
@@ -951,6 +1116,10 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:aesthetic:compileReleaseShaders UP-TO-DATE
 > Task :libraries:aesthetic:generateReleaseAssets UP-TO-DATE
 > Task :libraries:aesthetic:packageReleaseAssets UP-TO-DATE
+> Task :libraries:ccl:mergeReleaseShaders UP-TO-DATE
+> Task :libraries:ccl:compileReleaseShaders UP-TO-DATE
+> Task :libraries:ccl:generateReleaseAssets UP-TO-DATE
+> Task :libraries:ccl:packageReleaseAssets UP-TO-DATE
 > Task :libraries:glidepalette:mergeReleaseShaders UP-TO-DATE
 > Task :libraries:glidepalette:compileReleaseShaders UP-TO-DATE
 > Task :libraries:glidepalette:generateReleaseAssets UP-TO-DATE
@@ -968,7 +1137,6 @@ registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCol
 > Task :libraries:recycler-adapter:generateReleaseAssets UP-TO-DATE
 > Task :libraries:recycler-adapter:packageReleaseAssets UP-TO-DATE
 > Task :app:mergeAmazonFreeReleaseAssets UP-TO-DATE
-> Task :app:writeAmazonFreeReleaseApplicationId UP-TO-DATE
 > Task :app:processAmazonFreeReleaseGoogleServices FAILED
 
 FAILURE: Build failed with an exception.
@@ -977,18 +1145,18 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processAmazonFreeReleaseGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/amazonFree/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/freeRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFreeRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -1038,19 +1206,19 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/amazonFree/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/free/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/freeRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFree/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonFreeRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazon/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/src/amazonRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270383924-0/src/app/google-services.json
-	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:80)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/free/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/freeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFree/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/release/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonFreeRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazon/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/src/amazonRelease/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559220438041-0/src/Shuttle-master/app/google-services.json
+	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:77)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
@@ -1097,10 +1265,10 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 11s
-36 actionable tasks: 1 executed, 35 up-to-date
+BUILD FAILED in 15s
+40 actionable tasks: 1 executed, 39 up-to-date
 
-2019-05-19 19:58:50,931 ERROR FullProcessService - Project build has not produced APK file
-2019-05-19 19:58:51,118 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 19:50:08,626 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 19:50:08,783 ERROR FullProcessService - Could not find generated or existed APK file
