@@ -1,36 +1,36 @@
-2019-05-30 12:59:02,179 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
-2019-05-30 12:59:03,002 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Barista/archive/master.zip, attempt 3
-2019-05-30 12:59:03,003 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/master.zip": 457 KB
-2019-05-30 12:59:03,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-30 12:59:03,008 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/master.zip: true
-2019-05-30 12:59:03,009 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src'.
-2019-05-30 12:59:03,073 INFO  FullProcessService - Size of directory with sources: 692 KB
-2019-05-30 12:59:03,073 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src]
-2019-05-30 12:59:03,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/.git/
+2019-06-18 12:56:53,870 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Barista/archive/master.zip", attempt 3
+2019-06-18 12:56:54,913 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Barista/archive/master.zip, attempt 3
+2019-06-18 12:56:54,913 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/master.zip": 457 KB
+2019-06-18 12:56:54,913 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-18 12:56:54,914 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/master.zip: true
+2019-06-18 12:56:54,914 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src'.
+2019-06-18 12:56:54,985 INFO  FullProcessService - Size of directory with sources: 693 KB
+2019-06-18 12:56:54,985 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src]
+2019-06-18 12:56:55,001 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/.git/
 
-2019-05-30 12:59:03,094 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/gradlew
-2019-05-30 12:59:03,101 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/build.gradle
-2019-05-30 12:59:03,106 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/settings.gradle
-2019-05-30 12:59:03,107 INFO  ProjectBuildService - Remote scripts: none
-2019-05-30 12:59:03,107 INFO  ProjectFixService - Fixing project...
-2019-05-30 12:59:03,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/local.properties
-2019-05-30 12:59:03,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-30 12:59:03,123 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-30 12:59:03,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/local.properties
-2019-05-30 12:59:03,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-30 12:59:03,126 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-30 12:59:03,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/local.properties
-2019-05-30 12:59:03,127 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-05-30 12:59:03,127 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-05-30 12:59:03,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-30 12:59:03,129 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-30 12:59:03,130 INFO  ProjectFixService - Project was maybe fixed
-2019-05-30 12:59:03,130 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 12:59:03,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 12:59:12,982 INFO  ProjectTaskService - Detected possible tasks: 88
-2019-05-30 12:59:12,983 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 12:59:12,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 12:59:42,432 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-06-18 12:56:55,007 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/gradlew
+2019-06-18 12:56:55,013 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/build.gradle
+2019-06-18 12:56:55,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/config/android-quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/settings.gradle
+2019-06-18 12:56:55,019 INFO  ProjectBuildService - Remote scripts: none
+2019-06-18 12:56:55,019 INFO  ProjectFixService - Fixing project...
+2019-06-18 12:56:55,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/local.properties
+2019-06-18 12:56:55,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-18 12:56:55,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-18 12:56:55,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/local.properties
+2019-06-18 12:56:55,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-18 12:56:55,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-18 12:56:55,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/local.properties
+2019-06-18 12:56:55,038 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-06-18 12:56:55,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-06-18 12:56:55,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-18 12:56:55,040 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-18 12:56:55,040 INFO  ProjectFixService - Project was maybe fixed
+2019-06-18 12:56:55,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-18 12:56:55,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-18 12:57:05,880 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-06-18 12:57:05,880 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-18 12:57:05,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-18 12:57:36,288 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -54,7 +54,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateDebugBuildConfig
 > Task :library:generateDebugResValues
 > Task :library:processDebugManifest
-> Task :library:prepareLintJar
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
@@ -62,34 +61,38 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (7, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (10, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 18): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 42): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 42): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 66): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 40): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 64): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 28): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 52): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 12): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 36): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (8, 28): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (17, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (17, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (7, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (10, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 18): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 42): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 42): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 66): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 40): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 64): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 28): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 52): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 12): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 36): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (8, 28): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
 
+> Task :library:prepareLintJar
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 
@@ -127,33 +130,36 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (7, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (10, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 18): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 42): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 42): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 66): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 40): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 64): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 28): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 52): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 12): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 36): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (8, 28): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssertions.kt: (53, 98): Unchecked cast: BooleanMatcher<T> to Matcher<View>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (17, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaAssistiveTextAssertions.kt: (17, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (6, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaErrorAssertions.kt: (19, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (7, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 26): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/assertion/BaristaHintAssertions.kt: (21, 50): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (10, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 18): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 42): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/intents/BaristaIntentMatchers.kt: (60, 94): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 42): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaListInteractions.kt: (126, 66): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 40): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/interaction/BaristaMenuClickInteractions.kt: (72, 64): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/BackgroundMatcher.kt: (40, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/matcher/DrawableMatcher.kt: (48, 38): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 28): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/internal/util/ResourceType.kt: (17, 52): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (4, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 12): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/DatabaseOperations.kt: (11, 36): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (3, 22): 'InstrumentationRegistry' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/library/src/main/java/com/schibsted/spain/barista/rule/cleardata/internal/FileOperations.kt: (8, 28): 'getTargetContext(): Context!' is deprecated. Deprecated in Java
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -188,15 +194,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 29s
 46 actionable tasks: 46 executed
 
-2019-05-30 12:59:42,490 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 12:59:42,490 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 12:59:50,057 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-05-30 12:59:50,057 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-30 12:59:50,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-30 13:00:39,569 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-06-18 12:57:36,343 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-18 12:57:36,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-18 12:57:43,919 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-06-18 12:57:43,919 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-18 12:57:43,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-18 12:58:24,166 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
@@ -218,7 +224,7 @@ Configuration on demand is an incubating feature.
 > Task :sample:javaPreCompileDebug
 
 > Task :sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -258,7 +264,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :sample:javaPreCompileRelease
 
 > Task :sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/src/main/java/com/schibsted/spain/barista/sample/FlowFirstScreen.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -305,7 +311,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 39s
 53 actionable tasks: 53 executed
 
-2019-05-30 13:00:39,693 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559195942176-0/src/Barista-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-06-18 12:58:24,279 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837413865-0/src/Barista-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

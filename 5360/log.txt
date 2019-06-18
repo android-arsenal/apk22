@@ -1,34 +1,32 @@
-2019-05-19 19:58:52,241 INFO  DownloadService - Downloading "https://github.com/k0shk0sh/FastHub/archive/master.zip", attempt 3
-2019-05-19 19:59:52,858 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 19:59:54,122 INFO  GithubDownloadService - Default branch of this repository: development
-2019-05-19 19:59:54,122 INFO  DownloadService - Downloading "https://github.com/k0shk0sh/FastHub/archive/development.zip", attempt 3
-2019-05-19 20:00:55,688 DEBUG FullProcessService - Repository https://github.com/k0shk0sh/FastHub available: true
-2019-05-19 20:00:55,689 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 20:00:55,689 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/k0shk0sh/FastHub, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src]
-2019-05-19 20:01:00,779 INFO  SysUtils - 
-2019-05-19 20:01:00,805 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/.git": true
-2019-05-19 20:01:00,845 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-05-19 20:01:00,845 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src]
-2019-05-19 20:01:00,863 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/.git/
+2019-06-18 12:55:24,410 INFO  DownloadService - Downloading "https://github.com/k0shk0sh/FastHub/archive/master.zip", attempt 3
+2019-06-18 12:55:27,838 INFO  DownloadService - Downloaded https://github.com/k0shk0sh/FastHub/archive/master.zip, attempt 3
+2019-06-18 12:55:27,839 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/master.zip": 4 MB
+2019-06-18 12:55:27,839 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-18 12:55:27,847 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/master.zip: true
+2019-06-18 12:55:27,847 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src'.
+2019-06-18 12:55:28,155 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-06-18 12:55:28,155 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src]
+2019-06-18 12:55:28,171 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/.git/
 
-2019-05-19 20:01:00,892 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/gradlew
-2019-05-19 20:01:00,920 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/build.gradle
-2019-05-19 20:01:00,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/settings.gradle
-2019-05-19 20:01:00,948 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 20:01:00,948 INFO  ProjectFixService - Fixing project...
-2019-05-19 20:01:01,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/local.properties
-2019-05-19 20:01:01,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-05-19 20:01:01,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/local.properties
-2019-05-19 20:01:01,006 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2019-05-19 20:01:01,006 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2019-05-19 20:01:01,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-05-19 20:01:01,007 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 20:01:01,007 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 20:01:01,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 20:01:37,181 INFO  ProjectTaskService - Detected possible tasks: 92
-2019-05-19 20:01:37,181 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 20:01:37,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 20:02:29,084 ERROR SysUtils - Could not process external command
+2019-06-18 12:55:28,193 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/gradlew
+2019-06-18 12:55:28,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/build.gradle
+2019-06-18 12:55:28,234 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/settings.gradle
+2019-06-18 12:55:28,235 INFO  ProjectBuildService - Remote scripts: none
+2019-06-18 12:55:28,235 INFO  ProjectFixService - Fixing project...
+2019-06-18 12:55:28,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/local.properties
+2019-06-18 12:55:28,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-06-18 12:55:28,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/local.properties
+2019-06-18 12:55:28,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-all.zip
+2019-06-18 12:55:28,278 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip)
+2019-06-18 12:55:28,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-06-18 12:55:28,279 INFO  ProjectFixService - Project was maybe fixed
+2019-06-18 12:55:28,279 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-18 12:55:28,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-18 12:55:30,453 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-18 12:55:30,453 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-18 12:55:30,453 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-18 12:55:30,454 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-18 12:55:31,471 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +39,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,335 +54,28 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-19 20:02:29,084 INFO  SysUtils - Configuration on demand is an incubating feature.
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
-It will be removed at the end of 2018
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/palette-v7/27.1.0/palette-v7-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/preference-v14/27.1.0/preference-v14-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.0/cardview-v7-27.1.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/27.1.0/customtabs-27.1.0.pom
-Download https://jcenter.bintray.com/net/grandcentrix/thirtyinch/thirtyinch/0.8.0/thirtyinch-0.8.0.pom
-Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/3.7.0/glide-3.7.0.pom
-Download https://jcenter.bintray.com/cn/gavinliu/android/lib/ShapedImageView/0.8.3/ShapedImageView-0.8.3.pom
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.5.1/butterknife-8.5.1.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.10/rxjava-2.1.10.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.10.0/logging-interceptor-3.10.0.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.2/rxandroid-2.0.2.pom
-Download https://jcenter.bintray.com/com/annimon/stream/1.1.9/stream-1.1.9.pom
-Download https://jcenter.bintray.com/com/github/k0shk0sh/RetainedDateTimePickers/1.0.2/RetainedDateTimePickers-1.0.2.pom
-Download https://jcenter.bintray.com/io/requery/requery-android/1.3.2/requery-android-1.3.2.pom
-Download https://jcenter.bintray.com/com/github/matthiasrobbers/shortbread/1.0.1/shortbread-1.0.1.pom
-Download https://jcenter.bintray.com/it/sephiroth/android/library/bottomnavigation/bottom-navigation/2.0.2/bottom-navigation-2.0.2.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark/0.10.0/commonmark-0.10.0.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-gfm-strikethrough/0.10.0/commonmark-ext-gfm-strikethrough-0.10.0.pom
-Download https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.9.7/aboutlibraries-5.9.7.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-parent/0.10.0/commonmark-parent-0.10.0.pom
-Download https://jcenter.bintray.com/com/apollographql/apollo/apollo-runtime/0.4.1/apollo-runtime-0.4.1.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-gfm-tables/0.10.0/commonmark-ext-gfm-tables-0.10.0.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-autolink/0.10.0/commonmark-ext-autolink-0.10.0.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-ins/0.10.0/commonmark-ext-ins-0.10.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-core/12.0.0/firebase-core-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging/12.0.0/firebase-messaging-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database/12.0.0/firebase-database-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/12.0.0/play-services-base-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/crashlytics/2.9.0/crashlytics-2.9.0.pom
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-yaml-front-matter/0.10.0/commonmark-ext-yaml-front-matter-0.10.0.pom
-Download https://jcenter.bintray.com/com/github/b3er/rxfirebase/firebase-database-kotlin/11.2.0/firebase-database-kotlin-11.2.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.10/kotlin-stdlib-jre7-1.2.10.pom
-Download https://jcenter.bintray.com/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.pom
-Download https://jcenter.bintray.com/com/evernote/android-state/1.2.0/android-state-1.2.0.pom
-Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.pom
-Download https://jcenter.bintray.com/com/github/b3er/rxfirebase/firebase-database/11.2.0/firebase-database-11.2.0.pom
-Download https://jcenter.bintray.com/net/yslibrary/keyboardvisibilityevent/keyboardvisibilityevent/2.1.0/keyboardvisibilityevent-2.1.0.pom
-Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.2.5/lottie-2.2.5.pom
-Download https://jcenter.bintray.com/petrov/kristiyan/colorpicker-library/1.1.4/colorpicker-library-1.1.4.pom
-Download https://jcenter.bintray.com/net/grandcentrix/thirtyinch/thirtyinch-rx2/0.8.0/thirtyinch-rx2-0.8.0.pom
-Download https://jcenter.bintray.com/com/firebase/firebase-jobdispatcher/0.8.2/firebase-jobdispatcher-0.8.2.pom
-Download https://jcenter.bintray.com/com/apollographql/apollo/apollo-rx2-support/0.4.1/apollo-rx2-support-0.4.1.pom
-Download https://jitpack.io/com/github/nightwhistler/HtmlSpanner/0.4/HtmlSpanner-0.4.pom
-Download https://jitpack.io/com/github/GrenderG/Toasty/1.1.3/Toasty-1.1.3.pom
-Download https://jitpack.io/com/github/daniel-stoneuk/material-about-library/2.1.0/material-about-library-2.1.0.pom
-Download https://jitpack.io/com/github/miguelbcr/RxBillingService/0.0.3/RxBillingService-0.0.3.pom
-Download https://jcenter.bintray.com/com/nytimes/android/cache/2.0.2/cache-2.0.2.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.8.1/parent-3.8.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/preference-v7/27.1.0/preference-v7-27.1.0.pom
-Download https://jcenter.bintray.com/com/infstory/proguard-annotations/1.0.2/proguard-annotations-1.0.2.pom
-Download https://jcenter.bintray.com/com/readystatesoftware/systembartint/systembartint/1.0.4/systembartint-1.0.4.pom
-Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.9.0/iconics-core-2.9.0.pom
-Download https://jcenter.bintray.com/com/mikepenz/fastadapter/2.6.2/fastadapter-2.6.2.pom
-Download https://jcenter.bintray.com/org/jdom/jdom/1.1/jdom-1.1.pom
-Download https://jcenter.bintray.com/org/nibor/autolink/autolink/0.7.0/autolink-0.7.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/12.0.0/firebase-analytics-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging-license/12.0.0/firebase-messaging-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/12.0.0/firebase-common-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/12.0.0/firebase-iid-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/12.0.0/play-services-basement-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/12.0.0/play-services-tasks-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-license/12.0.0/firebase-database-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-connection/12.0.0/firebase-database-connection-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base-license/12.0.0/play-services-base-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/crashlytics-core/2.6.0/crashlytics-core-2.6.0.pom
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/answers/1.4.1/answers-1.4.1.pom
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/beta/1.2.7/beta-1.2.7.pom
-Download https://dl.google.com/dl/android/maven2/io/fabric/sdk/android/fabric/1.4.2/fabric-1.4.2.pom
-Download https://jitpack.io/com/github/VictorAlbertos/RxActivityResult/0.3.8-2.x/RxActivityResult-0.3.8-2.x.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-license/12.0.0/firebase-analytics-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/12.0.0/firebase-analytics-impl-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid-license/12.0.0/firebase-iid-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement-license/12.0.0/play-services-basement-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common-license/12.0.0/firebase-common-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-connection-license/12.0.0/firebase-database-connection-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks-license/12.0.0/play-services-tasks-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl-license/12.0.0/firebase-analytics-impl-license-12.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/preference-v14/27.1.0/preference-v14-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/27.1.0/customtabs-27.1.0.aar
-Download https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.9.7/aboutlibraries-5.9.7.aar
-Download https://jitpack.io/com/github/GrenderG/Toasty/1.1.3/Toasty-1.1.3.aar
-Download https://jcenter.bintray.com/petrov/kristiyan/colorpicker-library/1.1.4/colorpicker-library-1.1.4.aar
-Download https://jitpack.io/com/github/daniel-stoneuk/material-about-library/2.1.0/material-about-library-2.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.0/design-27.1.0.aar
-Download https://jitpack.io/com/github/VictorAlbertos/RxActivityResult/0.3.8-2.x/RxActivityResult-0.3.8-2.x.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.0/appcompat-v7-27.1.0.aar
-Download https://jitpack.io/com/github/miguelbcr/RxBillingService/0.0.3/RxBillingService-0.0.3.aar
-Download https://jcenter.bintray.com/com/airbnb/android/lottie/2.2.5/lottie-2.2.5.aar
-Download https://jcenter.bintray.com/it/sephiroth/android/library/bottomnavigation/bottom-navigation/2.0.2/bottom-navigation-2.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.0/cardview-v7-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.0/recyclerview-v7-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/palette-v7/27.1.0/palette-v7-27.1.0.aar
-Download https://jcenter.bintray.com/net/grandcentrix/thirtyinch/thirtyinch-rx2/0.8.0/thirtyinch-rx2-0.8.0.aar
-Download https://jcenter.bintray.com/net/grandcentrix/thirtyinch/thirtyinch/0.8.0/thirtyinch-0.8.0.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/8.5.1/butterknife-8.5.1.aar
-Download https://jcenter.bintray.com/com/github/k0shk0sh/RetainedDateTimePickers/1.0.2/RetainedDateTimePickers-1.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-core/12.0.0/firebase-core-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging/12.0.0/firebase-messaging-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/crashlytics/2.9.0/crashlytics-2.9.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database/12.0.0/firebase-database-12.0.0.aar
-Download https://jcenter.bintray.com/com/github/b3er/rxfirebase/firebase-database-kotlin/11.2.0/firebase-database-kotlin-11.2.0.aar
-Download https://jcenter.bintray.com/com/github/b3er/rxfirebase/firebase-database/11.2.0/firebase-database-11.2.0.aar
-Download https://jcenter.bintray.com/com/evernote/android-state/1.2.0/android-state-1.2.0.aar
-Download https://jcenter.bintray.com/com/jaredrummler/android-device-names/1.1.5/android-device-names-1.1.5.aar
-Download https://jcenter.bintray.com/net/yslibrary/keyboardvisibilityevent/keyboardvisibilityevent/2.1.0/keyboardvisibilityevent-2.1.0.aar
-Download https://jcenter.bintray.com/com/firebase/firebase-jobdispatcher/0.8.2/firebase-jobdispatcher-0.8.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.0/animated-vector-drawable-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/12.0.0/firebase-analytics-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/12.0.0/firebase-analytics-impl-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/12.0.0/firebase-iid-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-connection/12.0.0/firebase-database-connection-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/12.0.0/firebase-common-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.0/support-v4-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.0/support-core-ui-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.0/support-fragment-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.0/support-core-utils-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.0/support-vector-drawable-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.0/transition-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.0/support-compat-27.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/27.1.0/support-media-compat-27.1.0.aar
-Download https://jcenter.bintray.com/cn/gavinliu/android/lib/ShapedImageView/0.8.3/ShapedImageView-0.8.3.aar
-Download https://jcenter.bintray.com/io/requery/requery-android/1.3.2/requery-android-1.3.2.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-license/12.0.0/firebase-database-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-messaging-license/12.0.0/firebase-messaging-license-12.0.0.aar
-Download https://jcenter.bintray.com/com/infstory/proguard-annotations/1.0.2/proguard-annotations-1.0.2.aar
-Download https://jcenter.bintray.com/com/mikepenz/iconics-core/2.9.0/iconics-core-2.9.0.aar
-Download https://jcenter.bintray.com/com/mikepenz/fastadapter/2.6.2/fastadapter-2.6.2.aar
-Download https://dl.google.com/dl/android/maven2/io/fabric/sdk/android/fabric/1.4.2/fabric-1.4.2.aar
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/crashlytics-core/2.6.0/crashlytics-core-2.6.0.aar
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/beta/1.2.7/beta-1.2.7.aar
-Download https://dl.google.com/dl/android/maven2/com/crashlytics/sdk/android/answers/1.4.1/answers-1.4.1.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid-license/12.0.0/firebase-iid-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-license/12.0.0/firebase-analytics-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common-license/12.0.0/firebase-common-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-database-connection-license/12.0.0/firebase-database-connection-license-12.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl-license/12.0.0/firebase-analytics-impl-license-12.0.0.aar
-Download https://jcenter.bintray.com/com/github/matthiasrobbers/shortbread/1.0.1/shortbread-1.0.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/preference-v7/27.1.0/preference-v7-27.1.0.aar
-:app:compileDebugAidl NO-SOURCE
-:app:compileDebugRenderscript
-:app:nodeSetup
-Download https://nodejs.org/dist/v6.7.0/node-v6.7.0-darwin-x64.tar.gz
-:app:installApolloCodegen
-:app:generateDebugApolloIR
-:app:generateDebugApolloClasses
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:processDebugGoogleServices
-Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/debug/google-services.json
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/AndroidManifest.xml:13:5-15:30 Warning:
-	uses-permission#android.permission.READ_PHONE_STATE was tagged at AndroidManifest.xml:13 to remove other declarations but no other declaration present
-:app:fabricGenerateResourcesDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+2019-06-18 12:55:31,472 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
+	at org.gradle.wrapper.Download.download(Download.java:44)
+	at org.gradle.wrapper.Install$1.call(Install.java:61)
+	at org.gradle.wrapper.Install$1.call(Install.java:48)
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
+	at org.gradle.wrapper.Install.createDist(Install.java:48)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml:63: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-:app:splitsDiscoveryTaskDebug
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1543: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml:59: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0.jar
-Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.10.0/logging-interceptor-3.10.0.jar
-Download https://jitpack.io/com/github/nightwhistler/HtmlSpanner/0.4/HtmlSpanner-0.4.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-gfm-strikethrough/0.10.0/commonmark-ext-gfm-strikethrough-0.10.0.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-autolink/0.10.0/commonmark-ext-autolink-0.10.0.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-gfm-tables/0.10.0/commonmark-ext-gfm-tables-0.10.0.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-ins/0.10.0/commonmark-ext-ins-0.10.0.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark-ext-yaml-front-matter/0.10.0/commonmark-ext-yaml-front-matter-0.10.0.jar
-Download https://jcenter.bintray.com/com/atlassian/commonmark/commonmark/0.10.0/commonmark-0.10.0.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.10/kotlin-stdlib-jre7-1.2.10.jar
-Download https://jcenter.bintray.com/com/nytimes/android/cache/2.0.2/cache-2.0.2.jar
-Download https://jcenter.bintray.com/com/apollographql/apollo/apollo-rx2-support/0.4.1/apollo-rx2-support-0.4.1.jar
-Download https://jcenter.bintray.com/com/readystatesoftware/systembartint/systembartint/1.0.4/systembartint-1.0.4.jar
-Download https://jcenter.bintray.com/org/nibor/autolink/autolink/0.7.0/autolink-0.7.0.jar
-Download https://jcenter.bintray.com/com/apollographql/apollo/apollo-runtime/0.4.1/apollo-runtime-0.4.1.jar
-Download https://jcenter.bintray.com/com/annimon/stream/1.1.9/stream-1.1.9.jar
-Download https://jcenter.bintray.com/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:app:extractProguardFiles
-:app:preReleaseBuild
-:app:compileReleaseAidl NO-SOURCE
-:app:compileReleaseRenderscript
-:app:generateReleaseApolloIR
-:app:generateReleaseApolloClasses
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:processReleaseGoogleServices FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:processReleaseGoogleServices'.
-> File google-services.json is missing. The Google Services Plugin cannot function without it. 
-   Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnullRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/google-services.json
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processReleaseGoogleServices'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
- Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnullRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/google-services.json
-	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:86)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 30 more
-
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 51s
-36 actionable tasks: 36 executed
-
-2019-05-19 20:02:29,267 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 20:02:29,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 20:02:36,371 INFO  ProjectTaskService - Detected possible tasks: 91
-2019-05-19 20:02:36,371 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 20:02:36,371 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 20:05:28,859 ERROR SysUtils - Could not process external command
+2019-06-18 12:55:31,499 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-18 12:55:31,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-18 12:55:32,514 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-18 12:55:32,515 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-18 12:55:32,515 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-18 12:55:32,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837324402-0/src/FastHub-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-18 12:55:33,503 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -396,7 +88,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -410,196 +103,20 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-19 20:05:28,865 INFO  SysUtils - Configuration on demand is an incubating feature.
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-Could not find google-services.json while looking in [src/nullnull/release, src/release/nullnull, src/nullnull, src/release, src/nullnullRelease]
-registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
-It will be removed at the end of 2018
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:app:compileDebugAidl NO-SOURCE
-:app:compileDebugRenderscript UP-TO-DATE
-:app:nodeSetup UP-TO-DATE
-:app:installApolloCodegen UP-TO-DATE
-:app:generateDebugApolloIR UP-TO-DATE
-:app:generateDebugApolloClasses UP-TO-DATE
-:app:checkDebugManifest UP-TO-DATE
-:app:generateDebugBuildConfig UP-TO-DATE
-:app:mainApkListPersistenceDebug UP-TO-DATE
-:app:mergeDebugShaders UP-TO-DATE
-:app:compileDebugShaders UP-TO-DATE
-:app:generateDebugAssets UP-TO-DATE
-:app:mergeDebugAssets UP-TO-DATE
-:app:processDebugGoogleServices
-Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/debug/google-services.json
-:app:createDebugCompatibleScreenManifests UP-TO-DATE
-:app:processDebugManifest UP-TO-DATE
-:app:fabricGenerateResourcesDebug UP-TO-DATE
-:app:generateDebugResValues UP-TO-DATE
-:app:generateDebugResources UP-TO-DATE
-:app:mergeDebugResources UP-TO-DATE
-:app:splitsDiscoveryTaskDebug UP-TO-DATE
-:app:processDebugResources
-:app:compileDebugKotlin
-:app:prepareLintJar UP-TO-DATE
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-app: Original kapt is deprecated. Please add "apply plugin: 'kotlin-kapt'" to your build.gradle.
-Processor path was modified by kapt. Previous value = file collection
-warning: Supported source version 'RELEASE_7' from annotation processor '__gen.AnnotationProcessorWrapper_debug_shortbread_ShortcutProcessor' less than -source '1.8'
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/data/dao/model/AbstractNotificationQueue.java:27: warning: Column or index name date may need to be escaped
-    Date date;
-         ^
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-2 warnings
-:app:compileDebugKotlinAfterJava
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/main/donation/CheckPurchaseActivity.kt: (4, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/main/donation/CheckPurchaseActivity.kt: (23, 27): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/main/donation/CheckPurchaseActivity.kt: (28, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/main/notifications/FastHubNotificationDialog.kt: (38, 38): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/repos/projects/list/RepoProjectFragment.kt: (119, 17): Unnecessary safe call on a non-null receiver of type DynamicRecyclerView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/repos/projects/list/RepoProjectPresenter.kt: (33, 14): 'databaseId(): Int?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/repos/projects/list/RepoProjectPresenter.kt: (127, 112): 'databaseId(): Int?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/repos/projects/list/RepoProjectPresenter.kt: (165, 112): 'databaseId(): Int?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/main/java/com/fastaccess/ui/modules/repos/projects/list/RepoProjectPresenter.kt: (201, 112): 'databaseId(): Int?' is deprecated. Deprecated in Java
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/requery-android-1.3.2.aar/cacfca2aad0626b98f49f3340866a6c0/jars/classes.jar: D8: Type `io.requery.android.database.sqlite.SQLiteDatabase` was not found, it is required for default or static interface methods desugaring of `java.lang.Object io.requery.android.sqlitex.SqlitexMetaData.queryMemory(io.requery.util.function.Function, java.lang.String)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/requery-android-1.3.2.aar/cacfca2aad0626b98f49f3340866a6c0/jars/classes.jar: D8: Type `net.sqlcipher.database.SQLiteDatabase` was not found, it is required for default or static interface methods desugaring of `void io.requery.android.sqlcipher.SqlCipherDatabaseSource.<init>(android.content.Context, io.requery.meta.EntityModel, java.lang.String, java.lang.String, int)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-database-11.2.0.aar/98ede0c2da61953165be792a1c93cb5e/jars/classes.jar: D8: Type `com.memoizrlabs.retrooptional.Optional` was not found, it is required for default or static interface methods desugaring of `com.memoizrlabs.retrooptional.Optional com.github.b3er.rxfirebase.database.transformers.SingleTransformerOfClazz$1.apply(com.google.firebase.database.DataSnapshot)`
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/requery-android-1.3.2.aar/cacfca2aad0626b98f49f3340866a6c0/jars/classes.jar: D8: Type `io.requery.android.database.sqlite.SQLiteOpenHelper` was not found, it is required for default or static interface methods desugaring of `java.lang.Object io.requery.android.sqlitex.SqlitexDatabaseSource.getWritableDatabase()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `rx.internal.operators.BackpressureUtils` was not found, it is required for default or static interface methods desugaring of `void io.requery.rx.OnSubscribeFromQuery$ElementProducer.request(long)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `rx.subjects.PublishSubject` was not found, it is required for default or static interface methods desugaring of `void io.requery.rx.TypeChangeListener.<init>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `rx.Single` was not found, it is required for default or static interface methods desugaring of `rx.Single io.requery.rx.RxScalar.toSingle()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `reactor.core.publisher.Mono` was not found, it is required for default or static interface methods desugaring of `reactor.core.publisher.Mono io.requery.reactor.ReactorScalar.mono()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `javax.cache.expiry.EternalExpiryPolicy` was not found, it is required for default or static interface methods desugaring of `void io.requery.cache.SerializableEntityCache.<init>(io.requery.meta.EntityModel, javax.cache.CacheManager)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `javax.naming.InitialContext` was not found, it is required for default or static interface methods desugaring of `javax.transaction.TransactionSynchronizationRegistry io.requery.sql.ManagedTransaction.getSynchronizationRegistry()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `rx.Completable` was not found, it is required for default or static interface methods desugaring of `rx.Observable io.requery.rx.SingleEntityStoreFromBlocking.runInTransaction(java.util.List)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `reactor.core.publisher.Flux` was not found, it is required for default or static interface methods desugaring of `reactor.core.publisher.Flux io.requery.reactor.ReactorResult.flux()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Type `rx.Observable` was not found, it is required for default or static interface methods desugaring of `rx.Observable io.requery.rx.RxResult.toObservable()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Interface `rx.Observable$OnSubscribe` not found. It's needed to make sure desugaring of `io.requery.rx.OnSubscribeFromQuery` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Interface `rx.Producer` not found. It's needed to make sure desugaring of `io.requery.rx.OnSubscribeFromQuery$ElementProducer` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Interface `rx.functions.Func1` not found. It's needed to make sure desugaring of `io.requery.rx.RxSupport$1` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Interface `rx.Single$OnSubscribe` not found. It's needed to make sure desugaring of `io.requery.rx.SingleOnSubscribeFromSupplier` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.requery/requery/1.3.2/13a92ae39771241778d25e1c53d079b0216c3bf3/requery-1.3.2.jar: D8: Interface `javax.transaction.Synchronization` not found. It's needed to make sure desugaring of `io.requery.sql.ManagedTransaction` is correct. Desugaring will assume that this interface has no default method.
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jdom/jdom/1.1/1d04c0f321ea337f3661cf7ede8f4c6f653a8fdd/jdom-1.1.jar: D8: Type `org.jaxen.SimpleNamespaceContext` was not found, it is required for default or static interface methods desugaring of `java.lang.String org.jdom.xpath.JaxenXPath$NSContext.translateNamespacePrefixToUri(java.lang.String)`
-D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
-D8: Stripped invalid locals information from 2 methods.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders UP-TO-DATE
-:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug UP-TO-DATE
-:app:packageDebug
-:app:assembleDebug
-:app:extractProguardFiles UP-TO-DATE
-:app:preReleaseBuild UP-TO-DATE
-:app:compileReleaseAidl NO-SOURCE
-:app:compileReleaseRenderscript UP-TO-DATE
-:app:generateReleaseApolloIR UP-TO-DATE
-:app:generateReleaseApolloClasses UP-TO-DATE
-:app:checkReleaseManifest UP-TO-DATE
-:app:generateReleaseBuildConfig UP-TO-DATE
-:app:mainApkListPersistenceRelease UP-TO-DATE
-:app:mergeReleaseShaders UP-TO-DATE
-:app:compileReleaseShaders UP-TO-DATE
-:app:generateReleaseAssets UP-TO-DATE
-:app:mergeReleaseAssets UP-TO-DATE
-:app:processReleaseGoogleServices FAILED
+2019-06-18 12:55:33,503 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
 
-FAILURE: Build failed with an exception.
+Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
+	at org.gradle.wrapper.Download.download(Download.java:44)
+	at org.gradle.wrapper.Install$1.call(Install.java:61)
+	at org.gradle.wrapper.Install$1.call(Install.java:48)
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
+	at org.gradle.wrapper.Install.createDist(Install.java:48)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-* What went wrong:
-Execution failed for task ':app:processReleaseGoogleServices'.
-> File google-services.json is missing. The Google Services Plugin cannot function without it. 
-   Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnullRelease/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/google-services.json
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processReleaseGoogleServices'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:623)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:578)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
- Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/release/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/src/nullnullRelease/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/google-services.json
-	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:86)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 30 more
-
-
-* Get more help at https://help.gradle.org
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD FAILED in 2m 51s
-46 actionable tasks: 12 executed, 34 up-to-date
-
-2019-05-19 20:05:29,236 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558270732236-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-06-18 12:55:33,531 ERROR FullProcessService - Project build has not produced APK file
+2019-06-18 12:55:33,553 ERROR FullProcessService - Could not find generated or existed APK file
