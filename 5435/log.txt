@@ -1,53 +1,37 @@
-2019-05-19 19:39:18,887 INFO  DownloadService - Downloading "https://github.com/skedgo/RxProperty/archive/master.zip", attempt 3
-2019-05-19 19:40:19,424 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 19:40:20,530 INFO  GithubDownloadService - Default branch of this repository: master
-2019-05-19 19:40:20,530 INFO  DownloadService - Downloading "https://github.com/skedgo/RxProperty/archive/master.zip", attempt 3
-2019-05-19 19:41:22,311 DEBUG FullProcessService - Repository https://github.com/skedgo/RxProperty available: true
-2019-05-19 19:41:22,311 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 19:41:22,311 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/skedgo/RxProperty, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src]
-2019-05-19 19:41:24,196 INFO  SysUtils - 
-2019-05-19 19:41:24,212 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/.git": true
-2019-05-19 19:41:24,213 INFO  FullProcessService - Size of directory with sources: 72 KB
-2019-05-19 19:41:24,214 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src]
-2019-05-19 19:41:24,230 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/.git/
+2019-07-05 19:33:39,593 INFO  DownloadService - Downloading "https://github.com/skedgo/RxProperty/archive/master.zip", attempt 3
+2019-07-05 19:33:40,169 INFO  DownloadService - Downloaded https://github.com/skedgo/RxProperty/archive/master.zip, attempt 3
+2019-07-05 19:33:40,169 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/master.zip": 60 KB
+2019-07-05 19:33:40,169 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 19:33:40,174 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/master.zip: true
+2019-07-05 19:33:40,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src'.
+2019-07-05 19:33:40,183 INFO  FullProcessService - Size of directory with sources: 72 KB
+2019-07-05 19:33:40,183 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src]
+2019-07-05 19:33:40,201 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/.git/
 
-2019-05-19 19:41:24,232 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/gradlew
-2019-05-19 19:41:24,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle
-2019-05-19 19:41:24,235 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/settings.gradle
-2019-05-19 19:41:24,235 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 19:41:24,235 INFO  ProjectFixService - Fixing project...
-2019-05-19 19:41:24,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/local.properties
-2019-05-19 19:41:24,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-bin.zip
-2019-05-19 19:41:24,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 19:41:24,240 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 19:41:24,240 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 19:41:24,240 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:41:24,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:42:04,674 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-05-19 19:42:04,674 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 19:42:04,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 19:42:32,984 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 19:33:40,203 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/gradlew
+2019-07-05 19:33:40,205 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle
+2019-07-05 19:33:40,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/settings.gradle
+2019-07-05 19:33:40,206 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 19:33:40,207 INFO  ProjectFixService - Fixing project...
+2019-07-05 19:33:40,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/local.properties
+2019-07-05 19:33:40,211 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-bin.zip
+2019-07-05 19:33:40,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 19:33:40,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 19:33:40,212 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 19:33:40,212 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 19:33:40,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 19:33:47,663 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-05 19:33:47,663 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 19:33:47,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 19:34:09,448 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :preBuild UP-TO-DATE
 > Task :preDebugBuild UP-TO-DATE
 > Task :compileDebugAidl NO-SOURCE
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.1/databinding-adapters-3.2.1.pom
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.1/databinding-runtime-3.2.1.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.5/rxjava-1.3.5.pom
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0-alpha1/lifecycle-runtime-2.0.0-alpha1.pom
-Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0-alpha1/collection-1.0.0-alpha1.pom
-Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0/collection-1.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0/lifecycle-runtime-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0/annotation-1.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0/core-common-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0/lifecycle-common-2.0.0.pom
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.1/databinding-runtime-3.2.1.aar
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.1/databinding-adapters-3.2.1.aar
 > Task :compileDebugRenderscript
 > Task :checkDebugManifest
 > Task :generateDebugBuildConfig
 > Task :generateDebugResValues
 > Task :generateDebugResources
-Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom
 > Task :packageDebugResources
 > Task :processDebugManifest
 > Task :generateDebugRFile
@@ -59,29 +43,19 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3
 > Task :transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
 > Task :dataBindingGenBaseClassesDebug
 Download https://jcenter.bintray.com/io/reactivex/rxjava/1.3.5/rxjava-1.3.5.jar
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.1/databinding-compiler-3.2.1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.1/databinding-compiler-3.2.1.jar
 w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
 > Task :kaptGenerateStubsDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
 > Task :kaptDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
 > Task :compileDebugKotlin
 > Task :javaPreCompileDebug
 > Task :compileDebugJavaWithJavac
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.1/lint-gradle-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.1/intellij-core-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.1/uast-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.1/lint-26.2.1.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.pom
-Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.1/lint-checks-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.1/kotlin-compiler-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.1/lint-api-26.2.1.pom
 > Task :extractDebugAnnotations
 > Task :mergeDebugConsumerProguardFiles
 > Task :mergeDebugShaders
@@ -121,10 +95,10 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
 > Task :kaptReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: RxProperty
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableBoolean.kt: (13, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableField.kt: (14, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableInt.kt: (13, 64): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330019590-0/src/RxProperty-master/src/main/java/skedgo/rxproperty/RxObservableList.kt: (9, 21): 'create(((Subscriber<in T!>!) -> Unit)!): Observable<T!>!' is deprecated. Deprecated in Java
 > Task :compileReleaseKotlin
 > Task :javaPreCompileRelease
 > Task :compileReleaseJavaWithJavac
@@ -150,8 +124,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558269558885-0/src/
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 21s
 60 actionable tasks: 60 executed
 
-2019-05-19 19:42:33,036 ERROR FullProcessService - Project build has not produced APK file
-2019-05-19 19:42:33,093 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 19:34:09,489 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 19:34:09,522 ERROR FullProcessService - Could not find generated or existed APK file
