@@ -1,10 +1,21 @@
-2019-07-05 19:33:37,609 INFO  DownloadService - Downloading "https://github.com/jsurfer/JsonSurfer/archive/master.zip", attempt 3
-2019-07-05 19:33:39,573 INFO  DownloadService - Downloaded https://github.com/jsurfer/JsonSurfer/archive/master.zip, attempt 3
-2019-07-05 19:33:39,573 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330017605-0/master.zip": 910 KB
-2019-07-05 19:33:39,574 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 19:33:39,579 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330017605-0/master.zip: false
-2019-07-05 19:33:39,580 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-07-05 19:33:39,580 ERROR FullProcessService - Could not find directory with sources
-2019-07-05 19:33:39,580 ERROR FullProcessService - Project will not be processed
-2019-07-05 19:33:39,580 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 19:33:39,581 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-20 15:44:21,898 INFO  DownloadService - Downloading "https://github.com/jsurfer/JsonSurfer/archive/master.zip", attempt 3
+2019-07-20 15:45:23,013 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-20 15:45:23,868 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-20 15:45:23,868 INFO  DownloadService - Downloading "https://github.com/jsurfer/JsonSurfer/archive/master.zip", attempt 3
+2019-07-20 15:46:25,570 DEBUG FullProcessService - Repository https://github.com/jsurfer/JsonSurfer available: true
+2019-07-20 15:46:25,570 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-20 15:46:25,570 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jsurfer/JsonSurfer, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563612261895-0/src]
+2019-07-20 15:46:28,658 INFO  SysUtils - 
+2019-07-20 15:46:28,666 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563612261895-0/src/.git": true
+2019-07-20 15:46:28,670 INFO  FullProcessService - Size of directory with sources: 21 MB
+2019-07-20 15:46:28,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563612261895-0/src]
+2019-07-20 15:46:28,686 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563612261895-0/src/.git/
+
+2019-07-20 15:46:28,690 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-20 15:46:28,690 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-20 15:46:28,693 INFO  ProjectBuildService - Build script(s): none
+2019-07-20 15:46:28,696 INFO  ProjectBuildService - All script(s): none
+2019-07-20 15:46:28,696 INFO  ProjectBuildService - Remote scripts: none
+2019-07-20 15:46:28,696 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-20 15:46:28,696 ERROR FullProcessService - Project build has not produced APK file
+2019-07-20 15:46:28,699 ERROR FullProcessService - Could not find generated or existed APK file
