@@ -1,10 +1,10 @@
-2019-06-18 12:56:51,996 INFO  DownloadService - Downloading "https://github.com/firebase/geofire-java/archive/master.zip", attempt 3
-2019-06-18 12:56:53,853 INFO  DownloadService - Downloaded https://github.com/firebase/geofire-java/archive/master.zip, attempt 3
-2019-06-18 12:56:53,854 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837411993-0/master.zip": 59 KB
-2019-06-18 12:56:53,854 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 12:56:53,854 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560837411993-0/master.zip: false
-2019-06-18 12:56:53,854 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-06-18 12:56:53,854 ERROR FullProcessService - Could not find directory with sources
-2019-06-18 12:56:53,854 ERROR FullProcessService - Project will not be processed
-2019-06-18 12:56:53,854 ERROR FullProcessService - Project build has not produced APK file
-2019-06-18 12:56:53,855 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-21 19:58:07,096 INFO  DownloadService - Downloading "https://github.com/firebase/geofire-java/archive/master.zip", attempt 3
+2019-07-21 19:58:09,780 INFO  DownloadService - Downloaded https://github.com/firebase/geofire-java/archive/master.zip, attempt 3
+2019-07-21 19:58:09,781 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713887087-0/master.zip": 59 KB
+2019-07-21 19:58:09,781 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-21 19:58:09,786 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713887087-0/master.zip: false
+2019-07-21 19:58:09,786 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-21 19:58:09,786 ERROR FullProcessService - Could not find directory with sources
+2019-07-21 19:58:09,786 ERROR FullProcessService - Project will not be processed
+2019-07-21 19:58:09,786 ERROR FullProcessService - Project build has not produced APK file
+2019-07-21 19:58:09,787 ERROR FullProcessService - Could not find generated or existed APK file

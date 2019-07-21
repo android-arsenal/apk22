@@ -1,37 +1,37 @@
-2019-07-05 19:40:38,770 INFO  DownloadService - Downloading "https://github.com/stfalcon-studio/ChatKit/archive/master.zip", attempt 3
-2019-07-05 19:40:41,286 INFO  DownloadService - Downloaded https://github.com/stfalcon-studio/ChatKit/archive/master.zip, attempt 3
-2019-07-05 19:40:41,286 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/master.zip": 3 MB
-2019-07-05 19:40:41,286 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 19:40:41,293 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/master.zip: true
-2019-07-05 19:40:41,293 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src'.
-2019-07-05 19:40:41,367 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-07-05 19:40:41,367 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src]
-2019-07-05 19:40:41,387 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/.git/
+2019-07-21 19:58:09,799 INFO  DownloadService - Downloading "https://github.com/stfalcon-studio/ChatKit/archive/master.zip", attempt 3
+2019-07-21 19:59:31,289 INFO  DownloadService - Downloaded https://github.com/stfalcon-studio/ChatKit/archive/master.zip, attempt 3
+2019-07-21 19:59:31,290 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/master.zip": 3 MB
+2019-07-21 19:59:31,290 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-21 19:59:31,296 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/master.zip: true
+2019-07-21 19:59:31,296 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src'.
+2019-07-21 19:59:31,376 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-21 19:59:31,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src]
+2019-07-21 19:59:31,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/.git/
 
-2019-07-05 19:40:41,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew
-2019-07-05 19:40:41,397 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle
-2019-07-05 19:40:41,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/settings.gradle
-2019-07-05 19:40:41,402 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 19:40:41,402 INFO  ProjectFixService - Fixing project...
-2019-07-05 19:40:41,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/local.properties
-2019-07-05 19:40:41,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-05 19:40:41,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
-2019-07-05 19:40:41,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/local.properties
-2019-07-05 19:40:41,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-05 19:40:41,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
-2019-07-05 19:40:41,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/local.properties
-2019-07-05 19:40:41,416 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-05 19:40:41,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-05 19:40:41,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-07-05 19:40:41,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
-2019-07-05 19:40:41,417 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 19:40:41,417 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 19:40:41,417 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 19:40:41,527 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 19:40:41,527 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 19:40:41,527 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 19:40:41,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/chatkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 19:40:41,654 ERROR SysUtils - Could not process external command
+2019-07-21 19:59:31,401 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew
+2019-07-21 19:59:31,407 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle
+2019-07-21 19:59:31,412 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/settings.gradle
+2019-07-21 19:59:31,412 INFO  ProjectBuildService - Remote scripts: none
+2019-07-21 19:59:31,412 INFO  ProjectFixService - Fixing project...
+2019-07-21 19:59:31,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/local.properties
+2019-07-21 19:59:31,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-21 19:59:31,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
+2019-07-21 19:59:31,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/local.properties
+2019-07-21 19:59:31,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-21 19:59:31,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
+2019-07-21 19:59:31,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/local.properties
+2019-07-21 19:59:31,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-21 19:59:31,430 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-21 19:59:31,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-21 19:59:31,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=29]
+2019-07-21 19:59:31,432 INFO  ProjectFixService - Project was maybe fixed
+2019-07-21 19:59:31,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 19:59:31,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 19:59:31,567 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-21 19:59:31,567 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-21 19:59:31,567 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-21 19:59:31,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/chatkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-21 19:59:31,687 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,15 +59,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 19:40:41,654 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-07-21 19:59:31,687 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-05 19:40:41,661 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 19:40:41,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 19:40:41,775 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 19:40:41,775 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 19:40:41,775 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 19:40:41,775 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 19:40:41,889 ERROR SysUtils - Could not process external command
+2019-07-21 19:59:31,694 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 19:59:31,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 19:59:31,841 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-21 19:59:31,841 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-21 19:59:31,841 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-21 19:59:31,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-21 19:59:31,962 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -95,15 +95,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 19:40:41,890 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-07-21 19:59:31,962 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-05 19:40:41,895 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 19:40:41,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 19:40:42,018 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 19:40:42,018 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 19:40:42,018 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 19:40:42,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562330438767-0/src/ChatKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 19:40:42,132 ERROR SysUtils - Could not process external command
+2019-07-21 19:59:31,969 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-21 19:59:31,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-21 19:59:32,086 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-21 19:59:32,086 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-21 19:59:32,086 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-21 19:59:32,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563713889795-0/src/ChatKit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-21 19:59:32,219 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -131,7 +131,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 19:40:42,132 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-07-21 19:59:32,220 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-05 19:40:42,137 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 19:40:42,142 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-21 19:59:32,226 ERROR FullProcessService - Project build has not produced APK file
+2019-07-21 19:59:32,232 ERROR FullProcessService - Could not find generated or existed APK file
