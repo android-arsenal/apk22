@@ -3,7 +3,7 @@
     "packageName" : "me.toptas.fancyshowcasesample",
     "label" : "FancyShowCase",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "1.1.6",
+    "versionName" : "1.2.0",
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "14",
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 2931,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.1.6\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.toptas.fancyshowcasesample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"FancyShowCase\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f00c9\" android:name=\"me.toptas.fancyshowcasesample.SecondActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00c7\" android:name=\"me.toptas.fancyshowcasesample.QueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.RecyclerViewActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.CustomQueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.AnimatedActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2870410,
-  "crc32" : 3689894760,
-  "sha256" : "c88a0ff7e3e05a923e8136175cb114742b859376e2c389ed347e2f2219e55862",
-  "buildTime" : 1563713409000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.2.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.toptas.fancyshowcasesample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"FancyShowCase\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f00c9\" android:name=\"me.toptas.fancyshowcasesample.SecondActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00c7\" android:name=\"me.toptas.fancyshowcasesample.QueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.RecyclerViewActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.CustomQueueActivity\" />\n\t\t<activity android:name=\"me.toptas.fancyshowcasesample.AnimatedActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2870707,
+  "crc32" : 338076527,
+  "sha256" : "f61b47abd6a3dab03d027aab088345bd6706d1cb3e30d36afe64ebc218d12598",
+  "buildTime" : 1564150569000
 }

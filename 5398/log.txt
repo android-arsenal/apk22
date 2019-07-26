@@ -1,37 +1,41 @@
-2018-09-15 22:55:44,200 INFO  DownloadService - Downloading "https://github.com/webianks/ScrollChoice/archive/master.zip", attempt 3
-2018-09-15 22:55:45,012 INFO  DownloadService - Downloaded https://github.com/webianks/ScrollChoice/archive/master.zip, attempt 3
-2018-09-15 22:55:45,013 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/master.zip": 1 MB
-2018-09-15 22:55:45,013 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-15 22:55:45,019 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/master.zip: true
-2018-09-15 22:55:45,019 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src'.
-2018-09-15 22:55:45,049 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-09-15 22:55:45,049 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src]
-2018-09-15 22:55:45,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/.git/
+2019-07-26 21:16:48,960 INFO  DownloadService - Downloading "https://github.com/webianks/ScrollChoice/archive/master.zip", attempt 3
+2019-07-26 21:17:49,662 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-26 21:17:50,738 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-26 21:17:50,738 INFO  DownloadService - Downloading "https://github.com/webianks/ScrollChoice/archive/master.zip", attempt 3
+2019-07-26 21:18:52,363 DEBUG FullProcessService - Repository https://github.com/webianks/ScrollChoice available: true
+2019-07-26 21:18:52,364 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-26 21:18:52,364 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/webianks/ScrollChoice, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src]
+2019-07-26 21:18:55,339 INFO  SysUtils - 
+2019-07-26 21:18:55,364 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/.git": true
+2019-07-26 21:18:55,366 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-26 21:18:55,366 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src]
+2019-07-26 21:18:55,381 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/.git/
 
-2018-09-15 22:55:45,068 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/gradlew
-2018-09-15 22:55:45,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/build.gradle
-2018-09-15 22:55:45,073 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/settings.gradle
-2018-09-15 22:55:45,073 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-09-15 22:55:46,960 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-09-15 22:55:46,960 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-09-15 22:55:47,184 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-09-15 22:55:47,184 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-09-15 22:55:47,185 INFO  ProjectFixService - Fixing project...
-2018-09-15 22:55:47,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/local.properties
-2018-09-15 22:55:47,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:55:47,195 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/local.properties
-2018-09-15 22:55:47,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:55:47,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/local.properties
-2018-09-15 22:55:47,196 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
-2018-09-15 22:55:47,196 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
-2018-09-15 22:55:47,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-15 22:55:47,197 INFO  ProjectFixService - Project was maybe fixed
-2018-09-15 22:55:47,197 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-15 22:55:47,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-15 22:57:41,466 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-09-15 22:57:41,466 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-15 22:57:41,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-15 22:57:46,638 ERROR SysUtils - Could not process external command
+2019-07-26 21:18:55,383 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/gradlew
+2019-07-26 21:18:55,385 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/scroll-choice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/build.gradle
+2019-07-26 21:18:55,387 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/scroll-choice/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/settings.gradle
+2019-07-26 21:18:55,388 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-26 21:18:55,702 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-26 21:18:55,702 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-26 21:18:55,778 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-26 21:18:55,778 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-26 21:18:55,778 INFO  ProjectFixService - Fixing project...
+2019-07-26 21:18:55,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/local.properties
+2019-07-26 21:18:55,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-26 21:18:55,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/scroll-choice/local.properties
+2019-07-26 21:18:55,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/scroll-choice/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-26 21:18:55,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/local.properties
+2019-07-26 21:18:55,788 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
+2019-07-26 21:18:55,788 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
+2019-07-26 21:18:55,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-26 21:18:55,789 INFO  ProjectFixService - Project was maybe fixed
+2019-07-26 21:18:55,789 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-26 21:18:55,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-26 21:20:24,242 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-26 21:20:24,242 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-26 21:20:24,242 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-26 21:20:24,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-26 21:20:28,821 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,35 +48,47 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-15 22:57:46,638 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-26 21:20:28,821 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':app'.
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:76)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:599)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:59)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
@@ -111,158 +127,37 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:437)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:280)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:406)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:85)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1490)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:209)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:465)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:287)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:283)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:604)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:599)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:529)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:525)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy14.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	... 50 more
 
 
 BUILD FAILED
 
-Total time: 4.91 secs
+Total time: 4.359 secs
 
-2018-09-15 22:57:46,638 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-09-15 22:57:46,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-15 22:58:16,108 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:scroll-choice:preBuild UP-TO-DATE
-:scroll-choice:resolveReleaseDependencies
-:scroll-choice:preReleaseBuild
-:scroll-choice:checkReleaseManifest
-:scroll-choice:prepareReleaseDependencies
-:scroll-choice:compileReleaseAidl
-:scroll-choice:compileReleaseNdk NO-SOURCE
-:scroll-choice:compileLint
-:scroll-choice:copyReleaseLint NO-SOURCE
-:scroll-choice:compileReleaseRenderscript
-:scroll-choice:generateReleaseBuildConfig
-:scroll-choice:generateReleaseResValues
-:scroll-choice:generateReleaseResources
-:scroll-choice:mergeReleaseResources
-:scroll-choice:processReleaseManifest
-:scroll-choice:processReleaseResources
-:scroll-choice:generateReleaseSources
-:scroll-choice:incrementalReleaseJavaCompilationSafeguard
-:scroll-choice:javaPreCompileRelease
-:scroll-choice:compileReleaseJavaWithJavac
-:scroll-choice:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/src/main/java/com/webianks/library/scroll_choice/WheelPicker.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/src/main/java/com/webianks/library/scroll_choice/WheelPicker.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-:scroll-choice:extractReleaseAnnotations
-:scroll-choice:mergeReleaseShaders
-:scroll-choice:compileReleaseShaders
-:scroll-choice:generateReleaseAssets
-:scroll-choice:mergeReleaseAssets
-:scroll-choice:mergeReleaseProguardFiles
-:scroll-choice:packageReleaseRenderscript NO-SOURCE
-:scroll-choice:packageReleaseResources
-:scroll-choice:processReleaseJavaRes NO-SOURCE
-:scroll-choice:transformResourcesWithMergeJavaResForRelease
-:scroll-choice:transformClassesAndResourcesWithSyncLibJarsForReleaseError: Could not read /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/build/intermediates/typedefs.txt: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/scroll-choice/build/intermediates/typedefs.txt (No such file or directory)
-
-:scroll-choice:mergeReleaseJniLibFolders
-:scroll-choice:transformNativeLibsWithMergeJniLibsForRelease
-:scroll-choice:transformNativeLibsWithStripDebugSymbolForRelease
-:scroll-choice:transformNativeLibsWithSyncJniLibsForRelease
-:scroll-choice:bundleRelease
-:app:resolveDebugDependencies
-:app:preDebugBuild
-:app:checkDebugManifest
-:app:prepareDebugDependencies
-:app:compileDebugAidl
-:app:compileDebugRenderscript
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:handleDebugMicroApk
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:processDebugManifest
-:app:processDebugResources
-:app:generateDebugSources
-:app:incrementalDebugJavaCompilationSafeguard
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:resolveReleaseDependencies
-:app:preReleaseBuild
-:app:checkReleaseManifest
-:app:prepareReleaseDependencies
-:app:compileReleaseAidl
-:app:compileReleaseRenderscript
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-:app:processReleaseManifest
-:app:processReleaseResources
-:app:generateReleaseSources
-:app:incrementalReleaseJavaCompilationSafeguard
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithPreDexForRelease
-:app:transformDexWithDexForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Ran lint on variant release: 17 issues found
-Ran lint on variant debug: 17 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/app/build/reports/lint-results.xml
-:app:incrementalDebugUnitTestJavaCompilationSafeguard NO-SOURCE
-:app:javaPreCompileDebugUnitTest
-:app:resolveDebugUnitTestDependencies
-:app:preDebugUnitTestBuild
-:app:prepareDebugUnitTestDependencies
-:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:app:processDebugUnitTestJavaRes NO-SOURCE
-:app:compileDebugUnitTestSources UP-TO-DATE
-:app:mockableAndroidJar
-:app:assembleDebugUnitTest
-:app:testDebugUnitTest NO-SOURCE
-:app:incrementalReleaseUnitTestJavaCompilationSafeguard NO-SOURCE
-:app:javaPreCompileReleaseUnitTest
-:app:resolveReleaseUnitTestDependencies
-:app:preReleaseUnitTestBuild
-:app:prepareReleaseUnitTestDependencies
-:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:app:processReleaseUnitTestJavaRes NO-SOURCE
-:app:compileReleaseUnitTestSources UP-TO-DATE
-:app:assembleReleaseUnitTest
-:app:testReleaseUnitTest NO-SOURCE
-:app:test UP-TO-DATE
-:app:check
-:app:build
-
-BUILD SUCCESSFUL
-
-Total time: 28.671 secs
-
-2018-09-15 22:58:16,184 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537026944191-0/src/ScrollChoice-master/test_apk/app-debug.apk
+2019-07-26 21:20:28,824 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150608952-0/src/test_apk/app-debug.apk
