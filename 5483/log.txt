@@ -1,60 +1,60 @@
-2019-07-24 12:54:35,326 INFO  DownloadService - Downloading "https://github.com/DanielMartinus/Stepper-Touch/archive/master.zip", attempt 3
-2019-07-24 12:54:41,861 INFO  DownloadService - Downloaded https://github.com/DanielMartinus/Stepper-Touch/archive/master.zip, attempt 3
-2019-07-24 12:54:41,861 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/master.zip": 509 KB
-2019-07-24 12:54:41,862 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-24 12:54:41,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/master.zip: true
-2019-07-24 12:54:41,864 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src'.
-2019-07-24 12:54:41,885 INFO  FullProcessService - Size of directory with sources: 568 KB
-2019-07-24 12:54:41,885 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src]
-2019-07-24 12:54:41,911 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/.git/
+2019-08-09 12:22:34,602 INFO  DownloadService - Downloading "https://github.com/DanielMartinus/Stepper-Touch/archive/master.zip", attempt 3
+2019-08-09 12:22:37,150 INFO  DownloadService - Downloaded https://github.com/DanielMartinus/Stepper-Touch/archive/master.zip, attempt 3
+2019-08-09 12:22:37,150 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/master.zip": 509 KB
+2019-08-09 12:22:37,150 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 12:22:37,156 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/master.zip: true
+2019-08-09 12:22:37,156 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src'.
+2019-08-09 12:22:37,178 INFO  FullProcessService - Size of directory with sources: 568 KB
+2019-08-09 12:22:37,178 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src]
+2019-08-09 12:22:37,202 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/.git/
 
-2019-07-24 12:54:41,914 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/gradlew
-2019-07-24 12:54:41,916 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/build.gradle
-2019-07-24 12:54:41,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/settings.gradle
-2019-07-24 12:54:41,919 INFO  ProjectBuildService - Remote scripts: none
-2019-07-24 12:54:41,919 INFO  ProjectFixService - Fixing project...
-2019-07-24 12:54:41,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/local.properties
-2019-07-24 12:54:41,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-24 12:54:41,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/library/local.properties
-2019-07-24 12:54:41,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-24 12:54:41,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/local.properties
-2019-07-24 12:54:41,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-24 12:54:41,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-24 12:54:41,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-07-24 12:54:41,928 INFO  ProjectFixService - Project was maybe fixed
-2019-07-24 12:54:41,928 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-24 12:54:41,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-24 12:54:54,804 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-24 12:54:54,805 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-24 12:54:54,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-24 12:55:42,953 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:22:37,205 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/gradlew
+2019-08-09 12:22:37,207 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/build.gradle
+2019-08-09 12:22:37,209 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/settings.gradle
+2019-08-09 12:22:37,209 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 12:22:37,209 INFO  ProjectFixService - Fixing project...
+2019-08-09 12:22:37,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/local.properties
+2019-08-09 12:22:37,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-09 12:22:37,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/library/local.properties
+2019-08-09 12:22:37,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-09 12:22:37,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/local.properties
+2019-08-09 12:22:37,216 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-09 12:22:37,216 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-09 12:22:37,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-09 12:22:37,217 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 12:22:37,217 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:22:37,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:22:46,571 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-09 12:22:46,571 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-09 12:22:46,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-09 12:23:28,862 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:processDebugManifest
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :library:generateDebugResValues
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
+> Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :library:generateDebugRFile
 > Task :app:processDebugResources
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugKotlin
 > Task :library:prepareLintJar
+> Task :library:compileDebugKotlin
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
@@ -122,16 +122,16 @@
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseSources
 > Task :library:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c4206314e3798d62acf947435b203228/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ecb10d54959ae627613b951ba43f0a9e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
@@ -167,7 +167,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 47s
+BUILD SUCCESSFUL in 41s
 95 actionable tasks: 95 executed
 
-2019-07-24 12:55:43,029 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563947675323-0/src/Stepper-Touch-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-09 12:23:28,931 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328154597-0/src/Stepper-Touch-master/app/build/outputs/apk/debug/app-debug.apk
