@@ -1,39 +1,36 @@
-2019-05-19 20:38:21,662 INFO  DownloadService - Downloading "https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/archive/master.zip", attempt 3
-2019-05-19 20:39:22,251 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 20:39:23,411 INFO  GithubDownloadService - Default branch of this repository: master
-2019-05-19 20:39:23,412 INFO  DownloadService - Downloading "https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/archive/master.zip", attempt 3
-2019-05-19 20:40:24,763 DEBUG FullProcessService - Repository https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView available: true
-2019-05-19 20:40:24,763 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 20:40:24,764 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src]
-2019-05-19 20:40:26,970 INFO  SysUtils - 
-2019-05-19 20:40:27,004 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/.git": true
-2019-05-19 20:40:27,007 INFO  FullProcessService - Size of directory with sources: 643 KB
-2019-05-19 20:40:27,007 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src]
-2019-05-19 20:40:27,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/.git/
+2019-08-11 18:55:52,667 INFO  DownloadService - Downloading "https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/archive/master.zip", attempt 3
+2019-08-11 18:55:53,509 INFO  DownloadService - Downloaded https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/archive/master.zip, attempt 3
+2019-08-11 18:55:53,509 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/master.zip": 568 KB
+2019-08-11 18:55:53,509 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 18:55:53,515 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/master.zip: true
+2019-08-11 18:55:53,515 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src'.
+2019-08-11 18:55:53,540 INFO  FullProcessService - Size of directory with sources: 643 KB
+2019-08-11 18:55:53,540 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src]
+2019-08-11 18:55:53,557 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/.git/
 
-2019-05-19 20:40:27,027 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/gradlew
-2019-05-19 20:40:27,031 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/build.gradle
-2019-05-19 20:40:27,033 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/settings.gradle
-2019-05-19 20:40:27,034 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 20:40:27,034 INFO  ProjectFixService - Fixing project...
-2019-05-19 20:40:27,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/local.properties
-2019-05-19 20:40:27,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,041 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/local.properties
-2019-05-19 20:40:27,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,043 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/local.properties
-2019-05-19 20:40:27,044 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
-2019-05-19 20:40:27,044 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
-2019-05-19 20:40:27,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-19 20:40:27,046 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 20:40:27,046 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 20:40:27,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 20:40:35,828 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-05-19 20:40:35,828 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-19 20:40:35,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-19 20:40:50,195 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 18:55:53,561 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/gradlew
+2019-08-11 18:55:53,564 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/build.gradle
+2019-08-11 18:55:53,567 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/settings.gradle
+2019-08-11 18:55:53,567 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 18:55:53,567 INFO  ProjectFixService - Fixing project...
+2019-08-11 18:55:53,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/local.properties
+2019-08-11 18:55:53,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,574 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/local.properties
+2019-08-11 18:55:53,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/local.properties
+2019-08-11 18:55:53,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2019-08-11 18:55:53,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2019-08-11 18:55:53,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-11 18:55:53,579 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 18:55:53,579 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 18:55:53,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 18:56:00,639 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-08-11 18:56:00,639 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-11 18:56:00,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-11 18:56:14,846 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :alphabetsindexfastscrollrecyclerLibrary:preBuild UP-TO-DATE
 > Task :alphabetsindexfastscrollrecyclerLibrary:preDebugBuild UP-TO-DATE
 > Task :alphabetsindexfastscrollrecyclerLibrary:compileDebugAidl NO-SOURCE
@@ -50,7 +47,7 @@
 > Task :alphabetsindexfastscrollrecyclerLibrary:javaPreCompileDebug
 
 > Task :alphabetsindexfastscrollrecyclerLibrary:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :alphabetsindexfastscrollrecyclerLibrary:extractDebugAnnotations
@@ -85,7 +82,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :alphabetsindexfastscrollrecyclerLibrary:javaPreCompileRelease
 
 > Task :alphabetsindexfastscrollrecyclerLibrary:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :alphabetsindexfastscrollrecyclerLibrary:extractReleaseAnnotations
@@ -110,151 +107,151 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :alphabetsindexfastscrollrecyclerLibrary:assembleRelease
 
 > Task :alphabetsindexfastscrollrecyclerLibrary:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:13: error: cannot find symbol
 import androidx.annotation.ColorInt;
                           ^
   symbol:   class ColorInt
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:14: error: cannot find symbol
 import androidx.annotation.ColorRes;
                           ^
   symbol:   class ColorRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:15: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:15: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.RecyclerView;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:20: error: cannot find symbol
 public class IndexFastScrollRecyclerView extends RecyclerView {
                                                  ^
   symbol: class RecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:15: error: cannot find symbol
 import androidx.annotation.ColorInt;
                           ^
   symbol:   class ColorInt
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:16: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:16: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.LinearLayoutManager;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:17: error: package androidx.recyclerview.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:17: error: package androidx.recyclerview.widget does not exist
 import androidx.recyclerview.widget.RecyclerView;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:26: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:26: error: package RecyclerView does not exist
 public class IndexFastScrollRecyclerSection extends RecyclerView.AdapterDataObserver {
                                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:161: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:161: error: cannot find symbol
     public void setAdapter(Adapter adapter) {
                            ^
   symbol:   class Adapter
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:37: error: cannot find symbol
     private RecyclerView mRecyclerView = null;
             ^
   symbol:   class RecyclerView
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:232: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:232: error: package RecyclerView does not exist
     public void setAdapter(RecyclerView.Adapter adapter) {
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:33: error: cannot find symbol
     public @ColorInt
             ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:35: error: cannot find symbol
     public @ColorInt
             ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:37: error: cannot find symbol
     public @ColorInt
             ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:41: error: cannot find symbol
     public @ColorInt
             ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:43: error: cannot find symbol
     public @ColorInt
             ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:248: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:248: error: cannot find symbol
     public void setPreviewColor(@ColorRes int color) {
                                  ^
   symbol:   class ColorRes
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:263: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:263: error: cannot find symbol
     public void setPreviewTextColor(@ColorRes int color) {
                                      ^
   symbol:   class ColorRes
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:292: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:292: error: cannot find symbol
     public void setIndexBarColor(@ColorRes int color) {
                                   ^
   symbol:   class ColorRes
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:308: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:308: error: cannot find symbol
     public void setIndexBarTextColor(@ColorRes int color) {
                                       ^
   symbol:   class ColorRes
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:323: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:323: error: cannot find symbol
     public void setIndexbarHighLateTextColor(@ColorRes int color) {
                                               ^
   symbol:   class ColorRes
   location: class IndexFastScrollRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:51: error: cannot find symbol
     private @ColorInt
              ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:53: error: cannot find symbol
     private @ColorInt
              ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:55: error: cannot find symbol
     private @ColorInt
              ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:59: error: cannot find symbol
     private @ColorInt
              ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:61: error: cannot find symbol
     private @ColorInt
              ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:359: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:359: error: cannot find symbol
     public void setPreviewColor(@ColorInt int color) {
                                  ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:366: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:366: error: cannot find symbol
     public void setPreviewTextColor(@ColorInt int color) {
                                      ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:380: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:380: error: cannot find symbol
     public void setIndexBarColor(@ColorInt int color) {
                                   ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:387: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:387: error: cannot find symbol
     public void setIndexBarTextColor(@ColorInt int color) {
                                       ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:394: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:394: error: cannot find symbol
     public void setIndexBarHighLateTextColor(@ColorInt int color) {
                                               ^
   symbol:   class ColorInt
   location: class IndexFastScrollRecyclerSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:329: error: bad HTML entity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerSection.java:329: error: bad HTML entity
      * @param typeface Typeface to set the typeface of the preview & the index bar
                                                                    ^
 javadoc: warning - Class ColorInt not found.
@@ -262,7 +259,7 @@ javadoc: warning - Class ColorInt not found.
 javadoc: warning - Class ColorInt not found.
 javadoc: warning - Class ColorInt not found.
 javadoc: warning - Class ColorInt not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:217: error: bad HTML entity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/alphabetsindexfastscrollrecycler/src/main/java/in/myinnos/alphabetsindexfastscrollrecycler/IndexFastScrollRecyclerView.java:217: error: bad HTML entity
      * @param typeface Typeface to set the typeface of the preview & the index bar
                                                                    ^
 javadoc: warning - Class ColorInt not found.
@@ -306,12 +303,12 @@ javadoc: warning - Class ColorInt not found.
 BUILD SUCCESSFUL in 14s
 48 actionable tasks: 48 executed
 
-2019-05-19 20:40:50,288 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 20:40:50,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 20:40:56,111 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-19 20:40:56,111 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 20:40:56,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 20:41:30,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 18:56:14,921 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 18:56:14,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 18:56:20,410 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-11 18:56:20,410 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 18:56:20,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 18:56:48,882 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :alphabetsindexfastscrollrecyclerLibrary:preBuild UP-TO-DATE
 > Task :alphabetsindexfastscrollrecyclerLibrary:preDebugBuild UP-TO-DATE
 > Task :alphabetsindexfastscrollrecyclerLibrary:compileDebugAidl NO-SOURCE
@@ -329,9 +326,6 @@ BUILD SUCCESSFUL in 14s
 > Task :alphabetsindexfastscrollrecyclerLibrary:compileDebugJavaWithJavac UP-TO-DATE
 > Task :alphabetsindexfastscrollrecyclerLibrary:processDebugJavaRes NO-SOURCE
 > Task :alphabetsindexfastscrollrecyclerLibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc1/butterknife-9.0.0-rc1.aar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc1/butterknife-annotations-9.0.0-rc1.jar
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc1/butterknife-runtime-9.0.0-rc1.aar
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
@@ -350,7 +344,7 @@ Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-r
 > Task :app:splitsDiscoveryTaskDebug
 > Task :app:processDebugResources
 > Task :app:generateDebugSources
-Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/9.0.0-rc1/butterknife-compiler-9.0.0-rc1.jar
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.10.0/javapoet-1.10.0.jar
 
 > Task :app:javaPreCompileDebug
 ERROR: [TAG] Failed to resolve variable '${junit.version}'
@@ -450,7 +444,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 28s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-05-19 20:41:31,274 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558273101659-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-08-11 18:56:49,010 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524552662-0/src/AlphabetIndex-Fast-Scroll-RecyclerView-master/app/build/outputs/apk/debug/app-debug.apk
