@@ -1,46 +1,46 @@
-2018-10-10 12:20:21,478 INFO  DownloadService - Downloading "https://github.com/florent37/RxRetroJsoup/archive/master.zip", attempt 3
-2018-10-10 12:21:22,185 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-10 12:21:23,353 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-10 12:21:23,353 INFO  DownloadService - Downloading "https://github.com/florent37/RxRetroJsoup/archive/master.zip", attempt 3
-2018-10-10 12:22:25,574 DEBUG FullProcessService - Repository https://github.com/florent37/RxRetroJsoup available: true
-2018-10-10 12:22:25,574 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-10 12:22:25,574 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/florent37/RxRetroJsoup, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src]
-2018-10-10 12:22:33,297 INFO  SysUtils - 
-2018-10-10 12:22:33,313 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/.git": true
-2018-10-10 12:22:33,320 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-10 12:22:33,320 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src]
-2018-10-10 12:22:33,357 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/.git/
+2019-08-12 11:44:04,694 INFO  DownloadService - Downloading "https://github.com/florent37/RxRetroJsoup/archive/master.zip", attempt 3
+2019-08-12 11:45:05,422 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-12 11:45:06,803 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-12 11:45:06,803 INFO  DownloadService - Downloading "https://github.com/florent37/RxRetroJsoup/archive/master.zip", attempt 3
+2019-08-12 11:46:08,427 DEBUG FullProcessService - Repository https://github.com/florent37/RxRetroJsoup available: true
+2019-08-12 11:46:08,427 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-12 11:46:08,427 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/florent37/RxRetroJsoup, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src]
+2019-08-12 11:46:15,973 INFO  SysUtils - 
+2019-08-12 11:46:15,980 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/.git": true
+2019-08-12 11:46:15,983 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-12 11:46:15,983 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src]
+2019-08-12 11:46:15,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/.git/
 
-2018-10-10 12:22:33,363 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradlew
-2018-10-10 12:22:33,368 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/rxjsoup/build.gradle
-2018-10-10 12:22:33,373 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/rxjsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/settings.gradle
-2018-10-10 12:22:33,374 INFO  ProjectBuildService - Remote scripts: none
-2018-10-10 12:22:33,375 INFO  ProjectFixService - Fixing project...
-2018-10-10 12:22:33,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/local.properties
-2018-10-10 12:22:33,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-10 12:22:33,404 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-10 12:22:33,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/local.properties
-2018-10-10 12:22:33,406 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-10 12:22:33,407 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-10 12:22:33,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-10 12:22:33,411 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-10 12:22:33,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup-compiler/local.properties
-2018-10-10 12:22:33,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup-compiler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-10 12:22:33,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup-compiler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-10 12:22:33,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup/local.properties
-2018-10-10 12:22:33,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-10 12:22:33,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/retrojsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-10 12:22:33,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/rxjsoup/local.properties
-2018-10-10 12:22:33,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/rxjsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-10-10 12:22:33,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/rxjsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-10 12:22:33,440 INFO  ProjectFixService - Project was maybe fixed
-2018-10-10 12:22:33,440 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-10 12:22:33,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-10 12:23:36,462 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-10 12:23:36,464 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-10 12:23:36,464 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-10 12:23:36,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-10 12:24:19,939 ERROR SysUtils - Could not process external command
+2019-08-12 11:46:16,000 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradlew
+2019-08-12 11:46:16,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/rxjsoup/build.gradle
+2019-08-12 11:46:16,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/rxjsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/settings.gradle
+2019-08-12 11:46:16,007 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 11:46:16,007 INFO  ProjectFixService - Fixing project...
+2019-08-12 11:46:16,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/local.properties
+2019-08-12 11:46:16,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-12 11:46:16,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-12 11:46:16,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/local.properties
+2019-08-12 11:46:16,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-08-12 11:46:16,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-08-12 11:46:16,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-12 11:46:16,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-12 11:46:16,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup-compiler/local.properties
+2019-08-12 11:46:16,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup-compiler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-12 11:46:16,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup-compiler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-12 11:46:16,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup/local.properties
+2019-08-12 11:46:16,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-12 11:46:16,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/retrojsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-12 11:46:16,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/rxjsoup/local.properties
+2019-08-12 11:46:16,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/rxjsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-12 11:46:16,032 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/rxjsoup/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-12 11:46:16,033 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 11:46:16,033 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:46:16,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:46:25,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-12 11:46:25,512 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-12 11:46:25,512 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-12 11:46:25,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-12 11:46:30,884 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,14 +61,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-10 12:24:19,939 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-12 11:46:30,884 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
 FAILURE: Build failed with an exception.
@@ -176,6 +176,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 42.392 secs
+Total time: 5.112 secs
 
-2018-10-10 12:24:19,947 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539148821475-0/src/app-debug.apk
+2019-08-12 11:46:30,888 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585044685-0/src/app-debug.apk

@@ -1,36 +1,36 @@
-2019-07-26 21:20:36,423 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/materialChipView/archive/master.zip", attempt 3
-2019-07-26 21:21:37,073 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-26 21:21:38,228 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-26 21:21:38,228 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/materialChipView/archive/master.zip", attempt 3
-2019-07-26 21:22:40,061 DEBUG FullProcessService - Repository https://github.com/robertlevonyan/materialChipView available: true
-2019-07-26 21:22:40,061 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-26 21:22:40,061 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/robertlevonyan/materialChipView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src]
-2019-07-26 21:22:42,225 INFO  SysUtils - 
-2019-07-26 21:22:42,251 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/.git": true
-2019-07-26 21:22:42,253 INFO  FullProcessService - Size of directory with sources: 827 KB
-2019-07-26 21:22:42,253 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src]
-2019-07-26 21:22:42,268 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/.git/
+2019-08-12 11:41:18,295 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/materialChipView/archive/master.zip", attempt 3
+2019-08-12 11:42:18,858 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-12 11:42:19,784 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-12 11:42:19,784 INFO  DownloadService - Downloading "https://github.com/robertlevonyan/materialChipView/archive/master.zip", attempt 3
+2019-08-12 11:43:21,310 DEBUG FullProcessService - Repository https://github.com/robertlevonyan/materialChipView available: true
+2019-08-12 11:43:21,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-12 11:43:21,310 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/robertlevonyan/materialChipView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src]
+2019-08-12 11:43:23,477 INFO  SysUtils - 
+2019-08-12 11:43:23,503 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/.git": true
+2019-08-12 11:43:23,505 INFO  FullProcessService - Size of directory with sources: 827 KB
+2019-08-12 11:43:23,505 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src]
+2019-08-12 11:43:23,520 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/.git/
 
-2019-07-26 21:22:42,270 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/gradlew
-2019-07-26 21:22:42,272 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle
-2019-07-26 21:22:42,274 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/settings.gradle
-2019-07-26 21:22:42,274 INFO  ProjectBuildService - Remote scripts: none
-2019-07-26 21:22:42,274 INFO  ProjectFixService - Fixing project...
-2019-07-26 21:22:42,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/local.properties
-2019-07-26 21:22:42,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-07-26 21:22:42,279 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-07-26 21:22:42,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/local.properties
-2019-07-26 21:22:42,280 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-26 21:22:42,280 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-26 21:22:42,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-07-26 21:22:42,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-07-26 21:22:42,281 INFO  ProjectFixService - Project was maybe fixed
-2019-07-26 21:22:42,281 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 21:22:42,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 21:22:49,204 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-07-26 21:22:49,204 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 21:22:49,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 21:23:09,035 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-12 11:43:23,522 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/gradlew
+2019-08-12 11:43:23,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle
+2019-08-12 11:43:23,529 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/settings.gradle
+2019-08-12 11:43:23,530 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 11:43:23,530 INFO  ProjectFixService - Fixing project...
+2019-08-12 11:43:23,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/local.properties
+2019-08-12 11:43:23,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-08-12 11:43:23,537 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-08-12 11:43:23,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/local.properties
+2019-08-12 11:43:23,538 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-12 11:43:23,539 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-12 11:43:23,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-08-12 11:43:23,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-08-12 11:43:23,540 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 11:43:23,540 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:43:23,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:43:30,345 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-08-12 11:43:30,345 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:43:30,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:43:50,034 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -119,12 +119,12 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 19s
 46 actionable tasks: 46 executed
 
-2019-07-26 21:23:09,070 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 21:23:09,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 21:23:15,687 INFO  ProjectTaskService - Detected possible tasks: 81
-2019-07-26 21:23:15,687 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 21:23:15,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564150836420-0/src/Chip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 21:23:22,992 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-12 11:43:50,068 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:43:50,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:43:56,665 INFO  ProjectTaskService - Detected possible tasks: 81
+2019-08-12 11:43:56,665 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:43:56,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584878292-0/src/Chip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:44:04,421 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -201,9 +201,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:bundleReleaseAar UP-TO-DATE
 > Task :app:compileReleaseSources UP-TO-DATE
 > Task :app:mergeReleaseResources UP-TO-DATE
-> Task :app:verifyReleaseResources UP-TO-DATE
-> Task :app:assembleRelease UP-TO-DATE
-> Task :app:assemble UP-TO-DATE
+> Task :app:verifyReleaseResources
+> Task :app:assembleRelease
+> Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
@@ -211,7 +211,7 @@ Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 7s
-46 actionable tasks: 46 up-to-date
+46 actionable tasks: 1 executed, 45 up-to-date
 
-2019-07-26 21:23:23,026 ERROR FullProcessService - Project build has not produced APK file
-2019-07-26 21:23:23,054 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-12 11:44:04,453 ERROR FullProcessService - Project build has not produced APK file
+2019-08-12 11:44:04,481 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,37 +1,37 @@
-2018-10-10 12:41:09,181 INFO  DownloadService - Downloading "https://github.com/myinnos/GiphyImageResultsPreview/archive/master.zip", attempt 3
-2018-10-10 12:42:10,126 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-10 12:42:11,305 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-10 12:42:11,305 INFO  DownloadService - Downloading "https://github.com/myinnos/GiphyImageResultsPreview/archive/master.zip", attempt 3
-2018-10-10 12:43:13,221 DEBUG FullProcessService - Repository https://github.com/myinnos/GiphyImageResultsPreview available: true
-2018-10-10 12:43:13,221 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-10 12:43:13,221 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/myinnos/GiphyImageResultsPreview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src]
-2018-10-10 12:43:30,282 INFO  SysUtils - 
-2018-10-10 12:43:30,291 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/.git": true
-2018-10-10 12:43:30,295 INFO  FullProcessService - Size of directory with sources: 17 MB
-2018-10-10 12:43:30,295 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src]
-2018-10-10 12:43:30,312 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/.git/
+2019-08-12 11:46:46,477 INFO  DownloadService - Downloading "https://github.com/myinnos/GiphyImageResultsPreview/archive/master.zip", attempt 3
+2019-08-12 11:47:47,498 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-12 11:47:48,387 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-12 11:47:48,387 INFO  DownloadService - Downloading "https://github.com/myinnos/GiphyImageResultsPreview/archive/master.zip", attempt 3
+2019-08-12 11:48:50,306 DEBUG FullProcessService - Repository https://github.com/myinnos/GiphyImageResultsPreview available: true
+2019-08-12 11:48:50,306 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-12 11:48:50,306 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/myinnos/GiphyImageResultsPreview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src]
+2019-08-12 11:48:56,519 INFO  SysUtils - 
+2019-08-12 11:48:56,527 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/.git": true
+2019-08-12 11:48:56,530 INFO  FullProcessService - Size of directory with sources: 17 MB
+2019-08-12 11:48:56,530 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src]
+2019-08-12 11:48:56,546 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/.git/
 
-2018-10-10 12:43:30,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gradlew
-2018-10-10 12:43:30,319 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gifimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/build.gradle
-2018-10-10 12:43:30,323 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gifimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/settings.gradle
-2018-10-10 12:43:30,323 INFO  ProjectBuildService - Remote scripts: none
-2018-10-10 12:43:30,323 INFO  ProjectFixService - Fixing project...
-2018-10-10 12:43:30,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/local.properties
-2018-10-10 12:43:30,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-10 12:43:30,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gifimages/local.properties
-2018-10-10 12:43:30,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gifimages/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-10 12:43:30,334 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/local.properties
-2018-10-10 12:43:30,334 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-10 12:43:30,334 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-10 12:43:30,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-10 12:43:30,335 INFO  ProjectFixService - Project was maybe fixed
-2018-10-10 12:43:30,335 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-10 12:43:30,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-10 12:43:30,458 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-10 12:43:30,458 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-10 12:43:30,458 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-10 12:43:30,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-10 12:43:30,578 ERROR SysUtils - Could not process external command
+2019-08-12 11:48:56,549 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gradlew
+2019-08-12 11:48:56,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gifimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/build.gradle
+2019-08-12 11:48:56,555 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gifimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/settings.gradle
+2019-08-12 11:48:56,555 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 11:48:56,555 INFO  ProjectFixService - Fixing project...
+2019-08-12 11:48:56,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/local.properties
+2019-08-12 11:48:56,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-08-12 11:48:56,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gifimages/local.properties
+2019-08-12 11:48:56,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gifimages/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-08-12 11:48:56,563 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/local.properties
+2019-08-12 11:48:56,563 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-08-12 11:48:56,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-08-12 11:48:56,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-08-12 11:48:56,564 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 11:48:56,564 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:48:56,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:48:56,681 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-12 11:48:56,681 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-12 11:48:56,681 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-12 11:48:56,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-12 11:48:56,791 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,20 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-10 12:43:30,578 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-12 11:48:56,792 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-10-10 12:43:30,582 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539150069178-0/src/apk/demo-GiphyImageResults.apk
+2019-08-12 11:48:56,795 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565585206475-0/src/apk/demo-GiphyImageResults.apk
