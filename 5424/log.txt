@@ -1,35 +1,35 @@
-2019-03-24 20:57:33,095 INFO  DownloadService - Downloading "https://github.com/sujithkanna/SmileyRating/archive/master.zip", attempt 3
-2019-03-24 20:57:36,676 INFO  DownloadService - Downloaded https://github.com/sujithkanna/SmileyRating/archive/master.zip, attempt 3
-2019-03-24 20:57:36,676 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/master.zip": 1 MB
-2019-03-24 20:57:36,676 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-24 20:57:36,682 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/master.zip: true
-2019-03-24 20:57:36,682 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src'.
-2019-03-24 20:57:36,715 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-24 20:57:36,715 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src]
-2019-03-24 20:57:36,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/.git/
+2019-09-01 21:35:56,223 INFO  DownloadService - Downloading "https://github.com/sujithkanna/SmileyRating/archive/master.zip", attempt 3
+2019-09-01 21:35:58,205 INFO  DownloadService - Downloaded https://github.com/sujithkanna/SmileyRating/archive/master.zip, attempt 3
+2019-09-01 21:35:58,205 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/master.zip": 1 MB
+2019-09-01 21:35:58,205 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:35:58,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/master.zip: true
+2019-09-01 21:35:58,211 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src'.
+2019-09-01 21:35:58,244 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-09-01 21:35:58,244 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src]
+2019-09-01 21:35:58,261 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/.git/
 
-2019-03-24 20:57:36,736 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-03-24 20:57:36,736 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-03-24 20:57:36,740 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/build.gradle
-2019-03-24 20:57:36,743 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/settings.gradle
-2019-03-24 20:57:36,743 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-03-24 20:57:36,835 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-03-24 20:57:36,835 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-03-24 20:57:36,835 INFO  ProjectFixService - Fixing project...
-2019-03-24 20:57:36,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/local.properties
-2019-03-24 20:57:36,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2019-03-24 20:57:36,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/local.properties
-2019-03-24 20:57:36,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-24 20:57:36,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/local.properties
-2019-03-24 20:57:36,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2019-03-24 20:57:36,848 INFO  ProjectFixService - Project was maybe fixed
-2019-03-24 20:57:36,848 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 20:57:36,848 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 20:57:36,853 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-24 20:57:36,853 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-03-24 20:57:36,853 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-03-24 20:57:36,853 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-03-24 20:57:36,858 ERROR SysUtils - Could not process external command
+2019-09-01 21:35:58,263 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-09-01 21:35:58,263 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-09-01 21:35:58,266 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/build.gradle
+2019-09-01 21:35:58,268 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/settings.gradle
+2019-09-01 21:35:58,268 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-09-01 21:35:59,223 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-09-01 21:35:59,223 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-09-01 21:35:59,223 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:35:59,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/local.properties
+2019-09-01 21:35:59,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-09-01 21:35:59,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/local.properties
+2019-09-01 21:35:59,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-09-01 21:35:59,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/local.properties
+2019-09-01 21:35:59,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-09-01 21:35:59,234 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:35:59,234 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:35:59,234 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:35:59,246 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-01 21:35:59,246 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-09-01 21:35:59,246 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-09-01 21:35:59,246 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-09-01 21:35:59,252 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -46,7 +46,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -66,14 +66,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-24 20:57:36,858 INFO  SysUtils - 
-2019-03-24 20:57:36,861 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 20:57:36,861 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 20:57:36,866 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-24 20:57:36,866 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-03-24 20:57:36,866 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-03-24 20:57:36,866 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/smilerating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-03-24 20:57:36,871 ERROR SysUtils - Could not process external command
+2019-09-01 21:35:59,252 INFO  SysUtils - 
+2019-09-01 21:35:59,254 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:35:59,255 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:35:59,259 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-01 21:35:59,259 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-09-01 21:35:59,259 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-09-01 21:35:59,259 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/smilerating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-09-01 21:35:59,264 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -90,7 +90,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -110,14 +110,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-24 20:57:36,871 INFO  SysUtils - 
-2019-03-24 20:57:36,874 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-24 20:57:36,874 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-24 20:57:36,878 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-24 20:57:36,878 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-03-24 20:57:36,879 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-03-24 20:57:36,879 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553435853092-0/src/SmileyRating-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-03-24 20:57:36,883 ERROR SysUtils - Could not process external command
+2019-09-01 21:35:59,264 INFO  SysUtils - 
+2019-09-01 21:35:59,266 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:35:59,266 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:35:59,270 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-01 21:35:59,270 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-09-01 21:35:59,270 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-09-01 21:35:59,271 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348556221-0/src/SmileyRating-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-09-01 21:35:59,275 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -134,7 +134,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -154,6 +154,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-24 20:57:36,883 INFO  SysUtils - 
-2019-03-24 20:57:36,886 ERROR FullProcessService - Project build has not produced APK file
-2019-03-24 20:57:36,890 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-01 21:35:59,275 INFO  SysUtils - 
+2019-09-01 21:35:59,277 ERROR FullProcessService - Project build has not produced APK file
+2019-09-01 21:35:59,279 ERROR FullProcessService - Could not find generated or existed APK file

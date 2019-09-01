@@ -1,39 +1,36 @@
-2019-08-12 11:35:52,517 INFO  DownloadService - Downloading "https://github.com/skydoves/ColorPickerView/archive/master.zip", attempt 3
-2019-08-12 11:36:53,064 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-08-12 11:36:54,200 INFO  GithubDownloadService - Default branch of this repository: master
-2019-08-12 11:36:54,200 INFO  DownloadService - Downloading "https://github.com/skydoves/ColorPickerView/archive/master.zip", attempt 3
-2019-08-12 11:37:55,539 DEBUG FullProcessService - Repository https://github.com/skydoves/ColorPickerView available: true
-2019-08-12 11:37:55,539 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-08-12 11:37:55,539 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/skydoves/ColorPickerView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src]
-2019-08-12 11:37:57,848 INFO  SysUtils - 
-2019-08-12 11:37:57,855 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/.git": true
-2019-08-12 11:37:57,857 INFO  FullProcessService - Size of directory with sources: 999 KB
-2019-08-12 11:37:57,857 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src]
-2019-08-12 11:37:57,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/.git/
+2019-09-01 21:35:00,528 INFO  DownloadService - Downloading "https://github.com/skydoves/ColorPickerView/archive/master.zip", attempt 3
+2019-09-01 21:35:01,655 INFO  DownloadService - Downloaded https://github.com/skydoves/ColorPickerView/archive/master.zip, attempt 3
+2019-09-01 21:35:01,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip": 875 KB
+2019-09-01 21:35:01,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:35:01,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip: true
+2019-09-01 21:35:01,661 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src'.
+2019-09-01 21:35:01,694 INFO  FullProcessService - Size of directory with sources: 999 KB
+2019-09-01 21:35:01,694 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src]
+2019-09-01 21:35:01,714 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/.git/
 
-2019-08-12 11:37:57,876 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/gradlew
-2019-08-12 11:37:57,878 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/build.gradle
-2019-08-12 11:37:57,881 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/spotless.gradle
-2019-08-12 11:37:57,881 INFO  ProjectBuildService - Remote scripts: none
-2019-08-12 11:37:57,881 INFO  ProjectFixService - Fixing project...
-2019-08-12 11:37:57,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/local.properties
-2019-08-12 11:37:57,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-12 11:37:57,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-12 11:37:57,890 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/colorpickerview/local.properties
-2019-08-12 11:37:57,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/colorpickerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-12 11:37:57,892 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/colorpickerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-12 11:37:57,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/local.properties
-2019-08-12 11:37:57,893 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-12 11:37:57,894 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-12 11:37:57,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-12 11:37:57,895 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-12 11:37:57,896 INFO  ProjectFixService - Project was maybe fixed
-2019-08-12 11:37:57,896 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-12 11:37:57,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-12 11:38:04,523 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-12 11:38:04,523 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-12 11:38:04,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-12 11:38:37,394 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 21:35:01,717 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew
+2019-09-01 21:35:01,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle
+2019-09-01 21:35:01,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/spotless.gradle
+2019-09-01 21:35:01,723 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:35:01,723 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:35:01,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/local.properties
+2019-09-01 21:35:01,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:35:01,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:35:01,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/local.properties
+2019-09-01 21:35:01,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:35:01,734 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:35:01,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/local.properties
+2019-09-01 21:35:01,736 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-01 21:35:01,736 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-01 21:35:01,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:35:01,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:35:01,738 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:35:01,738 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:35:01,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:35:08,163 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-09-01 21:35:08,163 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 21:35:08,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 21:35:42,177 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :colorpickerview
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -50,13 +47,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :colorpickerview:preDebugBuild UP-TO-DATE
 > Task :colorpickerview:checkDebugManifest
 > Task :colorpickerview:processDebugManifest
+> Task :app:preDebugBuild
 > Task :colorpickerview:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
 > Task :colorpickerview:generateDebugBuildConfig
-> Task :app:preDebugBuild
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
 > Task :colorpickerview:generateDebugResValues
 > Task :colorpickerview:prepareLintJar
 > Task :app:mainApkListPersistenceDebug
@@ -64,6 +61,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :colorpickerview:javaPreCompileDebug
 > Task :colorpickerview:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugSources
@@ -72,7 +70,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :colorpickerview:packageDebugResources
 > Task :colorpickerview:generateDebugRFile
 > Task :colorpickerview:generateDebugSources
-> Task :colorpickerview:javaPreCompileDebug
 
 > Task :colorpickerview:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
@@ -196,7 +193,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 33s
 91 actionable tasks: 91 executed
 
-2019-08-12 11:38:37,458 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565584552508-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-09-01 21:35:42,242 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build/outputs/apk/debug/app-debug.apk
