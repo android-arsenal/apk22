@@ -1,69 +1,61 @@
-2019-08-11 18:51:47,722 INFO  DownloadService - Downloading "https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip", attempt 3
-2019-08-11 18:51:51,569 INFO  DownloadService - Downloaded https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip, attempt 3
-2019-08-11 18:51:51,569 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/master.zip": 2 MB
-2019-08-11 18:51:51,569 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 18:51:51,571 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/master.zip: true
-2019-08-11 18:51:51,571 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src'.
-2019-08-11 18:51:51,676 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-08-11 18:51:51,676 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src]
-2019-08-11 18:51:51,705 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/.git/
+2019-09-03 19:48:17,033 INFO  DownloadService - Downloading "https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip", attempt 3
+2019-09-03 19:48:19,915 INFO  DownloadService - Downloaded https://github.com/pedroSG94/rtmp-rtsp-stream-client-java/archive/master.zip, attempt 3
+2019-09-03 19:48:19,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/master.zip": 2 MB
+2019-09-03 19:48:19,915 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 19:48:19,917 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/master.zip: true
+2019-09-03 19:48:19,917 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src'.
+2019-09-03 19:48:20,067 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-09-03 19:48:20,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src]
+2019-09-03 19:48:20,110 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/.git/
 
-2019-08-11 18:51:51,712 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/gradlew
-2019-08-11 18:51:51,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/build.gradle
-2019-08-11 18:51:51,728 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/settings.gradle
-2019-08-11 18:51:51,728 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 18:51:51,728 INFO  ProjectFixService - Fixing project...
-2019-08-11 18:51:51,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/local.properties
-2019-08-11 18:51:51,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/encoder/local.properties
-2019-08-11 18:51:51,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtmp/local.properties
-2019-08-11 18:51:51,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/local.properties
-2019-08-11 18:51:51,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtsp/local.properties
-2019-08-11 18:51:51,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,759 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/local.properties
-2019-08-11 18:51:51,761 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 18:51:51,761 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 18:51:51,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-11 18:51:51,763 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 18:51:51,763 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 18:51:51,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 18:51:59,119 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-08-11 18:51:59,119 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 18:51:59,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 18:52:53,289 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 19:48:20,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/gradlew
+2019-09-03 19:48:20,129 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/build.gradle
+2019-09-03 19:48:20,143 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/settings.gradle
+2019-09-03 19:48:20,144 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 19:48:20,144 INFO  ProjectFixService - Fixing project...
+2019-09-03 19:48:20,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/local.properties
+2019-09-03 19:48:20,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/encoder/local.properties
+2019-09-03 19:48:20,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/encoder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtmp/local.properties
+2019-09-03 19:48:20,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtmp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/local.properties
+2019-09-03 19:48:20,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtplibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtsp/local.properties
+2019-09-03 19:48:20,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,202 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/rtsp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/local.properties
+2019-09-03 19:48:20,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-03 19:48:20,205 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-03 19:48:20,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-03 19:48:20,208 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 19:48:20,208 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 19:48:20,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 19:48:27,982 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-09-03 19:48:27,983 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 19:48:27,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 19:49:29,346 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :encoder:preBuild UP-TO-DATE
 > Task :encoder:preDebugBuild UP-TO-DATE
-> Task :encoder:checkDebugManifest
-> Task :encoder:processDebugManifest
+> Task :encoder:compileDebugAidl NO-SOURCE
 > Task :rtmp:preBuild UP-TO-DATE
 > Task :rtmp:preDebugBuild UP-TO-DATE
-> Task :rtmp:checkDebugManifest
-> Task :rtmp:processDebugManifest
+> Task :rtmp:compileDebugAidl NO-SOURCE
 > Task :rtplibrary:preBuild UP-TO-DATE
 > Task :rtplibrary:preDebugBuild UP-TO-DATE
-> Task :rtplibrary:checkDebugManifest
-> Task :rtplibrary:processDebugManifest
 > Task :rtsp:preBuild UP-TO-DATE
 > Task :rtsp:preDebugBuild UP-TO-DATE
-> Task :rtsp:checkDebugManifest
-> Task :rtsp:processDebugManifest
-> Task :app:preDebugBuild
-> Task :encoder:compileDebugAidl NO-SOURCE
-> Task :rtmp:compileDebugAidl NO-SOURCE
 > Task :rtsp:compileDebugAidl NO-SOURCE
 > Task :rtplibrary:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -80,51 +72,55 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :encoder:compileDebugRenderscript NO-SOURCE
 > Task :encoder:generateDebugResValues
 > Task :encoder:generateDebugResources
+> Task :encoder:packageDebugResources
 > Task :rtmp:compileDebugRenderscript NO-SOURCE
 > Task :rtmp:generateDebugResValues
 > Task :rtmp:generateDebugResources
+> Task :rtmp:packageDebugResources
 > Task :rtplibrary:compileDebugRenderscript NO-SOURCE
 > Task :rtplibrary:generateDebugResValues
 > Task :rtplibrary:generateDebugResources
+> Task :rtplibrary:packageDebugResources
 > Task :rtsp:compileDebugRenderscript NO-SOURCE
 > Task :rtsp:generateDebugResValues
 > Task :rtsp:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :encoder:packageDebugResources
-> Task :rtmp:packageDebugResources
-> Task :rtplibrary:packageDebugResources
 > Task :rtsp:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :encoder:checkDebugManifest
+> Task :rtmp:checkDebugManifest
 > Task :app:mergeDebugResources
-> Task :encoder:generateDebugRFile
-> Task :rtmp:generateDebugRFile
-> Task :rtsp:generateDebugRFile
-> Task :rtplibrary:generateDebugRFile
-> Task :app:processDebugResources
+> Task :rtplibrary:checkDebugManifest
+> Task :rtmp:processDebugManifest
+> Task :rtsp:checkDebugManifest
+> Task :encoder:processDebugManifest
+> Task :rtplibrary:processDebugManifest
+> Task :rtsp:processDebugManifest
+> Task :app:processDebugManifest
 > Task :encoder:generateDebugBuildConfig
-> Task :encoder:prepareLintJar
-> Task :encoder:generateDebugSources
+> Task :rtmp:generateDebugBuildConfig
+> Task :rtsp:parseDebugLibraryResources
+> Task :encoder:parseDebugLibraryResources
+> Task :rtmp:javaPreCompileDebug
+> Task :rtplibrary:generateDebugBuildConfig
+> Task :rtmp:parseDebugLibraryResources
+> Task :rtplibrary:parseDebugLibraryResources
+> Task :rtsp:generateDebugBuildConfig
+> Task :rtmp:generateDebugRFile
+> Task :rtmp:compileDebugJavaWithJavac
+> Task :rtsp:generateDebugRFile
+> Task :encoder:generateDebugRFile
 > Task :encoder:javaPreCompileDebug
 
 > Task :encoder:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :encoder:bundleLibCompileDebug
-> Task :rtmp:generateDebugBuildConfig
-> Task :rtmp:prepareLintJar
-> Task :rtmp:generateDebugSources
-> Task :rtmp:javaPreCompileDebug
-> Task :rtmp:compileDebugJavaWithJavac
-> Task :rtmp:bundleLibCompileDebug
-> Task :rtplibrary:generateDebugBuildConfig
-> Task :rtplibrary:prepareLintJar
-> Task :rtplibrary:generateDebugSources
-> Task :rtsp:generateDebugBuildConfig
-> Task :rtsp:prepareLintJar
-> Task :rtsp:generateDebugSources
 > Task :rtsp:javaPreCompileDebug
 > Task :rtsp:compileDebugJavaWithJavac
+> Task :rtmp:bundleLibCompileDebug
+> Task :encoder:bundleLibCompileDebug
+> Task :rtplibrary:generateDebugRFile
+> Task :app:processDebugResources
 > Task :rtsp:bundleLibCompileDebug
 > Task :rtplibrary:javaPreCompileDebug
 
@@ -132,17 +128,6 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :rtplibrary:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-
-> Task :app:compileDebugJavaWithJavac
-
-> Task :app:compileDebugSources
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -163,62 +148,58 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :rtsp:generateDebugAssets
 > Task :rtsp:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :rtplibrary:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :encoder:processDebugJavaRes NO-SOURCE
+> Task :rtmp:processDebugJavaRes NO-SOURCE
+> Task :rtplibrary:processDebugJavaRes NO-SOURCE
 > Task :rtsp:processDebugJavaRes NO-SOURCE
+> Task :rtmp:bundleLibResDebug
+> Task :rtplibrary:bundleLibResDebug
 > Task :rtsp:bundleLibResDebug
 > Task :rtsp:bundleLibRuntimeDebug
 > Task :rtsp:createFullJarDebug
-> Task :rtmp:processDebugJavaRes NO-SOURCE
-> Task :rtmp:bundleLibResDebug
-> Task :rtmp:bundleLibRuntimeDebug
-> Task :rtmp:createFullJarDebug
-> Task :encoder:processDebugJavaRes NO-SOURCE
-> Task :encoder:bundleLibResDebug
-> Task :encoder:bundleLibRuntimeDebug
-> Task :encoder:createFullJarDebug
-> Task :rtplibrary:processDebugJavaRes NO-SOURCE
-> Task :rtplibrary:bundleLibResDebug
 > Task :rtplibrary:bundleLibRuntimeDebug
 > Task :rtplibrary:createFullJarDebug
+> Task :encoder:bundleLibResDebug
+> Task :rtmp:bundleLibRuntimeDebug
+> Task :rtmp:createFullJarDebug
+> Task :encoder:bundleLibRuntimeDebug
+> Task :encoder:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :encoder:mergeDebugJniLibFolders
-> Task :encoder:transformNativeLibsWithMergeJniLibsForDebug
-> Task :encoder:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :encoder:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :rtmp:mergeDebugJniLibFolders
-> Task :rtmp:transformNativeLibsWithMergeJniLibsForDebug
-> Task :rtmp:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :rtmp:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :encoder:mergeDebugNativeLibs
+> Task :encoder:stripDebugDebugSymbols
+> Task :encoder:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :rtplibrary:mergeDebugJniLibFolders
-> Task :rtplibrary:transformNativeLibsWithMergeJniLibsForDebug
-> Task :rtplibrary:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :rtplibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :rtmp:mergeDebugNativeLibs
+> Task :rtmp:stripDebugDebugSymbols
+> Task :rtmp:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :rtsp:mergeDebugJniLibFolders
-> Task :rtsp:transformNativeLibsWithMergeJniLibsForDebug
-> Task :rtsp:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :rtsp:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :rtplibrary:mergeDebugNativeLibs
+> Task :rtplibrary:stripDebugDebugSymbols
+> Task :rtplibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :encoder:preReleaseBuild UP-TO-DATE
-> Task :encoder:checkReleaseManifest
-> Task :encoder:processReleaseManifest
-> Task :rtmp:preReleaseBuild UP-TO-DATE
-> Task :rtmp:checkReleaseManifest
-> Task :rtmp:processReleaseManifest
-> Task :rtplibrary:preReleaseBuild UP-TO-DATE
-> Task :rtplibrary:checkReleaseManifest
-> Task :rtplibrary:processReleaseManifest
-> Task :rtsp:preReleaseBuild UP-TO-DATE
-> Task :rtsp:checkReleaseManifest
-> Task :rtsp:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :encoder:compileReleaseAidl NO-SOURCE
+> Task :rtmp:preReleaseBuild UP-TO-DATE
 > Task :rtmp:compileReleaseAidl NO-SOURCE
+> Task :rtplibrary:preReleaseBuild UP-TO-DATE
+> Task :rtsp:preReleaseBuild UP-TO-DATE
 > Task :rtsp:compileReleaseAidl NO-SOURCE
 > Task :rtplibrary:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
@@ -248,38 +229,47 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :rtsp:generateReleaseResValues
 > Task :rtsp:generateReleaseResources
 > Task :rtsp:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :encoder:checkReleaseManifest
+> Task :encoder:processReleaseManifest
+> Task :rtmp:checkReleaseManifest
+> Task :rtsp:mergeDebugNativeLibs
+> Task :rtsp:stripDebugDebugSymbols
+> Task :rtsp:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :rtmp:processReleaseManifest
+> Task :rtplibrary:checkReleaseManifest
+> Task :rtplibrary:processReleaseManifest
+> Task :rtsp:checkReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :rtsp:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :encoder:parseReleaseLibraryResources
+> Task :rtsp:parseReleaseLibraryResources
+> Task :rtmp:parseReleaseLibraryResources
 > Task :encoder:generateReleaseRFile
-> Task :rtmp:generateReleaseRFile
-> Task :rtsp:generateReleaseRFile
-> Task :rtplibrary:generateReleaseRFile
-> Task :app:processReleaseResources
 > Task :encoder:generateReleaseBuildConfig
-> Task :encoder:generateReleaseSources
+> Task :rtmp:generateReleaseRFile
+> Task :rtmp:generateReleaseBuildConfig
+> Task :rtplibrary:parseReleaseLibraryResources
+> Task :rtplibrary:generateReleaseBuildConfig
+> Task :rtsp:generateReleaseBuildConfig
+> Task :rtmp:javaPreCompileRelease
+> Task :rtmp:compileReleaseJavaWithJavac
+> Task :rtsp:javaPreCompileRelease
 > Task :encoder:javaPreCompileRelease
 
 > Task :encoder:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :encoder:bundleLibCompileRelease
-> Task :rtmp:generateReleaseBuildConfig
-> Task :rtmp:generateReleaseSources
-> Task :rtmp:javaPreCompileRelease
-> Task :rtmp:compileReleaseJavaWithJavac
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :rtmp:bundleLibCompileRelease
-> Task :rtplibrary:generateReleaseBuildConfig
-> Task :rtplibrary:generateReleaseSources
-> Task :rtsp:generateReleaseBuildConfig
-> Task :rtsp:generateReleaseSources
-> Task :rtsp:javaPreCompileRelease
+> Task :rtsp:generateReleaseRFile
 > Task :rtsp:compileReleaseJavaWithJavac
+> Task :encoder:bundleLibCompileRelease
+> Task :rtplibrary:generateReleaseRFile
+> Task :app:processReleaseResources
 > Task :rtsp:bundleLibCompileRelease
 > Task :rtplibrary:javaPreCompileRelease
 
@@ -287,9 +277,10 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:prepareLintJar
 > Task :rtplibrary:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:generateReleaseSources
+> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
@@ -297,31 +288,34 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :encoder:prepareLintJarForPublish
-> Task :rtmp:prepareLintJarForPublish
 > Task :rtplibrary:prepareLintJarForPublish
+> Task :rtsp:processReleaseJavaRes NO-SOURCE
+> Task :encoder:prepareLintJarForPublish
 > Task :rtsp:prepareLintJarForPublish
+> Task :rtmp:processReleaseJavaRes NO-SOURCE
+> Task :rtsp:bundleLibResRelease
+> Task :encoder:processReleaseJavaRes NO-SOURCE
+> Task :rtmp:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c2b3d61632db80ec98133295ab052874/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/70747686615e25ff87b6624829f3b18c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :rtsp:processReleaseJavaRes NO-SOURCE
-> Task :rtsp:bundleLibResRelease
-> Task :rtsp:bundleLibRuntimeRelease
-> Task :rtsp:createFullJarRelease
-> Task :rtmp:processReleaseJavaRes NO-SOURCE
-> Task :rtmp:bundleLibResRelease
-> Task :rtmp:bundleLibRuntimeRelease
-> Task :rtmp:createFullJarRelease
-> Task :encoder:processReleaseJavaRes NO-SOURCE
-> Task :encoder:bundleLibResRelease
-> Task :encoder:bundleLibRuntimeRelease
-> Task :encoder:createFullJarRelease
 > Task :rtplibrary:processReleaseJavaRes NO-SOURCE
+> Task :encoder:bundleLibRuntimeRelease
 > Task :rtplibrary:bundleLibResRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :rtmp:bundleLibRuntimeRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :encoder:bundleLibResRelease
+> Task :encoder:createFullJarRelease
 > Task :rtplibrary:bundleLibRuntimeRelease
 > Task :rtplibrary:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
+> Task :rtsp:bundleLibRuntimeRelease
+> Task :rtsp:createFullJarRelease
+> Task :rtmp:bundleLibResRelease
+> Task :rtmp:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -343,28 +337,28 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :rtsp:generateReleaseAssets
 > Task :rtsp:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :encoder:mergeReleaseJniLibFolders
-> Task :encoder:transformNativeLibsWithMergeJniLibsForRelease
-> Task :encoder:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :encoder:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :rtmp:mergeReleaseJniLibFolders
-> Task :rtmp:transformNativeLibsWithMergeJniLibsForRelease
-> Task :rtmp:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :rtmp:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :encoder:mergeReleaseNativeLibs
+> Task :encoder:stripReleaseDebugSymbols
+> Task :encoder:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :rtplibrary:mergeReleaseJniLibFolders
-> Task :rtplibrary:transformNativeLibsWithMergeJniLibsForRelease
-> Task :rtplibrary:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :rtplibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :rtmp:mergeReleaseNativeLibs
+> Task :rtmp:stripReleaseDebugSymbols
+> Task :rtmp:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :rtsp:mergeReleaseJniLibFolders
-> Task :rtsp:transformNativeLibsWithMergeJniLibsForRelease
-> Task :rtsp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :rtplibrary:mergeReleaseNativeLibs
+> Task :rtplibrary:stripReleaseDebugSymbols
+> Task :rtplibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :rtsp:mergeReleaseNativeLibs
+> Task :rtsp:stripReleaseDebugSymbols
 > Task :rtsp:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -374,9 +368,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 53s
-213 actionable tasks: 213 executed
+BUILD SUCCESSFUL in 1m 0s
+215 actionable tasks: 215 executed
 
-2019-08-11 18:52:53,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524307717-0/src/rtmp-rtsp-stream-client-java-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-03 19:49:29,475 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567514897017-0/src/rtmp-rtsp-stream-client-java-master/app/build/outputs/apk/debug/app-debug.apk
