@@ -1,40 +1,40 @@
-2019-08-11 20:49:02,212 INFO  DownloadService - Downloading "https://github.com/faruktoptas/FancyShowCaseView/archive/master.zip", attempt 3
-2019-08-11 20:49:05,911 INFO  DownloadService - Downloaded https://github.com/faruktoptas/FancyShowCaseView/archive/master.zip, attempt 3
-2019-08-11 20:49:05,911 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/master.zip": 1 MB
-2019-08-11 20:49:05,911 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 20:49:05,917 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/master.zip: true
-2019-08-11 20:49:05,917 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src'.
-2019-08-11 20:49:05,960 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-11 20:49:05,960 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src]
-2019-08-11 20:49:05,983 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/.git/
+2019-10-04 20:49:24,691 INFO  DownloadService - Downloading "https://github.com/faruktoptas/FancyShowCaseView/archive/master.zip", attempt 3
+2019-10-04 20:49:29,090 INFO  DownloadService - Downloaded https://github.com/faruktoptas/FancyShowCaseView/archive/master.zip, attempt 3
+2019-10-04 20:49:29,091 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/master.zip": 1 MB
+2019-10-04 20:49:29,091 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-04 20:49:29,091 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/master.zip: true
+2019-10-04 20:49:29,091 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src'.
+2019-10-04 20:49:29,122 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-04 20:49:29,122 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src]
+2019-10-04 20:49:29,146 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/.git/
 
-2019-08-11 20:49:05,987 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/gradlew
-2019-08-11 20:49:05,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/build.gradle
-2019-08-11 20:49:05,997 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/settings.gradle
-2019-08-11 20:49:05,998 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle", attempt 3
-2019-08-11 20:49:06,250 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle, attempt 3
-2019-08-11 20:49:06,250 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle", attempt 3
-2019-08-11 20:49:06,497 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle, attempt 3
-2019-08-11 20:49:06,498 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle
-2019-08-11 20:49:06,498 INFO  ProjectFixService - Fixing project...
-2019-08-11 20:49:06,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/local.properties
-2019-08-11 20:49:06,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:49:06,513 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:49:06,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/local.properties
-2019-08-11 20:49:06,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:49:06,519 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:49:06,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/local.properties
-2019-08-11 20:49:06,521 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 20:49:06,522 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 20:49:06,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:49:06,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:49:06,525 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 20:49:06,525 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 20:49:06,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 20:49:15,379 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-08-11 20:49:15,379 INFO  ProjectTaskService - Excluded tasks (22): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 20:49:15,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 20:49:23,554 ERROR SysUtils - Could not process external command
+2019-10-04 20:49:29,148 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/gradlew
+2019-10-04 20:49:29,154 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/build.gradle
+2019-10-04 20:49:29,157 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/settings.gradle
+2019-10-04 20:49:29,157 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle", attempt 3
+2019-10-04 20:49:29,402 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle, attempt 3
+2019-10-04 20:49:29,402 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle", attempt 3
+2019-10-04 20:49:29,628 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle, attempt 3
+2019-10-04 20:49:29,628 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle
+2019-10-04 20:49:29,628 INFO  ProjectFixService - Fixing project...
+2019-10-04 20:49:29,639 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/local.properties
+2019-10-04 20:49:29,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 20:49:29,641 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 20:49:29,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/local.properties
+2019-10-04 20:49:29,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 20:49:29,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 20:49:29,647 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/local.properties
+2019-10-04 20:49:29,648 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-04 20:49:29,648 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-04 20:49:29,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 20:49:29,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 20:49:29,651 INFO  ProjectFixService - Project was maybe fixed
+2019-10-04 20:49:29,651 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 20:49:29,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 20:49:35,912 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-04 20:49:35,912 INFO  ProjectTaskService - Excluded tasks (22): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-04 20:49:35,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-04 20:49:41,493 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,14 +55,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 20:49:23,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 20:49:41,494 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -157,11 +157,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2019-08-11 20:49:23,554 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-11 20:49:23,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-11 20:50:38,958 ERROR SysUtils - Could not process external command
+2019-10-04 20:49:41,494 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-04 20:49:41,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-04 20:50:40,649 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -182,14 +182,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 20:50:38,958 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 20:50:40,650 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :fancyshowcaseview:preBuild UP-TO-DATE
 > Task :fancyshowcaseview:preDebugBuild UP-TO-DATE
@@ -217,10 +217,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :fancyshowcaseview:generateDebugBuildConfig
 
 > Task :fancyshowcaseview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (444, 32): Unnecessary safe call on a non-null receiver of type LayoutInflater!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (462, 30): 'setTextAppearance(Context!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (495, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (579, 44): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (444, 32): Unnecessary safe call on a non-null receiver of type LayoutInflater!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (462, 30): 'setTextAppearance(Context!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (495, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (579, 44): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
 
 > Task :fancyshowcaseview:prepareLintJar
 > Task :fancyshowcaseview:generateDebugSources
@@ -229,12 +229,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/
 > Task :fancyshowcaseview:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MainActivity.kt: (91, 37): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (39, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (40, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (45, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (50, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/RecyclerViewActivity.kt: (58, 55): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MainActivity.kt: (91, 37): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (39, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (40, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (45, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (50, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/RecyclerViewActivity.kt: (58, 55): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -291,10 +291,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/
 > Task :fancyshowcaseview:generateReleaseBuildConfig
 
 > Task :fancyshowcaseview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (444, 32): Unnecessary safe call on a non-null receiver of type LayoutInflater!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (462, 30): 'setTextAppearance(Context!, Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (495, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (579, 44): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (444, 32): Unnecessary safe call on a non-null receiver of type LayoutInflater!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (462, 30): 'setTextAppearance(Context!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (495, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/fancyshowcaseview/src/main/java/me/toptas/fancyshowcase/FancyShowCaseView.kt: (579, 44): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
 
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -306,20 +306,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/
 > Task :fancyshowcaseview:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MainActivity.kt: (91, 37): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (39, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (40, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (45, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (50, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/RecyclerViewActivity.kt: (58, 55): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MainActivity.kt: (91, 37): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (39, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (40, 21): Unnecessary non-null assertion (!!) on a non-null receiver of type TextView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (45, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/MyRecyclerViewAdapter.kt: (50, 25): Unnecessary non-null assertion (!!) on a non-null receiver of type ImageView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/java/me/toptas/fancyshowcasesample/RecyclerViewActivity.kt: (58, 55): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :fancyshowcaseview:prepareLintJarForPublish
-> Task :app:lintVitalRelease SKIPPED
 > Task :fancyshowcaseview:processReleaseJavaRes NO-SOURCE
+> Task :app:lintVitalRelease SKIPPED
 > Task :fancyshowcaseview:bundleLibResRelease
 > Task :fancyshowcaseview:bundleLibRuntimeRelease
 > Task :fancyshowcaseview:createFullJarRelease
@@ -347,10 +347,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7b90dc880a806a170d007d9ac7a2e7bc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 79 issues found
-Ran lint on variant debug: 79 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 80 issues found
+Ran lint on variant release: 80 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build/reports/lint-results.xml
 
 > Task :app:lint FAILED
 
@@ -371,7 +371,7 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/res/values/styles.xml:41: Error: android:fontFamily requires API level 16 (current min is 14) [NewApi]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/res/values/styles.xml:41: Error: android:fontFamily requires API level 16 (current min is 14) [NewApi]
           <item name="android:fontFamily">sans-serif-condensed</item>
                 ~~~~~~~~~~~~~~~~~~~~~~~~~
   
@@ -428,7 +428,7 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/src/main/res/values/styles.xml:41: Error: android:fontFamily requires API level 16 (current min is 14) [NewApi]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/src/main/res/values/styles.xml:41: Error: android:fontFamily requires API level 16 (current min is 14) [NewApi]
         <item name="android:fontFamily">sans-serif-condensed</item>
               ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -485,7 +485,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 14s
+BUILD FAILED in 58s
 93 actionable tasks: 93 executed
 
-2019-08-11 20:50:39,036 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531342206-0/src/FancyShowCaseView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-04 20:50:40,718 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570196964686-0/src/FancyShowCaseView-master/app/build/outputs/apk/debug/app-debug.apk
