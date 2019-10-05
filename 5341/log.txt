@@ -1,49 +1,49 @@
-2019-08-13 15:31:36,366 INFO  DownloadService - Downloading "https://github.com/myinnos/AppFontChanger/archive/master.zip", attempt 3
-2019-08-13 15:31:39,135 INFO  DownloadService - Downloaded https://github.com/myinnos/AppFontChanger/archive/master.zip, attempt 3
-2019-08-13 15:31:39,136 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/master.zip": 1 MB
-2019-08-13 15:31:39,136 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-13 15:31:39,137 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/master.zip: true
-2019-08-13 15:31:39,137 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src'.
-2019-08-13 15:31:39,215 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-08-13 15:31:39,215 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src]
-2019-08-13 15:31:39,233 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/.git/
+2019-10-05 19:33:17,363 INFO  DownloadService - Downloading "https://github.com/myinnos/AppFontChanger/archive/master.zip", attempt 3
+2019-10-05 19:33:19,443 INFO  DownloadService - Downloaded https://github.com/myinnos/AppFontChanger/archive/master.zip, attempt 3
+2019-10-05 19:33:19,443 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/master.zip": 1 MB
+2019-10-05 19:33:19,444 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 19:33:19,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/master.zip: true
+2019-10-05 19:33:19,444 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src'.
+2019-10-05 19:33:19,524 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-10-05 19:33:19,525 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src]
+2019-10-05 19:33:19,550 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/.git/
 
-2019-08-13 15:31:39,240 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/gradlew
-2019-08-13 15:31:39,244 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/customfontlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/build.gradle
-2019-08-13 15:31:39,248 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/customfontlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/settings.gradle
-2019-08-13 15:31:39,249 INFO  ProjectBuildService - Remote scripts: none
-2019-08-13 15:31:39,249 INFO  ProjectFixService - Fixing project...
-2019-08-13 15:31:39,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/local.properties
-2019-08-13 15:31:39,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-13 15:31:39,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/customfontlibrary/local.properties
-2019-08-13 15:31:39,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/customfontlibrary/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-13 15:31:39,259 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/local.properties
-2019-08-13 15:31:39,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-13 15:31:39,259 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-13 15:31:39,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-13 15:31:39,260 INFO  ProjectFixService - Project was maybe fixed
-2019-08-13 15:31:39,260 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-13 15:31:39,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-13 15:31:45,461 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-13 15:31:45,462 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-13 15:31:45,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-13 15:32:09,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 19:33:19,554 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/gradlew
+2019-10-05 19:33:19,559 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/customfontlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/build.gradle
+2019-10-05 19:33:19,563 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/customfontlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/settings.gradle
+2019-10-05 19:33:19,564 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 19:33:19,564 INFO  ProjectFixService - Fixing project...
+2019-10-05 19:33:19,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/local.properties
+2019-10-05 19:33:19,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-05 19:33:19,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/customfontlibrary/local.properties
+2019-10-05 19:33:19,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/customfontlibrary/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-05 19:33:19,576 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/local.properties
+2019-10-05 19:33:19,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-05 19:33:19,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-05 19:33:19,577 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-05 19:33:19,578 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 19:33:19,578 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 19:33:19,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 19:33:26,672 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-05 19:33:26,673 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 19:33:26,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 19:33:57,423 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :customfontlibrary:preBuild UP-TO-DATE
 > Task :customfontlibrary:preDebugBuild UP-TO-DATE
 > Task :customfontlibrary:checkDebugManifest
 > Task :customfontlibrary:processDebugManifest
-> Task :customfontlibrary:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :customfontlibrary:generateDebugBuildConfig
-> Task :app:preDebugBuild
 > Task :customfontlibrary:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :customfontlibrary:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :customfontlibrary:compileDebugRenderscript NO-SOURCE
+> Task :customfontlibrary:generateDebugBuildConfig
 > Task :customfontlibrary:generateDebugResValues
 > Task :customfontlibrary:generateDebugResources
 > Task :customfontlibrary:packageDebugResources
@@ -57,8 +57,8 @@
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
@@ -124,11 +124,11 @@
 > Task :app:assembleDebug
 > Task :app:compileReleaseSources
 > Task :customfontlibrary:prepareLintJarForPublish
+> Task :customfontlibrary:processReleaseJavaRes NO-SOURCE
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9a7a200d3ce03b04d83c815417b191ee/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :customfontlibrary:processReleaseJavaRes NO-SOURCE
 > Task :customfontlibrary:bundleLibResRelease
 > Task :customfontlibrary:bundleLibRuntimeRelease
 > Task :customfontlibrary:createFullJarRelease
@@ -163,7 +163,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 30s
 91 actionable tasks: 91 executed
 
-2019-08-13 15:32:09,166 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685096363-0/src/AppFontChanger-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-05 19:33:57,484 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278797359-0/src/AppFontChanger-master/app/build/outputs/apk/debug/app-debug.apk

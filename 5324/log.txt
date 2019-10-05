@@ -1,36 +1,36 @@
-2018-10-14 20:39:34,260 INFO  DownloadService - Downloading "https://github.com/matecode/Snacky/archive/master.zip", attempt 3
-2018-10-14 20:39:36,533 INFO  DownloadService - Downloaded https://github.com/matecode/Snacky/archive/master.zip, attempt 3
-2018-10-14 20:39:36,534 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/master.zip": 349 KB
-2018-10-14 20:39:36,534 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-14 20:39:36,539 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/master.zip: true
-2018-10-14 20:39:36,540 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src'.
-2018-10-14 20:39:36,567 INFO  FullProcessService - Size of directory with sources: 406 KB
-2018-10-14 20:39:36,567 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src]
-2018-10-14 20:39:36,588 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/.git/
+2019-10-05 19:37:20,230 INFO  DownloadService - Downloading "https://github.com/matecode/Snacky/archive/master.zip", attempt 3
+2019-10-05 19:37:22,561 INFO  DownloadService - Downloaded https://github.com/matecode/Snacky/archive/master.zip, attempt 3
+2019-10-05 19:37:22,561 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/master.zip": 349 KB
+2019-10-05 19:37:22,562 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 19:37:22,562 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/master.zip: true
+2019-10-05 19:37:22,562 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src'.
+2019-10-05 19:37:22,579 INFO  FullProcessService - Size of directory with sources: 406 KB
+2019-10-05 19:37:22,579 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src]
+2019-10-05 19:37:22,605 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/.git/
 
-2018-10-14 20:39:36,591 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/gradlew
-2018-10-14 20:39:36,594 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/build.gradle
-2018-10-14 20:39:36,598 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/settings.gradle
-2018-10-14 20:39:36,598 INFO  ProjectBuildService - Remote scripts: none
-2018-10-14 20:39:36,598 INFO  ProjectFixService - Fixing project...
-2018-10-14 20:39:36,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/local.properties
-2018-10-14 20:39:36,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 20:39:36,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 20:39:36,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/library/local.properties
-2018-10-14 20:39:36,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 20:39:36,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 20:39:36,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/local.properties
-2018-10-14 20:39:36,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-14 20:39:36,614 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-14 20:39:36,616 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-14 20:39:36,616 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-14 20:39:36,616 INFO  ProjectFixService - Project was maybe fixed
-2018-10-14 20:39:36,616 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-14 20:39:36,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-14 20:39:44,251 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-14 20:39:44,252 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-14 20:39:44,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-14 20:40:24,147 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 19:37:22,608 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/gradlew
+2019-10-05 19:37:22,612 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/build.gradle
+2019-10-05 19:37:22,614 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/settings.gradle
+2019-10-05 19:37:22,615 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 19:37:22,615 INFO  ProjectFixService - Fixing project...
+2019-10-05 19:37:22,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/local.properties
+2019-10-05 19:37:22,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-05 19:37:22,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-05 19:37:22,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/library/local.properties
+2019-10-05 19:37:22,624 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-05 19:37:22,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-05 19:37:22,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/local.properties
+2019-10-05 19:37:22,626 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-05 19:37:22,626 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-05 19:37:22,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-05 19:37:22,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-05 19:37:22,629 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 19:37:22,629 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 19:37:22,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 19:37:32,406 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-05 19:37:32,407 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 19:37:32,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 19:38:12,651 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -131,6 +131,11 @@
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-beta01/espresso-idling-resource-3.1.0-beta01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.0-beta01/monitor-1.1.0-beta01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.0-beta01/runner-1.1.0-beta01.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.0-beta01/espresso-core-3.1.0-beta01.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/758c8038d725799687bb38d0d6899f8b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -161,4 +166,4 @@
 BUILD SUCCESSFUL in 39s
 90 actionable tasks: 90 executed
 
-2018-10-14 20:40:24,252 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539524374252-0/src/Snacky-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-05 19:38:12,827 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279040225-0/src/Snacky-master/app/build/outputs/apk/debug/app-debug.apk
