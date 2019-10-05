@@ -1,33 +1,33 @@
-2019-10-05 19:38:24,709 INFO  DownloadService - Downloading "https://github.com/Tapadoo/Alerter/archive/master.zip", attempt 3
-2019-10-05 19:38:37,679 INFO  DownloadService - Downloaded https://github.com/Tapadoo/Alerter/archive/master.zip, attempt 3
-2019-10-05 19:38:37,680 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/master.zip": 28 MB
-2019-10-05 19:38:37,680 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-05 19:38:37,681 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/master.zip: true
-2019-10-05 19:38:37,682 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src'.
-2019-10-05 19:38:37,987 INFO  FullProcessService - Size of directory with sources: 39 MB
-2019-10-05 19:38:37,987 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src]
-2019-10-05 19:38:38,016 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/.git/
+2019-10-05 21:33:43,860 INFO  DownloadService - Downloading "https://github.com/Tapadoo/Alerter/archive/master.zip", attempt 3
+2019-10-05 21:34:02,176 INFO  DownloadService - Downloaded https://github.com/Tapadoo/Alerter/archive/master.zip, attempt 3
+2019-10-05 21:34:02,177 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/master.zip": 28 MB
+2019-10-05 21:34:02,177 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 21:34:02,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/master.zip: true
+2019-10-05 21:34:02,179 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src'.
+2019-10-05 21:34:02,460 INFO  FullProcessService - Size of directory with sources: 39 MB
+2019-10-05 21:34:02,460 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src]
+2019-10-05 21:34:02,479 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/.git/
 
-2019-10-05 19:38:38,020 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/gradlew
-2019-10-05 19:38:38,024 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/build.gradle
-2019-10-05 19:38:38,028 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/settings.gradle
-2019-10-05 19:38:38,028 INFO  ProjectBuildService - Remote scripts: none
-2019-10-05 19:38:38,028 INFO  ProjectFixService - Fixing project...
-2019-10-05 19:38:38,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/local.properties
-2019-10-05 19:38:38,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-05 19:38:38,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/local.properties
-2019-10-05 19:38:38,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-05 19:38:38,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/local.properties
-2019-10-05 19:38:38,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-05 19:38:38,053 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-05 19:38:38,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-05 19:38:38,054 INFO  ProjectFixService - Project was maybe fixed
-2019-10-05 19:38:38,054 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-05 19:38:38,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-05 19:38:46,844 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-10-05 19:38:46,845 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-05 19:38:46,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-05 19:39:16,635 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 21:34:02,483 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/gradlew
+2019-10-05 21:34:02,486 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/build.gradle
+2019-10-05 21:34:02,489 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/settings.gradle
+2019-10-05 21:34:02,489 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 21:34:02,489 INFO  ProjectFixService - Fixing project...
+2019-10-05 21:34:02,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/local.properties
+2019-10-05 21:34:02,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-05 21:34:02,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/local.properties
+2019-10-05 21:34:02,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-05 21:34:02,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/local.properties
+2019-10-05 21:34:02,501 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-05 21:34:02,501 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-05 21:34:02,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-10-05 21:34:02,501 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 21:34:02,502 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 21:34:02,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 21:34:08,497 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-10-05 21:34:08,497 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-05 21:34:08,497 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-05 21:34:30,513 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :alerter:preBuild UP-TO-DATE
 > Task :alerter:preDebugBuild UP-TO-DATE
 > Task :alerter:checkDebugManifest
@@ -35,28 +35,25 @@
 > Task :alerter:generateDebugResValues
 > Task :alerter:mergeDebugShaders
 > Task :alerter:compileDebugShaders
+> Task :alerter:compileDebugAidl NO-SOURCE
+> Task :alerter:compileDebugRenderscript NO-SOURCE
+> Task :alerter:generateDebugResources
+> Task :alerter:packageDebugResources
+> Task :alerter:processDebugManifest
 > Task :alerter:generateDebugAssets
 > Task :alerter:packageDebugAssets
 > Task :alerter:packageDebugRenderscript NO-SOURCE
 > Task :alerter:processDebugJavaRes NO-SOURCE
 > Task :alerter:mergeDebugJniLibFolders
-> Task :alerter:prepareLintJarForPublish
 > Task :alerter:preReleaseBuild UP-TO-DATE
+> Task :alerter:compileReleaseAidl NO-SOURCE
+> Task :alerter:compileReleaseRenderscript NO-SOURCE
 > Task :alerter:checkReleaseManifest
 > Task :alerter:generateReleaseBuildConfig
 > Task :alerter:generateReleaseResValues
-> Task :alerter:processDebugManifest
-> Task :alerter:mergeDebugNativeLibs
-> Task :alerter:stripDebugDebugSymbols
-> Task :alerter:transformNativeLibsWithSyncJniLibsForDebug
-> Task :alerter:compileDebugAidl NO-SOURCE
-> Task :alerter:compileDebugRenderscript NO-SOURCE
-> Task :alerter:generateDebugResources
-> Task :alerter:packageDebugResources
-> Task :alerter:compileReleaseAidl NO-SOURCE
-> Task :alerter:compileReleaseRenderscript NO-SOURCE
 > Task :alerter:generateReleaseResources
 > Task :alerter:packageReleaseResources
+> Task :alerter:prepareLintJarForPublish
 > Task :alerter:mergeReleaseShaders
 > Task :alerter:compileReleaseShaders
 > Task :alerter:generateReleaseAssets
@@ -69,26 +66,29 @@
 > Task :alerter:stripReleaseDebugSymbols
 > Task :alerter:transformNativeLibsWithSyncJniLibsForRelease
 > Task :alerter:processReleaseManifest
+> Task :alerter:mergeDebugNativeLibs
+> Task :alerter:stripDebugDebugSymbols
+> Task :alerter:transformNativeLibsWithSyncJniLibsForDebug
 > Task :alerter:parseReleaseLibraryResources
 > Task :alerter:mergeReleaseResources
 > Task :alerter:generateDebugRFile
 
 > Task :alerter:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/src/main/java/com/tapadoo/alerter/Alert.kt: (302, 31): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/src/main/java/com/tapadoo/alerter/Alert.kt: (302, 31): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 
 > Task :alerter:verifyReleaseResources
 > Task :alerter:generateReleaseRFile
 
 > Task :alerter:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/alerter/src/main/java/com/tapadoo/alerter/Alert.kt: (302, 31): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/alerter/src/main/java/com/tapadoo/alerter/Alert.kt: (302, 31): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
 
 > Task :alerter:javaPreCompileDebug
 > Task :alerter:compileDebugJavaWithJavac
 > Task :alerter:extractDebugAnnotations
 > Task :alerter:mergeDebugGeneratedProguardFiles
 > Task :alerter:mergeDebugConsumerProguardFiles
-> Task :alerter:javaPreCompileRelease
 > Task :alerter:compileDebugSources
+> Task :alerter:javaPreCompileRelease
 > Task :alerter:compileReleaseJavaWithJavac
 > Task :alerter:extractReleaseAnnotations
 > Task :alerter:mergeReleaseGeneratedProguardFiles
@@ -109,15 +109,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 21s
 49 actionable tasks: 49 executed
 
-2019-10-05 19:39:16,676 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-05 19:39:16,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-05 19:39:23,788 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-05 19:39:23,788 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-05 19:39:23,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-05 19:40:38,298 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 21:34:30,549 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 21:34:30,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 21:34:36,275 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-05 21:34:36,275 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 21:34:36,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 21:35:08,849 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :alerter:preBuild UP-TO-DATE
 > Task :alerter:preDebugBuild UP-TO-DATE
 > Task :alerter:compileDebugAidl NO-SOURCE
@@ -137,8 +137,8 @@ BUILD SUCCESSFUL in 29s
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :alerter:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :alerter:bundleLibCompileDebug
 > Task :app:mainApkListPersistenceDebug
@@ -166,10 +166,10 @@ BUILD SUCCESSFUL in 29s
 > Task :alerter:bundleLibRuntimeDebug
 > Task :alerter:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
 > Task :alerter:mergeDebugJniLibFolders UP-TO-DATE
 > Task :alerter:mergeDebugNativeLibs UP-TO-DATE
 > Task :alerter:stripDebugDebugSymbols UP-TO-DATE
@@ -189,7 +189,6 @@ BUILD SUCCESSFUL in 29s
 > Task :alerter:compileReleaseKotlin UP-TO-DATE
 > Task :alerter:javaPreCompileRelease UP-TO-DATE
 > Task :alerter:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :alerter:bundleLibCompileRelease
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :alerter:packageReleaseRenderscript NO-SOURCE
@@ -199,25 +198,27 @@ BUILD SUCCESSFUL in 29s
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :alerter:bundleLibCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :alerter:prepareLintJarForPublish UP-TO-DATE
 > Task :app:prepareLintJar
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2dbc11e3ed8d3d44c8b475953192757b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :alerter:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
 > Task :alerter:bundleLibResRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :alerter:bundleLibRuntimeRelease
 > Task :alerter:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
@@ -236,13 +237,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :alerter:stripReleaseDebugSymbols UP-TO-DATE
 > Task :alerter:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -254,7 +251,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 13s
+BUILD SUCCESSFUL in 31s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-10-05 19:40:38,398 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570279104705-0/src/Alerter-master/app/build/outputs/apk/release/alerter-demo-1.2-release-unsigned.apk
+2019-10-05 21:35:08,939 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570286023857-0/src/Alerter-master/app/build/outputs/apk/release/alerter-demo-1.2-release-unsigned.apk
