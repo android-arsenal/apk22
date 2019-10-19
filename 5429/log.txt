@@ -1,36 +1,36 @@
-2019-09-01 21:35:00,528 INFO  DownloadService - Downloading "https://github.com/skydoves/ColorPickerView/archive/master.zip", attempt 3
-2019-09-01 21:35:01,655 INFO  DownloadService - Downloaded https://github.com/skydoves/ColorPickerView/archive/master.zip, attempt 3
-2019-09-01 21:35:01,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip": 875 KB
-2019-09-01 21:35:01,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-01 21:35:01,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip: true
-2019-09-01 21:35:01,661 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src'.
-2019-09-01 21:35:01,694 INFO  FullProcessService - Size of directory with sources: 999 KB
-2019-09-01 21:35:01,694 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src]
-2019-09-01 21:35:01,714 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/.git/
+2019-10-19 22:42:47,967 INFO  DownloadService - Downloading "https://github.com/skydoves/ColorPickerView/archive/master.zip", attempt 3
+2019-10-19 22:42:51,047 INFO  DownloadService - Downloaded https://github.com/skydoves/ColorPickerView/archive/master.zip, attempt 3
+2019-10-19 22:42:51,047 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/master.zip": 874 KB
+2019-10-19 22:42:51,047 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-19 22:42:51,047 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/master.zip: true
+2019-10-19 22:42:51,048 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src'.
+2019-10-19 22:42:51,083 INFO  FullProcessService - Size of directory with sources: 997 KB
+2019-10-19 22:42:51,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src]
+2019-10-19 22:42:51,102 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/.git/
 
-2019-09-01 21:35:01,717 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew
-2019-09-01 21:35:01,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle
-2019-09-01 21:35:01,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/spotless.gradle
-2019-09-01 21:35:01,723 INFO  ProjectBuildService - Remote scripts: none
-2019-09-01 21:35:01,723 INFO  ProjectFixService - Fixing project...
-2019-09-01 21:35:01,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/local.properties
-2019-09-01 21:35:01,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:35:01,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:35:01,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/local.properties
-2019-09-01 21:35:01,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:35:01,734 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:35:01,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/local.properties
-2019-09-01 21:35:01,736 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-01 21:35:01,736 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-01 21:35:01,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:35:01,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:35:01,738 INFO  ProjectFixService - Project was maybe fixed
-2019-09-01 21:35:01,738 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 21:35:01,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 21:35:08,163 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-09-01 21:35:08,163 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-01 21:35:08,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-01 21:35:42,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-19 22:42:51,106 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/gradlew
+2019-10-19 22:42:51,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/build.gradle
+2019-10-19 22:42:51,113 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/colorpickerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/spotless.gradle
+2019-10-19 22:42:51,114 INFO  ProjectBuildService - Remote scripts: none
+2019-10-19 22:42:51,114 INFO  ProjectFixService - Fixing project...
+2019-10-19 22:42:51,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/local.properties
+2019-10-19 22:42:51,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-19 22:42:51,125 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-19 22:42:51,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/colorpickerview/local.properties
+2019-10-19 22:42:51,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-19 22:42:51,130 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/colorpickerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-19 22:42:51,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/local.properties
+2019-10-19 22:42:51,132 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-19 22:42:51,132 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-19 22:42:51,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-19 22:42:51,135 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-19 22:42:51,135 INFO  ProjectFixService - Project was maybe fixed
+2019-10-19 22:42:51,136 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-19 22:42:51,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-19 22:42:59,264 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-10-19 22:42:59,264 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-19 22:42:59,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-19 22:43:43,995 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :colorpickerview
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -43,46 +43,41 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :colorpickerview:preBuild UP-TO-DATE
 > Task :colorpickerview:preDebugBuild UP-TO-DATE
-> Task :colorpickerview:checkDebugManifest
-> Task :colorpickerview:processDebugManifest
-> Task :app:preDebugBuild
+> Task :colorpickerview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :colorpickerview:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
+> Task :colorpickerview:checkDebugManifest
+> Task :colorpickerview:compileDebugRenderscript NO-SOURCE
 > Task :colorpickerview:generateDebugBuildConfig
 > Task :colorpickerview:generateDebugResValues
-> Task :colorpickerview:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :colorpickerview:javaPreCompileDebug
-> Task :colorpickerview:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:generateDebugSources
-> Task :colorpickerview:compileDebugRenderscript NO-SOURCE
 > Task :colorpickerview:generateDebugResources
 > Task :colorpickerview:packageDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :colorpickerview:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :colorpickerview:processDebugManifest
+> Task :colorpickerview:parseDebugLibraryResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
 > Task :colorpickerview:generateDebugRFile
-> Task :colorpickerview:generateDebugSources
 
 > Task :colorpickerview:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:processDebugResources
 > Task :colorpickerview:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
@@ -93,59 +88,63 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :colorpickerview:generateDebugAssets
 > Task :colorpickerview:packageDebugAssets
 > Task :app:mergeDebugAssets
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :colorpickerview:processDebugJavaRes NO-SOURCE
 > Task :colorpickerview:bundleLibResDebug
 > Task :colorpickerview:bundleLibRuntimeDebug
 > Task :colorpickerview:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :colorpickerview:mergeDebugJniLibFolders
-> Task :colorpickerview:transformNativeLibsWithMergeJniLibsForDebug
-> Task :colorpickerview:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :colorpickerview:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :colorpickerview:preReleaseBuild UP-TO-DATE
-> Task :colorpickerview:checkReleaseManifest
-> Task :colorpickerview:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :colorpickerview:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :colorpickerview:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
 > Task :colorpickerview:compileReleaseRenderscript NO-SOURCE
+> Task :colorpickerview:checkReleaseManifest
 > Task :colorpickerview:generateReleaseBuildConfig
 > Task :colorpickerview:generateReleaseResValues
 > Task :colorpickerview:generateReleaseResources
 > Task :colorpickerview:packageReleaseResources
-> Task :colorpickerview:generateReleaseRFile
-> Task :colorpickerview:generateReleaseSources
+> Task :colorpickerview:mergeDebugNativeLibs
+> Task :colorpickerview:stripDebugDebugSymbols
+> Task :colorpickerview:parseReleaseLibraryResources
+> Task :colorpickerview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :colorpickerview:processReleaseManifest
 > Task :colorpickerview:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :colorpickerview:generateReleaseRFile
 
 > Task :colorpickerview:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :colorpickerview:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :colorpickerview:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:prepareLintJar
+> Task :colorpickerview:processReleaseJavaRes NO-SOURCE
+> Task :colorpickerview:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :colorpickerview:bundleLibResRelease
+> Task :colorpickerview:bundleLibRuntimeRelease
+> Task :colorpickerview:createFullJarRelease
+> Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
@@ -153,16 +152,11 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :colorpickerview:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7d40f39271849503b1c01fffa1057faf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cf2ef87f0ba06cb4d41e85e8a35f966a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :colorpickerview:processReleaseJavaRes NO-SOURCE
-> Task :colorpickerview:bundleLibResRelease
-> Task :colorpickerview:bundleLibRuntimeRelease
-> Task :colorpickerview:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -172,16 +166,19 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :colorpickerview:generateReleaseAssets
 > Task :colorpickerview:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :colorpickerview:mergeReleaseJniLibFolders
-> Task :colorpickerview:transformNativeLibsWithMergeJniLibsForRelease
-> Task :colorpickerview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :colorpickerview:mergeReleaseNativeLibs
+> Task :colorpickerview:stripReleaseDebugSymbols
 > Task :colorpickerview:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -191,9 +188,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
-91 actionable tasks: 91 executed
+BUILD SUCCESSFUL in 44s
+90 actionable tasks: 90 executed
 
-2019-09-01 21:35:42,242 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567348500520-0/src/ColorPickerView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-19 22:43:44,073 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571499767963-0/src/ColorPickerView-master/app/build/outputs/apk/debug/app-debug.apk
